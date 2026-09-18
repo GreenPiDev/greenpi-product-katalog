@@ -1,0 +1,95 @@
+.section {
+  padding-block: var(--section-pad-y);
+}
+
+.grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: clamp(1.5rem, 4vw, 2rem);
+}
+
+.card {
+  position: relative;
+  grid-column: 1 / span 12;
+  overflow: hidden;
+  border: 1px solid var(--color-line);
+  padding: clamp(2rem, 4vw, 3rem);
+  background: linear-gradient(160deg, var(--color-bg-raised), transparent);
+}
+
+.corner,
+.cornerEnd {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border: 1px solid var(--color-accent);
+  opacity: 0.8;
+}
+
+.corner {
+  top: -1px;
+  left: -1px;
+  border-right: none;
+  border-bottom: none;
+}
+
+.cornerEnd {
+  bottom: -1px;
+  right: -1px;
+  border-left: none;
+  border-top: none;
+}
+
+.kicker {
+  position: absolute;
+  top: clamp(-0.5rem, 0.2vw, 0.1rem);
+  left: clamp(-1.5rem, -3vw, -0.75rem);
+  z-index: 0;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(3.5rem, 8vw, 6.5rem);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--color-ink);
+  opacity: 0.06;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.title {
+  position: relative;
+  z-index: 1;
+  margin-top: clamp(2.5rem, 6vw, 4rem);
+  font-size: clamp(1.8rem, 3.4vw, 2.75rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+
+.line {
+  display: block;
+}
+
+.body {
+  position: relative;
+  z-index: 1;
+  margin-top: 1.5rem;
+  max-width: 42ch;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--color-ink-dim);
+}
+
+@media (min-width: 901px) {
+  .cardVision {
+    grid-column: 1 / span 6;
+    margin-top: 0;
+  }
+
+  .cardMission {
+    grid-column: 7 / span 6;
+    margin-top: clamp(4rem, 9vw, 7rem);
+  }
+}

@@ -1,0 +1,49 @@
+.section {
+  padding-block: clamp(5rem, 14vw, 10rem) var(--section-pad-y);
+  background: linear-gradient(180deg, transparent, rgba(155, 232, 92, 0.05));
+}
+
+.kicker {
+  margin-bottom: 1rem;
+}
+
+.body {
+  margin-top: 1rem;
+  max-width: 30ch;
+  font-size: clamp(2.2rem, 5vw, 4.2rem);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+  color: var(--color-ink);
+}
+
+.details {
+  margin-top: clamp(3rem, 7vw, 5rem);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  border-top: 1px solid var(--color-line);
+  padding-top: 2rem;
+}
+
+.detailItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.detailLabel {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.16em;
+  color: var(--color-ink-dim);
+}
+
+.detailValue {
+  font-size: 1.1rem;
+  transition: color 0.25s ease;
+}
+
+a.detailItem:hover .detailValue {
+  color: var(--color-accent);
+}

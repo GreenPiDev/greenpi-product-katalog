@@ -1,0 +1,97 @@
+.nav {
+  position: fixed;
+  right: clamp(1rem, 2.5vw, 2.25rem);
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.track {
+  position: relative;
+  width: 1px;
+  height: 140px;
+  background: var(--color-line);
+  overflow: hidden;
+}
+
+.progressFill {
+  position: absolute;
+  inset: 0;
+  transform-origin: top;
+  background: var(--color-accent);
+}
+
+.item {
+  position: relative;
+}
+
+.dotButton {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  padding: 0;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-ink-dim);
+  transition: background 0.25s ease, transform 0.25s ease;
+}
+
+.dotActive .dot,
+.dotButton:hover .dot {
+  background: var(--color-accent);
+  transform: scale(1.6);
+}
+
+.tooltip {
+  position: absolute;
+  right: calc(100% + 0.85rem);
+  top: 50%;
+  transform: translateY(-50%) translateX(6px);
+  white-space: nowrap;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-ink);
+  background: var(--color-bg-raised);
+  border: 1px solid var(--color-line);
+  padding: 0.4rem 0.7rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tooltipIndex {
+  color: var(--color-accent);
+}
+
+.dotButton:hover .tooltip,
+.dotButton:focus-visible .tooltip {
+  opacity: 1;
+  transform: translateY(-50%) translateX(0);
+}
+
+@media (max-width: 860px) {
+  .nav {
+    right: 0.75rem;
+  }
+  .track {
+    height: 90px;
+  }
+  .tooltip {
+    display: none;
+  }
+}

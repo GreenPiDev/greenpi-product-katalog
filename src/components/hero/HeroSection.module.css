@@ -1,0 +1,92 @@
+.hero {
+  position: relative;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  background: radial-gradient(120% 100% at 15% 0%, #16241a 0%, var(--color-bg) 55%);
+}
+
+.grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(to right, var(--color-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--color-line) 1px, transparent 1px);
+  background-size: clamp(60px, 8vw, 120px) clamp(60px, 8vw, 120px);
+  opacity: 0.5;
+  mask-image: linear-gradient(to bottom, black, transparent 85%);
+}
+
+.backdrop {
+  position: absolute;
+  right: -10%;
+  top: -10%;
+  width: 60vw;
+  height: 60vw;
+  max-width: 800px;
+  max-height: 800px;
+  background: radial-gradient(circle, rgba(155, 232, 92, 0.16), transparent 70%);
+  filter: blur(10px);
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  padding-top: clamp(4rem, 12vh, 8rem);
+}
+
+.eyebrow {
+  margin-bottom: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+.title {
+  font-weight: 800;
+  line-height: 0.92;
+  letter-spacing: -0.02em;
+  font-size: clamp(3.2rem, 11vw, 9.5rem);
+  text-transform: uppercase;
+}
+
+.titleLine {
+  display: block;
+  overflow: hidden;
+}
+
+.titleReveal {
+  display: block;
+}
+
+.subtitle {
+  margin-top: clamp(1.5rem, 4vw, 2.5rem);
+  max-width: 32ch;
+  font-family: var(--font-mono);
+  font-size: clamp(0.95rem, 1.6vw, 1.15rem);
+  color: var(--color-ink-dim);
+}
+
+.scrollHint {
+  position: absolute;
+  bottom: clamp(1.5rem, 4vw, 3rem);
+  left: var(--container-pad);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  color: var(--color-ink-dim);
+}
+
+.scrollLine {
+  width: 1px;
+  height: 36px;
+  background: linear-gradient(to bottom, var(--color-accent), transparent);
+}
+
+@media (max-width: 640px) {
+  .scrollHint {
+    display: none;
+  }
+}

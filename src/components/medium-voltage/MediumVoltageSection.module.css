@@ -1,0 +1,70 @@
+.section {
+  position: relative;
+  background: #14181a;
+  color: #eef1ee;
+  --brand-accent: #7fb8c9;
+  --brand-text: #eef1ee;
+}
+
+.intro {
+  min-height: 50svh;
+  display: flex;
+  align-items: center;
+}
+
+.introInner {
+  padding-block: clamp(2.5rem, 6vw, 4rem);
+}
+
+.tagline {
+  font-size: clamp(1.3rem, 2.6vw, 2.2rem);
+  font-weight: 700;
+  max-width: 20ch;
+}
+
+.description {
+  margin-top: 1.25rem;
+  max-width: 52ch;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: rgba(238, 241, 238, 0.62);
+}
+
+.galleryWrapper {
+  position: relative;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  height: 100svh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.track {
+  display: flex;
+  align-items: center;
+  gap: clamp(1.25rem, 3vw, 3rem);
+  padding-inline: var(--container-pad);
+  will-change: transform;
+}
+
+.trackSpacer {
+  flex: 0 0 1px;
+}
+
+@media (max-width: 860px) {
+  .sticky {
+    position: static;
+    height: auto;
+    overflow: visible;
+  }
+  .track {
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+    padding-block: 1rem 2rem;
+    -webkit-overflow-scrolling: touch;
+  }
+}
