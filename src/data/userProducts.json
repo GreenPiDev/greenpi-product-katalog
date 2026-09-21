@@ -391,5 +391,71 @@
     "brandId": "exproof",
     "name": "FİŞ VE PRİZ",
     "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda elektrikli ekipmanların güvenli şekilde enerji bağlantısını ve ayrılmasını sağlamak için kullanılan ATEX uyumlu ex-proof fiş ve prizlerdir. Kıvılcım ve tutuşturma riskini azaltan yapıları sayesinde endüstriyel tesisler, enerji santralleri, petrokimya tesisleri ve diğer tehlikeli alanlarda güvenli elektrik bağlantısı sağlar."
+  },
+  {
+    "id": "user-1789996390154-0",
+    "brandId": "pannect",
+    "name": "DAĞITIM ÜNİTELERİ",
+    "description": "Elektrik panolarında enerjinin tek bir girişten birden fazla devreye güvenli ve düzenli şekilde dağıtılmasını sağlayan bağlantı ve dağıtım elemanlarıdır. Farklı kutup ve bağlantı seçenekleriyle pano içi güç dağıtımının düzenli, güvenli ve kolay uygulanabilir şekilde gerçekleştirilmesine olanak tanır."
+  },
+  {
+    "id": "user-1789996390154-1",
+    "brandId": "pannect",
+    "name": "TERMOSTAT-HİGROSTAT",
+    "description": "Elektrik panoları ve kontrol kabinlerinde sıcaklık ve nem seviyelerini izleyerek ısıtıcı, fan veya nem alma ekipmanlarının otomatik olarak devreye girip çıkmasını sağlayan kontrol cihazlarıdır. Pano içerisindeki yoğuşma ve aşırı sıcaklık riskini azaltarak elektrik ve elektronik ekipmanların güvenli çalışma koşullarının korunmasına yardımcı olur."
+  },
+  {
+    "id": "user-1789996390154-2",
+    "brandId": "pannect",
+    "name": "KABLO TOPLAMA ÇORAPLARI",
+    "description": "Elektrik panoları, makine ve endüstriyel sistemlerde birden fazla kabloyu bir arada toplamak, düzenlemek ve korumak için kullanılan esnek kablo yönetim ürünleridir. Kabloların dağınıklığını azaltarak düzenli bir kablo tesisatı oluşturulmasına ve bakım işlemlerinin kolaylaştırılmasına yardımcı olur."
+  },
+  {
+    "id": "user-1789996390154-3",
+    "brandId": "pannect",
+    "name": "EX-PROOF BUTONLAR",
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda elektriksel kumanda işlemlerini güvenli şekilde gerçekleştirmek için kullanılan ex-proof butonlardır. Patlama riskine karşı korumalı yapıları sayesinde endüstriyel tesislerde makine, motor ve proses ekipmanlarının kontrolünde kullanılır."
+  },
+  {
+    "id": "user-1789996390154-4",
+    "brandId": "pannect",
+    "name": "PLC SLİM RÖLE",
+    "description": "PLC ve otomasyon sistemlerinde kontrol sinyallerini anahtarlamak ve PLC çıkışlarını saha ekipmanlarından elektriksel olarak izole etmek için kullanılan ince yapılı arayüz rölesidir. Kompakt tasarımı sayesinde pano içerisinde yer tasarrufu sağlarken röle kontakları üzerinden farklı gerilim ve yüklerin kontrol edilmesine olanak tanır."
+  },
+  {
+    "id": "user-1789996390154-5",
+    "brandId": "pannect",
+    "name": "KABLO BAĞLARI",
+    "description": "Elektrik panoları ve endüstriyel tesisatlarda kabloları birbirine veya bağlantı noktalarına güvenli şekilde sabitlemek ve düzenlemek için kullanılan kablo bağlantı elemanlarıdır. Kablo demetlerinin düzenli tutulmasını, montajın kolaylaştırılmasını ve tesisatın mekanik olarak güvenli şekilde sabitlenmesini sağlar."
+  },
+  {
+    "id": "user-1789996390154-6",
+    "brandId": "pannect",
+    "name": "KABLO YÜZÜKLERİ",
+    "description": "Elektrik panolarında kabloların tanımlanması, numaralandırılması ve düzenli şekilde işaretlenmesi için kablo üzerine takılan halka tipi etiketleme elemanlarıdır. Farklı kablo kesitlerine uygun seçenekleri sayesinde pano içi kablolamanın düzenli olmasını ve bakım sırasında kabloların kolayca ayırt edilmesini sağlar."
+  },
+  {
+    "id": "user-1789996390154-7",
+    "brandId": "pannect",
+    "name": "BUTON GRUBU",
+    "description": "Elektrik panoları ve endüstriyel kontrol sistemlerinde makine ve ekipmanların manuel olarak kumanda edilmesini sağlayan buton gruplarıdır. Start, stop, reset ve benzeri kontrol fonksiyonları için farklı kontak ve renk seçenekleriyle sunularak pano ve otomasyon uygulamalarında kullanılır."
+  },
+  {
+    "id": "user-1789996390154-8",
+    "brandId": "pannect",
+    "name": "SİNYAL LAMBASI",
+    "description": "Elektrik panoları ve endüstriyel kontrol sistemlerinde enerji, çalışma, arıza ve alarm gibi durumları görsel olarak göstermek için kullanılan sinyal lambalarıdır. Farklı renk ve gerilim seçenekleriyle sunularak operatörlerin sistem durumunu hızlı ve kolay şekilde takip etmesini sağlar."
+  },
+  {
+    "id": "user-1789996390154-9",
+    "brandId": "pannect",
+    "name": "MAKARON YAZICI",
+    "description": "Elektrik panolarında ve endüstriyel tesisatlarda kablo, makaron, klemens ve cihaz etiketlerini hızlı ve düzenli şekilde yazdırmak için kullanılan termal transfer baskı cihazıdır. PVC tüp, ısıyla daralan makaron ve farklı genişliklerde etiketler üzerine kalıcı işaretleme yaparak kablo tanımlama ve pano etiketleme işlemlerini kolaylaştırır."
+  },
+  {
+    "id": "user-1789996390154-10",
+    "brandId": "pannect",
+    "name": "MAKARON",
+    "description": "Elektrik kablolarının izolasyonu, korunması ve tanımlanması amacıyla kullanılan ısıyla daralan makaronlardır. Kablo ve bağlantı noktalarına uygulandığında ısıyla daralarak yüzeye sıkıca oturur; mekanik koruma, yalıtım ve düzenli kablo işaretleme sağlar."
   }
 ]
