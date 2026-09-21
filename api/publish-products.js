@@ -18,6 +18,21 @@ function verifyToken(token, secret) {
   return Number(payload) > Date.now()
 }
 
+function applyUpdate(product, patch) {
+  const next = { ...product }
+  if (typeof patch.brandId === 'string' && patch.brandId) next.brandId = patch.brandId
+  if (typeof patch.name === 'string' && patch.name.trim()) next.name = patch.name.trim()
+  if (typeof patch.description === 'string' && patch.description.trim()) {
+    next.description = patch.description.trim()
+  }
+  if (typeof patch.code === 'string') {
+    if (patch.code.trim()) next.code = patch.code.trim()
+    else delete next.code
+  }
+  if (typeof patch.image === 'string' && patch.image.trim()) next.image = patch.image.trim()
+  return next
+}
+
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
     res.status(405).json({ error: 'method not allowed' })
@@ -32,21 +47,33 @@ export default async function handler(req, res) {
     return
   }
 
-  const { token, products } = req.body ?? {}
+  const { token, create = [], update = [], delete: deleteIds = [] } = req.body ?? {}
 
   if (!verifyToken(token, adminSecret)) {
     res.status(401).json({ error: 'yetkisiz veya süresi dolmuş oturum' })
     return
   }
 
-  if (!Array.isArray(products) || products.length === 0) {
-    res.status(400).json({ error: 'yayınlanacak ürün yok' })
+  if (!Array.isArray(create) || !Array.isArray(update) || !Array.isArray(deleteIds)) {
+    res.status(400).json({ error: 'geçersiz istek biçimi' })
     return
   }
 
-  for (const p of products) {
+  if (create.length === 0 && update.length === 0 && deleteIds.length === 0) {
+    res.status(400).json({ error: 'yayınlanacak değişiklik yok' })
+    return
+  }
+
+  for (const p of create) {
     if (!p || typeof p.brandId !== 'string' || typeof p.name !== 'string' || typeof p.description !== 'string') {
-      res.status(400).json({ error: 'geçersiz ürün verisi' })
+      res.status(400).json({ error: 'geçersiz yeni ürün verisi' })
+      return
+    }
+  }
+
+  for (const p of update) {
+    if (!p || typeof p.id !== 'string') {
+      res.status(400).json({ error: 'geçersiz düzenleme verisi' })
       return
     }
   }
@@ -71,10 +98,23 @@ export default async function handler(req, res) {
     }
 
     const fileData = await getRes.json()
-    const currentProducts = JSON.parse(Buffer.from(fileData.content, 'base64').toString('utf-8'))
+    let products = JSON.parse(Buffer.from(fileData.content, 'base64').toString('utf-8'))
+
+    if (deleteIds.length > 0) {
+      const deleteSet = new Set(deleteIds)
+      products = products.filter((p) => !deleteSet.has(p.id))
+    }
+
+    if (update.length > 0) {
+      const updateMap = new Map(update.map((p) => [p.id, p]))
+      products = products.map((p) => {
+        const patch = updateMap.get(p.id)
+        return patch ? applyUpdate(p, patch) : p
+      })
+    }
 
     const timestamp = Date.now()
-    const newProducts = products.map((p, i) => ({
+    const newProducts = create.map((p, i) => ({
       id: `user-${timestamp}-${i}`,
       brandId: p.brandId,
       name: p.name,
@@ -83,8 +123,14 @@ export default async function handler(req, res) {
       ...(p.image ? { image: p.image } : {}),
     }))
 
-    const updatedProducts = [...currentProducts, ...newProducts]
-    const newContent = Buffer.from(JSON.stringify(updatedProducts, null, 2) + '\n').toString('base64')
+    products = [...products, ...newProducts]
+
+    const newContent = Buffer.from(JSON.stringify(products, null, 2) + '\n').toString('base64')
+
+    const messageParts = []
+    if (newProducts.length) messageParts.push(`${newProducts.length} eklendi`)
+    if (update.length) messageParts.push(`${update.length} düzenlendi`)
+    if (deleteIds.length) messageParts.push(`${deleteIds.length} silindi`)
 
     const putRes = await fetch(
       `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${DATA_PATH}`,
@@ -92,7 +138,7 @@ export default async function handler(req, res) {
         method: 'PUT',
         headers: ghHeaders,
         body: JSON.stringify({
-          message: `Katalog: ${newProducts.length} yeni ürün eklendi`,
+          message: `Katalog: ${messageParts.join(', ')}`,
           content: newContent,
           sha: fileData.sha,
           branch: GITHUB_BRANCH,
@@ -106,7 +152,12 @@ export default async function handler(req, res) {
       return
     }
 
-    res.status(200).json({ ok: true, added: newProducts.length })
+    res.status(200).json({
+      ok: true,
+      created: newProducts.length,
+      updated: update.length,
+      deleted: deleteIds.length,
+    })
   } catch (err) {
     res.status(500).json({ error: 'beklenmeyen hata', detail: String(err) })
   }

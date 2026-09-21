@@ -11,8 +11,6 @@
   position: relative;
   width: 100%;
   aspect-ratio: 4 / 5;
-  background: color-mix(in srgb, var(--brand-text, #fff) 6%, transparent);
-  border: 1px solid color-mix(in srgb, var(--brand-text, #fff) 16%, transparent);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,11 +27,6 @@
   width: 55%;
   color: color-mix(in srgb, var(--brand-accent, var(--color-accent)) 70%, transparent);
   transition: transform 0.6s ease;
-}
-
-.imageBoxPhoto {
-  background: #fff;
-  padding: 0.9rem;
 }
 
 .image {
@@ -59,6 +52,9 @@
 }
 
 .meta {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   padding-top: 1.25rem;
 }
 
@@ -66,6 +62,7 @@
   font-size: clamp(1.15rem, 1.8vw, 1.4rem);
   font-weight: 700;
   line-height: 1.2;
+  min-height: calc(1.2em * 2);
 }
 
 .desc {
@@ -73,13 +70,18 @@
   font-size: 0.88rem;
   line-height: 1.5;
   color: color-mix(in srgb, var(--brand-text, #fff) 65%, transparent);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
 }
 
 .link {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  margin-top: 1rem;
+  margin-top: auto;
+  padding-top: 1rem;
   font-family: var(--font-mono);
   font-size: 0.9rem;
   letter-spacing: 0.08em;

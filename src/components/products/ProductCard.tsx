@@ -18,7 +18,7 @@ export function ProductCard({ product, brand, index }: ProductCardProps) {
     <article className={styles.card}>
       <button
         type="button"
-        className={`${styles.imageBox} ${product.image ? styles.imageBoxPhoto : ''}`}
+        className={styles.imageBox}
         data-cursor="view"
         onClick={() => open(product, brand)}
         aria-label={`${product.name} — İncele`}
