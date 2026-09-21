@@ -457,5 +457,53 @@
     "brandId": "pannect",
     "name": "MAKARON",
     "description": "Elektrik kablolarının izolasyonu, korunması ve tanımlanması amacıyla kullanılan ısıyla daralan makaronlardır. Kablo ve bağlantı noktalarına uygulandığında ısıyla daralarak yüzeye sıkıca oturur; mekanik koruma, yalıtım ve düzenli kablo işaretleme sağlar."
+  },
+  {
+    "id": "user-1789996771668-0",
+    "brandId": "gromtor-sertec",
+    "name": "KONNEKTÖRLER",
+    "description": "Yıldırımdan korunma ve topraklama sistemlerinde iletkenlerin güvenli ve elektriksel olarak sürekliliği sağlanacak şekilde birbirine bağlanması için kullanılan bağlantı elemanlarıdır. Yuvarlak ve yassı iletkenlerin paralel, çapraz ve T tipi bağlantılarında kullanılabilen farklı modelleri; galvanizli çelik, paslanmaz çelik, bakır ve alüminyum gibi malzeme seçenekleriyle sunulur."
+  },
+  {
+    "id": "user-1789996771668-1",
+    "brandId": "gromtor-sertec",
+    "name": "ÇUBUK ŞERİT",
+    "description": "Yıldırımdan korunma ve topraklama sistemlerinde iletkenlerin yapıya sabitlenmesi ve topraklama bağlantılarının oluşturulması için kullanılan metal çubuk ve şerit elemanlarıdır. Farklı ölçü ve malzeme seçenekleriyle sunularak iniş iletkenleri, topraklama hatları ve eş potansiyel bağlantıların güvenli şekilde uygulanmasına yardımcı olur."
+  },
+  {
+    "id": "user-1789996771668-2",
+    "brandId": "gromtor-sertec",
+    "name": "YASSI/DÜZ İLETKEN",
+    "description": "Yıldırımdan korunma ve topraklama sistemlerinde elektrik akımının güvenli şekilde iletilmesini sağlamak için kullanılan yassı kesitli metal iletkenlerdir. Bakır, alüminyum ve galvanizli çelik gibi farklı malzeme seçenekleriyle sunularak iniş iletkenleri, topraklama bağlantıları ve eşpotansiyel sistemlerde kullanılır."
+  },
+  {
+    "id": "user-1789996771668-3",
+    "brandId": "gromtor-sertec",
+    "name": "YILDIRIMDAN KORUMA ÜRÜNLERİ PARATONER",
+    "description": "Yapıları ve tesisleri yıldırımın doğrudan etkilerine karşı korumak için kullanılan yıldırımdan korunma sistemleridir. Yıldırım darbesini kontrollü şekilde yakalayarak iniş iletkenleri ve topraklama sistemi üzerinden güvenli biçimde toprağa iletilmesini sağlar; endüstriyel tesisler, enerji sistemleri ve çeşitli yapıların yıldırımdan korunmasında kullanılır."
+  },
+  {
+    "id": "user-1789996771668-4",
+    "brandId": "gromtor-sertec",
+    "name": "TOPRAKLAMA ANAHTARI",
+    "description": "Elektrik tesislerinde ekipman ve devrelerin güvenli şekilde topraklanmasını sağlamak için kullanılan topraklama anahtarıdır. Bakım ve onarım sırasında devrenin enerjisiz ve güvenli hale getirilmesine yardımcı olarak personel güvenliğini ve elektriksel korumayı destekler."
+  },
+  {
+    "id": "user-1789996771668-5",
+    "brandId": "gromtor-sertec",
+    "name": "YILDIRIM ENGELLEME SİSTEMLERİ CMCE",
+    "description": "Atmosferik elektrik alanını dengeleyerek yıldırım oluşumunu ve doğrudan yıldırım darbesi riskini azaltmayı amaçlayan pasif yıldırım engelleme sistemidir. Enerji beslemesi gerektirmeden çevredeki elektriksel yükleri dengeleyerek koruma alanı oluşturur; binalar, enerji tesisleri, telekomünikasyon yapıları, endüstriyel tesisler ve açık alan uygulamalarında kullanılır."
+  },
+  {
+    "id": "user-1789996771668-6",
+    "brandId": "gromtor-sertec",
+    "name": "RADIO, GSM KULE YILDIRIM ENGELLEME SİSTEMLERİ",
+    "description": "Radyo ve GSM kuleleri gibi yüksek yapılarda yıldırım riskini azaltmak ve haberleşme ekipmanlarını korumak için kullanılan yıldırımdan korunma sistemleridir. Kule, anten ve bağlı ekipmanlarda oluşabilecek yıldırım etkilerini kontrollü şekilde toprağa aktararak ekipman güvenliği ve sistem sürekliliği sağlamaya yardımcı olur."
+  },
+  {
+    "id": "user-1789996771668-7",
+    "brandId": "gromtor-sertec",
+    "name": "DENİZ TAŞITLARI VE MARİNALAR İÇİN YILDIRIM ENGELLEME SİSTEMLERİ",
+    "description": "Deniz taşıtları, yatlar ve marina tesislerinde yıldırım riskini azaltmak ve elektrikli ekipmanları korumak için tasarlanmış yıldırımdan korunma sistemleridir. Yıldırım akımının kontrollü şekilde topraklama ve eşpotansiyel sistemlerine aktarılmasına yardımcı olarak can güvenliği, ekipman koruması ve sistem sürekliliğini destekler."
   }
 ]
