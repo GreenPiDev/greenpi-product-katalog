@@ -271,5 +271,125 @@
     "brandId": "miltera",
     "name": "ENERJİ İZLEME",
     "description": "Enerji sistemlerinde elektriksel ölçümlerin, tüketim değerlerinin ve güç kalitesi parametrelerinin merkezi olarak izlenmesini sağlayan enerji izleme çözümüdür. Saha cihazlarından toplanan verileri haberleşme altyapısı üzerinden merkezi sisteme aktararak enerji tüketiminin takip edilmesine, analiz edilmesine ve sistem performansının izlenmesine olanak tanır."
+  },
+  {
+    "id": "user-1789994836034-0",
+    "brandId": "exproof",
+    "name": "EX-PROOF FANLAR",
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda güvenli hava sirkülasyonu ve havalandırma sağlamak üzere tasarlanmış, ATEX direktifine uygun patlamaya karşı korumalı fanlardır. Yanıcı atmosferlerde kıvılcım ve tutuşturma riskini azaltan yapıları sayesinde endüstriyel tesisler, kimya tesisleri, enerji santralleri ve benzeri tehlikeli alanlarda kullanılır."
+  },
+  {
+    "id": "user-1789994836034-1",
+    "brandId": "exproof",
+    "name": "KABLO RAKORLARI",
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda kabloların elektrik ekipmanlarına güvenli ve sızdırmaz şekilde girişini sağlamak için kullanılan ATEX uyumlu kablo rakorlarıdır. Kabloyu mekanik olarak sabitlemenin yanı sıra toz ve neme karşı koruma sağlayarak Ex-proof pano, motor, buat ve diğer ekipmanlarda güvenli kablo bağlantısı oluşturur."
+  },
+  {
+    "id": "user-1789994836034-2",
+    "brandId": "exproof",
+    "name": "KÖRTAPA",
+    "description": "Patlayıcı ortamların bulunduğu tehlikeli alanlarda kullanılmak üzere tasarlanmış, kullanılmayan kablo ve ekipman girişlerini güvenli ve sızdırmaz şekilde kapatmak için kullanılan ATEX uyumlu kör tapadır. Ex-proof pano, buat ve elektrik ekipmanlarında toz, nem ve patlayıcı atmosferin içeri girmesini önleyerek ekipmanın koruma sınıfının muhafaza edilmesine yardımcı olur."
+  },
+  {
+    "id": "user-1789994836034-3",
+    "brandId": "exproof",
+    "name": "ARMATÜR",
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda aydınlatma sağlamak üzere tasarlanmış, ATEX uyumlu ex-proof aydınlatma armatürleridir. Patlama riskinin bulunduğu endüstriyel tesislerde güvenli ve kesintisiz aydınlatma sağlamak amacıyla kullanılır."
+  },
+  {
+    "id": "user-1789994836034-4",
+    "brandId": "exproof",
+    "name": "PROJEKTÖR",
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda güçlü ve güvenli aydınlatma sağlamak üzere tasarlanmış, ATEX uyumlu ex-proof projektörlerdir. Geniş alanların aydınlatılmasında kullanılan bu projektörler; endüstriyel tesisler, enerji santralleri, petrol ve gaz tesisleri gibi patlayıcı atmosfer riski bulunan alanlarda kullanılır."
+  },
+  {
+    "id": "user-1789994836034-5",
+    "brandId": "exproof",
+    "name": "TERMİNAL KUTULARI,PANOLAR",
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda elektrik bağlantılarını, klemensleri ve kontrol ekipmanlarını güvenli şekilde muhafaza etmek için kullanılan ATEX uyumlu ex-proof kutu ve panolardır. Elektriksel ekipmanları dış ortam koşullarına ve patlayıcı atmosfere karşı koruyarak endüstriyel tesisler, enerji santralleri ve proses tesislerinde güvenli bağlantı ve dağıtım imkânı sağlar."
+  },
+  {
+    "id": "user-1789994836034-6",
+    "brandId": "exproof",
+    "name": "KUMANDA KUTULARI",
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda buton, anahtar, sinyal lambası ve diğer kumanda elemanlarının güvenli şekilde kullanılmasını sağlayan ATEX uyumlu ex-proof kumanda kutularıdır. Endüstriyel tesislerde motor, makine ve proses ekipmanlarının güvenli şekilde kontrol edilmesi için kullanılır."
+  },
+  {
+    "id": "user-1789994836034-7",
+    "brandId": "exproof",
+    "name": "ACİL STOP BUTONU",
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda makine ve elektrikli ekipmanları acil durumda hızlı ve güvenli şekilde durdurmak için kullanılan ATEX uyumlu ex-proof acil stop butonudur. Tehlikeli bölgelerde güvenli duruş ve acil müdahale gerektiren endüstriyel uygulamalarda kullanılır."
+  },
+  {
+    "id": "user-1789994836034-8",
+    "brandId": "exproof",
+    "name": "BUAT KUTULARI",
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda elektrik kablolarının birleştirilmesi, dağıtılması ve güvenli şekilde muhafaza edilmesi için kullanılan ATEX uyumlu ex-proof buat kutularıdır. Kablo bağlantılarını dış ortam koşullarına ve patlayıcı atmosfere karşı koruyarak endüstriyel tesislerde güvenli elektrik bağlantısı sağlar."
+  },
+  {
+    "id": "user-1789994836034-9",
+    "brandId": "exproof",
+    "name": "SİREN",
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda sesli alarm ve uyarı sağlamak için kullanılan ATEX uyumlu ex-proof sirenlerdir. Acil durum, arıza, yangın ve proses alarmı gibi durumlarda personeli uyarmak amacıyla endüstriyel tesisler, enerji santralleri ve tehlikeli alanlarda kullanılır."
+  },
+  {
+    "id": "user-1789994836034-10",
+    "brandId": "exproof",
+    "name": "ELEKTRİK ANAHTARI",
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda elektrik devrelerini güvenli şekilde açıp kapatmak için kullanılan ATEX uyumlu ex-proof elektrik anahtarlarıdır. Kıvılcım ve tutuşturma riskini azaltan yapıları sayesinde endüstriyel tesisler, enerji santralleri ve diğer tehlikeli bölgelerde güvenli elektriksel kontrol sağlar."
+  },
+  {
+    "id": "user-1789994836034-11",
+    "brandId": "exproof",
+    "name": "KOMBİNASYON KUTULARI",
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda anahtar, buton, sinyal lambası, klemens ve diğer elektriksel kumanda elemanlarını tek bir muhafaza içerisinde bir araya getirmek için kullanılan ATEX uyumlu ex-proof kutulardır. Ekipmanların güvenli şekilde kontrol edilmesini ve bağlantıların dış ortam koşullarına karşı korunmasını sağlar."
+  },
+  {
+    "id": "user-1789994836034-12",
+    "brandId": "exproof",
+    "name": "GAZ DEDEKTÖRÜ",
+    "description": "Patlayıcı ve tehlikeli ortamlarda yanıcı veya toksik gazların varlığını ve konsantrasyonunu tespit etmek için kullanılan ATEX uyumlu gaz dedektörleridir. Gaz seviyeleri belirlenen eşik değerlerine ulaştığında alarm oluşturarak personelin uyarılmasını ve gerekli güvenlik sistemlerinin devreye alınmasını sağlar."
+  },
+  {
+    "id": "user-1789994836034-13",
+    "brandId": "exproof",
+    "name": "ELEKTRİK MOTORU",
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda çalışmak üzere tasarlanmış, ATEX uyumlu ex-proof elektrik motorudur. Tutuşturma riskini azaltan koruma yapısı sayesinde pompa, fan, kompresör ve çeşitli endüstriyel makinelerin güvenli şekilde çalıştırılmasında kullanılır."
+  },
+  {
+    "id": "user-1789994836034-14",
+    "brandId": "exproof",
+    "name": "BORULAR",
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda elektrik kablolarını ve iletkenleri mekanik darbelere, dış etkenlere ve çevresel koşullara karşı korumak için kullanılan ATEX uyumlu koruma borularıdır. Ex-proof elektrik tesisatlarında kablo güzergâhlarının güvenli şekilde oluşturulması ve ekipmanlar arasındaki bağlantıların korunması amacıyla kullanılır."
+  },
+  {
+    "id": "user-1789994836034-15",
+    "brandId": "exproof",
+    "name": "KLİPS , KROŞE",
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda kablo, boru ve elektrik tesisatlarının güvenli şekilde sabitlenmesi ve düzenlenmesi için kullanılan montaj elemanlarıdır. ATEX uyumlu tesisatlarda kablo ve boru güzergâhlarının mekanik olarak desteklenmesini ve düzenli şekilde monte edilmesini sağlar."
+  },
+  {
+    "id": "user-1789994836034-16",
+    "brandId": "exproof",
+    "name": "YANGIN BUTONU",
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda yangın veya acil durum alarmını manuel olarak başlatmak için kullanılan ATEX uyumlu ex-proof yangın butonudur. Yangın algılama ve alarm sistemlerine entegre edilerek acil durumlarda hızlı ve güvenli şekilde alarm sinyali oluşturulmasını sağlar."
+  },
+  {
+    "id": "user-1789994836034-17",
+    "brandId": "exproof",
+    "name": "GEMİ MALZEMELERİ",
+    "description": "Gemilerde ve denizcilik uygulamalarında, özellikle patlayıcı gaz, buhar veya toz riski bulunan tehlikeli alanlarda kullanılmak üzere tasarlanmış ATEX uyumlu elektrik ve mekanik ekipmanlardır. Aydınlatma, kablo tesisatı, bağlantı, kumanda ve güvenlik uygulamalarında kullanılarak zorlu deniz koşullarında güvenli ve dayanıklı çalışma sağlar."
+  },
+  {
+    "id": "user-1789994836034-18",
+    "brandId": "exproof",
+    "name": "HAREKETLİ KABLO KANALLARI",
+    "description": "Hareketli makine ve ekipmanlarda kabloları mekanik aşınma, darbe, bükülme ve çevresel etkilere karşı korumak için kullanılan kablo kanallarıdır. Kabloların kontrollü şekilde yönlendirilmesini ve hareket sırasında güvenli biçimde taşınmasını sağlayarak endüstriyel ve tehlikeli alan uygulamalarında güvenilir kablo yönetimi sunar."
+  },
+  {
+    "id": "user-1789994836034-19",
+    "brandId": "exproof",
+    "name": "FİŞ VE PRİZ",
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda elektrikli ekipmanların güvenli şekilde enerji bağlantısını ve ayrılmasını sağlamak için kullanılan ATEX uyumlu ex-proof fiş ve prizlerdir. Kıvılcım ve tutuşturma riskini azaltan yapıları sayesinde endüstriyel tesisler, enerji santralleri, petrokimya tesisleri ve diğer tehlikeli alanlarda güvenli elektrik bağlantısı sağlar."
   }
 ]
