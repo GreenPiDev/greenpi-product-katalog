@@ -1,10 +1,13 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App'
+import AdminApp from './admin/AdminApp'
 import './styles/global.css'
+
+const isAdminRoute = window.location.pathname.replace(/\/+$/, '') === '/admin-panel-to-add-products'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    {isAdminRoute ? <AdminApp /> : <App />}
   </StrictMode>,
 )

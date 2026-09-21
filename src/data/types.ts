@@ -4,7 +4,10 @@ export type Product = {
   description: string
   category?: string
   code?: string
+  image?: string
 }
+
+export type UserProduct = Product & { brandId: string }
 
 export type Brand = {
   id: string

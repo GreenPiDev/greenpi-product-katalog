@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { voltageCategories } from '../../data/categories'
-import { mediumVoltageProducts } from '../../data/brands'
+import { mediumVoltageProductsWithUser } from '../../data/mergedBrands'
 import { CategoryIntro } from '../products/CategoryIntro'
 import { ProductCard } from '../products/ProductCard'
 import { useHorizontalGallery } from '../../hooks/useHorizontalGallery'
@@ -49,7 +49,7 @@ export function MediumVoltageSection() {
         <div ref={wrapperRef} className={styles.galleryWrapper} style={{ height: wrapperHeight }}>
           <div className={styles.sticky}>
             <motion.div ref={trackRef} className={styles.track} style={isCompact ? undefined : { x }}>
-              {mediumVoltageProducts.map((product, i) => (
+              {mediumVoltageProductsWithUser.map((product, i) => (
                 <ProductCard key={product.id} product={product} brand={MEDIUM_VOLTAGE_BRAND} index={i} />
               ))}
               <div className={styles.trackSpacer} aria-hidden="true" />
