@@ -7,6 +7,7 @@ const TOKEN_KEY = 'gp_admin_token'
 const DRAFT_KEY = 'gp_admin_draft'
 const EDITS_KEY = 'gp_admin_edits'
 const DELETES_KEY = 'gp_admin_deletes'
+const ORDER_KEY = 'gp_admin_order'
 
 const RAW_PRODUCTS_URL =
   'https://raw.githubusercontent.com/GreenPiDev/greenpi-product-katalog/main/src/data/userProducts.json'
@@ -56,6 +57,29 @@ function loadJson<T>(key: string, fallback: T): T {
   }
 }
 
+type BrandOrder = Record<string, string[]>
+
+function buildOrder(products: ExistingProduct[]): BrandOrder {
+  const grouped: BrandOrder = {}
+  for (const p of products) {
+    if (!grouped[p.brandId]) grouped[p.brandId] = []
+    grouped[p.brandId].push(p.id)
+  }
+  return grouped
+}
+
+function reconcileOrder(prev: BrandOrder, products: ExistingProduct[]): BrandOrder {
+  const fresh = buildOrder(products)
+  const merged: BrandOrder = {}
+  for (const brandId of Object.keys(fresh)) {
+    const freshIds = new Set(fresh[brandId])
+    const kept = (prev[brandId] ?? []).filter((id) => freshIds.has(id))
+    const newIds = fresh[brandId].filter((id) => !kept.includes(id))
+    merged[brandId] = [...kept, ...newIds]
+  }
+  return merged
+}
+
 export default function AdminApp() {
   const [token, setToken] = useState<string | null>(() => sessionStorage.getItem(TOKEN_KEY))
   const [password, setPassword] = useState('')
@@ -79,6 +103,8 @@ export default function AdminApp() {
   const [existingError, setExistingError] = useState('')
   const [edits, setEdits] = useState<Record<string, EditPatch>>(() => loadJson(EDITS_KEY, {}))
   const [deletedIds, setDeletedIds] = useState<string[]>(() => loadJson(DELETES_KEY, []))
+  const [order, setOrder] = useState<BrandOrder>(() => loadJson(ORDER_KEY, {}))
+  const [originalOrder, setOriginalOrder] = useState<BrandOrder>({})
 
   const [editingId, setEditingId] = useState<string | null>(null)
   const [editForm, setEditForm] = useState<EditPatch | null>(null)
@@ -102,6 +128,10 @@ export default function AdminApp() {
   useEffect(() => {
     localStorage.setItem(DELETES_KEY, JSON.stringify(deletedIds))
   }, [deletedIds])
+
+  useEffect(() => {
+    localStorage.setItem(ORDER_KEY, JSON.stringify(order))
+  }, [order])
 
   useEffect(() => {
     if (!imageFile) {
@@ -138,6 +168,8 @@ export default function AdminApp() {
       if (!res.ok) throw new Error('Ürünler yüklenemedi')
       const data = (await res.json()) as ExistingProduct[]
       setExistingProducts(data)
+      setOrder((prev) => reconcileOrder(prev, data))
+      setOriginalOrder(buildOrder(data))
     } catch {
       setExistingError('Mevcut ürünler yüklenemedi')
     } finally {
@@ -282,7 +314,24 @@ export default function AdminApp() {
     setDeletedIds((prev) => (prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]))
   }
 
-  const pendingCount = draft.length + Object.keys(edits).length + deletedIds.length
+  function moveProduct(brandId: string, id: string, direction: 'up' | 'down') {
+    setOrder((prev) => {
+      const list = prev[brandId] ?? []
+      const index = list.indexOf(id)
+      const swapWith = direction === 'up' ? index - 1 : index + 1
+      if (index === -1 || swapWith < 0 || swapWith >= list.length) return prev
+      const next = [...list]
+      ;[next[index], next[swapWith]] = [next[swapWith], next[index]]
+      return { ...prev, [brandId]: next }
+    })
+  }
+
+  const orderChanged = useMemo(
+    () => JSON.stringify(order) !== JSON.stringify(originalOrder),
+    [order, originalOrder],
+  )
+
+  const pendingCount = draft.length + Object.keys(edits).length + deletedIds.length + (orderChanged ? 1 : 0)
 
   async function handlePublish() {
     if (!token || pendingCount === 0) return
@@ -305,6 +354,9 @@ export default function AdminApp() {
           })),
           update: Object.entries(edits).map(([id, patch]) => ({ id, ...patch })),
           delete: deletedIds,
+          reorder: orderChanged
+            ? brandOptions.flatMap((b) => (order[b.id] ?? []).filter((id) => !deletedIds.includes(id)))
+            : [],
         }),
       })
       const data = await res.json()
@@ -458,50 +510,88 @@ export default function AdminApp() {
             <p className={styles.empty}>Henüz yayınlanmış ürün yok.</p>
           )}
 
-          <ul className={styles.existingList}>
-            {existingProducts.map((product) => {
-              const patch = edits[product.id]
-              const display = patch
-                ? { ...product, ...patch }
-                : product
-              const isDeleted = deletedIds.includes(product.id)
-              const isEditing = editingId === product.id
+          {(() => {
+            const productById = new Map(existingProducts.map((p) => [p.id, p]))
+
+            return brandOptions.map((brand) => {
+              const ids = (order[brand.id] ?? []).filter((id) => productById.has(id))
+              if (ids.length === 0) return null
 
               return (
-                <li
-                  key={product.id}
-                  className={`${styles.existingItem} ${isDeleted ? styles.existingItemDeleted : ''}`}
-                >
-                  <div className={styles.existingRow}>
-                    {display.image && <img src={display.image} alt="" className={styles.draftThumb} />}
-                    <div className={styles.draftMeta}>
-                      <span className={styles.draftBrand}>{brandName(display.brandId)}</span>
-                      <span className={styles.draftName}>{display.name}</span>
-                      {patch && !isEditing && <span className={styles.pendingBadge}>Düzenleme bekliyor</span>}
-                      {isDeleted && <span className={styles.pendingBadge}>Silinecek</span>}
-                    </div>
-                    <div className={styles.existingActions}>
-                      {!isDeleted && (
-                        <button type="button" className={styles.linkButton} onClick={() => startEdit(product)}>
-                          Düzenle
-                        </button>
-                      )}
-                      {patch && !isDeleted && (
-                        <button
-                          type="button"
-                          className={styles.linkButton}
-                          onClick={() => discardEditPatch(product.id)}
-                        >
-                          Düzenlemeyi İptal Et
-                        </button>
-                      )}
-                      <button type="button" className={styles.linkButton} onClick={() => toggleDelete(product.id)}>
-                        {isDeleted ? 'Geri Al' : 'Sil'}
-                      </button>
-                    </div>
-                  </div>
+                <div key={brand.id} className={styles.brandGroup}>
+                  <h3 className={styles.brandGroupTitle}>{brand.name}</h3>
+                  <ul className={styles.existingList}>
+                    {ids.map((id, i) => {
+                      const product = productById.get(id)!
+                      const patch = edits[product.id]
+                      const display = patch ? { ...product, ...patch } : product
+                      const isDeleted = deletedIds.includes(product.id)
+                      const isEditing = editingId === product.id
 
-                  {isEditing && editForm && (
+                      return (
+                        <li
+                          key={product.id}
+                          className={`${styles.existingItem} ${isDeleted ? styles.existingItemDeleted : ''}`}
+                        >
+                          <div className={styles.existingRow}>
+                            <div className={styles.orderControls}>
+                              <button
+                                type="button"
+                                className={styles.orderButton}
+                                disabled={isDeleted || i === 0}
+                                onClick={() => moveProduct(brand.id, product.id, 'up')}
+                                aria-label="Yukarı taşı"
+                              >
+                                ↑
+                              </button>
+                              <button
+                                type="button"
+                                className={styles.orderButton}
+                                disabled={isDeleted || i === ids.length - 1}
+                                onClick={() => moveProduct(brand.id, product.id, 'down')}
+                                aria-label="Aşağı taşı"
+                              >
+                                ↓
+                              </button>
+                            </div>
+                            {display.image && <img src={display.image} alt="" className={styles.draftThumb} />}
+                            <div className={styles.draftMeta}>
+                              <span className={styles.draftName}>{display.name}</span>
+                              {patch && !isEditing && (
+                                <span className={styles.pendingBadge}>Düzenleme bekliyor</span>
+                              )}
+                              {isDeleted && <span className={styles.pendingBadge}>Silinecek</span>}
+                            </div>
+                            <div className={styles.existingActions}>
+                              {!isDeleted && (
+                                <button
+                                  type="button"
+                                  className={styles.linkButton}
+                                  onClick={() => startEdit(product)}
+                                >
+                                  Düzenle
+                                </button>
+                              )}
+                              {patch && !isDeleted && (
+                                <button
+                                  type="button"
+                                  className={styles.linkButton}
+                                  onClick={() => discardEditPatch(product.id)}
+                                >
+                                  Düzenlemeyi İptal Et
+                                </button>
+                              )}
+                              <button
+                                type="button"
+                                className={styles.linkButton}
+                                onClick={() => toggleDelete(product.id)}
+                              >
+                                {isDeleted ? 'Geri Al' : 'Sil'}
+                              </button>
+                            </div>
+                          </div>
+
+                          {isEditing && editForm && (
                     <div className={styles.editForm}>
                       <label className={styles.label}>
                         Marka / Kategori
@@ -577,10 +667,14 @@ export default function AdminApp() {
                       </div>
                     </div>
                   )}
-                </li>
+                        </li>
+                      )
+                    })}
+                  </ul>
+                </div>
               )
-            })}
-          </ul>
+            })
+          })()}
         </section>
 
         <section className={styles.draftSection}>

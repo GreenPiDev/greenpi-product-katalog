@@ -61,7 +61,7 @@
 
 .track {
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   gap: clamp(1.25rem, 3vw, 3rem);
   padding-inline: var(--container-pad);
   will-change: transform;

@@ -47,19 +47,19 @@ export default async function handler(req, res) {
     return
   }
 
-  const { token, create = [], update = [], delete: deleteIds = [] } = req.body ?? {}
+  const { token, create = [], update = [], delete: deleteIds = [], reorder = [] } = req.body ?? {}
 
   if (!verifyToken(token, adminSecret)) {
     res.status(401).json({ error: 'yetkisiz veya süresi dolmuş oturum' })
     return
   }
 
-  if (!Array.isArray(create) || !Array.isArray(update) || !Array.isArray(deleteIds)) {
+  if (!Array.isArray(create) || !Array.isArray(update) || !Array.isArray(deleteIds) || !Array.isArray(reorder)) {
     res.status(400).json({ error: 'geçersiz istek biçimi' })
     return
   }
 
-  if (create.length === 0 && update.length === 0 && deleteIds.length === 0) {
+  if (create.length === 0 && update.length === 0 && deleteIds.length === 0 && reorder.length === 0) {
     res.status(400).json({ error: 'yayınlanacak değişiklik yok' })
     return
   }
@@ -113,6 +113,22 @@ export default async function handler(req, res) {
       })
     }
 
+    if (reorder.length > 0) {
+      const productMap = new Map(products.map((p) => [p.id, p]))
+      const reordered = []
+      for (const id of reorder) {
+        const p = productMap.get(id)
+        if (p) {
+          reordered.push(p)
+          productMap.delete(id)
+        }
+      }
+      for (const p of products) {
+        if (productMap.has(p.id)) reordered.push(p)
+      }
+      products = reordered
+    }
+
     const timestamp = Date.now()
     const newProducts = create.map((p, i) => ({
       id: `user-${timestamp}-${i}`,
@@ -131,6 +147,7 @@ export default async function handler(req, res) {
     if (newProducts.length) messageParts.push(`${newProducts.length} eklendi`)
     if (update.length) messageParts.push(`${update.length} düzenlendi`)
     if (deleteIds.length) messageParts.push(`${deleteIds.length} silindi`)
+    if (reorder.length) messageParts.push('sıralama güncellendi')
 
     const putRes = await fetch(
       `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${DATA_PATH}`,
