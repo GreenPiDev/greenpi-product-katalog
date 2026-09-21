@@ -67,11 +67,21 @@ export function ProductDrawer() {
             </button>
 
             <div className={styles.imageBox}>
-              <svg className={styles.placeholder} viewBox="0 0 200 200" aria-hidden="true">
-                <rect x="1" y="1" width="198" height="198" fill="none" stroke="currentColor" strokeWidth="0.5" />
-                <circle cx="100" cy="100" r="60" fill="none" stroke="currentColor" strokeWidth="0.5" />
-                <path d="M100 30 L100 170 M30 100 L170 100" stroke="currentColor" strokeWidth="0.35" />
-              </svg>
+              {state.product.image ? (
+                <img
+                  className={styles.image}
+                  src={state.product.image}
+                  alt={state.product.name}
+                  loading="lazy"
+                  decoding="async"
+                />
+              ) : (
+                <svg className={styles.placeholder} viewBox="0 0 200 200" aria-hidden="true">
+                  <rect x="1" y="1" width="198" height="198" fill="none" stroke="currentColor" strokeWidth="0.5" />
+                  <circle cx="100" cy="100" r="60" fill="none" stroke="currentColor" strokeWidth="0.5" />
+                  <path d="M100 30 L100 170 M30 100 L170 100" stroke="currentColor" strokeWidth="0.35" />
+                </svg>
+              )}
               <span className={styles.code}>{state.product.code}</span>
             </div>
 

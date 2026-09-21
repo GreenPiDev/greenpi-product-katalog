@@ -1,13 +1,4 @@
-import type { Brand } from './types'
-
-function products(brandId: string, items: [string, string, string?][]) {
-  return items.map(([name, description, code], i) => ({
-    id: `${brandId}-${i + 1}`,
-    name,
-    description,
-    code: code ?? `${brandId.slice(0, 3).toUpperCase()}-${String(i + 1).padStart(2, '0')}`,
-  }))
-}
+import type { Brand, Product } from './types'
 
 export const lowVoltageBrands: Brand[] = [
   {
@@ -19,12 +10,7 @@ export const lowVoltageBrands: Brand[] = [
     accentColor: '#211307',
     backgroundColor: '#DE7F2F',
     textColor: '#F6ECE1',
-    products: products('te', [
-      ['CIS Konnektör Serisi', 'Soğuk büzüşmeli izolasyonlu, korozyona dayanıklı hat konnektörü.'],
-      ['Raychem Kablo Başlığı', 'Isıyla büzüşen orta ve alçak gerilim kablo terminasyon kiti.'],
-      ['UY2 Yeraltı Konnektörü', 'Dolgu jelli, su geçirmez yeraltı hattı ek elemanı.'],
-      ['HDSS Ek Muhafazası', 'Ağır hizmet tipi, darbeye dayanıklı kablo eki koruma gövdesi.'],
-    ]),
+    products: [],
   },
   {
     id: 'aite',
@@ -34,12 +20,7 @@ export const lowVoltageBrands: Brand[] = [
     accentColor: '#9897BD',
     backgroundColor: '#19176D',
     textColor: '#EDF1F7',
-    products: products('aite', [
-      ['NH Bıçaklı Sigorta', 'Yüksek kesme kapasiteli, standart NH tip bıçaklı sigorta.'],
-      ['Silindirik Sigorta', 'Kompakt boyutlu, hızlı değiştirilebilir silindirik sigorta.'],
-      ['Sigorta Altlığı', 'DIN ray montajlı, çok kutuplu sigorta taşıyıcı altlık.'],
-      ['Minyatür Cam Sigorta', 'Elektronik devre koruması için hızlı tepkili cam sigorta.'],
-    ]),
+    products: [],
   },
   {
     id: 'inotel',
@@ -49,12 +30,7 @@ export const lowVoltageBrands: Brand[] = [
     accentColor: '#9393A8',
     backgroundColor: '#0E0E3E',
     textColor: '#E9F5F3',
-    products: products('inotel', [
-      ['PVC Kablo Kanalı', 'Alev almaz, kendinden yapışkanlı iç mekân kablo kanalı.'],
-      ['Zemin Kanal Sistemi', 'Yürüyüş yüklerine dayanıklı gömme zemin kablo kanalı.'],
-      ['Metal Tel Kablo Tavası', 'Galvaniz kaplamalı, yüksek yük kapasiteli tel tava.'],
-      ['Kanal Bağlantı Aksesuarı', 'Köşe, T ve redüksiyon parçalarından oluşan aksesuar seti.'],
-    ]),
+    products: [],
   },
   {
     id: 'raycap',
@@ -64,12 +40,7 @@ export const lowVoltageBrands: Brand[] = [
     accentColor: '#200808',
     backgroundColor: '#D43832',
     textColor: '#F4EBE2',
-    products: products('raycap', [
-      ['Tip 1+2 Parafudr', 'Kombine sınıf enerji şebekesi aşırı gerilim koruma ünitesi.'],
-      ['DC Şalt Darbe Koruyucu', 'Fotovoltaik sistemler için DC hat gerilim koruma modülü.'],
-      ['Modüler Koruma Kaseti', 'Değiştirilebilir kartuşlu, durum göstergeli koruma bloğu.'],
-      ['Anten Hattı Koruyucusu', 'Telekomünikasyon hatları için RF darbe koruma elemanı.'],
-    ]),
+    products: [],
   },
   {
     id: 'siemens',
@@ -79,12 +50,7 @@ export const lowVoltageBrands: Brand[] = [
     accentColor: '#0A1616',
     backgroundColor: '#429293',
     textColor: '#E8F6F6',
-    products: products('siemens', [
-      ['SENTRON Otomatik Sigorta', 'Kompakt gövdeli, yüksek kesme kapasiteli devre kesici.'],
-      ['SIRIUS Kontaktör', 'Modüler yapıda, uzun ömürlü motor kumanda kontaktörü.'],
-      ['3VA Kompakt Şalter', 'Ayarlanabilir termik-manyetik korumalı kompakt şalter.'],
-      ['SIMATIC Kumanda Rölesi', 'Endüstriyel otomasyon hatları için arayüz rölesi.'],
-    ]),
+    products: [],
   },
   {
     id: 'schneider-electric',
@@ -94,12 +60,7 @@ export const lowVoltageBrands: Brand[] = [
     accentColor: '#101D0F',
     backgroundColor: '#68C464',
     textColor: '#EAF6EC',
-    products: products('schneider', [
-      ['Acti9 Otomatik Sigorta', 'Konut ve ticari tesisat için kompakt minyatür devre kesici.'],
-      ['TeSys Kontaktör Serisi', 'Endüstriyel motor kumanda uygulamaları için kontaktör grubu.'],
-      ['Compact NSX Şalter', 'Yüksek performanslı, iletişim modülü destekli kompakt şalter.'],
-      ['PowerLogic Enerji Analizörü', 'Panoya montajlı gerçek zamanlı enerji ölçüm cihazı.'],
-    ]),
+    products: [],
   },
   {
     id: 'abb',
@@ -109,12 +70,7 @@ export const lowVoltageBrands: Brand[] = [
     accentColor: '#1F0908',
     backgroundColor: '#CF3C35',
     textColor: '#F6E9E8',
-    products: products('abb', [
-      ['System pro M Sigorta', 'DIN ray montajlı, yüksek kesme kapasiteli minyatür şalter.'],
-      ['AF Serisi Kontaktör', 'Elektronik bobin kontrollü, düşük güç tüketimli kontaktör.'],
-      ['Tmax XT Kompakt Şalter', 'Kompakt boyutlu, geniş akım aralığına sahip şalter ailesi.'],
-      ['CM Serisi İzleme Rölesi', 'Faz ve gerilim izleme fonksiyonlu kontrol rölesi.'],
-    ]),
+    products: [],
   },
   {
     id: 'miltera',
@@ -124,12 +80,7 @@ export const lowVoltageBrands: Brand[] = [
     accentColor: '#0E121B',
     backgroundColor: '#5A78B4',
     textColor: '#EEEBF7',
-    products: products('miltera', [
-      ['Dijital Pano Ampermetresi', 'Yüksek hassasiyetli, TFT ekranlı dijital ölçüm cihazı.'],
-      ['Sinyal Lambası Serisi', 'Uzun ömürlü LED\'li pano sinyalizasyon armatürü.'],
-      ['Kumanda Butonu Grubu', 'IP65 korumalı, modüler pano kumanda butonları.'],
-      ['Akım Trafosu', 'Ölçüm ve koruma amaçlı toroidal akım trafosu.'],
-    ]),
+    products: [],
   },
   {
     id: 'exproof',
@@ -139,12 +90,7 @@ export const lowVoltageBrands: Brand[] = [
     accentColor: '#241E0B',
     backgroundColor: '#EEC846',
     textColor: '#1A1508',
-    products: products('exproof', [
-      ['Exproof Aydınlatma Armatürü', 'Zone 1/2 sertifikalı, darbeye dayanıklı LED armatür.'],
-      ['Exproof Buat ve Klemens Kutusu', 'Alevsızdırmaz gövdeli çok girişli bağlantı kutusu.'],
-      ['Exproof Motor Bağlantı Kutusu', 'Yüksek koruma sınıflı motor terminal bağlantı ünitesi.'],
-      ['Exproof Sinyal ve Alarm Sireni', 'Patlayıcı ortamlar için sertifikalı akustik/optik alarm.'],
-    ]),
+    products: [],
   },
   {
     id: 'gromtor-sertec',
@@ -154,12 +100,7 @@ export const lowVoltageBrands: Brand[] = [
     accentColor: '#AA2C28',
     backgroundColor: '#EF833A',
     textColor: '#FBEFE5',
-    products: products('gromtor', [
-      ['Kimyasal Topraklama Elektrodu', 'Düşük dirençli, uzun ömürlü toprak elektrot çubuğu.'],
-      ['Ekzotermik Kaynak Kiti', 'Kalıcı, düşük dirençli topraklama bağlantı kaynak sistemi.'],
-      ['Kablo Ek Kutusu', 'Alçak gerilim kabloları için reçineli ek ve izolasyon kutusu.'],
-      ['Topraklama Klemensi', 'Korozyona dayanıklı çok telli iletken bağlantı klemensi.'],
-    ]),
+    products: [],
   },
   {
     id: 'pannect',
@@ -169,20 +110,8 @@ export const lowVoltageBrands: Brand[] = [
     accentColor: '#94A2BD',
     backgroundColor: '#29457A',
     textColor: '#F5EEDF',
-    products: products('pannect', [
-      ['Modüler Bara Sistemi', 'Esnek yapılandırılabilir pano içi güç dağıtım barası.'],
-      ['Geçmeli Klemens Bloğu', 'Hızlı montajlı, vidasız bağlantılı klemens serisi.'],
-      ['Kablo Kanal Profili', 'Pano içi düzenli kablolama için delikli kanal profili.'],
-      ['DIN Ray ve Aksesuarları', 'Standart ve derin profil DIN ray montaj elemanları.'],
-    ]),
+    products: [],
   },
 ]
 
-export const mediumVoltageProducts = products('og', [
-  ['Trafo Köşkü', 'Anahtar teslim, beton veya metal gövdeli komple trafo merkezi ünitesi.'],
-  ['Trafo Hücresi (RMU)', 'SF6 veya havalı yalıtımlı, kompakt orta gerilim dağıtım hücresi.'],
-  ['Kesicili Hücre', 'Vakum kesicili, ayırıcı ve topraklama fonksiyonlu koruma hücresi.'],
-  ['Ölçü Hücresi', 'Orta gerilim şebekesi enerji ölçümü için gerilim ve akım trafolu hücre.'],
-  ['Kesici Ayırıcı Hücresi', 'Yük ayırıcı ve sigortalı, hat koruma amaçlı orta gerilim hücresi.'],
-  ['Kablo Giriş Hücresi', 'Yeraltı kablo bağlantıları için orta gerilim giriş/çıkış hücresi.'],
-])
+export const mediumVoltageProducts: Product[] = []
