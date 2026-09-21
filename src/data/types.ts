@@ -17,6 +17,7 @@ export type Brand = {
   accentColor: string
   backgroundColor: string
   textColor: string
+  logo?: string
   products: Product[]
 }
 

@@ -23,6 +23,16 @@ export function BrandSection({ brand, position, total }: BrandSectionProps) {
   return (
     <div id={`brand-${brand.id}`} className={styles.brand} style={brandStyle} data-nav-theme="brand">
       <div className={styles.intro}>
+        {brand.logo && (
+          <img
+            src={brand.logo}
+            alt=""
+            aria-hidden="true"
+            className={styles.watermark}
+            loading="lazy"
+            decoding="async"
+          />
+        )}
         <div className={`container ${styles.introInner}`}>
           <motion.span
             initial={{ opacity: 0, y: 12 }}
