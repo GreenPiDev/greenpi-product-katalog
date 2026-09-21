@@ -193,5 +193,11 @@
     "brandId": "aite",
     "name": "BIÇAKLI SİGORTA TABANI",
     "description": "Bıçaklı tip sigortaların elektrik panolarına güvenli şekilde monte edilmesini ve devreye bağlanmasını sağlayan sigorta tabanıdır. Farklı sigorta boyutları ve akım değerlerine uygun seçenekleriyle güvenli bağlantı, kolay sigorta değişimi ve düzenli pano montajı sağlar."
+  },
+  {
+    "id": "user-1789993199951-0",
+    "brandId": "raycap",
+    "name": "PARAFUDR",
+    "description": "Elektrik sistemlerini yıldırım darbeleri ve ani aşırı gerilimlere karşı korumak için kullanılan aşırı gerilim koruma cihazlarıdır (SPD). Ani gerilim yükselmelerinde oluşan enerjiyi güvenli şekilde toprağa yönlendirerek hassas elektrik ve elektronik ekipmanların zarar görmesini önlemeye yardımcı olur. AC, DC ve fotovoltaik sistemlere yönelik farklı çözümleri bulunan Raycap parafudrlar, enerji dağıtımı ve kritik endüstriyel uygulamalarda kullanılır."
   }
 ]
