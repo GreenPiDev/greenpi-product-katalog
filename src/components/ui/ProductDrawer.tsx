@@ -1,7 +1,7 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect } from 'react'
 import { useProductDrawer } from '../../context/ProductDrawerContext'
-import { getLenis } from '../../lib/lenis'
+import { getLenis, scrollToId } from '../../lib/lenis'
 import styles from './ProductDrawer.module.css'
 
 export function ProductDrawer() {
@@ -30,6 +30,11 @@ export function ProductDrawer() {
     window.addEventListener('keydown', handleKey)
     return () => window.removeEventListener('keydown', handleKey)
   }, [close])
+
+  function goToContact() {
+    close()
+    setTimeout(() => scrollToId('contact', { duration: 1.1 }), 150)
+  }
 
   return (
     <AnimatePresence>
@@ -108,15 +113,9 @@ export function ProductDrawer() {
                 </div>
               </dl>
 
-              <a
-                href={`mailto:info@greenpi.com.tr?subject=${encodeURIComponent(
-                  `Teklif Talebi — ${state.product.name} (${state.product.code})`,
-                )}`}
-                className={styles.cta}
-                data-cursor="open"
-              >
+              <button type="button" className={styles.cta} data-cursor="open" onClick={goToContact}>
                 Teklif İste <span aria-hidden="true">→</span>
-              </a>
+              </button>
             </div>
           </motion.aside>
         </>

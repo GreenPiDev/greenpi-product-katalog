@@ -155,12 +155,16 @@
   gap: 0.6rem;
   margin-top: 2.5rem;
   padding: 0.9rem 1.5rem;
+  background: none;
   border: 1px solid var(--brand-accent, var(--color-accent));
   color: var(--brand-text, currentColor);
   font-family: var(--font-mono);
   font-size: 0.8rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
   transition: background 0.25s ease, color 0.25s ease;
 }
 
