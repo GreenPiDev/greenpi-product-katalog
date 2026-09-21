@@ -211,5 +211,23 @@
     "brandId": "siemens",
     "name": "SICAM Q100",
     "description": "Elektrik şebekelerinde akım, gerilim, frekans, güç, enerji ve harmonikler gibi elektriksel parametreleri ölçmek, kaydetmek ve analiz etmek için kullanılan çok fonksiyonlu güç kalitesi ölçüm cihazıdır. IEC 61000-4-30 Class A standardına uygun güç kalitesi ölçümü sunarak gerilim olayları ve şebeke bozulmalarının izlenmesini sağlar. Ethernet ve RS485 haberleşme arayüzleri üzerinden IEC 61850, Modbus TCP ve Modbus RTU gibi protokollerle SCADA ve enerji yönetim sistemlerine entegre edilebilir."
+  },
+  {
+    "id": "user-1789993600832-0",
+    "brandId": "schneider-electric",
+    "name": "POWERLOGIC ION7400",
+    "description": "Elektrik şebekelerinde akım, gerilim, güç, enerji, güç faktörü ve harmonik gibi elektriksel parametreleri ölçmek ve güç kalitesini izlemek için kullanılan gelişmiş enerji ve güç kalitesi ölçeridir. Veri kaydı, alarm ve olay izleme özelliklerinin yanı sıra RS485 ve Ethernet haberleşme arayüzleri üzerinden Modbus, ION, DNP3 ve IEC 61850 gibi protokollerle SCADA ve enerji yönetim sistemlerine entegre edilebilir."
+  },
+  {
+    "id": "user-1789993600832-1",
+    "brandId": "schneider-electric",
+    "name": "POWERLOGIC PM 8000",
+    "description": "Alçak, orta ve yüksek gerilim sistemlerinde akım, gerilim, güç, enerji, güç faktörü ve harmonik gibi elektriksel parametreleri ölçmek ve güç kalitesini izlemek için kullanılan gelişmiş güç ve enerji ölçüm cihazıdır. Gerilim düşmesi/yükselmesi ve dalga şekli kayıtları gibi güç kalitesi izleme özelliklerinin yanı sıra Ethernet ve RS485 haberleşme arayüzleri üzerinden Modbus, ION, DNP3 ve IEC 61850 protokolleriyle SCADA ve enerji yönetim sistemlerine entegre edilebilir."
+  },
+  {
+    "id": "user-1789993600832-2",
+    "brandId": "schneider-electric",
+    "name": "POWERLOGIC ION9000",
+    "description": "Elektrik şebekelerinde akım, gerilim, güç, enerji, güç faktörü ve harmonikler gibi elektriksel parametreleri ölçmek ve güç kalitesini ayrıntılı şekilde analiz etmek için kullanılan gelişmiş enerji ve güç kalitesi analizörüdür. IEC 61000-4-30 Class A uyumlu güç kalitesi izleme, dalga şekli kaydı, gerilim düşmesi/yükselmesi ve geçici olay tespiti gibi özellikler sunar. Ethernet ve seri haberleşme altyapısı sayesinde Modbus, DNP3 ve IEC 61850 gibi protokollerle SCADA ve enerji yönetim sistemlerine entegre edilebilir."
   }
 ]
