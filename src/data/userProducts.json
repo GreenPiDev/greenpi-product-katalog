@@ -12,5 +12,96 @@
     "name": "M100 Endüstriyel Modem",
     "description": "M100, endüstriyel SCADA uygulamaları için özellikle\ngeliştirilmiş bir hücresel router modemdir.",
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789975409/greenpi-product-katalog/production/naotkili6b8s9nebeoma.webp"
+  },
+  {
+    "id": "user-1789979864855-0",
+    "brandId": "inotel",
+    "name": "AGD100 ARIZA GÖSTERGE DÜZENEĞİ",
+    "description": "Orta Gerilim şebekelerinde kullanım için tasarlanmış\nolan AGD100 mikroişlemci kontrollü, SCADA sistemlerine\nbilgi aktarımı için Modbus haberleşme protokolü destekli,\ndokunmatik ekrana sahip, ilgili TEDAŞ ve üst şartnamelere\nuyumlu arıza akımı izleme sistemidir.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789978537/greenpi-product-katalog/production/npxom94bwsahlc7evxfq.webp"
+  },
+  {
+    "id": "user-1789979864855-1",
+    "brandId": "inotel",
+    "name": "AR100 İHBAR SİNYAL BLOĞU",
+    "description": "Elektrik panolarında ve enerji sistemlerinde oluşan arıza ve alarm durumlarını görsel ve işitsel olarak bildirmek için kullanılan röle ihbar cihazıdır. 6 adet ihbar girişi ve 8 adet röle çıkışı sayesinde farklı arıza sinyallerini izleyerek alarm, açma ve korna gibi çıkışları yönetebilir.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789978685/greenpi-product-katalog/production/arhubam8j8x3yrgeuhy9.jpg"
+  },
+  {
+    "id": "user-1789979864855-2",
+    "brandId": "inotel",
+    "name": "INOCHARGE AC ELEKTRİK ARAÇ ŞARJ CİHAZI",
+    "description": "İnotel Inocharge, elektrikli araçların güvenli ve verimli şekilde şarj edilmesi için geliştirilmiş AC şarj istasyonudur. 7 kW, 11 kW ve 22 kW güç seçenekleri sunar; Wi-Fi/Ethernet bağlantısı ve mobil uygulama üzerinden kontrol ve izleme imkânı sağlar. Tip 2 bağlantıya sahip olan cihaz, dahili enerji ölçümü, kaçak akım ve gerilim korumaları ile farklı konut, ticari ve endüstriyel uygulamalarda kullanılabilir.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789978793/greenpi-product-katalog/production/iw4ufd5n53qbkd12bay4.jpg"
+  },
+  {
+    "id": "user-1789979864855-3",
+    "brandId": "inotel",
+    "name": "IMD100 İZALASYON İZLEME CİHAZI",
+    "description": "IT şebekeleri ve izole DC sistemlerde izolasyon direncini sürekli izleyerek olası yalıtım hatalarını erken tespit eden cihazdır. İzolasyon direnci belirlenen eşik değerinin altına düştüğünde alarm üretir ve entegre röle çıkışları üzerinden ilgili sistemlere uyarı veya kesici tetikleme sinyali gönderir. GES, hastane, endüstriyel tesis ve diğer kritik enerji sistemlerinde güvenli ve kesintisiz işletme için kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789979012/greenpi-product-katalog/production/rpdwfc07c2jvgsikx1rw.jpg"
+  },
+  {
+    "id": "user-1789979864855-4",
+    "brandId": "inotel",
+    "name": "SOMGAD KESİNTİ TESPİT ÜNİTESİ",
+    "description": "Alçak gerilim hatlarında gerilim varlığını tespit ederek kesinti durumlarını izlemek için kullanılan kablosuz izleme sistemidir. GAD gerilim algılayıcı dedektör, hat üzerindeki gerilim bilgisini LoRa üzerinden SOM sensör okuma modülüne aktarır; SOM ise bu bilgileri RS-485/Modbus üzerinden SCADA sistemine ileterek trafo merkezleri ve dağıtım şebekelerinde uzaktan kesinti takibi sağlar.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789979040/greenpi-product-katalog/production/ypgsqaczchimgheebahf.png"
+  },
+  {
+    "id": "user-1789979864855-5",
+    "brandId": "inotel",
+    "name": "LİR24 LIFEPO4 REDRESÖR",
+    "description": "LiFePO4 (Lityum Demir Fosfat) akü teknolojisini kullanan, 27 VDC çıkış gerilimi ve 3 A sürekli / 10 A kısa süreli çıkış akımı sağlayan uzun ömürlü redresör grubudur. Derin deşarj, kısa devre ve aşırı yük korumalarıyla alçak gerilim panoları, trafo merkezleri, SCADA ve otomasyon sistemlerinde kesintisiz DC güç sağlamak için kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789979122/greenpi-product-katalog/production/uvf4ubcmbrjzcdb0jamm.png"
+  },
+  {
+    "id": "user-1789979864855-6",
+    "brandId": "inotel",
+    "name": "STR100 PV DİZİ İZLEME ÜNİTESİ",
+    "description": "Fotovoltaik güneş enerji santrallerinde DC toplama panolarında bulunan PV dizilerin gerilim ve akım değerlerini gerçek zamanlı olarak izlemek için kullanılan elektronik izleme cihazıdır. RS485/Modbus, fiber optik ve LoRa haberleşme seçenekleri sayesinde dizi performanslarının uzaktan izlenmesini ve düşük üretim veya arızalı dizilerin hızlı şekilde tespit edilmesini sağlar.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789979416/greenpi-product-katalog/production/iqgru1yrlsipurv57wpw.png"
+  },
+  {
+    "id": "user-1789979864855-7",
+    "brandId": "inotel",
+    "name": "EA100E ENERJİ ANALİZÖRÜ(MODBUS-TCS)",
+    "description": "Elektrik enerjisi, gerilim, akım, anlık güç ve akım-gerilim harmoniklerini hassas şekilde ölçmek için kullanılan mikroişlemci kontrollü enerji analizörüdür. RS485 Modbus ve Ethernet (TCP/IP) haberleşme özellikleri sayesinde ölçüm verilerini SCADA ve RTU sistemlerine aktararak enerji izleme ve analiz uygulamalarında kullanılabilir.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789979516/greenpi-product-katalog/production/pi5hbsph1z55k6kxkeaf.jpg"
+  },
+  {
+    "id": "user-1789979864855-8",
+    "brandId": "inotel",
+    "name": "EA100R ENERJİ ANALİZÖRÜ(MODBUS)",
+    "description": "Elektrik enerjisi, gerilim, akım, anlık güç ve akım-gerilim harmoniklerini hassas şekilde ölçmek için kullanılan mikroişlemci kontrollü enerji analizörüdür. RS485 Modbus haberleşme özelliği sayesinde ölçüm ve analiz verilerini SCADA veya RTU sistemlerine aktararak enerji izleme ve otomasyon uygulamalarında kullanılabilir.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789979569/greenpi-product-katalog/production/hzl8gy0hhlh6psvf9u0o.jpg"
+  },
+  {
+    "id": "user-1789979864855-9",
+    "brandId": "inotel",
+    "name": "SCAP1220 SÜPER KAPASİTÖR ÜNİTESİ",
+    "description": "DC sistemlerde kısa süreli kesintisiz yardımcı besleme sağlamak için kullanılan, bakım gerektirmeyen süper kapasitör tabanlı güç ünitesidir. Şebeke kesintisi sırasında RTU, PLC, modem ve haberleşme sistemleri gibi kritik yüklerin çalışmaya devam ederek kesinti, alarm ve ölçüm bilgilerinin SCADA merkezine iletilmesi için gerekli süreyi sağlar.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789979659/greenpi-product-katalog/production/cx5zvd2yaod4cjukvcce.webp"
+  },
+  {
+    "id": "user-1789979864855-10",
+    "brandId": "inotel",
+    "name": "EA100B HABERLEŞMESİZ ENERJİ ANALİZÖRÜ",
+    "description": "Elektrik sistemlerinde gerilim, akım, güç, enerji ve güç faktörü gibi temel elektriksel parametreleri ölçmek ve izlemek için kullanılan mikroişlemci kontrollü enerji analizörüdür. Haberleşme özelliği bulunmadığından ölçülen değerler cihazın ön panelindeki ekran üzerinden takip edilir ve enerji ölçümü, pano izleme ve elektriksel parametrelerin kontrolü gibi uygulamalarda kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789979750/greenpi-product-katalog/production/b2cno7nqgkhp5y6m4gqv.png"
+  },
+  {
+    "id": "user-1789979864855-11",
+    "brandId": "inotel",
+    "name": "RAG110 AKÜ REDRESÖR GRUBU (110V)",
+    "description": "Endüstriyel sistemlerde AC enerjiyi DC enerjiye dönüştürerek 110 VDC seviyesinde kesintisiz güç ve akü şarjı sağlayan akü redresör grubudur. 25 A çıkış kapasitesi, RS485 Modbus haberleşme ve 16 adet röle çıkışı ile trafo merkezleri, SCADA sistemleri, otomasyon sistemleri ve elektrik üretim tesislerinde kritik DC yüklerin güvenilir şekilde beslenmesi için kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789979797/greenpi-product-katalog/production/wbottyeamalwwcad75wh.jpg"
+  },
+  {
+    "id": "user-1789979864855-12",
+    "brandId": "inotel",
+    "name": "RAG24 AKÜ REDRESÖR GRUBU (24V)",
+    "description": "24 VDC endüstriyel güç ihtiyacını karşılamak üzere geliştirilmiş, içerisinde doğrultucu, akü ve filtre grubu bulunan kesintisiz DC güç kaynağıdır. 25 A maksimum çıkış akımı, 21–27,6 VDC çıkış gerilimi ve RS485 Modbus haberleşme özellikleriyle trafo merkezleri, alçak gerilim panoları, SCADA, otomasyon ve endüstriyel tesislerde kritik DC yüklerin kesintisiz beslenmesi için kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789979861/greenpi-product-katalog/production/wra8y5zwi1bqjipa3ngb.webp"
   }
 ]
