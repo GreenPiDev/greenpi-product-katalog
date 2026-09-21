@@ -103,5 +103,53 @@
     "name": "RAG24 AKÜ REDRESÖR GRUBU (24V)",
     "description": "24 VDC endüstriyel güç ihtiyacını karşılamak üzere geliştirilmiş, içerisinde doğrultucu, akü ve filtre grubu bulunan kesintisiz DC güç kaynağıdır. 25 A maksimum çıkış akımı, 21–27,6 VDC çıkış gerilimi ve RS485 Modbus haberleşme özellikleriyle trafo merkezleri, alçak gerilim panoları, SCADA, otomasyon ve endüstriyel tesislerde kritik DC yüklerin kesintisiz beslenmesi için kullanılır.",
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789979861/greenpi-product-katalog/production/wra8y5zwi1bqjipa3ngb.webp"
+  },
+  {
+    "id": "user-1789992268327-0",
+    "brandId": "te-connectivity",
+    "name": "RÖLE",
+    "description": "Elektrik devrelerinde düşük güçlü bir kontrol sinyaliyle daha yüksek güçlü yüklerin açma-kapama işlemlerini gerçekleştirmek için kullanılan elektromekanik anahtarlama elemanıdır. TE Connectivity röleleri; endüstriyel otomasyon, enerji yönetimi, HVAC, makine kontrolü ve bina sistemleri gibi çeşitli uygulamalarda devre kontrolü ve sinyal aktarımı için kullanılır."
+  },
+  {
+    "id": "user-1789992268327-1",
+    "brandId": "te-connectivity",
+    "name": "KLEMENS",
+    "description": "Elektrik panolarında iki veya daha fazla iletkenin güvenli şekilde birbirine bağlanması, dağıtılması ve gerektiğinde devreden ayrılmasını sağlayan yalıtımlı bağlantı elemanıdır. TE Connectivity klemensleri; DIN rayı, panel, güç dağıtımı ve kontrol devreleri gibi farklı uygulamalara yönelik çeşitli bağlantı teknolojileri ve kesit seçenekleriyle sunulmaktadır."
+  },
+  {
+    "id": "user-1789992268327-2",
+    "brandId": "te-connectivity",
+    "name": "DAĞITIM BLOĞU",
+    "description": "Elektrik panolarında tek bir güç girişini birden fazla çıkış devresine dağıtmak için kullanılan kompakt ve modüler bağlantı elemanıdır. Tek veya çok kutuplu dağıtım seçenekleriyle güç devrelerinin düzenli ve güvenli şekilde dağıtılmasını sağlar; DIN rayı veya pano montajına uygun modelleriyle endüstriyel panolar, makineler, HVAC sistemleri ve güç dağıtım uygulamalarında kullanılır."
+  },
+  {
+    "id": "user-1789992268327-3",
+    "brandId": "te-connectivity",
+    "name": "KONNEKTÖRLER",
+    "description": "Elektrik ve elektronik sistemlerde kablo, devre ve ekipmanlar arasında güvenilir elektriksel ve mekanik bağlantı sağlamak için kullanılan bağlantı elemanlarıdır. Güç, sinyal ve veri aktarımı için farklı kontak, bağlantı tipi ve kutup seçenekleri sunarak endüstriyel otomasyon, enerji, otomotiv ve elektronik uygulamalarında kullanılır."
+  },
+  {
+    "id": "user-1789992268327-4",
+    "brandId": "te-connectivity",
+    "name": "DURDURUCU",
+    "description": "Elektrik panolarında DIN ray üzerine monte edilen klemenslerin sabitlenmesi ve ray üzerinde hareket etmesinin önlenmesi için kullanılan mekanik sabitleme elemanıdır. Klemens grubunun düzenli ve güvenli şekilde konumlandırılmasını sağlayarak pano içi bağlantıların stabilitesini artırır."
+  },
+  {
+    "id": "user-1789992268327-5",
+    "brandId": "te-connectivity",
+    "name": "KONTAKTÖRLER",
+    "description": "Elektrik devrelerinde yüksek akım ve güçteki yüklerin güvenli şekilde açılıp kapatılmasını sağlayan elektromekanik anahtarlama elemanlarıdır. AC ve DC uygulamalara yönelik farklı akım, gerilim ve kontak seçenekleri sunan TE kontaktörleri; güç dağıtımı, motor kontrolü, HVAC, elektrikli araçlar, enerji depolama ve endüstriyel sistemlerde kullanılır."
+  },
+  {
+    "id": "user-1789992268327-6",
+    "brandId": "te-connectivity",
+    "name": "SENSÖRLER",
+    "description": "Fiziksel büyüklükleri algılayarak ölçüm sonuçlarını elektriksel sinyallere dönüştüren sensörlerdir. Sıcaklık, basınç, konum, titreşim, nem, kuvvet, hız ve akış gibi farklı parametrelerin ölçümünde kullanılan TE sensörleri; endüstriyel otomasyon, enerji, otomotiv ve makine uygulamalarında izleme, kontrol ve durum takibi amacıyla kullanılır."
+  },
+  {
+    "id": "user-1789992268327-7",
+    "brandId": "te-connectivity",
+    "name": "PANO VE KLEMENS ETİKETLERİ",
+    "description": "Elektrik panolarında klemens, kablo ve diğer komponentlerin tanımlanması, numaralandırılması ve düzenli şekilde işaretlenmesi için kullanılan etiketleme ürünleridir. Farklı pano ve klemens tiplerine uygun seçenekleri sayesinde montaj, bakım ve servis işlemlerinde devrelerin kolayca ayırt edilmesini sağlar."
   }
 ]
