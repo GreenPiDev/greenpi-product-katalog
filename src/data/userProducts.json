@@ -2,14 +2,14 @@
   {
     "id": "user-1789975412744-0",
     "brandId": "inotel",
-    "name": "GMR100 Şebeke İzleme Rölesi",
+    "name": "GMR100 ŞEBEKE İZLEME RÖLESİ",
     "description": "Şehir şebekesini sürekli izleyerek oluşabilecek herhangi bir\ngerilim yada frekans bozulmasında enerji santrali ile elektrik\nşebekesini mili saniyeler içerisinde ayırır.\n\nSistem nominal değerine döndüğünde elektrik üretim tesisinin\ntekrar devreye girmesini sağlar.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789975384/greenpi-product-katalog/production/oms1z4dddbimfwvf1wo7.jpg"
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789981716/greenpi-product-katalog/production/jv9lbrqnsqz2bkhhkjev.png"
   },
   {
     "id": "user-1789975412744-1",
     "brandId": "inotel",
-    "name": "M100 Endüstriyel Modem",
+    "name": "M100 ENDÜSTRİYEL MODEM",
     "description": "M100, endüstriyel SCADA uygulamaları için özellikle\ngeliştirilmiş bir hücresel router modemdir.",
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789975409/greenpi-product-katalog/production/naotkili6b8s9nebeoma.webp"
   },
@@ -25,21 +25,21 @@
     "brandId": "inotel",
     "name": "AR100 İHBAR SİNYAL BLOĞU",
     "description": "Elektrik panolarında ve enerji sistemlerinde oluşan arıza ve alarm durumlarını görsel ve işitsel olarak bildirmek için kullanılan röle ihbar cihazıdır. 6 adet ihbar girişi ve 8 adet röle çıkışı sayesinde farklı arıza sinyallerini izleyerek alarm, açma ve korna gibi çıkışları yönetebilir.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789978685/greenpi-product-katalog/production/arhubam8j8x3yrgeuhy9.jpg"
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789981624/greenpi-product-katalog/production/m7h0ddnbwugyxesusrha.png"
   },
   {
     "id": "user-1789979864855-2",
     "brandId": "inotel",
     "name": "INOCHARGE AC ELEKTRİK ARAÇ ŞARJ CİHAZI",
     "description": "İnotel Inocharge, elektrikli araçların güvenli ve verimli şekilde şarj edilmesi için geliştirilmiş AC şarj istasyonudur. 7 kW, 11 kW ve 22 kW güç seçenekleri sunar; Wi-Fi/Ethernet bağlantısı ve mobil uygulama üzerinden kontrol ve izleme imkânı sağlar. Tip 2 bağlantıya sahip olan cihaz, dahili enerji ölçümü, kaçak akım ve gerilim korumaları ile farklı konut, ticari ve endüstriyel uygulamalarda kullanılabilir.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789978793/greenpi-product-katalog/production/iw4ufd5n53qbkd12bay4.jpg"
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789981643/greenpi-product-katalog/production/wvlfz1i6uc0hheyhadw7.png"
   },
   {
     "id": "user-1789979864855-3",
     "brandId": "inotel",
     "name": "IMD100 İZALASYON İZLEME CİHAZI",
     "description": "IT şebekeleri ve izole DC sistemlerde izolasyon direncini sürekli izleyerek olası yalıtım hatalarını erken tespit eden cihazdır. İzolasyon direnci belirlenen eşik değerinin altına düştüğünde alarm üretir ve entegre röle çıkışları üzerinden ilgili sistemlere uyarı veya kesici tetikleme sinyali gönderir. GES, hastane, endüstriyel tesis ve diğer kritik enerji sistemlerinde güvenli ve kesintisiz işletme için kullanılır.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789979012/greenpi-product-katalog/production/rpdwfc07c2jvgsikx1rw.jpg"
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789981657/greenpi-product-katalog/production/zhnbs36p0kv8rricvgxw.png"
   },
   {
     "id": "user-1789979864855-4",
@@ -67,14 +67,14 @@
     "brandId": "inotel",
     "name": "EA100E ENERJİ ANALİZÖRÜ(MODBUS-TCS)",
     "description": "Elektrik enerjisi, gerilim, akım, anlık güç ve akım-gerilim harmoniklerini hassas şekilde ölçmek için kullanılan mikroişlemci kontrollü enerji analizörüdür. RS485 Modbus ve Ethernet (TCP/IP) haberleşme özellikleri sayesinde ölçüm verilerini SCADA ve RTU sistemlerine aktararak enerji izleme ve analiz uygulamalarında kullanılabilir.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789979516/greenpi-product-katalog/production/pi5hbsph1z55k6kxkeaf.jpg"
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789981669/greenpi-product-katalog/production/rl0hmgptyp0v4ujjvniu.png"
   },
   {
     "id": "user-1789979864855-8",
     "brandId": "inotel",
     "name": "EA100R ENERJİ ANALİZÖRÜ(MODBUS)",
     "description": "Elektrik enerjisi, gerilim, akım, anlık güç ve akım-gerilim harmoniklerini hassas şekilde ölçmek için kullanılan mikroişlemci kontrollü enerji analizörüdür. RS485 Modbus haberleşme özelliği sayesinde ölçüm ve analiz verilerini SCADA veya RTU sistemlerine aktararak enerji izleme ve otomasyon uygulamalarında kullanılabilir.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789979569/greenpi-product-katalog/production/hzl8gy0hhlh6psvf9u0o.jpg"
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789981682/greenpi-product-katalog/production/r2fcwursyguxlblories.png"
   },
   {
     "id": "user-1789979864855-9",
@@ -95,7 +95,7 @@
     "brandId": "inotel",
     "name": "RAG110 AKÜ REDRESÖR GRUBU (110V)",
     "description": "Endüstriyel sistemlerde AC enerjiyi DC enerjiye dönüştürerek 110 VDC seviyesinde kesintisiz güç ve akü şarjı sağlayan akü redresör grubudur. 25 A çıkış kapasitesi, RS485 Modbus haberleşme ve 16 adet röle çıkışı ile trafo merkezleri, SCADA sistemleri, otomasyon sistemleri ve elektrik üretim tesislerinde kritik DC yüklerin güvenilir şekilde beslenmesi için kullanılır.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789979797/greenpi-product-katalog/production/wbottyeamalwwcad75wh.jpg"
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789981692/greenpi-product-katalog/production/ysus87jkjmjlapeedalb.png"
   },
   {
     "id": "user-1789979864855-12",
