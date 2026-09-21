@@ -1,6 +1,9 @@
 import type { Product } from '../../data/types'
 import { useProductDrawer, type DrawerBrand } from '../../context/ProductDrawerContext'
+import { truncate } from '../../utils/truncate'
 import styles from './ProductCard.module.css'
+
+const CARD_DESCRIPTION_LIMIT = 262
 
 type ProductCardProps = {
   product: Product
@@ -40,7 +43,7 @@ export function ProductCard({ product, brand, index }: ProductCardProps) {
 
       <div className={styles.meta}>
         <h3 className={styles.name}>{product.name}</h3>
-        <p className={styles.desc}>{product.description}</p>
+        <p className={styles.desc}>{truncate(product.description, CARD_DESCRIPTION_LIMIT)}</p>
         <button
           type="button"
           className={styles.link}

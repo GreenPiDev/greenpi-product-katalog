@@ -73,7 +73,6 @@
   font-size: 0.88rem;
   line-height: 1.5;
   color: color-mix(in srgb, var(--brand-text, #fff) 65%, transparent);
-  max-width: 34ch;
 }
 
 .link {

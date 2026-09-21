@@ -49,6 +49,7 @@ export function ProductDrawer() {
             role="dialog"
             aria-modal="true"
             aria-label={state.product.name}
+            data-lenis-prevent
             style={
               {
                 '--brand-accent': state.brand.accentColor,
@@ -93,10 +94,10 @@ export function ProductDrawer() {
               <p className={styles.desc}>{state.product.description}</p>
 
               <dl className={styles.specs}>
-                <div className={styles.specRow}>
+                {/* <div className={styles.specRow}>
                   <dt>Ürün Kodu</dt>
                   <dd>{state.product.code}</dd>
-                </div>
+                </div> */}
                 <div className={styles.specRow}>
                   <dt>Marka</dt>
                   <dd lang="en">{state.brand.name}</dd>

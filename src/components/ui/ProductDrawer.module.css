@@ -16,6 +16,7 @@
   width: min(38vw, 560px);
   min-width: 340px;
   overflow-y: auto;
+  overscroll-behavior: contain;
   background: var(--brand-bg, var(--color-bg-raised));
   color: var(--brand-text, var(--color-ink));
   border-left: 1px solid var(--color-line);
@@ -121,6 +122,7 @@
   font-size: 0.98rem;
   line-height: 1.6;
   color: color-mix(in srgb, var(--brand-text, #fff) 70%, transparent);
+  white-space: pre-line;
 }
 
 .specs {
