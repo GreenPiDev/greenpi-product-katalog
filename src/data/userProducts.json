@@ -151,5 +151,47 @@
     "brandId": "te-connectivity",
     "name": "PANO VE KLEMENS ETİKETLERİ",
     "description": "Elektrik panolarında klemens, kablo ve diğer komponentlerin tanımlanması, numaralandırılması ve düzenli şekilde işaretlenmesi için kullanılan etiketleme ürünleridir. Farklı pano ve klemens tiplerine uygun seçenekleri sayesinde montaj, bakım ve servis işlemlerinde devrelerin kolayca ayırt edilmesini sağlar."
+  },
+  {
+    "id": "user-1789993128928-0",
+    "brandId": "aite",
+    "name": "FOTOVOLTAİK SİGORTA (1000VDC/1500VDC/2000VDC)",
+    "description": "Fotovoltaik güneş enerji sistemlerinde PV dizilerini, birleştirme kutularını ve inverterlerin DC girişlerini aşırı akım ve kısa devreye karşı korumak için kullanılan gPV sınıfı DC sigortalardır. 1000VDC, 1500VDC ve 2000VDC gerilim seviyelerine uygun farklı modelleri bulunan sigortalar, yüksek DC kesme kapasitesi ve hızlı arıza kesme özellikleriyle güneş enerjisi sistemlerinin güvenli şekilde çalışmasına katkı sağlar."
+  },
+  {
+    "id": "user-1789993128928-1",
+    "brandId": "aite",
+    "name": "KARTUŞ SİGORTALAR (690VAC)",
+    "description": "Alçak gerilim elektrik sistemlerinde kablo, ekipman ve devreleri aşırı akım ve kısa devreye karşı korumak için kullanılan kartuş tipi sigortalardır. 690VAC'ye kadar gerilim seviyelerinde kullanılabilen bu sigortalar, yüksek kesme kapasitesi ve güvenilir arıza koruması sayesinde elektrik panoları, güç dağıtım sistemleri ve endüstriyel uygulamalarda tercih edilir."
+  },
+  {
+    "id": "user-1789993128928-2",
+    "brandId": "aite",
+    "name": "KARTUŞ SİGORTA YUVALARI",
+    "description": "Kartuş tipi sigortaların elektrik panolarına ve sigorta sistemlerine güvenli şekilde monte edilmesini ve devreye bağlanmasını sağlayan sigorta yuvalarıdır. Farklı sigorta boyutları ve akım değerlerine uygun seçenekleriyle sigorta değişimini kolaylaştırır, güvenli bağlantı ve devre koruması sağlar."
+  },
+  {
+    "id": "user-1789993128928-3",
+    "brandId": "aite",
+    "name": "DİKEY SİGORTALI YÜK AYIRICI",
+    "description": "Elektrik dağıtım sistemlerinde devreleri yük altında açıp kapatmak ve sigortalar aracılığıyla aşırı akım ile kısa devreye karşı korumak için kullanılan sigortalı yük ayırıcıdır. Dikey montaj yapısı sayesinde pano ve dağıtım sistemlerinde kompakt kullanım sunarak güvenli devre izolasyonu ve sigorta değişimi imkânı sağlar."
+  },
+  {
+    "id": "user-1789993128928-4",
+    "brandId": "aite",
+    "name": "YATAY SİGORTALI YÜK AYIRICI",
+    "description": "Elektrik dağıtım sistemlerinde devreleri yük altında açıp kapatmak ve sigortalar aracılığıyla aşırı akım ile kısa devreye karşı korumak için kullanılan yatay tip sigortalı yük ayırıcıdır. Yatay montaj yapısı sayesinde pano ve dağıtım sistemlerinde güvenli devre izolasyonu, yük kontrolü ve sigorta değişimi imkânı sağlar."
+  },
+  {
+    "id": "user-1789993128928-5",
+    "brandId": "aite",
+    "name": "BIÇAKLI SİGORTALAR",
+    "description": "Alçak gerilim elektrik dağıtım sistemlerinde kablo ve ekipmanları aşırı akım ve kısa devreye karşı korumak için kullanılan bıçak kontaklı sigortalardır. Yüksek kesme kapasitesi ve farklı akım değerleri sayesinde elektrik panoları, güç dağıtım sistemleri ve endüstriyel uygulamalarda güvenilir devre koruması sağlar."
+  },
+  {
+    "id": "user-1789993128928-6",
+    "brandId": "aite",
+    "name": "BIÇAKLI SİGORTA TABANI",
+    "description": "Bıçaklı tip sigortaların elektrik panolarına güvenli şekilde monte edilmesini ve devreye bağlanmasını sağlayan sigorta tabanıdır. Farklı sigorta boyutları ve akım değerlerine uygun seçenekleriyle güvenli bağlantı, kolay sigorta değişimi ve düzenli pano montajı sağlar."
   }
 ]
