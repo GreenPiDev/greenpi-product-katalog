@@ -8,8 +8,9 @@ export const lowVoltageBrands: Brand[] = [
     description:
       'Alçak gerilim şebekelerinde güvenilir bağlantı için soyma, ek ve izolasyon çözümleri.',
     accentColor: '#211307',
-    backgroundColor: '#DE7F2F',
+    backgroundColor: '#E98300',
     textColor: '#F6ECE1',
+    logos: ['/logos/te.png'],
     products: [],
   },
   {
@@ -18,8 +19,9 @@ export const lowVoltageBrands: Brand[] = [
     tagline: 'Sigorta ve Koruma Elemanları',
     description: 'Alçak gerilim şebekelerinde aşırı akım koruması için sigorta ve sigorta altlığı çözümleri.',
     accentColor: '#9897BD',
-    backgroundColor: '#19176D',
+    backgroundColor: '#0B1F4D',
     textColor: '#EDF1F7',
+    logos: ['/logos/aite-fuse.png'],
     products: [],
   },
   {
@@ -28,8 +30,9 @@ export const lowVoltageBrands: Brand[] = [
     tagline: 'Kablo Kanalı ve Aksesuarları',
     description: 'İç ve dış mekân kablo yönetimi için PVC ve metal kanal sistemleri.',
     accentColor: '#9393A8',
-    backgroundColor: '#0E0E3E',
+    backgroundColor: '#130D3A',
     textColor: '#E9F5F3',
+    logos: ['/logos/inotel.png'],
     products: [],
   },
   {
@@ -40,6 +43,7 @@ export const lowVoltageBrands: Brand[] = [
     accentColor: '#200808',
     backgroundColor: '#D03418',
     textColor: '#F4EBE2',
+    logos: ['/logos/raycap.png'],
     products: [],
   },
   {
@@ -50,6 +54,7 @@ export const lowVoltageBrands: Brand[] = [
     accentColor: '#0A1616',
     backgroundColor: '#009999',
     textColor: '#E8F6F6',
+    logos: ['/logos/siemens.png'],
     products: [],
   },
   {
@@ -60,7 +65,7 @@ export const lowVoltageBrands: Brand[] = [
     accentColor: '#101D0F',
     backgroundColor: '#3DCD58',
     textColor: '#EAF6EC',
-    logo: '/logos/schneider-electric.png',
+    logos: ['/logos/schneider-electric.png'],
     products: [],
   },
   {
@@ -71,6 +76,7 @@ export const lowVoltageBrands: Brand[] = [
     accentColor: '#1F0908',
     backgroundColor: '#E1361E',
     textColor: '#F6E9E8',
+    logos: ['/logos/abb.png'],
     products: [],
   },
   {
@@ -79,8 +85,9 @@ export const lowVoltageBrands: Brand[] = [
     tagline: 'Ölçü ve Kumanda Ekipmanları',
     description: 'Pano içi ölçüm, sinyalizasyon ve kumanda için hassas cihaz grubu.',
     accentColor: '#0E121B',
-    backgroundColor: '#5A78B4',
+    backgroundColor: '#566CB4',
     textColor: '#EEEBF7',
+    logos: ['/logos/miltera.png'],
     products: [],
   },
   {
@@ -91,6 +98,7 @@ export const lowVoltageBrands: Brand[] = [
     accentColor: '#241E0B',
     backgroundColor: '#EEC846',
     textColor: '#1A1508',
+    logos: ['/logos/atex.png'],
     products: [],
   },
   {
@@ -99,8 +107,9 @@ export const lowVoltageBrands: Brand[] = [
     tagline: 'Topraklama ve Kablo Aksesuarları',
     description: 'Şebeke güvenliği için topraklama, ek ve izolasyon aksesuar sistemleri.',
     accentColor: '#AA2C28',
-    backgroundColor: '#EF833A',
+    backgroundColor: '#E7852A',
     textColor: '#FBEFE5',
+    logos: ['/logos/gromtor.png', '/logos/sertech.png'],
     products: [],
   },
   {
@@ -109,8 +118,9 @@ export const lowVoltageBrands: Brand[] = [
     tagline: 'Pano ve Bağlantı Sistemleri',
     description: 'Dağıtım panoları için modüler baralama, klemens ve montaj bileşenleri.',
     accentColor: '#94A2BD',
-    backgroundColor: '#29457A',
+    backgroundColor: '#283A6E',
     textColor: '#F5EEDF',
+    logos: ['/logos/pannect.png'],
     products: [],
   },
 ]

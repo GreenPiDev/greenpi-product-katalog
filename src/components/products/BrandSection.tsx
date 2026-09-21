@@ -23,15 +23,20 @@ export function BrandSection({ brand, position, total }: BrandSectionProps) {
   return (
     <div id={`brand-${brand.id}`} className={styles.brand} style={brandStyle} data-nav-theme="brand">
       <div className={styles.intro}>
-        {brand.logo && (
-          <img
-            src={brand.logo}
-            alt=""
-            aria-hidden="true"
-            className={styles.watermark}
-            loading="lazy"
-            decoding="async"
-          />
+        {brand.logos && brand.logos.length > 0 && (
+          <div className={styles.watermarkGroup}>
+            {brand.logos.map((logo) => (
+              <img
+                key={logo}
+                src={logo}
+                alt=""
+                aria-hidden="true"
+                className={styles.watermark}
+                loading="lazy"
+                decoding="async"
+              />
+            ))}
+          </div>
         )}
         <div className={`container ${styles.introInner}`}>
           <motion.span

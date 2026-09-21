@@ -12,17 +12,23 @@
   overflow: hidden;
 }
 
-.watermark {
+.watermarkGroup {
   position: absolute;
   top: clamp(1.5rem, 4vw, 3rem);
   right: clamp(1.5rem, 4vw, 3rem);
-  width: clamp(140px, 18vw, 260px);
+  display: flex;
+  align-items: center;
+  gap: clamp(1rem, 2.5vw, 2rem);
+  pointer-events: none;
+  user-select: none;
+}
+
+.watermark {
+  width: clamp(120px, 15vw, 220px);
   height: auto;
   object-fit: contain;
   opacity: 0.16;
   filter: brightness(0) invert(1);
-  pointer-events: none;
-  user-select: none;
 }
 
 .introInner {
