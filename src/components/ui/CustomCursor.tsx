@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { useIsTouchDevice } from '../../hooks/useReducedMotion'
 import styles from './CustomCursor.module.css'
 
-type CursorLabel = 'view' | 'drag' | 'open' | null
+type CursorLabel = 'view' | 'drag' | 'open' | 'close' | null
 
 export function CustomCursor() {
   const isTouch = useIsTouchDevice()

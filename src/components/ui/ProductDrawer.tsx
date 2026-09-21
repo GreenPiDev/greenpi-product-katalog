@@ -62,7 +62,7 @@ export function ProductDrawer() {
             exit={{ x: '100%' }}
             transition={{ duration: 0.45, ease: [0.16, 1, 0.3, 1] }}
           >
-            <button type="button" className={styles.close} onClick={close} aria-label="Kapat" data-cursor="open">
+            <button type="button" className={styles.close} onClick={close} aria-label="Kapat" data-cursor="close">
               <span />
               <span />
             </button>
