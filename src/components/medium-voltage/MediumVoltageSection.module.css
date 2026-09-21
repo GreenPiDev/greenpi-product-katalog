@@ -7,13 +7,13 @@
 }
 
 .intro {
-  min-height: 50svh;
+  min-height: 36svh;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .introInner {
-  padding-block: clamp(2.5rem, 6vw, 4rem);
+  padding-block: clamp(2.5rem, 6vw, 4rem) clamp(1.5rem, 3vw, 2.25rem);
 }
 
 .tagline {
@@ -39,7 +39,8 @@
   top: 0;
   height: 100svh;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  padding-top: clamp(4rem, 12vh, 7rem);
   overflow: hidden;
 }
 

@@ -66,7 +66,7 @@ export function ProductDrawer() {
               <span />
             </button>
 
-            <div className={styles.imageBox}>
+            <div className={`${styles.imageBox} ${state.product.image ? styles.imageBoxPhoto : ''}`}>
               {state.product.image ? (
                 <img
                   className={styles.image}

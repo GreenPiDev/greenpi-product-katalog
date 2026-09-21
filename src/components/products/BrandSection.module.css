@@ -5,13 +5,13 @@
 }
 
 .intro {
-  min-height: 60svh;
+  min-height: 42svh;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .introInner {
-  padding-block: clamp(3rem, 8vw, 5rem);
+  padding-block: clamp(3rem, 8vw, 5rem) clamp(1.5rem, 3vw, 2.25rem);
 }
 
 .count {
@@ -54,7 +54,8 @@
   top: 0;
   height: 100svh;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  padding-top: clamp(4rem, 12vh, 7rem);
   overflow: hidden;
 }
 

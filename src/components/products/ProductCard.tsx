@@ -13,7 +13,13 @@ export function ProductCard({ product, brand, index }: ProductCardProps) {
 
   return (
     <article className={styles.card}>
-      <div className={styles.imageBox}>
+      <button
+        type="button"
+        className={`${styles.imageBox} ${product.image ? styles.imageBoxPhoto : ''}`}
+        data-cursor="view"
+        onClick={() => open(product, brand)}
+        aria-label={`${product.name} — İncele`}
+      >
         {product.image ? (
           <img
             className={styles.image}
@@ -30,7 +36,7 @@ export function ProductCard({ product, brand, index }: ProductCardProps) {
           </svg>
         )}
         <span className={styles.code}>{product.code}</span>
-      </div>
+      </button>
 
       <div className={styles.meta}>
         <h3 className={styles.name}>{product.name}</h3>
