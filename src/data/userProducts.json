@@ -199,5 +199,17 @@
     "brandId": "raycap",
     "name": "PARAFUDR",
     "description": "Elektrik sistemlerini yıldırım darbeleri ve ani aşırı gerilimlere karşı korumak için kullanılan aşırı gerilim koruma cihazlarıdır (SPD). Ani gerilim yükselmelerinde oluşan enerjiyi güvenli şekilde toprağa yönlendirerek hassas elektrik ve elektronik ekipmanların zarar görmesini önlemeye yardımcı olur. AC, DC ve fotovoltaik sistemlere yönelik farklı çözümleri bulunan Raycap parafudrlar, enerji dağıtımı ve kritik endüstriyel uygulamalarda kullanılır."
+  },
+  {
+    "id": "user-1789993369352-0",
+    "brandId": "siemens",
+    "name": "SICAM A8000 CP-8031",
+    "description": "Dağıtım şebekeleri ve endüstriyel tesislerde izleme, kontrol, otomasyon ve haberleşme görevlerini gerçekleştirmek için kullanılan kompakt ve ölçeklenebilir bir RTU'dur. Saha cihazlarından gelen sinyalleri işleyerek üst seviye sistemlerle iletişim kurar; ağ geçidi, IoT ağ geçidi ve bölme (bay) denetleyicisi olarak kullanılabilir. Modüler I/O yapısı ve Ethernet, RS-485 ve RS-232 haberleşme arayüzleri sayesinde SCADA ve güç otomasyon sistemlerine entegre edilebilir."
+  },
+  {
+    "id": "user-1789993369352-1",
+    "brandId": "siemens",
+    "name": "SICAM Q100",
+    "description": "Elektrik şebekelerinde akım, gerilim, frekans, güç, enerji ve harmonikler gibi elektriksel parametreleri ölçmek, kaydetmek ve analiz etmek için kullanılan çok fonksiyonlu güç kalitesi ölçüm cihazıdır. IEC 61000-4-30 Class A standardına uygun güç kalitesi ölçümü sunarak gerilim olayları ve şebeke bozulmalarının izlenmesini sağlar. Ethernet ve RS485 haberleşme arayüzleri üzerinden IEC 61850, Modbus TCP ve Modbus RTU gibi protokollerle SCADA ve enerji yönetim sistemlerine entegre edilebilir."
   }
 ]
