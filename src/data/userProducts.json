@@ -153,73 +153,50 @@
     "id": "user-1789993128928-0",
     "brandId": "aite",
     "name": "FOTOVOLTAİK SİGORTA (1000VDC/1500VDC/2000VDC)",
-    "description": "Fotovoltaik güneş enerji sistemlerinde PV dizilerini, birleştirme kutularını ve inverterlerin DC girişlerini aşırı akım ve kısa devreye karşı korumak için kullanılan gPV sınıfı DC sigortalardır. 1000VDC, 1500VDC ve 2000VDC gerilim seviyelerine uygun farklı modelleri bulunan sigortalar, yüksek DC kesme kapasitesi ve hızlı arıza kesme özellikleriyle güneş enerjisi sistemlerinin güvenli şekilde çalışmasına katkı sağlar."
+    "description": "Fotovoltaik güneş enerji sistemlerinde PV dizilerini, birleştirme kutularını ve inverterlerin DC girişlerini aşırı akım ve kısa devreye karşı korumak için kullanılan gPV sınıfı DC sigortalardır. 1000VDC, 1500VDC ve 2000VDC gerilim seviyelerine uygun farklı modelleri bulunan sigortalar, yüksek DC kesme kapasitesi ve hızlı arıza kesme özellikleriyle güneş enerjisi sistemlerinin güvenli şekilde çalışmasına katkı sağlar.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790062686/greenpi-product-katalog/production/eng9rol5ygwb4md5qtf3.png"
   },
   {
     "id": "user-1789993128928-1",
     "brandId": "aite",
-    "name": "KARTUŞ SİGORTALAR (690VAC)",
-    "description": "Alçak gerilim elektrik sistemlerinde kablo, ekipman ve devreleri aşırı akım ve kısa devreye karşı korumak için kullanılan kartuş tipi sigortalardır. 690VAC'ye kadar gerilim seviyelerinde kullanılabilen bu sigortalar, yüksek kesme kapasitesi ve güvenilir arıza koruması sayesinde elektrik panoları, güç dağıtım sistemleri ve endüstriyel uygulamalarda tercih edilir."
-  },
-  {
-    "id": "user-1789993128928-2",
-    "brandId": "aite",
-    "name": "KARTUŞ SİGORTA YUVALARI",
-    "description": "Kartuş tipi sigortaların elektrik panolarına ve sigorta sistemlerine güvenli şekilde monte edilmesini ve devreye bağlanmasını sağlayan sigorta yuvalarıdır. Farklı sigorta boyutları ve akım değerlerine uygun seçenekleriyle sigorta değişimini kolaylaştırır, güvenli bağlantı ve devre koruması sağlar."
-  },
-  {
-    "id": "user-1789993128928-3",
-    "brandId": "aite",
-    "name": "DİKEY SİGORTALI YÜK AYIRICI",
-    "description": "Elektrik dağıtım sistemlerinde devreleri yük altında açıp kapatmak ve sigortalar aracılığıyla aşırı akım ile kısa devreye karşı korumak için kullanılan sigortalı yük ayırıcıdır. Dikey montaj yapısı sayesinde pano ve dağıtım sistemlerinde kompakt kullanım sunarak güvenli devre izolasyonu ve sigorta değişimi imkânı sağlar."
-  },
-  {
-    "id": "user-1789993128928-4",
-    "brandId": "aite",
-    "name": "YATAY SİGORTALI YÜK AYIRICI",
-    "description": "Elektrik dağıtım sistemlerinde devreleri yük altında açıp kapatmak ve sigortalar aracılığıyla aşırı akım ile kısa devreye karşı korumak için kullanılan yatay tip sigortalı yük ayırıcıdır. Yatay montaj yapısı sayesinde pano ve dağıtım sistemlerinde güvenli devre izolasyonu, yük kontrolü ve sigorta değişimi imkânı sağlar."
-  },
-  {
-    "id": "user-1789993128928-5",
-    "brandId": "aite",
-    "name": "BIÇAKLI SİGORTALAR",
-    "description": "Alçak gerilim elektrik dağıtım sistemlerinde kablo ve ekipmanları aşırı akım ve kısa devreye karşı korumak için kullanılan bıçak kontaklı sigortalardır. Yüksek kesme kapasitesi ve farklı akım değerleri sayesinde elektrik panoları, güç dağıtım sistemleri ve endüstriyel uygulamalarda güvenilir devre koruması sağlar."
-  },
-  {
-    "id": "user-1789993128928-6",
-    "brandId": "aite",
-    "name": "BIÇAKLI SİGORTA TABANI",
-    "description": "Bıçaklı tip sigortaların elektrik panolarına güvenli şekilde monte edilmesini ve devreye bağlanmasını sağlayan sigorta tabanıdır. Farklı sigorta boyutları ve akım değerlerine uygun seçenekleriyle güvenli bağlantı, kolay sigorta değişimi ve düzenli pano montajı sağlar."
+    "name": "KARTUŞ SİGORTA BUŞONU VE YUVASI (400-690VAC)",
+    "description": "Alçak gerilim elektrik sistemlerinde kablo, ekipman ve devreleri aşırı akım ve kısa devreye karşı korumak için kullanılan kartuş tipi sigortalardır. 690VAC'ye kadar gerilim seviyelerinde kullanılabilen bu sigortalar, yüksek kesme kapasitesi ve güvenilir arıza koruması sayesinde elektrik panoları, güç dağıtım sistemleri ve endüstriyel uygulamalarda tercih edilir.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790062644/greenpi-product-katalog/production/qo0m47ircwob7pyf5wsp.png"
   },
   {
     "id": "user-1789993369352-0",
     "brandId": "siemens",
     "name": "SICAM A8000 CP-8031",
-    "description": "Dağıtım şebekeleri ve endüstriyel tesislerde izleme, kontrol, otomasyon ve haberleşme görevlerini gerçekleştirmek için kullanılan kompakt ve ölçeklenebilir bir RTU'dur. Saha cihazlarından gelen sinyalleri işleyerek üst seviye sistemlerle iletişim kurar; ağ geçidi, IoT ağ geçidi ve bölme (bay) denetleyicisi olarak kullanılabilir. Modüler I/O yapısı ve Ethernet, RS-485 ve RS-232 haberleşme arayüzleri sayesinde SCADA ve güç otomasyon sistemlerine entegre edilebilir."
+    "description": "Dağıtım şebekeleri ve endüstriyel tesislerde izleme, kontrol, otomasyon ve haberleşme görevlerini gerçekleştirmek için kullanılan kompakt ve ölçeklenebilir bir RTU'dur. Saha cihazlarından gelen sinyalleri işleyerek üst seviye sistemlerle iletişim kurar; ağ geçidi, IoT ağ geçidi ve bölme (bay) denetleyicisi olarak kullanılabilir. Modüler I/O yapısı ve Ethernet, RS-485 ve RS-232 haberleşme arayüzleri sayesinde SCADA ve güç otomasyon sistemlerine entegre edilebilir.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790063007/greenpi-product-katalog/production/by8ocky10pi1rdmy1j8h.png"
   },
   {
     "id": "user-1789993369352-1",
     "brandId": "siemens",
     "name": "SICAM Q100",
-    "description": "Elektrik şebekelerinde akım, gerilim, frekans, güç, enerji ve harmonikler gibi elektriksel parametreleri ölçmek, kaydetmek ve analiz etmek için kullanılan çok fonksiyonlu güç kalitesi ölçüm cihazıdır. IEC 61000-4-30 Class A standardına uygun güç kalitesi ölçümü sunarak gerilim olayları ve şebeke bozulmalarının izlenmesini sağlar. Ethernet ve RS485 haberleşme arayüzleri üzerinden IEC 61850, Modbus TCP ve Modbus RTU gibi protokollerle SCADA ve enerji yönetim sistemlerine entegre edilebilir."
+    "description": "Elektrik şebekelerinde akım, gerilim, frekans, güç, enerji ve harmonikler gibi elektriksel parametreleri ölçmek, kaydetmek ve analiz etmek için kullanılan çok fonksiyonlu güç kalitesi ölçüm cihazıdır. IEC 61000-4-30 Class A standardına uygun güç kalitesi ölçümü sunarak gerilim olayları ve şebeke bozulmalarının izlenmesini sağlar. Ethernet ve RS485 haberleşme arayüzleri üzerinden IEC 61850, Modbus TCP ve Modbus RTU gibi protokollerle SCADA ve enerji yönetim sistemlerine entegre edilebilir.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790063017/greenpi-product-katalog/production/mhngpwyhblu1nvbpwpvj.png"
   },
   {
     "id": "user-1789993600832-0",
     "brandId": "schneider-electric",
     "name": "POWERLOGIC ION7400",
-    "description": "Elektrik şebekelerinde akım, gerilim, güç, enerji, güç faktörü ve harmonik gibi elektriksel parametreleri ölçmek ve güç kalitesini izlemek için kullanılan gelişmiş enerji ve güç kalitesi ölçeridir. Veri kaydı, alarm ve olay izleme özelliklerinin yanı sıra RS485 ve Ethernet haberleşme arayüzleri üzerinden Modbus, ION, DNP3 ve IEC 61850 gibi protokollerle SCADA ve enerji yönetim sistemlerine entegre edilebilir."
+    "description": "Elektrik şebekelerinde akım, gerilim, güç, enerji, güç faktörü ve harmonik gibi elektriksel parametreleri ölçmek ve güç kalitesini izlemek için kullanılan gelişmiş enerji ve güç kalitesi ölçeridir. Veri kaydı, alarm ve olay izleme özelliklerinin yanı sıra RS485 ve Ethernet haberleşme arayüzleri üzerinden Modbus, ION, DNP3 ve IEC 61850 gibi protokollerle SCADA ve enerji yönetim sistemlerine entegre edilebilir.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790063198/greenpi-product-katalog/production/wleluywy6nfjsgir8u3u.png"
   },
   {
     "id": "user-1789993600832-1",
     "brandId": "schneider-electric",
     "name": "POWERLOGIC PM 8000",
-    "description": "Alçak, orta ve yüksek gerilim sistemlerinde akım, gerilim, güç, enerji, güç faktörü ve harmonik gibi elektriksel parametreleri ölçmek ve güç kalitesini izlemek için kullanılan gelişmiş güç ve enerji ölçüm cihazıdır. Gerilim düşmesi/yükselmesi ve dalga şekli kayıtları gibi güç kalitesi izleme özelliklerinin yanı sıra Ethernet ve RS485 haberleşme arayüzleri üzerinden Modbus, ION, DNP3 ve IEC 61850 protokolleriyle SCADA ve enerji yönetim sistemlerine entegre edilebilir."
+    "description": "Alçak, orta ve yüksek gerilim sistemlerinde akım, gerilim, güç, enerji, güç faktörü ve harmonik gibi elektriksel parametreleri ölçmek ve güç kalitesini izlemek için kullanılan gelişmiş güç ve enerji ölçüm cihazıdır. Gerilim düşmesi/yükselmesi ve dalga şekli kayıtları gibi güç kalitesi izleme özelliklerinin yanı sıra Ethernet ve RS485 haberleşme arayüzleri üzerinden Modbus, ION, DNP3 ve IEC 61850 protokolleriyle SCADA ve enerji yönetim sistemlerine entegre edilebilir.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790063209/greenpi-product-katalog/production/azp8imq3jn4zahuev1y3.png"
   },
   {
     "id": "user-1789993600832-2",
     "brandId": "schneider-electric",
     "name": "POWERLOGIC ION9000",
-    "description": "Elektrik şebekelerinde akım, gerilim, güç, enerji, güç faktörü ve harmonikler gibi elektriksel parametreleri ölçmek ve güç kalitesini ayrıntılı şekilde analiz etmek için kullanılan gelişmiş enerji ve güç kalitesi analizörüdür. IEC 61000-4-30 Class A uyumlu güç kalitesi izleme, dalga şekli kaydı, gerilim düşmesi/yükselmesi ve geçici olay tespiti gibi özellikler sunar. Ethernet ve seri haberleşme altyapısı sayesinde Modbus, DNP3 ve IEC 61850 gibi protokollerle SCADA ve enerji yönetim sistemlerine entegre edilebilir."
+    "description": "Elektrik şebekelerinde akım, gerilim, güç, enerji, güç faktörü ve harmonikler gibi elektriksel parametreleri ölçmek ve güç kalitesini ayrıntılı şekilde analiz etmek için kullanılan gelişmiş enerji ve güç kalitesi analizörüdür. IEC 61000-4-30 Class A uyumlu güç kalitesi izleme, dalga şekli kaydı, gerilim düşmesi/yükselmesi ve geçici olay tespiti gibi özellikler sunar. Ethernet ve seri haberleşme altyapısı sayesinde Modbus, DNP3 ve IEC 61850 gibi protokollerle SCADA ve enerji yönetim sistemlerine entegre edilebilir.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790063226/greenpi-product-katalog/production/jzg12cdpcrtkxi0gcgga.png"
   },
   {
     "id": "user-1789993932630-0",
@@ -231,7 +208,8 @@
     "id": "user-1789993932630-1",
     "brandId": "abb",
     "name": "DIN RAY RTU 530CID02 RTU530",
-    "description": "Dağıtım şebekelerinde uzaktan izleme, kontrol, otomasyon ve haberleşme görevlerini gerçekleştirmek için kullanılan kompakt bir RTU (Remote Terminal Unit) modülüdür. 2 Ethernet portu, RS-232 ve RS-485 seri haberleşme arayüzleri, 8 dijital giriş ve 4 dijital çıkış ile saha verilerini toplayarak SCADA ve kontrol sistemlerine aktarır. DIN ray montajına uygun yapısı ve genişletilebilir I/O desteği sayesinde trafo merkezleri ve dağıtım otomasyonu uygulamalarında kullanılır."
+    "description": "Dağıtım şebekelerinde uzaktan izleme, kontrol, otomasyon ve haberleşme görevlerini gerçekleştirmek için kullanılan kompakt bir RTU (Remote Terminal Unit) modülüdür. 2 Ethernet portu, RS-232 ve RS-485 seri haberleşme arayüzleri, 8 dijital giriş ve 4 dijital çıkış ile saha verilerini toplayarak SCADA ve kontrol sistemlerine aktarır. DIN ray montajına uygun yapısı ve genişletilebilir I/O desteği sayesinde trafo merkezleri ve dağıtım otomasyonu uygulamalarında kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790063239/greenpi-product-katalog/production/p3qxj2yly0elklwynnrf.png"
   },
   {
     "id": "user-1789993932630-2",
