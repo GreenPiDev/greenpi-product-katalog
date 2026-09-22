@@ -192,12 +192,6 @@
     "description": "Bıçaklı tip sigortaların elektrik panolarına güvenli şekilde monte edilmesini ve devreye bağlanmasını sağlayan sigorta tabanıdır. Farklı sigorta boyutları ve akım değerlerine uygun seçenekleriyle güvenli bağlantı, kolay sigorta değişimi ve düzenli pano montajı sağlar."
   },
   {
-    "id": "user-1789993199951-0",
-    "brandId": "raycap",
-    "name": "PARAFUDR",
-    "description": "Elektrik sistemlerini yıldırım darbeleri ve ani aşırı gerilimlere karşı korumak için kullanılan aşırı gerilim koruma cihazlarıdır (SPD). Ani gerilim yükselmelerinde oluşan enerjiyi güvenli şekilde toprağa yönlendirerek hassas elektrik ve elektronik ekipmanların zarar görmesini önlemeye yardımcı olur. AC, DC ve fotovoltaik sistemlere yönelik farklı çözümleri bulunan Raycap parafudrlar, enerji dağıtımı ve kritik endüstriyel uygulamalarda kullanılır."
-  },
-  {
     "id": "user-1789993369352-0",
     "brandId": "siemens",
     "name": "SICAM A8000 CP-8031",
@@ -291,7 +285,8 @@
     "id": "user-1789994836034-3",
     "brandId": "exproof",
     "name": "ARMATÜR",
-    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda aydınlatma sağlamak üzere tasarlanmış, ATEX uyumlu ex-proof aydınlatma armatürleridir. Patlama riskinin bulunduğu endüstriyel tesislerde güvenli ve kesintisiz aydınlatma sağlamak amacıyla kullanılır."
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda aydınlatma sağlamak üzere tasarlanmış, ATEX uyumlu ex-proof aydınlatma armatürleridir. Patlama riskinin bulunduğu endüstriyel tesislerde güvenli ve kesintisiz aydınlatma sağlamak amacıyla kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790060362/greenpi-product-katalog/production/f7clyyf5zsaihgjkruyr.png"
   },
   {
     "id": "user-1789994836034-4",
@@ -303,7 +298,8 @@
     "id": "user-1789994836034-5",
     "brandId": "exproof",
     "name": "TERMİNAL KUTULARI,PANOLAR",
-    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda elektrik bağlantılarını, klemensleri ve kontrol ekipmanlarını güvenli şekilde muhafaza etmek için kullanılan ATEX uyumlu ex-proof kutu ve panolardır. Elektriksel ekipmanları dış ortam koşullarına ve patlayıcı atmosfere karşı koruyarak endüstriyel tesisler, enerji santralleri ve proses tesislerinde güvenli bağlantı ve dağıtım imkânı sağlar."
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda elektrik bağlantılarını, klemensleri ve kontrol ekipmanlarını güvenli şekilde muhafaza etmek için kullanılan ATEX uyumlu ex-proof kutu ve panolardır. Elektriksel ekipmanları dış ortam koşullarına ve patlayıcı atmosfere karşı koruyarak endüstriyel tesisler, enerji santralleri ve proses tesislerinde güvenli bağlantı ve dağıtım imkânı sağlar.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790060520/greenpi-product-katalog/production/z3zvpj829x5lgfhat7ti.png"
   },
   {
     "id": "user-1789994836034-6",
@@ -315,43 +311,50 @@
     "id": "user-1789994836034-7",
     "brandId": "exproof",
     "name": "ACİL STOP BUTONU",
-    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda makine ve elektrikli ekipmanları acil durumda hızlı ve güvenli şekilde durdurmak için kullanılan ATEX uyumlu ex-proof acil stop butonudur. Tehlikeli bölgelerde güvenli duruş ve acil müdahale gerektiren endüstriyel uygulamalarda kullanılır."
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda makine ve elektrikli ekipmanları acil durumda hızlı ve güvenli şekilde durdurmak için kullanılan ATEX uyumlu ex-proof acil stop butonudur. Tehlikeli bölgelerde güvenli duruş ve acil müdahale gerektiren endüstriyel uygulamalarda kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790060470/greenpi-product-katalog/production/sjdtsiabmtwt3quvwcwv.png"
   },
   {
     "id": "user-1789994836034-8",
     "brandId": "exproof",
     "name": "BUAT KUTULARI",
-    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda elektrik kablolarının birleştirilmesi, dağıtılması ve güvenli şekilde muhafaza edilmesi için kullanılan ATEX uyumlu ex-proof buat kutularıdır. Kablo bağlantılarını dış ortam koşullarına ve patlayıcı atmosfere karşı koruyarak endüstriyel tesislerde güvenli elektrik bağlantısı sağlar."
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda elektrik kablolarının birleştirilmesi, dağıtılması ve güvenli şekilde muhafaza edilmesi için kullanılan ATEX uyumlu ex-proof buat kutularıdır. Kablo bağlantılarını dış ortam koşullarına ve patlayıcı atmosfere karşı koruyarak endüstriyel tesislerde güvenli elektrik bağlantısı sağlar.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790060449/greenpi-product-katalog/production/uoh1ggksujosunvsgqdr.png"
   },
   {
     "id": "user-1789994836034-9",
     "brandId": "exproof",
     "name": "SİREN",
-    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda sesli alarm ve uyarı sağlamak için kullanılan ATEX uyumlu ex-proof sirenlerdir. Acil durum, arıza, yangın ve proses alarmı gibi durumlarda personeli uyarmak amacıyla endüstriyel tesisler, enerji santralleri ve tehlikeli alanlarda kullanılır."
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda sesli alarm ve uyarı sağlamak için kullanılan ATEX uyumlu ex-proof sirenlerdir. Acil durum, arıza, yangın ve proses alarmı gibi durumlarda personeli uyarmak amacıyla endüstriyel tesisler, enerji santralleri ve tehlikeli alanlarda kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790060432/greenpi-product-katalog/production/c75z9e4t4tkftystcwaj.png"
   },
   {
     "id": "user-1789994836034-10",
     "brandId": "exproof",
     "name": "ELEKTRİK ANAHTARI",
-    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda elektrik devrelerini güvenli şekilde açıp kapatmak için kullanılan ATEX uyumlu ex-proof elektrik anahtarlarıdır. Kıvılcım ve tutuşturma riskini azaltan yapıları sayesinde endüstriyel tesisler, enerji santralleri ve diğer tehlikeli bölgelerde güvenli elektriksel kontrol sağlar."
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda elektrik devrelerini güvenli şekilde açıp kapatmak için kullanılan ATEX uyumlu ex-proof elektrik anahtarlarıdır. Kıvılcım ve tutuşturma riskini azaltan yapıları sayesinde endüstriyel tesisler, enerji santralleri ve diğer tehlikeli bölgelerde güvenli elektriksel kontrol sağlar.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790060344/greenpi-product-katalog/production/yhzfpayei6wydmbjhsph.png"
   },
   {
     "id": "user-1789994836034-11",
     "brandId": "exproof",
     "name": "KOMBİNASYON KUTULARI",
-    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda anahtar, buton, sinyal lambası, klemens ve diğer elektriksel kumanda elemanlarını tek bir muhafaza içerisinde bir araya getirmek için kullanılan ATEX uyumlu ex-proof kutulardır. Ekipmanların güvenli şekilde kontrol edilmesini ve bağlantıların dış ortam koşullarına karşı korunmasını sağlar."
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda anahtar, buton, sinyal lambası, klemens ve diğer elektriksel kumanda elemanlarını tek bir muhafaza içerisinde bir araya getirmek için kullanılan ATEX uyumlu ex-proof kutulardır. Ekipmanların güvenli şekilde kontrol edilmesini ve bağlantıların dış ortam koşullarına karşı korunmasını sağlar.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790060489/greenpi-product-katalog/production/ayamfz01a8l3amgszkiq.png"
   },
   {
     "id": "user-1789994836034-12",
     "brandId": "exproof",
     "name": "GAZ DEDEKTÖRÜ",
-    "description": "Patlayıcı ve tehlikeli ortamlarda yanıcı veya toksik gazların varlığını ve konsantrasyonunu tespit etmek için kullanılan ATEX uyumlu gaz dedektörleridir. Gaz seviyeleri belirlenen eşik değerlerine ulaştığında alarm oluşturarak personelin uyarılmasını ve gerekli güvenlik sistemlerinin devreye alınmasını sağlar."
+    "description": "Patlayıcı ve tehlikeli ortamlarda yanıcı veya toksik gazların varlığını ve konsantrasyonunu tespit etmek için kullanılan ATEX uyumlu gaz dedektörleridir. Gaz seviyeleri belirlenen eşik değerlerine ulaştığında alarm oluşturarak personelin uyarılmasını ve gerekli güvenlik sistemlerinin devreye alınmasını sağlar.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790060413/greenpi-product-katalog/production/pcssoammzi4dc3veuqvx.png"
   },
   {
     "id": "user-1789994836034-13",
     "brandId": "exproof",
     "name": "ELEKTRİK MOTORU",
-    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda çalışmak üzere tasarlanmış, ATEX uyumlu ex-proof elektrik motorudur. Tutuşturma riskini azaltan koruma yapısı sayesinde pompa, fan, kompresör ve çeşitli endüstriyel makinelerin güvenli şekilde çalıştırılmasında kullanılır."
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda çalışmak üzere tasarlanmış, ATEX uyumlu ex-proof elektrik motorudur. Tutuşturma riskini azaltan koruma yapısı sayesinde pompa, fan, kompresör ve çeşitli endüstriyel makinelerin güvenli şekilde çalıştırılmasında kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790060303/greenpi-product-katalog/production/ghyv1lzwcmxk0d5jzykm.png"
   },
   {
     "id": "user-1789994836034-14",
@@ -387,7 +390,8 @@
     "id": "user-1789994836034-19",
     "brandId": "exproof",
     "name": "FİŞ VE PRİZ",
-    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda elektrikli ekipmanların güvenli şekilde enerji bağlantısını ve ayrılmasını sağlamak için kullanılan ATEX uyumlu ex-proof fiş ve prizlerdir. Kıvılcım ve tutuşturma riskini azaltan yapıları sayesinde endüstriyel tesisler, enerji santralleri, petrokimya tesisleri ve diğer tehlikeli alanlarda güvenli elektrik bağlantısı sağlar."
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda elektrikli ekipmanların güvenli şekilde enerji bağlantısını ve ayrılmasını sağlamak için kullanılan ATEX uyumlu ex-proof fiş ve prizlerdir. Kıvılcım ve tutuşturma riskini azaltan yapıları sayesinde endüstriyel tesisler, enerji santralleri, petrokimya tesisleri ve diğer tehlikeli alanlarda güvenli elektrik bağlantısı sağlar.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790060236/greenpi-product-katalog/production/n7gb0rnnl0f3yk9mizzu.png"
   },
   {
     "id": "user-1789996390154-0",
@@ -516,5 +520,26 @@
     "name": "KONTAKTÖR",
     "description": "Elektrik devrelerinde yüksek akım ve güçteki yüklerin güvenli şekilde açılıp kapatılmasını sağlayan elektromekanik anahtarlama elemanıdır. TE kontaktörler; motor kontrolü, güç dağıtımı, HVAC, elektrikli araçlar, enerji depolama ve çeşitli endüstriyel uygulamalarda yüklerin uzaktan kontrol edilmesi için kullanılır.",
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790059041/greenpi-product-katalog/production/akar0ug8lbypzse6uwun.png"
+  },
+  {
+    "id": "user-1790060533340-0",
+    "brandId": "raycap",
+    "name": "SAFETEC",
+    "description": "Alçak gerilim elektrik sistemlerinde yıldırım darbeleri ve ani aşırı gerilimlere karşı ekipmanları korumak için kullanılan Tip 2 (Class II) parafudr (SPD) serisidir. DIN raya monte edilebilen yapısı ve akım sınırlama teknolojisi sayesinde geçici aşırı gerilimlerde güvenilir koruma sağlarken, elektrik panoları ve tali dağıtım panolarındaki hassas ekipmanların korunmasına yardımcı olur.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790059511/greenpi-product-katalog/production/ajzxytam6jelxufmbvq4.png"
+  },
+  {
+    "id": "user-1790060533340-1",
+    "brandId": "raycap",
+    "name": "PROBLOC",
+    "description": "Alçak gerilim elektrik sistemlerinde yıldırım darbeleri ve ani aşırı gerilimlere karşı koruma sağlayan Tip 1+2 parafudr (SPD) serisidir. Kompakt yapısı, yüksek darbe boşaltma kapasitesi ve farklı AC/DC sistemlere yönelik modelleri sayesinde ana dağıtım panoları, endüstriyel tesisler ve enerji sistemlerinde ekipmanların aşırı gerilimlere karşı korunması için kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790059550/greenpi-product-katalog/production/ei5abgaiwrmudkt81mxl.png"
+  },
+  {
+    "id": "user-1790060533340-2",
+    "brandId": "raycap",
+    "name": "PROTEC",
+    "description": "Alçak gerilim elektrik sistemlerinde yıldırım darbeleri ve ani aşırı gerilimlere karşı koruma sağlayan takılabilir tip parafudr (SPD) ürün ailesidir. Tip 1, Tip 2 ve Tip 1+2 seçeneklerinin yanı sıra AC, DC ve fotovoltaik sistemlere yönelik modelleri bulunur. DIN raya monte edilebilen yapısı, görsel durum göstergesi ve isteğe bağlı uzaktan sinyalizasyon özelliğiyle elektrik panoları ve enerji sistemlerinde ekipmanların aşırı gerilimlere karşı korunmasında kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790059581/greenpi-product-katalog/production/y4uzx24wobhooxzpwvdx.png"
   }
 ]
