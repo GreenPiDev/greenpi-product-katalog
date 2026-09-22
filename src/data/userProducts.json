@@ -107,8 +107,8 @@
   {
     "id": "user-1789992268327-0",
     "brandId": "te-connectivity",
-    "name": "RÖLE",
-    "description": "Elektrik devrelerinde düşük güçlü bir kontrol sinyaliyle daha yüksek güçlü yüklerin açma-kapama işlemlerini gerçekleştirmek için kullanılan elektromekanik anahtarlama elemanıdır. TE Connectivity röleleri; endüstriyel otomasyon, enerji yönetimi, HVAC, makine kontrolü ve bina sistemleri gibi çeşitli uygulamalarda devre kontrolü ve sinyal aktarımı için kullanılır.",
+    "name": "YARDIMCI RÖLE",
+    "description": "Elektrik panolarında ve otomasyon sistemlerinde klemens veya DIN rayı üzerindeki devrelerin kontrol ve anahtarlama işlemlerini gerçekleştirmek için kullanılan kompakt röle çözümüdür. Kontrol sinyalleri ile yük devreleri arasında elektriksel izolasyon sağlayarak PLC, otomasyon ve endüstriyel kontrol uygulamalarında güvenilir sinyal aktarımına olanak tanır.",
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790058848/greenpi-product-katalog/production/nmyngr8ne9sbuvignebl.png"
   },
   {
@@ -129,25 +129,29 @@
     "id": "user-1789992268327-3",
     "brandId": "te-connectivity",
     "name": "KONNEKTÖRLER",
-    "description": "Elektrik ve elektronik sistemlerde kablo, devre ve ekipmanlar arasında güvenilir elektriksel ve mekanik bağlantı sağlamak için kullanılan bağlantı elemanlarıdır. Güç, sinyal ve veri aktarımı için farklı kontak, bağlantı tipi ve kutup seçenekleri sunarak endüstriyel otomasyon, enerji, otomotiv ve elektronik uygulamalarında kullanılır."
+    "description": "Elektrik ve elektronik sistemlerde kablo, devre ve ekipmanlar arasında güvenilir elektriksel ve mekanik bağlantı sağlamak için kullanılan bağlantı elemanlarıdır. Güç, sinyal ve veri aktarımı için farklı kontak, bağlantı tipi ve kutup seçenekleri sunarak endüstriyel otomasyon, enerji, otomotiv ve elektronik uygulamalarında kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790066657/greenpi-product-katalog/production/fkc2o9r2c1meujgq1yhf.png"
   },
   {
     "id": "user-1789992268327-4",
     "brandId": "te-connectivity",
     "name": "DURDURUCU",
-    "description": "Elektrik panolarında DIN ray üzerine monte edilen klemenslerin sabitlenmesi ve ray üzerinde hareket etmesinin önlenmesi için kullanılan mekanik sabitleme elemanıdır. Klemens grubunun düzenli ve güvenli şekilde konumlandırılmasını sağlayarak pano içi bağlantıların stabilitesini artırır."
+    "description": "Elektrik panolarında DIN ray üzerine monte edilen klemenslerin sabitlenmesi ve ray üzerinde hareket etmesinin önlenmesi için kullanılan mekanik sabitleme elemanıdır. Klemens grubunun düzenli ve güvenli şekilde konumlandırılmasını sağlayarak pano içi bağlantıların stabilitesini artırır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790064380/greenpi-product-katalog/production/o2vkpgojpubweanncbha.png"
   },
   {
     "id": "user-1789992268327-6",
     "brandId": "te-connectivity",
     "name": "SENSÖRLER",
-    "description": "Fiziksel büyüklükleri algılayarak ölçüm sonuçlarını elektriksel sinyallere dönüştüren sensörlerdir. Sıcaklık, basınç, konum, titreşim, nem, kuvvet, hız ve akış gibi farklı parametrelerin ölçümünde kullanılan TE sensörleri; endüstriyel otomasyon, enerji, otomotiv ve makine uygulamalarında izleme, kontrol ve durum takibi amacıyla kullanılır."
+    "description": "Fiziksel büyüklükleri algılayarak ölçüm sonuçlarını elektriksel sinyallere dönüştüren sensörlerdir. Sıcaklık, basınç, konum, titreşim, nem, kuvvet, hız ve akış gibi farklı parametrelerin ölçümünde kullanılan TE sensörleri; endüstriyel otomasyon, enerji, otomotiv ve makine uygulamalarında izleme, kontrol ve durum takibi amacıyla kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790066795/greenpi-product-katalog/production/sexhhtv685qqvvxjvgwz.png"
   },
   {
     "id": "user-1789992268327-7",
     "brandId": "te-connectivity",
     "name": "PANO VE KLEMENS ETİKETLERİ",
-    "description": "Elektrik panolarında klemens, kablo ve diğer komponentlerin tanımlanması, numaralandırılması ve düzenli şekilde işaretlenmesi için kullanılan etiketleme ürünleridir. Farklı pano ve klemens tiplerine uygun seçenekleri sayesinde montaj, bakım ve servis işlemlerinde devrelerin kolayca ayırt edilmesini sağlar."
+    "description": "Elektrik panolarında klemens, kablo ve diğer komponentlerin tanımlanması, numaralandırılması ve düzenli şekilde işaretlenmesi için kullanılan etiketleme ürünleridir. Farklı pano ve klemens tiplerine uygun seçenekleri sayesinde montaj, bakım ve servis işlemlerinde devrelerin kolayca ayırt edilmesini sağlar.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790066684/greenpi-product-katalog/production/fwsekelttzdktwotmk9p.png"
   },
   {
     "id": "user-1789993128928-0",
@@ -259,7 +263,8 @@
     "id": "user-1789994836034-2",
     "brandId": "exproof",
     "name": "KÖRTAPA",
-    "description": "Patlayıcı ortamların bulunduğu tehlikeli alanlarda kullanılmak üzere tasarlanmış, kullanılmayan kablo ve ekipman girişlerini güvenli ve sızdırmaz şekilde kapatmak için kullanılan ATEX uyumlu kör tapadır. Ex-proof pano, buat ve elektrik ekipmanlarında toz, nem ve patlayıcı atmosferin içeri girmesini önleyerek ekipmanın koruma sınıfının muhafaza edilmesine yardımcı olur."
+    "description": "Patlayıcı ortamların bulunduğu tehlikeli alanlarda kullanılmak üzere tasarlanmış, kullanılmayan kablo ve ekipman girişlerini güvenli ve sızdırmaz şekilde kapatmak için kullanılan ATEX uyumlu kör tapadır. Ex-proof pano, buat ve elektrik ekipmanlarında toz, nem ve patlayıcı atmosferin içeri girmesini önleyerek ekipmanın koruma sınıfının muhafaza edilmesine yardımcı olur.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790067062/greenpi-product-katalog/production/ob8povgl2nx42d4ulfat.png"
   },
   {
     "id": "user-1789994836034-3",
@@ -286,7 +291,8 @@
     "id": "user-1789994836034-6",
     "brandId": "exproof",
     "name": "KUMANDA KUTULARI",
-    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda buton, anahtar, sinyal lambası ve diğer kumanda elemanlarının güvenli şekilde kullanılmasını sağlayan ATEX uyumlu ex-proof kumanda kutularıdır. Endüstriyel tesislerde motor, makine ve proses ekipmanlarının güvenli şekilde kontrol edilmesi için kullanılır."
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda buton, anahtar, sinyal lambası ve diğer kumanda elemanlarının güvenli şekilde kullanılmasını sağlayan ATEX uyumlu ex-proof kumanda kutularıdır. Endüstriyel tesislerde motor, makine ve proses ekipmanlarının güvenli şekilde kontrol edilmesi için kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790067045/greenpi-product-katalog/production/bvolv6b5tqhrktrxanpq.avif"
   },
   {
     "id": "user-1789994836034-7",
@@ -348,19 +354,22 @@
     "id": "user-1789994836034-15",
     "brandId": "exproof",
     "name": "KLİPS , KROŞE",
-    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda kablo, boru ve elektrik tesisatlarının güvenli şekilde sabitlenmesi ve düzenlenmesi için kullanılan montaj elemanlarıdır. ATEX uyumlu tesisatlarda kablo ve boru güzergâhlarının mekanik olarak desteklenmesini ve düzenli şekilde monte edilmesini sağlar."
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda kablo, boru ve elektrik tesisatlarının güvenli şekilde sabitlenmesi ve düzenlenmesi için kullanılan montaj elemanlarıdır. ATEX uyumlu tesisatlarda kablo ve boru güzergâhlarının mekanik olarak desteklenmesini ve düzenli şekilde monte edilmesini sağlar.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790063733/greenpi-product-katalog/production/uznxmr2vdng8byzjwdta.avif"
   },
   {
     "id": "user-1789994836034-16",
     "brandId": "exproof",
     "name": "YANGIN BUTONU",
-    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda yangın veya acil durum alarmını manuel olarak başlatmak için kullanılan ATEX uyumlu ex-proof yangın butonudur. Yangın algılama ve alarm sistemlerine entegre edilerek acil durumlarda hızlı ve güvenli şekilde alarm sinyali oluşturulmasını sağlar."
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda yangın veya acil durum alarmını manuel olarak başlatmak için kullanılan ATEX uyumlu ex-proof yangın butonudur. Yangın algılama ve alarm sistemlerine entegre edilerek acil durumlarda hızlı ve güvenli şekilde alarm sinyali oluşturulmasını sağlar.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790067142/greenpi-product-katalog/production/xyjvw02nzmxaup4xp5ln.png"
   },
   {
     "id": "user-1789994836034-17",
     "brandId": "exproof",
     "name": "GEMİ MALZEMELERİ",
-    "description": "Gemilerde ve denizcilik uygulamalarında, özellikle patlayıcı gaz, buhar veya toz riski bulunan tehlikeli alanlarda kullanılmak üzere tasarlanmış ATEX uyumlu elektrik ve mekanik ekipmanlardır. Aydınlatma, kablo tesisatı, bağlantı, kumanda ve güvenlik uygulamalarında kullanılarak zorlu deniz koşullarında güvenli ve dayanıklı çalışma sağlar."
+    "description": "Gemilerde ve denizcilik uygulamalarında, özellikle patlayıcı gaz, buhar veya toz riski bulunan tehlikeli alanlarda kullanılmak üzere tasarlanmış ATEX uyumlu elektrik ve mekanik ekipmanlardır. Aydınlatma, kablo tesisatı, bağlantı, kumanda ve güvenlik uygulamalarında kullanılarak zorlu deniz koşullarında güvenli ve dayanıklı çalışma sağlar.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790067464/greenpi-product-katalog/production/t0me4el5ghjgcwoebwxx.png"
   },
   {
     "id": "user-1789994836034-18",
@@ -524,5 +533,12 @@
     "name": "PROTEC",
     "description": "Alçak gerilim elektrik sistemlerinde yıldırım darbeleri ve ani aşırı gerilimlere karşı koruma sağlayan takılabilir tip parafudr (SPD) ürün ailesidir. Tip 1, Tip 2 ve Tip 1+2 seçeneklerinin yanı sıra AC, DC ve fotovoltaik sistemlere yönelik modelleri bulunur. DIN raya monte edilebilen yapısı, görsel durum göstergesi ve isteğe bağlı uzaktan sinyalizasyon özelliğiyle elektrik panoları ve enerji sistemlerinde ekipmanların aşırı gerilimlere karşı korunmasında kullanılır.",
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790059581/greenpi-product-katalog/production/y4uzx24wobhooxzpwvdx.png"
+  },
+  {
+    "id": "user-1790067471383-0",
+    "brandId": "te-connectivity",
+    "name": "SLİM RÖLE",
+    "description": "Elektrik ve otomasyon panolarında kontrol sinyallerini anahtarlamak ve kontrol devresi ile yük devresi arasında elektriksel izolasyon sağlamak için kullanılan kompakt arayüz rölesidir. İnce yapısı sayesinde pano içerisinde yer tasarrufu sağlarken PLC, otomasyon sistemleri ve endüstriyel kontrol uygulamalarında güvenilir sinyal aktarımı ve yük kontrolü sunar.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790064359/greenpi-product-katalog/production/livvl9g5kei7vrzbieix.png"
   }
 ]
