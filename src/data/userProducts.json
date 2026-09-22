@@ -108,19 +108,22 @@
     "id": "user-1789992268327-0",
     "brandId": "te-connectivity",
     "name": "RÖLE",
-    "description": "Elektrik devrelerinde düşük güçlü bir kontrol sinyaliyle daha yüksek güçlü yüklerin açma-kapama işlemlerini gerçekleştirmek için kullanılan elektromekanik anahtarlama elemanıdır. TE Connectivity röleleri; endüstriyel otomasyon, enerji yönetimi, HVAC, makine kontrolü ve bina sistemleri gibi çeşitli uygulamalarda devre kontrolü ve sinyal aktarımı için kullanılır."
+    "description": "Elektrik devrelerinde düşük güçlü bir kontrol sinyaliyle daha yüksek güçlü yüklerin açma-kapama işlemlerini gerçekleştirmek için kullanılan elektromekanik anahtarlama elemanıdır. TE Connectivity röleleri; endüstriyel otomasyon, enerji yönetimi, HVAC, makine kontrolü ve bina sistemleri gibi çeşitli uygulamalarda devre kontrolü ve sinyal aktarımı için kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790058848/greenpi-product-katalog/production/nmyngr8ne9sbuvignebl.png"
   },
   {
     "id": "user-1789992268327-1",
     "brandId": "te-connectivity",
     "name": "KLEMENS",
-    "description": "Elektrik panolarında iki veya daha fazla iletkenin güvenli şekilde birbirine bağlanması, dağıtılması ve gerektiğinde devreden ayrılmasını sağlayan yalıtımlı bağlantı elemanıdır. TE Connectivity klemensleri; DIN rayı, panel, güç dağıtımı ve kontrol devreleri gibi farklı uygulamalara yönelik çeşitli bağlantı teknolojileri ve kesit seçenekleriyle sunulmaktadır."
+    "description": "Elektrik panolarında iki veya daha fazla iletkenin güvenli şekilde birbirine bağlanması, dağıtılması ve gerektiğinde devreden ayrılmasını sağlayan yalıtımlı bağlantı elemanıdır. TE Connectivity klemensleri; DIN rayı, panel, güç dağıtımı ve kontrol devreleri gibi farklı uygulamalara yönelik çeşitli bağlantı teknolojileri ve kesit seçenekleriyle sunulmaktadır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790058864/greenpi-product-katalog/production/zbdmjipjmtovo0an1qwl.png"
   },
   {
     "id": "user-1789992268327-2",
     "brandId": "te-connectivity",
     "name": "DAĞITIM BLOĞU",
-    "description": "Elektrik panolarında tek bir güç girişini birden fazla çıkış devresine dağıtmak için kullanılan kompakt ve modüler bağlantı elemanıdır. Tek veya çok kutuplu dağıtım seçenekleriyle güç devrelerinin düzenli ve güvenli şekilde dağıtılmasını sağlar; DIN rayı veya pano montajına uygun modelleriyle endüstriyel panolar, makineler, HVAC sistemleri ve güç dağıtım uygulamalarında kullanılır."
+    "description": "Elektrik panolarında tek bir güç girişini birden fazla çıkış devresine dağıtmak için kullanılan kompakt ve modüler bağlantı elemanıdır. Tek veya çok kutuplu dağıtım seçenekleriyle güç devrelerinin düzenli ve güvenli şekilde dağıtılmasını sağlar; DIN rayı veya pano montajına uygun modelleriyle endüstriyel panolar, makineler, HVAC sistemleri ve güç dağıtım uygulamalarında kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790058880/greenpi-product-katalog/production/xdjveaq9lls3xxophxka.png"
   },
   {
     "id": "user-1789992268327-3",
@@ -133,12 +136,6 @@
     "brandId": "te-connectivity",
     "name": "DURDURUCU",
     "description": "Elektrik panolarında DIN ray üzerine monte edilen klemenslerin sabitlenmesi ve ray üzerinde hareket etmesinin önlenmesi için kullanılan mekanik sabitleme elemanıdır. Klemens grubunun düzenli ve güvenli şekilde konumlandırılmasını sağlayarak pano içi bağlantıların stabilitesini artırır."
-  },
-  {
-    "id": "user-1789992268327-5",
-    "brandId": "te-connectivity",
-    "name": "KONTAKTÖRLER",
-    "description": "Elektrik devrelerinde yüksek akım ve güçteki yüklerin güvenli şekilde açılıp kapatılmasını sağlayan elektromekanik anahtarlama elemanlarıdır. AC ve DC uygulamalara yönelik farklı akım, gerilim ve kontak seçenekleri sunan TE kontaktörleri; güç dağıtımı, motor kontrolü, HVAC, elektrikli araçlar, enerji depolama ve endüstriyel sistemlerde kullanılır."
   },
   {
     "id": "user-1789992268327-6",
@@ -505,5 +502,19 @@
     "brandId": "gromtor-sertec",
     "name": "DENİZ TAŞITLARI VE MARİNALAR İÇİN YILDIRIM ENGELLEME SİSTEMLERİ",
     "description": "Deniz taşıtları, yatlar ve marina tesislerinde yıldırım riskini azaltmak ve elektrikli ekipmanları korumak için tasarlanmış yıldırımdan korunma sistemleridir. Yıldırım akımının kontrollü şekilde topraklama ve eşpotansiyel sistemlerine aktarılmasına yardımcı olarak can güvenliği, ekipman koruması ve sistem sürekliliğini destekler."
+  },
+  {
+    "id": "user-1790059074951-0",
+    "brandId": "te-connectivity",
+    "name": "ETİKET MAKİNASI",
+    "description": "Elektrik panolarında kablo, makaron, klemens, komponent ve ekipman etiketlerini hızlı ve yüksek kaliteli şekilde yazdırmak için kullanılan termal transfer baskı makinesidir. TE Connectivity’nin yazıcıları; ısı ile daralan makaronlar, kablo işaretleyicileri ve çeşitli etiketler üzerine kalıcı baskı yaparak pano ve kablo tanımlama uygulamalarında kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790058988/greenpi-product-katalog/production/dgpqivne78zrzlbd8sop.png"
+  },
+  {
+    "id": "user-1790059074951-1",
+    "brandId": "te-connectivity",
+    "name": "KONTAKTÖR",
+    "description": "Elektrik devrelerinde yüksek akım ve güçteki yüklerin güvenli şekilde açılıp kapatılmasını sağlayan elektromekanik anahtarlama elemanıdır. TE kontaktörler; motor kontrolü, güç dağıtımı, HVAC, elektrikli araçlar, enerji depolama ve çeşitli endüstriyel uygulamalarda yüklerin uzaktan kontrol edilmesi için kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790059041/greenpi-product-katalog/production/akar0ug8lbypzse6uwun.png"
   }
 ]
