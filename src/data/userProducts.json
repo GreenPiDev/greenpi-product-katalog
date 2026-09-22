@@ -206,7 +206,8 @@
     "id": "user-1789993932630-0",
     "brandId": "miltera",
     "name": "UZAK TERMİNAL ÜNİTESİ",
-    "description": "Enerji dağıtım ve otomasyon sistemlerinde saha ekipmanlarından ölçüm, durum ve alarm bilgilerini toplamak, bu verileri haberleşme altyapısı üzerinden merkezi SCADA sistemlerine aktarmak ve uzaktan kontrol komutlarını sahaya iletmek için kullanılan RTU cihazıdır. Trafo merkezleri, dağıtım panoları ve endüstriyel tesislerde uzaktan izleme ve kontrol uygulamalarında kullanılır."
+    "description": "Enerji dağıtım ve otomasyon sistemlerinde saha ekipmanlarından ölçüm, durum ve alarm bilgilerini toplamak, bu verileri haberleşme altyapısı üzerinden merkezi SCADA sistemlerine aktarmak ve uzaktan kontrol komutlarını sahaya iletmek için kullanılan RTU cihazıdır. Trafo merkezleri, dağıtım panoları ve endüstriyel tesislerde uzaktan izleme ve kontrol uygulamalarında kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790067976/greenpi-product-katalog/production/dlrevpaubm1l7bzzmkrj.png"
   },
   {
     "id": "user-1789993932630-1",
@@ -219,31 +220,36 @@
     "id": "user-1789993932630-2",
     "brandId": "miltera",
     "name": "ETHERNET ANAHTARI",
-    "description": "Endüstriyel otomasyon ve enerji sistemlerinde RTU, SCADA, PLC ve diğer saha cihazları arasındaki Ethernet bağlantılarını yönetmek için kullanılan ağ anahtarıdır. Birden fazla Ethernet cihazını aynı ağ üzerinde birbirine bağlayarak veri iletişimi, ağ yönetimi ve güvenilir haberleşme sağlar."
+    "description": "Endüstriyel otomasyon ve enerji sistemlerinde RTU, SCADA, PLC ve diğer saha cihazları arasındaki Ethernet bağlantılarını yönetmek için kullanılan ağ anahtarıdır. Birden fazla Ethernet cihazını aynı ağ üzerinde birbirine bağlayarak veri iletişimi, ağ yönetimi ve güvenilir haberleşme sağlar.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790067985/greenpi-product-katalog/production/qj14zthuhkk7mdz2wyvb.png"
   },
   {
     "id": "user-1789993932630-3",
     "brandId": "miltera",
     "name": "UZAK -IO",
-    "description": "Endüstriyel otomasyon ve enerji sistemlerinde saha cihazlarından gelen dijital ve analog sinyalleri toplamak ve kontrol komutlarını sahaya iletmek için kullanılan uzak I/O modülüdür. Merkezi kontrol sistemine Ethernet veya diğer haberleşme altyapıları üzerinden bağlanarak PLC, RTU ve SCADA sistemleriyle entegre çalışır."
+    "description": "Endüstriyel otomasyon ve enerji sistemlerinde saha cihazlarından gelen dijital ve analog sinyalleri toplamak ve kontrol komutlarını sahaya iletmek için kullanılan uzak I/O modülüdür. Merkezi kontrol sistemine Ethernet veya diğer haberleşme altyapıları üzerinden bağlanarak PLC, RTU ve SCADA sistemleriyle entegre çalışır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790067997/greenpi-product-katalog/production/zwemyjcy2rnpp74idzfq.png"
   },
   {
     "id": "user-1789993932630-4",
     "brandId": "miltera",
     "name": "PROTOCOL ÇEVİRİCİLER",
-    "description": "Farklı haberleşme protokolleriyle çalışan cihazlar ve sistemler arasında veri iletişimini sağlamak için kullanılan protokol dönüştürücülerdir. Modbus, IEC 61850, IEC 60870-5-101/104, DNP3 gibi protokoller arasında veri dönüşümü sağlayarak RTU, PLC, SCADA ve diğer enerji otomasyon sistemlerinin birlikte çalışmasına olanak tanır."
+    "description": "Farklı haberleşme protokolleriyle çalışan cihazlar ve sistemler arasında veri iletişimini sağlamak için kullanılan protokol dönüştürücülerdir. Modbus, IEC 61850, IEC 60870-5-101/104, DNP3 gibi protokoller arasında veri dönüşümü sağlayarak RTU, PLC, SCADA ve diğer enerji otomasyon sistemlerinin birlikte çalışmasına olanak tanır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790068007/greenpi-product-katalog/production/yovjhj1d1eazavdjtwjb.png"
   },
   {
     "id": "user-1789993932630-5",
     "brandId": "miltera",
     "name": "UZAK İZLEME",
-    "description": "Enerji ve endüstriyel sistemlerde saha ekipmanlarından alınan ölçüm, durum ve alarm verilerinin uzaktan izlenmesini sağlayan izleme çözümüdür. RTU ve haberleşme altyapısı üzerinden toplanan verileri merkezi sistemlere aktararak ekipmanların durumunun takip edilmesine, arızaların tespit edilmesine ve operasyonel süreçlerin uzaktan yönetilmesine olanak tanır."
+    "description": "Enerji ve endüstriyel sistemlerde saha ekipmanlarından alınan ölçüm, durum ve alarm verilerinin uzaktan izlenmesini sağlayan izleme çözümüdür. RTU ve haberleşme altyapısı üzerinden toplanan verileri merkezi sistemlere aktararak ekipmanların durumunun takip edilmesine, arızaların tespit edilmesine ve operasyonel süreçlerin uzaktan yönetilmesine olanak tanır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790068016/greenpi-product-katalog/production/y8v8a1mvlgmt3dovlqqv.png"
   },
   {
     "id": "user-1789993932630-6",
     "brandId": "miltera",
     "name": "ENERJİ İZLEME",
-    "description": "Enerji sistemlerinde elektriksel ölçümlerin, tüketim değerlerinin ve güç kalitesi parametrelerinin merkezi olarak izlenmesini sağlayan enerji izleme çözümüdür. Saha cihazlarından toplanan verileri haberleşme altyapısı üzerinden merkezi sisteme aktararak enerji tüketiminin takip edilmesine, analiz edilmesine ve sistem performansının izlenmesine olanak tanır."
+    "description": "Enerji sistemlerinde elektriksel ölçümlerin, tüketim değerlerinin ve güç kalitesi parametrelerinin merkezi olarak izlenmesini sağlayan enerji izleme çözümüdür. Saha cihazlarından toplanan verileri haberleşme altyapısı üzerinden merkezi sisteme aktararak enerji tüketiminin takip edilmesine, analiz edilmesine ve sistem performansının izlenmesine olanak tanır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790068030/greenpi-product-katalog/production/hatnoexastzjlbtv4ha7.png"
   },
   {
     "id": "user-1789994836034-0",
