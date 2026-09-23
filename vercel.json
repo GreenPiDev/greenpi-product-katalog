@@ -1,5 +1,8 @@
 {
   "rewrites": [
+    { "source": "/product-catalog/assets/:path*", "destination": "/assets/:path*" },
+    { "source": "/product-catalog/logos/:path*", "destination": "/logos/:path*" },
+    { "source": "/product-catalog/favicon.svg", "destination": "/favicon.svg" },
     { "source": "/((?!api/).*)", "destination": "/index.html" }
   ]
 }
