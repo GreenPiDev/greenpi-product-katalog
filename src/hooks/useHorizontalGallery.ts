@@ -31,9 +31,19 @@ export function useHorizontalGallery(deps: unknown[] = []): HorizontalGallery {
     measure()
     window.addEventListener('resize', measure)
 
+    // Fonts/images finishing layout after mount (more likely under extra
+    // network latency, e.g. behind a proxy) can change scrollWidth after the
+    // initial synchronous measurement — keep it in sync as layout settles.
+    const resizeObserver = trackRef.current ? new ResizeObserver(measure) : null
+    if (trackRef.current) resizeObserver?.observe(trackRef.current)
+    document.fonts?.ready?.then(measure)
+    window.addEventListener('load', measure)
+
     return () => {
       query.removeEventListener('change', handleQuery)
       window.removeEventListener('resize', measure)
+      window.removeEventListener('load', measure)
+      resizeObserver?.disconnect()
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, deps)
