@@ -1,4 +1,5 @@
 import Lenis from 'lenis'
+import { gsap, ScrollTrigger } from './gsapConfig'
 
 let lenis: Lenis | null = null
 
@@ -14,15 +15,20 @@ export function startSmoothScroll(): () => void {
     wheelMultiplier: 1,
   })
 
-  let rafId: number
-  function raf(time: number) {
-    lenis?.raf(time)
-    rafId = requestAnimationFrame(raf)
+  // Keep ScrollTrigger's scroll position in sync with Lenis's virtual
+  // scroll instead of the native scroll event, and drive both from the
+  // same rAF loop so pinned/scrubbed sections never desync from the
+  // smooth-scroll interpolation.
+  lenis.on('scroll', ScrollTrigger.update)
+
+  function update(time: number) {
+    lenis?.raf(time * 1000)
   }
-  rafId = requestAnimationFrame(raf)
+  gsap.ticker.add(update)
+  gsap.ticker.lagSmoothing(0)
 
   return () => {
-    cancelAnimationFrame(rafId)
+    gsap.ticker.remove(update)
     lenis?.destroy()
     lenis = null
   }

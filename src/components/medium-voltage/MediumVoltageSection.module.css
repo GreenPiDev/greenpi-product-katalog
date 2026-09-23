@@ -32,11 +32,6 @@
 
 .galleryWrapper {
   position: relative;
-}
-
-.sticky {
-  position: sticky;
-  top: 0;
   height: 100svh;
   display: flex;
   align-items: flex-start;
@@ -57,8 +52,7 @@
 }
 
 @media (max-width: 860px) {
-  .sticky {
-    position: static;
+  .galleryWrapper {
     height: auto;
     overflow: visible;
   }

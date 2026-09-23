@@ -15,7 +15,7 @@ const MEDIUM_VOLTAGE_BRAND = {
 
 export function MediumVoltageSection() {
   const category = voltageCategories[1]
-  const { wrapperRef, trackRef, x, wrapperHeight, isCompact } = useHorizontalGallery()
+  const { wrapperRef, trackRef } = useHorizontalGallery()
 
   return (
     <>
@@ -46,14 +46,12 @@ export function MediumVoltageSection() {
           </div>
         </div>
 
-        <div ref={wrapperRef} className={styles.galleryWrapper} style={{ height: wrapperHeight }}>
-          <div className={styles.sticky}>
-            <motion.div ref={trackRef} className={styles.track} style={isCompact ? undefined : { x }}>
-              {mediumVoltageProductsWithUser.map((product, i) => (
-                <ProductCard key={product.id} product={product} brand={MEDIUM_VOLTAGE_BRAND} index={i} />
-              ))}
-              <div className={styles.trackSpacer} aria-hidden="true" />
-            </motion.div>
+        <div ref={wrapperRef} className={styles.galleryWrapper}>
+          <div ref={trackRef} className={styles.track}>
+            {mediumVoltageProductsWithUser.map((product, i) => (
+              <ProductCard key={product.id} product={product} brand={MEDIUM_VOLTAGE_BRAND} index={i} />
+            ))}
+            <div className={styles.trackSpacer} aria-hidden="true" />
           </div>
         </div>
       </div>

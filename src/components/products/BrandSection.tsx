@@ -12,7 +12,7 @@ type BrandSectionProps = {
 }
 
 export function BrandSection({ brand, position, total }: BrandSectionProps) {
-  const { wrapperRef, trackRef, x, wrapperHeight, isCompact } = useHorizontalGallery([brand.id])
+  const { wrapperRef, trackRef } = useHorizontalGallery([brand.id])
 
   const brandStyle = {
     '--brand-bg': brand.backgroundColor,
@@ -82,18 +82,12 @@ export function BrandSection({ brand, position, total }: BrandSectionProps) {
         </div>
       </div>
 
-      <div ref={wrapperRef} className={styles.galleryWrapper} style={{ height: wrapperHeight }}>
-        <div className={styles.sticky}>
-          <motion.div
-            ref={trackRef}
-            className={styles.track}
-            style={isCompact ? undefined : { x }}
-          >
-            {brand.products.map((product, i) => (
-              <ProductCard key={product.id} product={product} brand={brand} index={i} />
-            ))}
-            <div className={styles.trackSpacer} aria-hidden="true" />
-          </motion.div>
+      <div ref={wrapperRef} className={styles.galleryWrapper}>
+        <div ref={trackRef} className={styles.track}>
+          {brand.products.map((product, i) => (
+            <ProductCard key={product.id} product={product} brand={brand} index={i} />
+          ))}
+          <div className={styles.trackSpacer} aria-hidden="true" />
         </div>
       </div>
     </div>
