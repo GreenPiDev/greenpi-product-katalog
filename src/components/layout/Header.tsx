@@ -42,6 +42,10 @@ export function Header() {
   }
 
   function go(id: string) {
+    if (id === 'hero') {
+      window.location.href = 'https://greenpi.com.tr'
+      return
+    }
     setMenuOpen(false)
     setMobileOpen(false)
     setActiveCategory(null)
