@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState, type FormEvent } from 'react'
-import { lowVoltageBrands } from '../data/brands'
+import { lowVoltageBrands, mediumVoltageGroups } from '../data/brands'
 import { uploadImage } from './uploadToCloudinary'
 import styles from './AdminApp.module.css'
 
@@ -41,7 +41,7 @@ type EditPatch = {
 
 const brandOptions = [
   ...lowVoltageBrands.map((b) => ({ id: b.id, name: b.name })),
-  { id: 'medium-voltage', name: 'Orta Gerilim (Markasız)' },
+  ...mediumVoltageGroups.map((g) => ({ id: g.id, name: `Orta Gerilim — ${g.name}` })),
 ]
 
 function brandName(brandId: string) {

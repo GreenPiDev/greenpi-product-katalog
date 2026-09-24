@@ -1,5 +1,5 @@
-import type { Brand, Product, UserProduct } from './types'
-import { lowVoltageBrands, mediumVoltageProducts } from './brands'
+import type { Brand, UserProduct } from './types'
+import { lowVoltageBrands, mediumVoltageGroups } from './brands'
 import userProductsRaw from './userProducts.json'
 
 const userProducts = userProductsRaw as UserProduct[]
@@ -9,7 +9,7 @@ export const brandsWithUserProducts: Brand[] = lowVoltageBrands.map((brand) => (
   products: [...brand.products, ...userProducts.filter((p) => p.brandId === brand.id)],
 }))
 
-export const mediumVoltageProductsWithUser: Product[] = [
-  ...mediumVoltageProducts,
-  ...userProducts.filter((p) => p.brandId === 'medium-voltage'),
-]
+export const mediumVoltageGroupsWithUserProducts: Brand[] = mediumVoltageGroups.map((group) => ({
+  ...group,
+  products: [...group.products, ...userProducts.filter((p) => p.brandId === group.id)],
+}))

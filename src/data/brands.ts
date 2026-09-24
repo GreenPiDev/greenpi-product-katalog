@@ -1,4 +1,4 @@
-import type { Brand, Product } from './types'
+import type { Brand } from './types'
 
 export const lowVoltageBrands: Brand[] = [
   {
@@ -125,4 +125,71 @@ export const lowVoltageBrands: Brand[] = [
   },
 ]
 
-export const mediumVoltageProducts: Product[] = []
+export const mediumVoltageGroups: Brand[] = [
+  {
+    id: 'mobil-trafo-merkezleri',
+    name: 'Mobil Trafo Merkezleri',
+    tagline: 'Prefabrik ve Nakliyeye Hazır Trafo Merkezleri',
+    description:
+      'Marka bağımsız, saha ve proje ihtiyacına göre uygun teknik spesifikasyonlarla tedarik edilen mobil / prefabrik trafo merkezi çözümleri.',
+    accentColor: '#101B22',
+    backgroundColor: '#2F4858',
+    textColor: '#EAF0F2',
+    products: [],
+  },
+  {
+    id: 'metal-mahfazali-hucreler',
+    name: 'Metal Mahfazalı Hücreler',
+    tagline: 'Orta Gerilim Dağıtım ve Kumanda Hücreleri',
+    description:
+      'Marka bağımsız, saha ve proje ihtiyacına göre uygun teknik spesifikasyonlarla tedarik edilen metal mahfazalı orta gerilim hücreleri.',
+    accentColor: '#2B1B0E',
+    backgroundColor: '#8B5A2B',
+    textColor: '#F7EEE3',
+    products: [],
+  },
+  {
+    id: 'gaz-yalitimli-hucreler',
+    name: 'Gaz Yalıtımlı Hücreler',
+    tagline: 'SF6 Yalıtımlı Kompakt Şalt Sistemleri',
+    description:
+      'Marka bağımsız, saha ve proje ihtiyacına göre uygun teknik spesifikasyonlarla tedarik edilen gaz yalıtımlı (GIS) orta gerilim hücreleri.',
+    accentColor: '#0A1717',
+    backgroundColor: '#1F3B3E',
+    textColor: '#E7F1F0',
+    products: [],
+  },
+  {
+    id: 'kuru-tip-transformatorler',
+    name: 'Kuru Tip Dağıtım Transformatörleri',
+    tagline: 'Reçine Yalıtımlı Kuru Tip Transformatörler',
+    description:
+      'Marka bağımsız, saha ve proje ihtiyacına göre uygun teknik spesifikasyonlarla tedarik edilen kuru tip dağıtım transformatörleri.',
+    accentColor: '#0D1F15',
+    backgroundColor: '#234D35',
+    textColor: '#E9F3EC',
+    products: [],
+  },
+  {
+    id: 'yagli-tip-transformatorler',
+    name: 'Yağlı Tip Dağıtım Transformatörleri',
+    tagline: 'Sıvı Yalıtımlı Dağıtım Transformatörleri',
+    description:
+      'Marka bağımsız, saha ve proje ihtiyacına göre uygun teknik spesifikasyonlarla tedarik edilen yağlı tip dağıtım transformatörleri.',
+    accentColor: '#180B06',
+    backgroundColor: '#4A2318',
+    textColor: '#F5E7DE',
+    products: [],
+  },
+  {
+    id: 'og-sont-reaktorler',
+    name: 'OG Şönt & Manyetik Kontrollü Şönt Reaktörler',
+    tagline: 'Reaktif Güç Kompanzasyon Ekipmanları',
+    description:
+      'Marka bağımsız, saha ve proje ihtiyacına göre uygun teknik spesifikasyonlarla tedarik edilen OG şönt ve manyetik kontrollü şönt reaktör sistemleri.',
+    accentColor: '#150D1F',
+    backgroundColor: '#3B2354',
+    textColor: '#F0EAF5',
+    products: [],
+  },
+]
