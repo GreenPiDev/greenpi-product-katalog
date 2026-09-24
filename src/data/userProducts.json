@@ -395,67 +395,78 @@
     "id": "user-1789996390154-0",
     "brandId": "pannect",
     "name": "DAĞITIM ÜNİTELERİ",
-    "description": "Elektrik panolarında enerjinin tek bir girişten birden fazla devreye güvenli ve düzenli şekilde dağıtılmasını sağlayan bağlantı ve dağıtım elemanlarıdır. Farklı kutup ve bağlantı seçenekleriyle pano içi güç dağıtımının düzenli, güvenli ve kolay uygulanabilir şekilde gerçekleştirilmesine olanak tanır."
+    "description": "Elektrik panolarında enerjinin tek bir girişten birden fazla devreye güvenli ve düzenli şekilde dağıtılmasını sağlayan bağlantı ve dağıtım elemanlarıdır. Farklı kutup ve bağlantı seçenekleriyle pano içi güç dağıtımının düzenli, güvenli ve kolay uygulanabilir şekilde gerçekleştirilmesine olanak tanır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790232815/greenpi-product-katalog/production/lbswvx1i97obr9b0nsra.png"
   },
   {
     "id": "user-1789996390154-1",
     "brandId": "pannect",
     "name": "TERMOSTAT-HİGROSTAT",
-    "description": "Elektrik panoları ve kontrol kabinlerinde sıcaklık ve nem seviyelerini izleyerek ısıtıcı, fan veya nem alma ekipmanlarının otomatik olarak devreye girip çıkmasını sağlayan kontrol cihazlarıdır. Pano içerisindeki yoğuşma ve aşırı sıcaklık riskini azaltarak elektrik ve elektronik ekipmanların güvenli çalışma koşullarının korunmasına yardımcı olur."
+    "description": "Elektrik panoları ve kontrol kabinlerinde sıcaklık ve nem seviyelerini izleyerek ısıtıcı, fan veya nem alma ekipmanlarının otomatik olarak devreye girip çıkmasını sağlayan kontrol cihazlarıdır. Pano içerisindeki yoğuşma ve aşırı sıcaklık riskini azaltarak elektrik ve elektronik ekipmanların güvenli çalışma koşullarının korunmasına yardımcı olur.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790232842/greenpi-product-katalog/production/r7s4kok7n4zs2mul2tou.png"
   },
   {
     "id": "user-1789996390154-2",
     "brandId": "pannect",
     "name": "KABLO TOPLAMA ÇORAPLARI",
-    "description": "Elektrik panoları, makine ve endüstriyel sistemlerde birden fazla kabloyu bir arada toplamak, düzenlemek ve korumak için kullanılan esnek kablo yönetim ürünleridir. Kabloların dağınıklığını azaltarak düzenli bir kablo tesisatı oluşturulmasına ve bakım işlemlerinin kolaylaştırılmasına yardımcı olur."
+    "description": "Elektrik panoları, makine ve endüstriyel sistemlerde birden fazla kabloyu bir arada toplamak, düzenlemek ve korumak için kullanılan esnek kablo yönetim ürünleridir. Kabloların dağınıklığını azaltarak düzenli bir kablo tesisatı oluşturulmasına ve bakım işlemlerinin kolaylaştırılmasına yardımcı olur.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790232864/greenpi-product-katalog/production/auakpzhhyrpyavozjg8q.png"
   },
   {
     "id": "user-1789996390154-3",
     "brandId": "pannect",
     "name": "EX-PROOF BUTONLAR",
-    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda elektriksel kumanda işlemlerini güvenli şekilde gerçekleştirmek için kullanılan ex-proof butonlardır. Patlama riskine karşı korumalı yapıları sayesinde endüstriyel tesislerde makine, motor ve proses ekipmanlarının kontrolünde kullanılır."
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda elektriksel kumanda işlemlerini güvenli şekilde gerçekleştirmek için kullanılan ex-proof butonlardır. Patlama riskine karşı korumalı yapıları sayesinde endüstriyel tesislerde makine, motor ve proses ekipmanlarının kontrolünde kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790232875/greenpi-product-katalog/production/m5nxn290fwk6tl9rmwjf.png"
   },
   {
     "id": "user-1789996390154-4",
     "brandId": "pannect",
     "name": "PLC SLİM RÖLE",
-    "description": "PLC ve otomasyon sistemlerinde kontrol sinyallerini anahtarlamak ve PLC çıkışlarını saha ekipmanlarından elektriksel olarak izole etmek için kullanılan ince yapılı arayüz rölesidir. Kompakt tasarımı sayesinde pano içerisinde yer tasarrufu sağlarken röle kontakları üzerinden farklı gerilim ve yüklerin kontrol edilmesine olanak tanır."
+    "description": "PLC ve otomasyon sistemlerinde kontrol sinyallerini anahtarlamak ve PLC çıkışlarını saha ekipmanlarından elektriksel olarak izole etmek için kullanılan ince yapılı arayüz rölesidir. Kompakt tasarımı sayesinde pano içerisinde yer tasarrufu sağlarken röle kontakları üzerinden farklı gerilim ve yüklerin kontrol edilmesine olanak tanır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790232890/greenpi-product-katalog/production/darnf77utayhywt1m8k9.png"
   },
   {
     "id": "user-1789996390154-5",
     "brandId": "pannect",
     "name": "KABLO BAĞLARI",
-    "description": "Elektrik panoları ve endüstriyel tesisatlarda kabloları birbirine veya bağlantı noktalarına güvenli şekilde sabitlemek ve düzenlemek için kullanılan kablo bağlantı elemanlarıdır. Kablo demetlerinin düzenli tutulmasını, montajın kolaylaştırılmasını ve tesisatın mekanik olarak güvenli şekilde sabitlenmesini sağlar."
+    "description": "Elektrik panoları ve endüstriyel tesisatlarda kabloları birbirine veya bağlantı noktalarına güvenli şekilde sabitlemek ve düzenlemek için kullanılan kablo bağlantı elemanlarıdır. Kablo demetlerinin düzenli tutulmasını, montajın kolaylaştırılmasını ve tesisatın mekanik olarak güvenli şekilde sabitlenmesini sağlar.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790232904/greenpi-product-katalog/production/kpjfzimsevgoju9rzii9.png"
   },
   {
     "id": "user-1789996390154-6",
     "brandId": "pannect",
-    "name": "KABLO YÜZÜKLERİ",
-    "description": "Elektrik panolarında kabloların tanımlanması, numaralandırılması ve düzenli şekilde işaretlenmesi için kablo üzerine takılan halka tipi etiketleme elemanlarıdır. Farklı kablo kesitlerine uygun seçenekleri sayesinde pano içi kablolamanın düzenli olmasını ve bakım sırasında kabloların kolayca ayırt edilmesini sağlar."
+    "name": "KABLO YÜKSÜKLERİ",
+    "description": "Elektrik panolarında kabloların tanımlanması, numaralandırılması ve düzenli şekilde işaretlenmesi için kablo üzerine takılan halka tipi etiketleme elemanlarıdır. Farklı kablo kesitlerine uygun seçenekleri sayesinde pano içi kablolamanın düzenli olmasını ve bakım sırasında kabloların kolayca ayırt edilmesini sağlar.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790232921/greenpi-product-katalog/production/dsralvfndraezbwb36jo.png"
   },
   {
     "id": "user-1789996390154-7",
     "brandId": "pannect",
     "name": "BUTON GRUBU",
-    "description": "Elektrik panoları ve endüstriyel kontrol sistemlerinde makine ve ekipmanların manuel olarak kumanda edilmesini sağlayan buton gruplarıdır. Start, stop, reset ve benzeri kontrol fonksiyonları için farklı kontak ve renk seçenekleriyle sunularak pano ve otomasyon uygulamalarında kullanılır."
+    "description": "Elektrik panoları ve endüstriyel kontrol sistemlerinde makine ve ekipmanların manuel olarak kumanda edilmesini sağlayan buton gruplarıdır. Start, stop, reset ve benzeri kontrol fonksiyonları için farklı kontak ve renk seçenekleriyle sunularak pano ve otomasyon uygulamalarında kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790232954/greenpi-product-katalog/production/k1zit623fn0kajhxceyk.png"
   },
   {
     "id": "user-1789996390154-8",
     "brandId": "pannect",
     "name": "SİNYAL LAMBASI",
-    "description": "Elektrik panoları ve endüstriyel kontrol sistemlerinde enerji, çalışma, arıza ve alarm gibi durumları görsel olarak göstermek için kullanılan sinyal lambalarıdır. Farklı renk ve gerilim seçenekleriyle sunularak operatörlerin sistem durumunu hızlı ve kolay şekilde takip etmesini sağlar."
+    "description": "Elektrik panoları ve endüstriyel kontrol sistemlerinde enerji, çalışma, arıza ve alarm gibi durumları görsel olarak göstermek için kullanılan sinyal lambalarıdır. Farklı renk ve gerilim seçenekleriyle sunularak operatörlerin sistem durumunu hızlı ve kolay şekilde takip etmesini sağlar.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790233156/greenpi-product-katalog/production/hvsnxu9dkna7to9pzkye.png"
   },
   {
     "id": "user-1789996390154-9",
     "brandId": "pannect",
     "name": "MAKARON YAZICI",
-    "description": "Elektrik panolarında ve endüstriyel tesisatlarda kablo, makaron, klemens ve cihaz etiketlerini hızlı ve düzenli şekilde yazdırmak için kullanılan termal transfer baskı cihazıdır. PVC tüp, ısıyla daralan makaron ve farklı genişliklerde etiketler üzerine kalıcı işaretleme yaparak kablo tanımlama ve pano etiketleme işlemlerini kolaylaştırır."
+    "description": "Elektrik panolarında ve endüstriyel tesisatlarda kablo, makaron, klemens ve cihaz etiketlerini hızlı ve düzenli şekilde yazdırmak için kullanılan termal transfer baskı cihazıdır. PVC tüp, ısıyla daralan makaron ve farklı genişliklerde etiketler üzerine kalıcı işaretleme yaparak kablo tanımlama ve pano etiketleme işlemlerini kolaylaştırır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790233030/greenpi-product-katalog/production/vlrqq9gpptvcuasanlco.png"
   },
   {
     "id": "user-1789996390154-10",
     "brandId": "pannect",
     "name": "MAKARON",
-    "description": "Elektrik kablolarının izolasyonu, korunması ve tanımlanması amacıyla kullanılan ısıyla daralan makaronlardır. Kablo ve bağlantı noktalarına uygulandığında ısıyla daralarak yüzeye sıkıca oturur; mekanik koruma, yalıtım ve düzenli kablo işaretleme sağlar."
+    "description": "Elektrik kablolarının izolasyonu, korunması ve tanımlanması amacıyla kullanılan ısıyla daralan makaronlardır. Kablo ve bağlantı noktalarına uygulandığında ısıyla daralarak yüzeye sıkıca oturur; mekanik koruma, yalıtım ve düzenli kablo işaretleme sağlar.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790233050/greenpi-product-katalog/production/olpspeh8l9henempoupf.png"
   },
   {
     "id": "user-1789996771668-0",
