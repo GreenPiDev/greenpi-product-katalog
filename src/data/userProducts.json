@@ -557,5 +557,269 @@
     "name": "SLİM RÖLE",
     "description": "Elektrik ve otomasyon panolarında kontrol sinyallerini anahtarlamak ve kontrol devresi ile yük devresi arasında elektriksel izolasyon sağlamak için kullanılan kompakt arayüz rölesidir. İnce yapısı sayesinde pano içerisinde yer tasarrufu sağlarken PLC, otomasyon sistemleri ve endüstriyel kontrol uygulamalarında güvenilir sinyal aktarımı ve yük kontrolü sunar.",
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790064359/greenpi-product-katalog/production/livvl9g5kei7vrzbieix.png"
+  },
+  {
+    "id": "user-1790244147690-0",
+    "brandId": "mobil-trafo-merkezleri",
+    "name": "Boyalı Sac Köşk",
+    "description": "Endüstriyel boya sistemiyle korunan, projeye özel RAL renklerinde üretilebilen dayanıklı köşk tipi.",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-1",
+    "brandId": "mobil-trafo-merkezleri",
+    "name": "Mobil Sac Köşk",
+    "description": "Römork, şasi veya kızak üzerine monte edilebilen; hızlı taşınabilen ve kısa sürede devreye alınabilen mobil enerji dağıtım çözümü.",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-2",
+    "brandId": "mobil-trafo-merkezleri",
+    "name": "Kule Tipi Sac Köşk",
+    "description": "Dikey yerleşim avantajı sunan ve sınırlı saha alanlarının verimli kullanılmasını sağlayan kompakt trafo merkezi çözümü.",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-3",
+    "brandId": "mobil-trafo-merkezleri",
+    "name": "Galvanizli Sac Köşk",
+    "description": "Korozyon dayanımı artırılmış galvanizli çelik konstrüksiyonu sayesinde zorlu çevre ve dış ortam koşullarında uzun ömürlü kullanım sunar.",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-4",
+    "brandId": "mobil-trafo-merkezleri",
+    "name": "Tek Göz Sac Köşk",
+    "description": "Elektrik ekipmanlarının tek bir bölüm içerisinde konumlandırıldığı, küçük ve orta ölçekli uygulamalara yönelik ekonomik ve kompakt köşk tipi.",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-5",
+    "brandId": "mobil-trafo-merkezleri",
+    "name": "Sandviç Panel Köşk",
+    "description": "Isı yalıtımı sağlayan sandviç panellerden üretilen, hafif ve modüler köşk çözümü. İç ve dış ortam uygulamalarına uygun olarak projelendirilebilir.",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-6",
+    "brandId": "metal-mahfazali-hucreler",
+    "name": "Yük Ayırıcılı Giriş/Çıkış Hücresi",
+    "description": "36kV 630A 16kA, motorlu yük ayırıcılı giriş/çıkış hücresi.",
+    "code": "AS36 LC",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-7",
+    "brandId": "metal-mahfazali-hucreler",
+    "name": "Yük Ayırıcılı ve Sigortalı Trafo Koruma Hücresi",
+    "description": "36kV 630A 16kA, yük ayırıcılı ve sigortalı trafo koruma hücresi.",
+    "code": "AS36 LF",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-8",
+    "brandId": "metal-mahfazali-hucreler",
+    "name": "Gerilim Transformatörü Hücresi",
+    "description": "3 adet 60VA gerilim transformatörlü, 36kV 630A 16kA hücre.",
+    "code": "AS36 VTC",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-9",
+    "brandId": "metal-mahfazali-hucreler",
+    "name": "Kesicili Giriş-Çıkış / Trafo Koruma Hücresi",
+    "description": "Rölesiz, 0,72kV toroidal veya mesnet tipi akım trafolu; 36kV 630A/1250A 16kA seçenekleriyle tedarik edilir.",
+    "code": "AS36 CBC/CBT",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-10",
+    "brandId": "metal-mahfazali-hucreler",
+    "name": "Kesicili Bara Bağlama (Kuplaj) Hücresi",
+    "description": "Rölesiz kuplaj hücresi; 36kV 630A veya 1250A 16kA anma akımı seçenekleriyle sunulur.",
+    "code": "AS36 CBC-C",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-11",
+    "brandId": "metal-mahfazali-hucreler",
+    "name": "Kablo Bağlantı Hücresi",
+    "description": "Topraksız kablo bağlantı hücresi; 36kV 630A veya 1250A 16kA seçenekleriyle sunulur.",
+    "code": "AS36 KB",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-12",
+    "brandId": "gaz-yalitimli-hucreler",
+    "name": "Yük Ayırıcılı Giriş/Çıkış Hücresi",
+    "description": "36kV 630A 16kA, motorlu, gaz yalıtımlı yük ayırıcılı giriş/çıkış hücresi.",
+    "code": "RMU AS36 LC",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-13",
+    "brandId": "gaz-yalitimli-hucreler",
+    "name": "Yük Ayırıcılı ve Sigortalı Trafo Koruma Hücresi",
+    "description": "36kV 630A 16kA, gaz yalıtımlı, sigortalı trafo koruma hücresi.",
+    "code": "RMU AS36 LF",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-14",
+    "brandId": "gaz-yalitimli-hucreler",
+    "name": "Kesicili Giriş-Çıkış / Trafo Koruma Hücresi",
+    "description": "36kV 630A 16kA, rölesiz, gaz yalıtımlı kesicili hücre.",
+    "code": "RMU AS36 CBC",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-15",
+    "brandId": "gaz-yalitimli-hucreler",
+    "name": "Gerilim Trafosu / İç İhtiyaç Hücresi",
+    "description": "Ayırıcısız, 3 adet 60VA gerilim trafolu, 36kV 630A 16kA hücre.",
+    "code": "RMU AS36 VTC/2",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-16",
+    "brandId": "gaz-yalitimli-hucreler",
+    "name": "Kesicili Kuplaj Hücresi",
+    "description": "Rölesiz, gaz yalıtımlı kesicili bara bağlama (kuplaj) hücresi.",
+    "code": "RMU AS36 CBC-C",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-17",
+    "brandId": "gaz-yalitimli-hucreler",
+    "name": "Kablo Bağlama Hücresi",
+    "description": "Gaz yalıtımlı, kompakt kablo bağlama hücresi.",
+    "code": "RMU AS36 KB",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-18",
+    "brandId": "kuru-tip-transformatorler",
+    "name": "400 kVA Kuru Tip Transformatör",
+    "description": "28,5-36/0,4kV, TEDAŞ MLZ 99/031-B ve IEC 60076-11 standartlarına uygun seçeneklerle tedarik edilir.",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-19",
+    "brandId": "kuru-tip-transformatorler",
+    "name": "630 kVA Kuru Tip Transformatör",
+    "description": "28,5-36/0,4kV, TEDAŞ MLZ 99/031-B ve IEC 60076-11 standartlarına uygun seçeneklerle tedarik edilir.",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-20",
+    "brandId": "kuru-tip-transformatorler",
+    "name": "800 kVA Kuru Tip Transformatör",
+    "description": "28,5-36/0,4kV, TEDAŞ MLZ 99/031-B ve IEC 60076-11 standartlarına uygun seçeneklerle tedarik edilir.",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-21",
+    "brandId": "kuru-tip-transformatorler",
+    "name": "1000 kVA Kuru Tip Transformatör",
+    "description": "28,5-36/0,4kV, TEDAŞ MLZ 99/031-B ve IEC 60076-11 standartlarına uygun seçeneklerle tedarik edilir.",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-22",
+    "brandId": "kuru-tip-transformatorler",
+    "name": "1600 kVA Kuru Tip Transformatör",
+    "description": "28,5-36/0,4kV, TEDAŞ MLZ 99/031-B ve IEC 60076-11 standartlarına uygun seçeneklerle tedarik edilir.",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-23",
+    "brandId": "kuru-tip-transformatorler",
+    "name": "2500 kVA Kuru Tip Transformatör",
+    "description": "28,5-36/0,4kV, TEDAŞ MLZ 99/031-B ve IEC 60076-11 standartlarına uygun seçeneklerle tedarik edilir.",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-24",
+    "brandId": "yagli-tip-transformatorler",
+    "name": "50 kVA Hermetik Tip Transformatör",
+    "description": "28,5-36/0,4kV, TEDAŞ MLZ 99/032-E (A Plus) ve MLZ 99/032-D (AOAk) verimlilik sınıflarıyla tedarik edilir.",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-25",
+    "brandId": "yagli-tip-transformatorler",
+    "name": "100 kVA Hermetik Tip Transformatör",
+    "description": "28,5-36/0,4kV, TEDAŞ MLZ 99/032-E (A Plus) ve MLZ 99/032-D (AOAk) verimlilik sınıflarıyla tedarik edilir.",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-26",
+    "brandId": "yagli-tip-transformatorler",
+    "name": "250 kVA Hermetik Tip Transformatör",
+    "description": "28,5-36/0,4kV, TEDAŞ MLZ 99/032-E (A Plus) ve MLZ 99/032-D (AOAk) verimlilik sınıflarıyla tedarik edilir.",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-27",
+    "brandId": "yagli-tip-transformatorler",
+    "name": "400 kVA Hermetik Tip Transformatör",
+    "description": "28,5-36/0,4kV, TEDAŞ MLZ 99/032-E (A Plus) ve MLZ 99/032-D (AOAk) verimlilik sınıflarıyla tedarik edilir.",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-28",
+    "brandId": "yagli-tip-transformatorler",
+    "name": "1000 kVA Hermetik Tip Transformatör",
+    "description": "28,5-36/0,4kV, TEDAŞ MLZ 99/032-E (A Plus) ve MLZ 99/032-D (AOAk) verimlilik sınıflarıyla tedarik edilir.",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-29",
+    "brandId": "yagli-tip-transformatorler",
+    "name": "2500 kVA Hermetik Tip Transformatör",
+    "description": "28,5-36/0,4kV, TEDAŞ MLZ 99/032-E (A Plus) ve MLZ 99/032-D (AOAk) verimlilik sınıflarıyla tedarik edilir.",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-30",
+    "brandId": "og-sont-reaktorler",
+    "name": "Yağlı Tip Sabit Şönt Reaktör",
+    "description": "25 kVAr–10 MVAr güç aralığında, 36kV'a kadar tek veya üç fazlı, sabit ratingli yağlı tip şönt reaktör.",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-31",
+    "brandId": "og-sont-reaktorler",
+    "name": "Kuru Tip Sabit Şönt Reaktör",
+    "description": "25 kVAr–10 MVAr güç aralığında, 36kV'a kadar tek veya üç fazlı, sabit ratingli kuru tip şönt reaktör.",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-32",
+    "brandId": "og-sont-reaktorler",
+    "name": "Manyetik Kontrollü Şönt Reaktör (Otomatik Ayarlı)",
+    "description": "Yükte otomatik güç regülasyonu ile 36kV'a kadar, 25 kVAr–10 MVAr aralığında manyetik kontrollü şönt reaktör.",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-33",
+    "brandId": "og-sont-reaktorler",
+    "name": "Tek Fazlı MT Şönt Reaktör",
+    "description": "Proje ihtiyacına göre tek fazlı konfigürasyonda, 36kV'a kadar oil-immersed veya kuru tip olarak tedarik edilir.",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-34",
+    "brandId": "og-sont-reaktorler",
+    "name": "Üç Fazlı MT Şönt Reaktör",
+    "description": "Proje ihtiyacına göre üç fazlı konfigürasyonda, 36kV'a kadar oil-immersed veya kuru tip olarak tedarik edilir.",
+    "category": "Orta Gerilim"
+  },
+  {
+    "id": "user-1790244147690-35",
+    "brandId": "og-sont-reaktorler",
+    "name": "Kablo Hattı Reaktif Kompanzasyon Reaktörü",
+    "description": "Uzun iletim hatları ve kablo sistemlerinde aşırı kapasitif reaktif gücü dengelemek için özel seçilen şönt reaktör çözümü.",
+    "category": "Orta Gerilim"
   }
 ]

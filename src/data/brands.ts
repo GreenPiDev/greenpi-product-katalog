@@ -135,38 +135,7 @@ export const mediumVoltageGroups: Brand[] = [
     accentColor: '#101B22',
     backgroundColor: '#2F4858',
     textColor: '#EAF0F2',
-    products: [
-      {
-        id: 'mtm-boyali-sac-kosk',
-        name: 'Boyalı Sac Köşk',
-        description: 'Endüstriyel boya sistemiyle korunan, projeye özel RAL renklerinde üretilebilen dayanıklı köşk tipi.',
-      },
-      {
-        id: 'mtm-mobil-sac-kosk',
-        name: 'Mobil Sac Köşk',
-        description: 'Römork, şasi veya kızak üzerine monte edilebilen; hızlı taşınabilen ve kısa sürede devreye alınabilen mobil enerji dağıtım çözümü.',
-      },
-      {
-        id: 'mtm-kule-tipi-sac-kosk',
-        name: 'Kule Tipi Sac Köşk',
-        description: 'Dikey yerleşim avantajı sunan ve sınırlı saha alanlarının verimli kullanılmasını sağlayan kompakt trafo merkezi çözümü.',
-      },
-      {
-        id: 'mtm-galvanizli-sac-kosk',
-        name: 'Galvanizli Sac Köşk',
-        description: 'Korozyon dayanımı artırılmış galvanizli çelik konstrüksiyonu sayesinde zorlu çevre ve dış ortam koşullarında uzun ömürlü kullanım sunar.',
-      },
-      {
-        id: 'mtm-tek-goz-sac-kosk',
-        name: 'Tek Göz Sac Köşk',
-        description: 'Elektrik ekipmanlarının tek bir bölüm içerisinde konumlandırıldığı, küçük ve orta ölçekli uygulamalara yönelik ekonomik ve kompakt köşk tipi.',
-      },
-      {
-        id: 'mtm-sandvic-panel-kosk',
-        name: 'Sandviç Panel Köşk',
-        description: 'Isı yalıtımı sağlayan sandviç panellerden üretilen, hafif ve modüler köşk çözümü. İç ve dış ortam uygulamalarına uygun olarak projelendirilebilir.',
-      },
-    ],
+    products: [],
   },
   {
     id: 'metal-mahfazali-hucreler',
@@ -177,44 +146,7 @@ export const mediumVoltageGroups: Brand[] = [
     accentColor: '#2B1B0E',
     backgroundColor: '#8B5A2B',
     textColor: '#F7EEE3',
-    products: [
-      {
-        id: 'mmh-as36-lc',
-        name: 'Yük Ayırıcılı Giriş/Çıkış Hücresi',
-        code: 'AS36 LC',
-        description: '36kV 630A 16kA, motorlu yük ayırıcılı giriş/çıkış hücresi.',
-      },
-      {
-        id: 'mmh-as36-lf',
-        name: 'Yük Ayırıcılı ve Sigortalı Trafo Koruma Hücresi',
-        code: 'AS36 LF',
-        description: '36kV 630A 16kA, yük ayırıcılı ve sigortalı trafo koruma hücresi.',
-      },
-      {
-        id: 'mmh-as36-vtc',
-        name: 'Gerilim Transformatörü Hücresi',
-        code: 'AS36 VTC',
-        description: '3 adet 60VA gerilim transformatörlü, 36kV 630A 16kA hücre.',
-      },
-      {
-        id: 'mmh-as36-cbc-cbt',
-        name: 'Kesicili Giriş-Çıkış / Trafo Koruma Hücresi',
-        code: 'AS36 CBC/CBT',
-        description: 'Rölesiz, 0,72kV toroidal veya mesnet tipi akım trafolu; 36kV 630A/1250A 16kA seçenekleriyle tedarik edilir.',
-      },
-      {
-        id: 'mmh-as36-cbc-c',
-        name: 'Kesicili Bara Bağlama (Kuplaj) Hücresi',
-        code: 'AS36 CBC-C',
-        description: 'Rölesiz kuplaj hücresi; 36kV 630A veya 1250A 16kA anma akımı seçenekleriyle sunulur.',
-      },
-      {
-        id: 'mmh-as36-kb',
-        name: 'Kablo Bağlantı Hücresi',
-        code: 'AS36 KB',
-        description: 'Topraksız kablo bağlantı hücresi; 36kV 630A veya 1250A 16kA seçenekleriyle sunulur.',
-      },
-    ],
+    products: [],
   },
   {
     id: 'gaz-yalitimli-hucreler',
@@ -225,44 +157,7 @@ export const mediumVoltageGroups: Brand[] = [
     accentColor: '#0A1717',
     backgroundColor: '#1F3B3E',
     textColor: '#E7F1F0',
-    products: [
-      {
-        id: 'gyh-rmu-as36-lc',
-        name: 'Yük Ayırıcılı Giriş/Çıkış Hücresi',
-        code: 'RMU AS36 LC',
-        description: '36kV 630A 16kA, motorlu, gaz yalıtımlı yük ayırıcılı giriş/çıkış hücresi.',
-      },
-      {
-        id: 'gyh-rmu-as36-lf',
-        name: 'Yük Ayırıcılı ve Sigortalı Trafo Koruma Hücresi',
-        code: 'RMU AS36 LF',
-        description: '36kV 630A 16kA, gaz yalıtımlı, sigortalı trafo koruma hücresi.',
-      },
-      {
-        id: 'gyh-rmu-as36-cbc',
-        name: 'Kesicili Giriş-Çıkış / Trafo Koruma Hücresi',
-        code: 'RMU AS36 CBC',
-        description: '36kV 630A 16kA, rölesiz, gaz yalıtımlı kesicili hücre.',
-      },
-      {
-        id: 'gyh-rmu-as36-vtc2',
-        name: 'Gerilim Trafosu / İç İhtiyaç Hücresi',
-        code: 'RMU AS36 VTC/2',
-        description: 'Ayırıcısız, 3 adet 60VA gerilim trafolu, 36kV 630A 16kA hücre.',
-      },
-      {
-        id: 'gyh-rmu-as36-cbc-c',
-        name: 'Kesicili Kuplaj Hücresi',
-        code: 'RMU AS36 CBC-C',
-        description: 'Rölesiz, gaz yalıtımlı kesicili bara bağlama (kuplaj) hücresi.',
-      },
-      {
-        id: 'gyh-rmu-as36-kb',
-        name: 'Kablo Bağlama Hücresi',
-        code: 'RMU AS36 KB',
-        description: 'Gaz yalıtımlı, kompakt kablo bağlama hücresi.',
-      },
-    ],
+    products: [],
   },
   {
     id: 'kuru-tip-transformatorler',
@@ -273,38 +168,7 @@ export const mediumVoltageGroups: Brand[] = [
     accentColor: '#0D1F15',
     backgroundColor: '#234D35',
     textColor: '#E9F3EC',
-    products: [
-      {
-        id: 'ktt-400kva',
-        name: '400 kVA Kuru Tip Transformatör',
-        description: '28,5-36/0,4kV, TEDAŞ MLZ 99/031-B ve IEC 60076-11 standartlarına uygun seçeneklerle tedarik edilir.',
-      },
-      {
-        id: 'ktt-630kva',
-        name: '630 kVA Kuru Tip Transformatör',
-        description: '28,5-36/0,4kV, TEDAŞ MLZ 99/031-B ve IEC 60076-11 standartlarına uygun seçeneklerle tedarik edilir.',
-      },
-      {
-        id: 'ktt-800kva',
-        name: '800 kVA Kuru Tip Transformatör',
-        description: '28,5-36/0,4kV, TEDAŞ MLZ 99/031-B ve IEC 60076-11 standartlarına uygun seçeneklerle tedarik edilir.',
-      },
-      {
-        id: 'ktt-1000kva',
-        name: '1000 kVA Kuru Tip Transformatör',
-        description: '28,5-36/0,4kV, TEDAŞ MLZ 99/031-B ve IEC 60076-11 standartlarına uygun seçeneklerle tedarik edilir.',
-      },
-      {
-        id: 'ktt-1600kva',
-        name: '1600 kVA Kuru Tip Transformatör',
-        description: '28,5-36/0,4kV, TEDAŞ MLZ 99/031-B ve IEC 60076-11 standartlarına uygun seçeneklerle tedarik edilir.',
-      },
-      {
-        id: 'ktt-2500kva',
-        name: '2500 kVA Kuru Tip Transformatör',
-        description: '28,5-36/0,4kV, TEDAŞ MLZ 99/031-B ve IEC 60076-11 standartlarına uygun seçeneklerle tedarik edilir.',
-      },
-    ],
+    products: [],
   },
   {
     id: 'yagli-tip-transformatorler',
@@ -315,38 +179,7 @@ export const mediumVoltageGroups: Brand[] = [
     accentColor: '#180B06',
     backgroundColor: '#4A2318',
     textColor: '#F5E7DE',
-    products: [
-      {
-        id: 'ytt-50kva',
-        name: '50 kVA Hermetik Tip Transformatör',
-        description: '28,5-36/0,4kV, TEDAŞ MLZ 99/032-E (A Plus) ve MLZ 99/032-D (AOAk) verimlilik sınıflarıyla tedarik edilir.',
-      },
-      {
-        id: 'ytt-100kva',
-        name: '100 kVA Hermetik Tip Transformatör',
-        description: '28,5-36/0,4kV, TEDAŞ MLZ 99/032-E (A Plus) ve MLZ 99/032-D (AOAk) verimlilik sınıflarıyla tedarik edilir.',
-      },
-      {
-        id: 'ytt-250kva',
-        name: '250 kVA Hermetik Tip Transformatör',
-        description: '28,5-36/0,4kV, TEDAŞ MLZ 99/032-E (A Plus) ve MLZ 99/032-D (AOAk) verimlilik sınıflarıyla tedarik edilir.',
-      },
-      {
-        id: 'ytt-400kva',
-        name: '400 kVA Hermetik Tip Transformatör',
-        description: '28,5-36/0,4kV, TEDAŞ MLZ 99/032-E (A Plus) ve MLZ 99/032-D (AOAk) verimlilik sınıflarıyla tedarik edilir.',
-      },
-      {
-        id: 'ytt-1000kva',
-        name: '1000 kVA Hermetik Tip Transformatör',
-        description: '28,5-36/0,4kV, TEDAŞ MLZ 99/032-E (A Plus) ve MLZ 99/032-D (AOAk) verimlilik sınıflarıyla tedarik edilir.',
-      },
-      {
-        id: 'ytt-2500kva',
-        name: '2500 kVA Hermetik Tip Transformatör',
-        description: '28,5-36/0,4kV, TEDAŞ MLZ 99/032-E (A Plus) ve MLZ 99/032-D (AOAk) verimlilik sınıflarıyla tedarik edilir.',
-      },
-    ],
+    products: [],
   },
   {
     id: 'og-sont-reaktorler',
@@ -357,37 +190,6 @@ export const mediumVoltageGroups: Brand[] = [
     accentColor: '#150D1F',
     backgroundColor: '#3B2354',
     textColor: '#F0EAF5',
-    products: [
-      {
-        id: 'sr-yagli-sabit',
-        name: 'Yağlı Tip Sabit Şönt Reaktör',
-        description: '25 kVAr–10 MVAr güç aralığında, 36kV\'a kadar tek veya üç fazlı, sabit ratingli yağlı tip şönt reaktör.',
-      },
-      {
-        id: 'sr-kuru-sabit',
-        name: 'Kuru Tip Sabit Şönt Reaktör',
-        description: '25 kVAr–10 MVAr güç aralığında, 36kV\'a kadar tek veya üç fazlı, sabit ratingli kuru tip şönt reaktör.',
-      },
-      {
-        id: 'sr-manyetik-otomatik',
-        name: 'Manyetik Kontrollü Şönt Reaktör (Otomatik Ayarlı)',
-        description: 'Yükte otomatik güç regülasyonu ile 36kV\'a kadar, 25 kVAr–10 MVAr aralığında manyetik kontrollü şönt reaktör.',
-      },
-      {
-        id: 'sr-tek-faz',
-        name: 'Tek Fazlı MT Şönt Reaktör',
-        description: 'Proje ihtiyacına göre tek fazlı konfigürasyonda, 36kV\'a kadar oil-immersed veya kuru tip olarak tedarik edilir.',
-      },
-      {
-        id: 'sr-uc-faz',
-        name: 'Üç Fazlı MT Şönt Reaktör',
-        description: 'Proje ihtiyacına göre üç fazlı konfigürasyonda, 36kV\'a kadar oil-immersed veya kuru tip olarak tedarik edilir.',
-      },
-      {
-        id: 'sr-kablo-sistemi',
-        name: 'Kablo Hattı Reaktif Kompanzasyon Reaktörü',
-        description: 'Uzun iletim hatları ve kablo sistemlerinde aşırı kapasitif reaktif gücü dengelemek için özel seçilen şönt reaktör çözümü.',
-      },
-    ],
+    products: [],
   },
 ]

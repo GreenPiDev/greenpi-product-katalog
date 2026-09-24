@@ -2,6 +2,7 @@ import { createContext, useContext, useMemo, useState, type ReactNode } from 're
 import type { Product } from '../data/types'
 
 export type DrawerBrand = {
+  id?: string
   name: string
   accentColor: string
   backgroundColor: string

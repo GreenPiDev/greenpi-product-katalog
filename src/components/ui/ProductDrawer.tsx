@@ -1,8 +1,11 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect } from 'react'
+import { mediumVoltageGroups } from '../../data/brands'
 import { useProductDrawer } from '../../context/ProductDrawerContext'
 import { getLenis, scrollToId } from '../../lib/lenis'
 import styles from './ProductDrawer.module.css'
+
+const mediumVoltageGroupIds = new Set(mediumVoltageGroups.map((g) => g.id))
 
 export function ProductDrawer() {
   const { state, close } = useProductDrawer()
@@ -109,7 +112,10 @@ export function ProductDrawer() {
                 </div>
                 <div className={styles.specRow}>
                   <dt>Kategori</dt>
-                  <dd>{state.product.category ?? 'Alçak Gerilim'}</dd>
+                  <dd>
+                    {state.product.category ??
+                      (state.brand.id && mediumVoltageGroupIds.has(state.brand.id) ? 'Orta Gerilim' : 'Alçak Gerilim')}
+                  </dd>
                 </div>
               </dl>
 
