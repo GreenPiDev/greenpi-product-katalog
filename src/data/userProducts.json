@@ -566,42 +566,48 @@
     "brandId": "mobil-trafo-merkezleri",
     "name": "Boyalı Sac Köşk",
     "description": "Endüstriyel boya sistemiyle korunan, projeye özel RAL renklerinde üretilebilen dayanıklı köşk tipi.",
-    "category": "Orta Gerilim"
+    "category": "Orta Gerilim",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790748676/greenpi-product-katalog/production/kqtkkzsfi9x4evvdhpml.png"
   },
   {
     "id": "user-1790244147690-1",
     "brandId": "mobil-trafo-merkezleri",
     "name": "Mobil Sac Köşk",
     "description": "Römork, şasi veya kızak üzerine monte edilebilen; hızlı taşınabilen ve kısa sürede devreye alınabilen mobil enerji dağıtım çözümü.",
-    "category": "Orta Gerilim"
+    "category": "Orta Gerilim",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790748691/greenpi-product-katalog/production/cmq7i7zfasinezsficie.png"
   },
   {
     "id": "user-1790244147690-2",
     "brandId": "mobil-trafo-merkezleri",
     "name": "Kule Tipi Sac Köşk",
     "description": "Dikey yerleşim avantajı sunan ve sınırlı saha alanlarının verimli kullanılmasını sağlayan kompakt trafo merkezi çözümü.",
-    "category": "Orta Gerilim"
+    "category": "Orta Gerilim",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790748706/greenpi-product-katalog/production/vhfcklwpmqxk4tafiuz1.png"
   },
   {
     "id": "user-1790244147690-3",
     "brandId": "mobil-trafo-merkezleri",
     "name": "Galvanizli Sac Köşk",
     "description": "Korozyon dayanımı artırılmış galvanizli çelik konstrüksiyonu sayesinde zorlu çevre ve dış ortam koşullarında uzun ömürlü kullanım sunar.",
-    "category": "Orta Gerilim"
+    "category": "Orta Gerilim",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790748881/greenpi-product-katalog/production/uwvp3whaxsq0tlcyvdv6.png"
   },
   {
     "id": "user-1790244147690-4",
     "brandId": "mobil-trafo-merkezleri",
     "name": "Tek Göz Sac Köşk",
     "description": "Elektrik ekipmanlarının tek bir bölüm içerisinde konumlandırıldığı, küçük ve orta ölçekli uygulamalara yönelik ekonomik ve kompakt köşk tipi.",
-    "category": "Orta Gerilim"
+    "category": "Orta Gerilim",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790748765/greenpi-product-katalog/production/fj5m2mkpbbeyq8vk5m3n.png"
   },
   {
     "id": "user-1790244147690-5",
     "brandId": "mobil-trafo-merkezleri",
     "name": "Sandviç Panel Köşk",
     "description": "Isı yalıtımı sağlayan sandviç panellerden üretilen, hafif ve modüler köşk çözümü. İç ve dış ortam uygulamalarına uygun olarak projelendirilebilir.",
-    "category": "Orta Gerilim"
+    "category": "Orta Gerilim",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790748781/greenpi-product-katalog/production/i1ifobvu0sslwfqyet44.png"
   },
   {
     "id": "user-1790244147690-6",
