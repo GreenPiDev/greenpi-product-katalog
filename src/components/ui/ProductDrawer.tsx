@@ -95,7 +95,7 @@ export function ProductDrawer() {
             </div>
 
             <div className={styles.body}>
-              <span className={styles.brand} lang="en">
+              <span className={styles.brand} lang={state.brand.nameLang ?? 'en'}>
                 {state.brand.name}
               </span>
               <h2 className={styles.name}>{state.product.name}</h2>
@@ -108,7 +108,7 @@ export function ProductDrawer() {
                 </div> */}
                 <div className={styles.specRow}>
                   <dt>Marka</dt>
-                  <dd lang="en">{state.brand.name}</dd>
+                  <dd lang={state.brand.nameLang ?? 'en'}>{state.brand.name}</dd>
                 </div>
                 <div className={styles.specRow}>
                   <dt>Kategori</dt>

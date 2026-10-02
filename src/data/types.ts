@@ -12,6 +12,7 @@ export type UserProduct = Product & { brandId: string }
 export type Brand = {
   id: string
   name: string
+  nameLang?: 'tr' | 'en'
   tagline: string
   description: string
   accentColor: string

@@ -128,7 +128,8 @@ export const lowVoltageBrands: Brand[] = [
 export const mediumVoltageGroups: Brand[] = [
   {
     id: 'mobil-trafo-merkezleri',
-    name: 'Mobil Trafo Merkezleri',
+    name: 'Köşk Tipi Trafo Merkezleri',
+    nameLang: 'tr',
     tagline: 'Prefabrik ve Nakliyeye Hazır Trafo Merkezleri',
     description:
       'Marka bağımsız, saha ve proje ihtiyacına göre uygun teknik spesifikasyonlarla tedarik edilen mobil / prefabrik trafo merkezi çözümleri.',
@@ -140,6 +141,7 @@ export const mediumVoltageGroups: Brand[] = [
   {
     id: 'metal-mahfazali-hucreler',
     name: 'Metal Mahfazalı Hücreler',
+    nameLang: 'tr',
     tagline: 'Orta Gerilim Dağıtım ve Kumanda Hücreleri',
     description:
       'Marka bağımsız, saha ve proje ihtiyacına göre uygun teknik spesifikasyonlarla tedarik edilen metal mahfazalı orta gerilim hücreleri.',
@@ -151,6 +153,7 @@ export const mediumVoltageGroups: Brand[] = [
   {
     id: 'gaz-yalitimli-hucreler',
     name: 'Gaz Yalıtımlı Hücreler',
+    nameLang: 'tr',
     tagline: 'SF6 Yalıtımlı Kompakt Şalt Sistemleri',
     description:
       'Marka bağımsız, saha ve proje ihtiyacına göre uygun teknik spesifikasyonlarla tedarik edilen gaz yalıtımlı (GIS) orta gerilim hücreleri.',
@@ -162,6 +165,7 @@ export const mediumVoltageGroups: Brand[] = [
   {
     id: 'kuru-tip-transformatorler',
     name: 'Kuru Tip Dağıtım Transformatörleri',
+    nameLang: 'tr',
     tagline: 'Reçine Yalıtımlı Kuru Tip Transformatörler',
     description:
       'Marka bağımsız, saha ve proje ihtiyacına göre uygun teknik spesifikasyonlarla tedarik edilen kuru tip dağıtım transformatörleri.',
@@ -173,6 +177,7 @@ export const mediumVoltageGroups: Brand[] = [
   {
     id: 'yagli-tip-transformatorler',
     name: 'Yağlı Tip Dağıtım Transformatörleri',
+    nameLang: 'tr',
     tagline: 'Sıvı Yalıtımlı Dağıtım Transformatörleri',
     description:
       'Marka bağımsız, saha ve proje ihtiyacına göre uygun teknik spesifikasyonlarla tedarik edilen yağlı tip dağıtım transformatörleri.',
@@ -184,6 +189,7 @@ export const mediumVoltageGroups: Brand[] = [
   {
     id: 'og-sont-reaktorler',
     name: 'OG Şönt & Manyetik Kontrollü Şönt Reaktörler',
+    nameLang: 'tr',
     tagline: 'Reaktif Güç Kompanzasyon Ekipmanları',
     description:
       'Marka bağımsız, saha ve proje ihtiyacına göre uygun teknik spesifikasyonlarla tedarik edilen OG şönt ve manyetik kontrollü şönt reaktör sistemleri.',

@@ -9,21 +9,6 @@
   gap: 0.9rem;
 }
 
-.track {
-  position: relative;
-  width: 1px;
-  height: 140px;
-  background: var(--color-line);
-  overflow: hidden;
-}
-
-.progressFill {
-  position: absolute;
-  inset: 0;
-  transform-origin: top;
-  background: var(--color-accent);
-}
-
 .item {
   position: relative;
 }
@@ -33,14 +18,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 22px;
-  height: 22px;
+  width: 26px;
+  height: 26px;
   padding: 0;
 }
 
 .dot {
-  width: 6px;
-  height: 6px;
+  width: 9px;
+  height: 9px;
   border-radius: 50%;
   background: var(--color-ink-dim);
   transition: background 0.25s ease, transform 0.25s ease;
@@ -59,13 +44,13 @@
   transform: translateY(-50%) translateX(6px);
   white-space: nowrap;
   font-family: var(--font-mono);
-  font-size: 0.68rem;
+  font-size: 0.85rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--color-ink);
   background: var(--color-bg-raised);
   border: 1px solid var(--color-line);
-  padding: 0.4rem 0.7rem;
+  padding: 0.55rem 0.9rem;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.2s ease, transform 0.2s ease;
@@ -79,19 +64,66 @@
 }
 
 .dotButton:hover .tooltip,
-.dotButton:focus-visible .tooltip {
+.dotButton:focus-visible .tooltip,
+.subDotButton:hover .tooltip,
+.subDotButton:focus-visible .tooltip {
   opacity: 1;
   transform: translateY(-50%) translateX(0);
+}
+
+.subList {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.6rem 0 0.1rem;
+}
+
+.subItem {
+  position: relative;
+}
+
+.subDotButton {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+}
+
+.subDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-ink-dim);
+  opacity: 0.7;
+  transition: background 0.25s ease, transform 0.25s ease, opacity 0.25s ease;
+}
+
+.subDotActive .subDot,
+.subDotButton:hover .subDot {
+  background: var(--color-accent);
+  opacity: 1;
+  transform: scale(1.8);
+}
+
+.subTooltip {
+  right: calc(100% + 0.65rem);
+  font-size: 0.78rem;
+  padding: 0.45rem 0.75rem;
 }
 
 @media (max-width: 860px) {
   .nav {
     right: 0.75rem;
   }
-  .track {
-    height: 90px;
-  }
   .tooltip {
+    display: none;
+  }
+  .subList {
     display: none;
   }
 }
