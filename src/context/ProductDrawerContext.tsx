@@ -4,6 +4,7 @@ import type { Product } from '../data/types'
 export type DrawerBrand = {
   id?: string
   name: string
+  nameLang?: 'tr' | 'en'
   accentColor: string
   backgroundColor: string
   textColor: string
