@@ -31,10 +31,23 @@ export function ContactSection() {
             <span className={styles.detailLabel}>E-POSTA</span>
             <span className={styles.detailValue}>{contact.email}</span>
           </a>
-          <a href={`tel:${contact.phone.replace(/\s+/g, '')}`} className={styles.detailItem} data-cursor="open">
+          <div className={styles.detailItem}>
             <span className={styles.detailLabel}>TELEFON</span>
-            <span className={styles.detailValue}>{contact.phone}</span>
-          </a>
+            <a
+              href={`tel:${contact.phone.replace(/\s+/g, '')}`}
+              className={styles.detailValue}
+              data-cursor="open"
+            >
+              {contact.phone}
+            </a>
+            <a
+              href={`tel:${contact.phone2.replace(/\s+/g, '')}`}
+              className={styles.detailValue}
+              data-cursor="open"
+            >
+              {contact.phone2}
+            </a>
+          </div>
           <a
             href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(contact.address)}`}
             target="_blank"

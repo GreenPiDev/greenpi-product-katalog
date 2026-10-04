@@ -40,10 +40,12 @@
 }
 
 .detailValue {
+  display: block;
   font-size: 1.1rem;
   transition: color 0.25s ease;
 }
 
+a.detailValue:hover,
 a.detailItem:hover .detailValue {
   color: var(--color-accent);
 }
