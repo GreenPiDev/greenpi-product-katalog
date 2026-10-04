@@ -14,6 +14,30 @@ export type SpecRow = {
   description: string
 }
 
+/** Kod/açıklama şeklinde dikey liste tablosu (ör. hücre model kodları, güç-açıklama eşleşmeleri). */
+export type SpecListTable = {
+  kind: 'list'
+  /** PDF'teki tablonun kendi başlığı, ör. "KURU TİP TRANSFORMATÖR — IEC 60076-11". */
+  title?: string
+  /** Varsayılan ['Model Kodu', 'Teknik Açıklama'] yerine geçer (ör. ['Güç', 'Teknik Açıklama']). */
+  columnLabels?: [string, string]
+  rows: SpecRow[]
+}
+
+/** Satır × sütun matris tablosu (ör. kademe no / güç aralığı gibi gerçek çapraz tablolar). */
+export type SpecGridTable = {
+  kind: 'grid'
+  title?: string
+  rowHeaderLabel: string
+  columnHeaders: string[]
+  rows: {
+    label: string
+    values: string[]
+  }[]
+}
+
+export type SpecTable = SpecListTable | SpecGridTable
+
 export type Brand = {
   id: string
   name: string
@@ -25,10 +49,11 @@ export type Brand = {
   textColor: string
   logos?: string[]
   products: Product[]
-  /** 'spec' = tek görsel + yatay kayan teknik veri tablosu (ör. hücre/trafo serileri) */
+  /** 'spec' = tek görsel (sticky) + aşağı doğru uzayan teknik veri tablo(lar)ı. */
   displayMode?: 'gallery' | 'spec'
   specImage?: string
-  specTable?: SpecRow[]
+  /** PDF'teki tablo yapısı farklıysa (liste / matris) her biri kendi şeklinde eklenir. */
+  specTables?: SpecTable[]
 }
 
 export type VoltageCategory = {

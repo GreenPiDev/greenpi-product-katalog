@@ -2,6 +2,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect } from 'react'
 import { mediumVoltageGroups } from '../../data/brands'
 import { useProductDrawer } from '../../context/ProductDrawerContext'
+import { assetUrl } from '../../utils/assetUrl'
 import { getLenis, scrollToId } from '../../lib/lenis'
 import styles from './ProductDrawer.module.css'
 
@@ -79,7 +80,7 @@ export function ProductDrawer() {
               {state.product.image ? (
                 <img
                   className={styles.image}
-                  src={state.product.image}
+                  src={assetUrl(state.product.image)}
                   alt={state.product.name}
                   loading="lazy"
                   decoding="async"

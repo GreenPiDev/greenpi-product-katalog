@@ -1,5 +1,6 @@
 import type { Product } from '../../data/types'
 import { useProductDrawer, type DrawerBrand } from '../../context/ProductDrawerContext'
+import { assetUrl } from '../../utils/assetUrl'
 import { truncate } from '../../utils/truncate'
 import styles from './ProductCard.module.css'
 
@@ -26,7 +27,7 @@ export function ProductCard({ product, brand, index }: ProductCardProps) {
         {product.image ? (
           <img
             className={styles.image}
-            src={product.image}
+            src={assetUrl(product.image)}
             alt={product.name}
             loading="lazy"
             decoding="async"

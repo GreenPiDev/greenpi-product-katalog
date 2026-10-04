@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import type { CSSProperties } from 'react'
 import type { Brand } from '../../data/types'
 import { useHorizontalGallery } from '../../hooks/useHorizontalGallery'
+import { assetUrl } from '../../utils/assetUrl'
 import { ProductCard } from './ProductCard'
 import styles from './BrandSection.module.css'
 
@@ -28,7 +29,7 @@ export function BrandSection({ brand, position, total }: BrandSectionProps) {
             {brand.logos.map((logo) => (
               <img
                 key={logo}
-                src={logo}
+                src={assetUrl(logo)}
                 alt=""
                 aria-hidden="true"
                 className={styles.watermark}

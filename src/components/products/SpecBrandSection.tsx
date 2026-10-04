@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import type { CSSProperties } from 'react'
 import type { Brand } from '../../data/types'
+import { assetUrl } from '../../utils/assetUrl'
 import brandStyles from './BrandSection.module.css'
 import styles from './SpecBrandSection.module.css'
 
@@ -11,7 +12,7 @@ type SpecBrandSectionProps = {
 }
 
 export function SpecBrandSection({ brand, position, total }: SpecBrandSectionProps) {
-  const rows = brand.specTable ?? []
+  const tables = brand.specTables ?? []
 
   const brandStyle = {
     '--brand-bg': brand.backgroundColor,
@@ -72,7 +73,7 @@ export function SpecBrandSection({ brand, position, total }: SpecBrandSectionPro
             {brand.specImage ? (
               <img
                 className={styles.image}
-                src={brand.specImage}
+                src={assetUrl(brand.specImage)}
                 alt={brand.name}
                 loading="lazy"
                 decoding="async"
@@ -89,24 +90,56 @@ export function SpecBrandSection({ brand, position, total }: SpecBrandSectionPro
         </div>
 
         <div className={styles.tableArea}>
-          <div className={styles.tableHead} aria-hidden="true">
-            <span>Model Kodu</span>
-            <span>Teknik Açıklama</span>
-          </div>
+          {tables.length > 0 ? (
+            tables.map((table, ti) => (
+              <div key={ti} className={styles.tableBlock}>
+                {table.title && <h4 className={styles.tableTitle}>{table.title}</h4>}
 
-          <div className={styles.list}>
-            {rows.length > 0 ? (
-              rows.map((row, i) => (
-                <div key={`${row.code}-${i}`} className={styles.row}>
-                  <span className={styles.rowIndex}>{String(i + 1).padStart(2, '0')}</span>
-                  <span className={styles.code}>{row.code}</span>
-                  <span className={styles.desc}>{row.description}</span>
-                </div>
-              ))
-            ) : (
-              <div className={styles.empty}>Teknik veri tablosu yakında eklenecek.</div>
-            )}
-          </div>
+                {table.kind === 'list' ? (
+                  <>
+                    <div className={styles.tableHead} aria-hidden="true">
+                      <span>{table.columnLabels?.[0] ?? 'Model Kodu'}</span>
+                      <span>{table.columnLabels?.[1] ?? 'Teknik Açıklama'}</span>
+                    </div>
+                    <div className={styles.list}>
+                      {table.rows.map((row, i) => (
+                        <div key={`${row.code}-${i}`} className={styles.row}>
+                          <span className={styles.rowIndex}>{String(i + 1).padStart(2, '0')}</span>
+                          <span className={styles.code}>{row.code}</span>
+                          <span className={styles.desc}>{row.description}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </>
+                ) : (
+                  <div className={styles.gridWrapper}>
+                    <table className={styles.grid}>
+                      <thead>
+                        <tr>
+                          <th>{table.rowHeaderLabel}</th>
+                          {table.columnHeaders.map((head) => (
+                            <th key={head}>{head}</th>
+                          ))}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {table.rows.map((row) => (
+                          <tr key={row.label}>
+                            <th scope="row">{row.label}</th>
+                            {row.values.map((value, vi) => (
+                              <td key={vi}>{value}</td>
+                            ))}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                )}
+              </div>
+            ))
+          ) : (
+            <div className={styles.empty}>Teknik veri tablosu yakında eklenecek.</div>
+          )}
         </div>
       </div>
     </div>

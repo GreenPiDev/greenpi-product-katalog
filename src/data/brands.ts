@@ -150,9 +150,11 @@ export const mediumVoltageGroups: Brand[] = [
     textColor: '#F7EEE3',
     products: [],
     displayMode: 'spec',
-    // TODO: gerçek ürün görseli admin / kullanıcı tarafından yüklenecek.
-    specImage: '/products/medium-voltage/metal-mahfazali-hucreler.jpg',
-    specTable: [
+    specImage: '/products/medium-voltage/metal-mahfazali-hucreler.png',
+    specTables: [
+      {
+        kind: 'list',
+        rows: [
       { code: 'AS36 LC', description: 'Yük Ayırıcılı Giriş/Çıkış Hücresi / 36kV 630A 16kA (Motorlu)' },
       { code: 'AS36 LF', description: 'Yük Ayırıcılı ve Sigortalı Trafo Koruma Hücresi / 36kV 630A 16kA' },
       { code: 'AS36 VTC', description: 'Gerilim Transformatörü Hücresi (3 Adet 60VA) / 36kV 630A 16kA' },
@@ -213,6 +215,8 @@ export const mediumVoltageGroups: Brand[] = [
         code: 'AS36 LCV/2',
         description: 'Akım ve Gerilim Ölçü Hücresi (Sağdan Girişli) (Mühürlü) / 36kV 630A 16kA',
       },
+        ],
+      },
     ],
   },
   {
@@ -227,9 +231,34 @@ export const mediumVoltageGroups: Brand[] = [
     textColor: '#E7F1F0',
     products: [],
     displayMode: 'spec',
-    // TODO: ürün görseli ve teknik veri tablosu eklenecek.
-    specImage: '/products/medium-voltage/gaz-yalitimli-hucreler.jpg',
-    specTable: [],
+    specImage: '/products/medium-voltage/gaz-yalitimli-hucreler.png',
+    specTables: [
+      {
+        kind: 'list',
+        title: 'Gaz Yalıtımlı Metal Mahfazalı Hücreler (RMU)',
+        rows: [
+          { code: 'RMU AS36 LC', description: 'Yük Ayırıcılı Giriş/Çıkış Hücresi / 36kV 630A 16kA (Motorlu)' },
+          {
+            code: 'RMU AS36 LF',
+            description: 'Yük Ayırıcılı ve Sigortalı Trafo Koruma Hücresi / 36kV 630A 16kA',
+          },
+          {
+            code: 'RMU AS36 CBC',
+            description: 'Kesicili Giriş-Çıkış Hücresi / Trafo Koruma Hücresi (Rölesiz) / 36kV 630A 16kA',
+          },
+          {
+            code: 'RMU AS36 VTC/2',
+            description: 'Gerilim Trafosu/İç İhtiyaç Hücresi (Ayırıcısız) (3 Adet 60VA) / 36kV 630A 16kA',
+          },
+          { code: 'RMU AS36 LCV', description: 'Akım Gerilim Ölçü Hücresi (Mühürlü) (Ayırıcısız)' },
+          { code: 'RMU AS36 CBC-C', description: 'Kesicili Kuplaj Hücresi (Rölesiz)' },
+          { code: 'RMU AS36 LC-Y', description: 'Ayırıcılı Kuplaj Hücresi (Motorlu)' },
+          { code: 'RMU AS36 KB', description: 'Kablo Bağlama Hücresi' },
+          { code: 'RMU LC+LC+LF', description: 'Kompakt RMU (Motorlu) Genişleyebilir Tip' },
+          { code: 'RMU LC+LC+LF', description: 'Kompakt RMU (Motorlu) Genişleyemez Tip' },
+        ],
+      },
+    ],
   },
   {
     id: 'kuru-tip-transformatorler',
@@ -243,9 +272,49 @@ export const mediumVoltageGroups: Brand[] = [
     textColor: '#E9F3EC',
     products: [],
     displayMode: 'spec',
-    // TODO: ürün görseli ve teknik veri tablosu eklenecek.
-    specImage: '/products/medium-voltage/kuru-tip-transformatorler.jpg',
-    specTable: [],
+    specImage: '/products/medium-voltage/kuru-tip-transformatorler.png',
+    specTables: [
+      {
+        kind: 'list',
+        title: 'Kuru Tip Transformatör — TEDAŞ MLZ 99/031-B Şartnamesine Uygun',
+        columnLabels: ['Güç', 'Teknik Açıklama'],
+        rows: [
+          { code: '400 kVA', description: '28,5-36/0,4kV Kuru Tip Transformatör' },
+          { code: '630 kVA', description: '28,5-36/0,4kV Kuru Tip Transformatör' },
+          { code: '800 kVA', description: '28,5-36/0,4kV Kuru Tip Transformatör' },
+          { code: '1000 kVA', description: '28,5-36/0,4kV Kuru Tip Transformatör' },
+          { code: '1250 kVA', description: '28,5-36/0,4kV Kuru Tip Transformatör' },
+          { code: '1600 kVA', description: '28,5-36/0,4kV Kuru Tip Transformatör' },
+          { code: '2000 kVA', description: '28,5-36/0,4kV Kuru Tip Transformatör' },
+          { code: '2500 kVA', description: '28,5-36/0,4kV Kuru Tip Transformatör' },
+        ],
+      },
+      {
+        kind: 'list',
+        title: 'Kuru Tip Transformatör — IEC 60076-11 Standartlarına Uygun',
+        columnLabels: ['Güç', 'Teknik Açıklama'],
+        rows: [
+          { code: '400 kVA', description: '28,5-36/0,4kV Kuru Tip Transformatör' },
+          { code: '630 kVA', description: '28,5-36/0,4kV Kuru Tip Transformatör' },
+          { code: '800 kVA', description: '28,5-36/0,4kV Kuru Tip Transformatör' },
+          { code: '1000 kVA', description: '28,5-36/0,4kV Kuru Tip Transformatör' },
+          { code: '1250 kVA', description: '28,5-36/0,4kV Kuru Tip Transformatör' },
+          { code: '1600 kVA', description: '28,5-36/0,4kV Kuru Tip Transformatör' },
+          { code: '2000 kVA', description: '28,5-36/0,4kV Kuru Tip Transformatör' },
+          { code: '2500 kVA', description: '28,5-36/0,4kV Kuru Tip Transformatör' },
+        ],
+      },
+      {
+        kind: 'list',
+        title: 'Opsiyonel Donanımlar',
+        columnLabels: ['Güç Aralığı', 'Donanım'],
+        rows: [
+          { code: '250–1250 kVA', description: 'Kuru Tip Transformatör Soğutma Fanı' },
+          { code: '1600–2500 kVA', description: 'Kuru Tip Transformatör Soğutma Fanı' },
+          { code: '—', description: 'Kuru Tip Transformatör Fan Kontrol Panosu' },
+        ],
+      },
+    ],
   },
   {
     id: 'yagli-tip-transformatorler',
@@ -259,9 +328,47 @@ export const mediumVoltageGroups: Brand[] = [
     textColor: '#F5E7DE',
     products: [],
     displayMode: 'spec',
-    // TODO: ürün görseli ve teknik veri tablosu eklenecek.
-    specImage: '/products/medium-voltage/yagli-tip-transformatorler.jpg',
-    specTable: [],
+    specImage: '/products/medium-voltage/yagli-tip-transformatorler.png',
+    specTables: [
+      {
+        kind: 'list',
+        title: 'Hermetik Tip Transformatör — TEDAŞ MLZ 99/032-E (A Plus)',
+        columnLabels: ['Güç', 'Teknik Açıklama'],
+        rows: [
+          { code: '50 kVA', description: '28,5-36/0,4kV Hermetik Tip Transformatör' },
+          { code: '100 kVA', description: '28,5-36/0,4kV Hermetik Tip Transformatör' },
+          { code: '160 kVA', description: '28,5-36/0,4kV Hermetik Tip Transformatör' },
+          { code: '250 kVA', description: '28,5-36/0,4kV Hermetik Tip Transformatör' },
+          { code: '400 kVA', description: '28,5-36/0,4kV Hermetik Tip Transformatör' },
+          { code: '630 kVA', description: '28,5-36/0,4kV Hermetik Tip Transformatör' },
+          { code: '800 kVA', description: '28,5-36/0,4kV Hermetik Tip Transformatör' },
+          { code: '1000 kVA', description: '28,5-36/0,4kV Hermetik Tip Transformatör' },
+          { code: '1250 kVA', description: '28,5-36/0,4kV Hermetik Tip Transformatör' },
+          { code: '1600 kVA', description: '28,5-36/0,4kV Hermetik Tip Transformatör' },
+          { code: '2000 kVA', description: '28,5-36/0,4kV Hermetik Tip Transformatör' },
+          { code: '2500 kVA', description: '28,5-36/0,4kV Hermetik Tip Transformatör' },
+        ],
+      },
+      {
+        kind: 'list',
+        title: 'Hermetik Tip Transformatör — TEDAŞ MLZ 99/032-D (AOAk)',
+        columnLabels: ['Güç', 'Teknik Açıklama'],
+        rows: [
+          { code: '50 kVA', description: '28,5-36/0,4kV Hermetik Tip Transformatör' },
+          { code: '100 kVA', description: '28,5-36/0,4kV Hermetik Tip Transformatör' },
+          { code: '160 kVA', description: '28,5-36/0,4kV Hermetik Tip Transformatör' },
+          { code: '250 kVA', description: '28,5-36/0,4kV Hermetik Tip Transformatör' },
+          { code: '400 kVA', description: '28,5-36/0,4kV Hermetik Tip Transformatör' },
+          { code: '630 kVA', description: '28,5-36/0,4kV Hermetik Tip Transformatör' },
+          { code: '800 kVA', description: '28,5-36/0,4kV Hermetik Tip Transformatör' },
+          { code: '1000 kVA', description: '28,5-36/0,4kV Hermetik Tip Transformatör' },
+          { code: '1250 kVA', description: '28,5-36/0,4kV Hermetik Tip Transformatör' },
+          { code: '1600 kVA', description: '28,5-36/0,4kV Hermetik Tip Transformatör' },
+          { code: '2000 kVA', description: '28,5-36/0,4kV Hermetik Tip Transformatör' },
+          { code: '2500 kVA', description: '28,5-36/0,4kV Hermetik Tip Transformatör' },
+        ],
+      },
+    ],
   },
   {
     id: 'og-sont-reaktorler',
@@ -274,5 +381,23 @@ export const mediumVoltageGroups: Brand[] = [
     backgroundColor: '#3B2354',
     textColor: '#F0EAF5',
     products: [],
+    displayMode: 'spec',
+    specImage: '/products/medium-voltage/og-sont-reaktorler.png',
+    specTables: [
+      {
+        kind: 'grid',
+        title: 'Boşta Kademeli Şönt Reaktör Güç Aralıkları (kVAr)',
+        rowHeaderLabel: 'Kademe No',
+        columnHeaders: ['360-600', '200-1000', '400-2000', '600-3000', '800-4000', '1000-5000'],
+        rows: [
+          { label: '1', values: ['360', '600', '1000', '1800', '2400', '3000'] },
+          { label: '2', values: ['390', '650', '1300', '1950', '2600', '3250'] },
+          { label: '3', values: ['435', '725', '1450', '2175', '2900', '3625'] },
+          { label: '4', values: ['480', '800', '1600', '2400', '3200', '4000'] },
+          { label: '5', values: ['540', '900', '1800', '2700', '3600', '4500'] },
+          { label: '6', values: ['600', '1000', '2000', '3000', '4000', '5000'] },
+        ],
+      },
+    ],
   },
 ]

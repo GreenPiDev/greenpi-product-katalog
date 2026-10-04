@@ -27,7 +27,6 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  border: 1px solid color-mix(in srgb, var(--brand-text) 16%, transparent);
 }
 
 .image {
@@ -56,6 +55,22 @@
   flex: 1 1 auto;
   min-width: 0;
   padding-top: clamp(2.5rem, 7vh, 4.5rem);
+}
+
+.tableBlock {
+  margin-bottom: clamp(2.5rem, 6vh, 4rem);
+}
+
+.tableBlock:last-child {
+  margin-bottom: 0;
+}
+
+.tableTitle {
+  margin-bottom: 1rem;
+  font-size: clamp(0.95rem, 1.4vw, 1.1rem);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: var(--brand-text);
 }
 
 .tableHead {
@@ -104,13 +119,66 @@
   font-size: 0.95rem;
   font-weight: 600;
   letter-spacing: 0.02em;
-  color: var(--brand-accent);
+  color: #ffffff;
 }
 
 .desc {
   font-size: 0.92rem;
   line-height: 1.55;
   color: color-mix(in srgb, var(--brand-text) 78%, transparent);
+}
+
+.gridWrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid color-mix(in srgb, var(--brand-text) 18%, transparent);
+}
+
+.grid {
+  width: 100%;
+  min-width: 540px;
+  border-collapse: collapse;
+}
+
+.grid th,
+.grid td {
+  padding: 0.85rem 1.1rem;
+  text-align: center;
+  white-space: nowrap;
+  border-bottom: 1px solid color-mix(in srgb, var(--brand-text) 12%, transparent);
+  border-right: 1px solid color-mix(in srgb, var(--brand-text) 10%, transparent);
+}
+
+.grid th:last-child,
+.grid td:last-child {
+  border-right: none;
+}
+
+.grid thead th {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: color-mix(in srgb, var(--brand-text) 65%, transparent);
+  background: color-mix(in srgb, var(--brand-text) 8%, transparent);
+}
+
+.grid tbody th {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  color: #ffffff;
+  background: color-mix(in srgb, var(--brand-text) 6%, transparent);
+}
+
+.grid tbody td {
+  font-size: 0.92rem;
+  color: color-mix(in srgb, var(--brand-text) 85%, transparent);
+}
+
+.grid tbody tr:last-child th,
+.grid tbody tr:last-child td {
+  border-bottom: none;
 }
 
 .empty {
