@@ -3,6 +3,7 @@
     { "source": "/product-catalog/assets/:path*", "destination": "/assets/:path*" },
     { "source": "/product-catalog/logos/:path*", "destination": "/logos/:path*" },
     { "source": "/product-catalog/logo.png", "destination": "/logo.png" },
+    { "source": "/product-catalog/products/:path*", "destination": "/products/:path*" },
     { "source": "/((?!api/).*)", "destination": "/index.html" }
   ]
 }
