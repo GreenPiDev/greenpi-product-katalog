@@ -9,6 +9,11 @@ export type Product = {
 
 export type UserProduct = Product & { brandId: string }
 
+export type SpecRow = {
+  code: string
+  description: string
+}
+
 export type Brand = {
   id: string
   name: string
@@ -20,6 +25,10 @@ export type Brand = {
   textColor: string
   logos?: string[]
   products: Product[]
+  /** 'spec' = tek görsel + yatay kayan teknik veri tablosu (ör. hücre/trafo serileri) */
+  displayMode?: 'gallery' | 'spec'
+  specImage?: string
+  specTable?: SpecRow[]
 }
 
 export type VoltageCategory = {

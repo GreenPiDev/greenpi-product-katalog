@@ -149,6 +149,71 @@ export const mediumVoltageGroups: Brand[] = [
     backgroundColor: '#8B5A2B',
     textColor: '#F7EEE3',
     products: [],
+    displayMode: 'spec',
+    // TODO: gerçek ürün görseli admin / kullanıcı tarafından yüklenecek.
+    specImage: '/products/medium-voltage/metal-mahfazali-hucreler.jpg',
+    specTable: [
+      { code: 'AS36 LC', description: 'Yük Ayırıcılı Giriş/Çıkış Hücresi / 36kV 630A 16kA (Motorlu)' },
+      { code: 'AS36 LF', description: 'Yük Ayırıcılı ve Sigortalı Trafo Koruma Hücresi / 36kV 630A 16kA' },
+      { code: 'AS36 VTC', description: 'Gerilim Transformatörü Hücresi (3 Adet 60VA) / 36kV 630A 16kA' },
+      { code: 'AS36 VTC/3', description: 'İç İhtiyaç Hücresi (3 Adet 30/60+800VA) / 36kV 630A 16kA' },
+      { code: 'AS36 VTC/1', description: 'İç İhtiyaç Hücresi (1 Adet 30/60+800VA) / 36kV 630A 16kA' },
+      {
+        code: 'AS36 CBC/CBT',
+        description:
+          'Kesicili Giriş-Çıkış / Trafo Koruma Hücresi (Rölesiz) 0,72 KV Toroidal / 36kV 630A 16kA',
+      },
+      {
+        code: 'AS36 CBC/CBT',
+        description:
+          'Kesicili Giriş-Çıkış / Trafo Koruma Hücresi (Rölesiz) Mesnet Tipi Akım Trafolu / 36kV 630A 16kA',
+      },
+      {
+        code: 'AS36 CBC-CBT/1250',
+        description:
+          'Kesicili Giriş-Çıkış / Trafo Koruma Hücresi (Rölesiz) 0,72 KV Toroidal / 36kV 1250A 16kA',
+      },
+      {
+        code: 'AS36 CBC-CBT/1250',
+        description:
+          'Kesicili Giriş-Çıkış / Trafo Koruma Hücresi (Rölesiz) Mesnet Tipi Akım Trafolu / 36kV 1250A 16kA',
+      },
+      { code: 'AS36 CBC-C', description: 'Kesicili Bara Bağlama (Kuplaj) Hücresi (Rölesiz) / 36kV 630A 16kA' },
+      { code: 'AS36 CBC-C/1250', description: 'Kesicili Bara Bağlama (Kuplaj) Hücresi (Rölesiz) / 36kV 1250A 16kA' },
+      { code: 'AS36 LC-G', description: 'Gazlı Ayırıcılı Giriş-Çıkış Hücresi / 36kV 630A 16kA' },
+      { code: 'AS36 LC-G/2', description: 'Gazlı Ayırıcılı Giriş-Çıkış Hücresi / 36kV 1250A 16kA' },
+      { code: 'AS36 KB', description: 'Kablo Bağlantı Hücresi (Topraksız) / 36kV 630A 16kA' },
+      { code: 'AS36 KB/1250', description: 'Kablo Bağlantı Hücresi (Topraksız) / 36kV 1250A 16kA' },
+      {
+        code: 'AS36 LCV',
+        description: 'Yük Ayırıcılı Akım-Gerilim Ölçü Hücresi (Soldan Girişli) (Mühürlü) / 36kV 630A 16kA',
+      },
+      { code: 'AS36 BCY', description: 'Bara Yükseltme Hücresi / 36kV 630A 16kA' },
+      { code: 'AS36 CB-Y', description: 'Akım Ölçü + Bara Yükseltme Hücresi / 36kV 630A 16kA' },
+      { code: 'AS36 CB', description: 'Akım Ölçü Hücresi (Mühürlü) / 36kV 630A 16kA' },
+      { code: 'AS36 CBC-Y', description: 'Kesicili Bara Bölme Hücresi (Rölesiz) Yandan Çıkışlı / 36kV 630A 16kA' },
+      { code: 'AS36 CBC-Y/2', description: 'Kesicili Bara Bölme Hücresi (Rölesiz) Yandan Çıkışlı / 36kV 1250A 16kA' },
+      { code: 'AS36 LC-Y', description: 'Yük Ayırıcılı Bara Bölme Hücresi (Başkent Tipi) / 36kV 630A 16kA' },
+      { code: 'AS36 LC-Y', description: 'Yük Ayırıcılı Bara Bölme Hücresi (Yandan Çıkışlı) / 36kV 630A 16kA' },
+      {
+        code: 'AS36 CBC-OTOP',
+        description: 'Kesicili Giriş-Çıkış Hücresi (Rölesiz) (Gerilim Trafolu) / 36kV 630A 16kA',
+      },
+      {
+        code: 'AS36 CBC-OTOP/2',
+        description: 'Kesicili Giriş-Çıkış Hücresi (Rölesiz) (Gerilim Trafolu) / 36kV 1250A 16kA',
+      },
+      { code: 'AS36 LCV-G', description: 'Gazlı Ayırıcılı Akım-Gerilim Ölçü Hücresi (Mühürlü) / 36kV 630A 16kA' },
+      { code: 'AS36 LCV-G/2', description: 'Gazlı Ayırıcılı Akım-Gerilim Ölçü Hücresi (Mühürlü) / 36kV 1250A 16kA' },
+      {
+        code: 'AS36 LCV/KC',
+        description: 'Yük Ayırıcılı Akım-Gerilim Ölçü Hücresi (Kablo Çıkışlı) (Mühürlü) / 36kV 630A 16kA',
+      },
+      {
+        code: 'AS36 LCV/2',
+        description: 'Akım ve Gerilim Ölçü Hücresi (Sağdan Girişli) (Mühürlü) / 36kV 630A 16kA',
+      },
+    ],
   },
   {
     id: 'gaz-yalitimli-hucreler',
@@ -161,6 +226,10 @@ export const mediumVoltageGroups: Brand[] = [
     backgroundColor: '#1F3B3E',
     textColor: '#E7F1F0',
     products: [],
+    displayMode: 'spec',
+    // TODO: ürün görseli ve teknik veri tablosu eklenecek.
+    specImage: '/products/medium-voltage/gaz-yalitimli-hucreler.jpg',
+    specTable: [],
   },
   {
     id: 'kuru-tip-transformatorler',
@@ -173,6 +242,10 @@ export const mediumVoltageGroups: Brand[] = [
     backgroundColor: '#234D35',
     textColor: '#E9F3EC',
     products: [],
+    displayMode: 'spec',
+    // TODO: ürün görseli ve teknik veri tablosu eklenecek.
+    specImage: '/products/medium-voltage/kuru-tip-transformatorler.jpg',
+    specTable: [],
   },
   {
     id: 'yagli-tip-transformatorler',
@@ -185,6 +258,10 @@ export const mediumVoltageGroups: Brand[] = [
     backgroundColor: '#4A2318',
     textColor: '#F5E7DE',
     products: [],
+    displayMode: 'spec',
+    // TODO: ürün görseli ve teknik veri tablosu eklenecek.
+    specImage: '/products/medium-voltage/yagli-tip-transformatorler.jpg',
+    specTable: [],
   },
   {
     id: 'og-sont-reaktorler',

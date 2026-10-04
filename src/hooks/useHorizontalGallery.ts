@@ -21,7 +21,13 @@ export function useHorizontalGallery(deps: unknown[] = []): HorizontalGallery {
       mm.add(PINNABLE_QUERY, () => {
         const track = trackRef.current
         if (!track) return
-        const getDistance = () => Math.max(0, track.scrollWidth - window.innerWidth)
+        // Measured against the track's own direct parent so nested layouts
+        // (e.g. a fixed visual column beside the scrolling track) are
+        // accounted for, not just the full window width.
+        const getDistance = () => {
+          const viewportWidth = track.parentElement?.clientWidth ?? window.innerWidth
+          return Math.max(0, track.scrollWidth - viewportWidth)
+        }
 
         gsap.to(track, {
           x: () => -getDistance(),
