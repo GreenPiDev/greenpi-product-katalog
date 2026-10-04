@@ -13,6 +13,9 @@ type SpecBrandSectionProps = {
 
 export function SpecBrandSection({ brand, position, total }: SpecBrandSectionProps) {
   const tables = brand.specTables ?? []
+  // Tek ve kısa bir matris tablosu varsa (ör. OG şönt), sticky görselin dikey
+  // ortasıyla hizalanması için tableArea de dikeyde ortalanır.
+  const isSingleGrid = tables.length === 1 && tables[0].kind === 'grid'
 
   const brandStyle = {
     '--brand-bg': brand.backgroundColor,
@@ -89,7 +92,7 @@ export function SpecBrandSection({ brand, position, total }: SpecBrandSectionPro
           </div>
         </div>
 
-        <div className={styles.tableArea}>
+        <div className={`${styles.tableArea} ${isSingleGrid ? styles.tableAreaCentered : ''}`}>
           {tables.length > 0 ? (
             tables.map((table, ti) => (
               <div key={ti} className={styles.tableBlock}>

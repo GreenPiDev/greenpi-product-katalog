@@ -57,6 +57,14 @@
   padding-top: clamp(2.5rem, 7vh, 4.5rem);
 }
 
+.tableAreaCentered {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 0;
+}
+
 .tableBlock {
   margin-bottom: clamp(2.5rem, 6vh, 4rem);
 }
@@ -209,6 +217,12 @@
 
   .tableArea {
     width: 100%;
+    padding-top: 1.5rem;
+  }
+
+  .tableAreaCentered {
+    min-height: 0;
+    justify-content: flex-start;
     padding-top: 1.5rem;
   }
 
