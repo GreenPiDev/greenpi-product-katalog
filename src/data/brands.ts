@@ -231,7 +231,8 @@ export const mediumVoltageGroups: Brand[] = [
     textColor: '#E7F1F0',
     products: [],
     displayMode: 'spec',
-    specImage: '/products/medium-voltage/gaz-yalitimli-hucreler.png',
+    specImage: '/products/medium-voltage/rmu-8.png',
+    specImageScale: 1.6,
     specTables: [
       {
         kind: 'list',

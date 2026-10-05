@@ -80,6 +80,7 @@ export function SpecBrandSection({ brand, position, total }: SpecBrandSectionPro
                 alt={brand.name}
                 loading="lazy"
                 decoding="async"
+                style={brand.specImageScale ? { transform: `scale(${brand.specImageScale})` } : undefined}
               />
             ) : (
               <svg className={styles.placeholder} viewBox="0 0 200 200" aria-hidden="true">

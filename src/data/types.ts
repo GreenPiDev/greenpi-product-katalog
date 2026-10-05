@@ -52,6 +52,8 @@ export type Brand = {
   /** 'spec' = tek görsel (sticky) + aşağı doğru uzayan teknik veri tablo(lar)ı. */
   displayMode?: 'gallery' | 'spec'
   specImage?: string
+  /** Sadece bu markanın görseli için büyütme oranı (ör. 1.2 = %20 daha büyük). */
+  specImageScale?: number
   /** PDF'teki tablo yapısı farklıysa (liste / matris) her biri kendi şeklinde eklenir. */
   specTables?: SpecTable[]
 }
