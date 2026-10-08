@@ -1,6 +1,7 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect, useRef, useState } from 'react'
 import { brandsWithUserProducts, mediumVoltageGroupsWithUserProducts } from '../../data/mergedBrands'
+import { useHideOnScroll } from '../../hooks/useHideOnScroll'
 import { useLanguage } from '../../i18n/LanguageContext'
 import { pickLocalizedText } from '../../i18n/localize'
 import { scrollToId } from '../../lib/lenis'
@@ -15,6 +16,8 @@ export function Header() {
   const [mobileProducts, setMobileProducts] = useState(false)
   const [mobileCategory, setMobileCategory] = useState<string | null>(null)
   const closeTimer = useRef<number | null>(null)
+  const scrolledHidden = useHideOnScroll()
+  const hidden = scrolledHidden && !menuOpen && !mobileOpen
 
   useEffect(() => {
     document.body.style.overflow = mobileOpen ? 'hidden' : ''
@@ -60,7 +63,7 @@ export function Header() {
 
   return (
     <>
-      <header className={styles.header}>
+      <header className={`${styles.header} ${hidden ? styles.headerHidden : ''}`}>
         <div className={`container ${styles.inner}`}>
           <nav className={styles.nav} onMouseLeave={scheduleClose}>
             {NAV_LINKS.map((link) => (

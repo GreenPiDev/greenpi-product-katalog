@@ -71,7 +71,8 @@
   height: 100svh;
   display: flex;
   align-items: flex-start;
-  padding-top: clamp(4rem, 12vh, 7rem);
+  padding-top: clamp(1.5rem, 5vh, 3rem);
+  padding-bottom: clamp(1.5rem, 5vh, 3rem);
   overflow: hidden;
   direction: ltr;
 }
