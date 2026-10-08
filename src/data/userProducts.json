@@ -1,110 +1,5 @@
 [
   {
-    "id": "user-1789979864855-1",
-    "brandId": "inotel",
-    "name": "AR100 İHBAR SİNYAL BLOĞU",
-    "description": "Elektrik panolarında ve enerji sistemlerinde oluşan arıza ve alarm durumlarını görsel ve işitsel olarak bildirmek için kullanılan röle ihbar cihazıdır. 6 adet ihbar girişi ve 8 adet röle çıkışı sayesinde farklı arıza sinyallerini izleyerek alarm, açma ve korna gibi çıkışları yönetebilir.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789981624/greenpi-product-katalog/production/m7h0ddnbwugyxesusrha.png"
-  },
-  {
-    "id": "user-1789975412744-0",
-    "brandId": "inotel",
-    "name": "GMR100 ŞEBEKE İZLEME RÖLESİ",
-    "description": "Şehir şebekesini sürekli izleyerek oluşabilecek herhangi bir\ngerilim yada frekans bozulmasında enerji santrali ile elektrik\nşebekesini mili saniyeler içerisinde ayırır.\n\nSistem nominal değerine döndüğünde elektrik üretim tesisinin\ntekrar devreye girmesini sağlar.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789981716/greenpi-product-katalog/production/jv9lbrqnsqz2bkhhkjev.png"
-  },
-  {
-    "id": "user-1789979864855-0",
-    "brandId": "inotel",
-    "name": "AGD100 ARIZA GÖSTERGE DÜZENEĞİ",
-    "description": "Orta Gerilim şebekelerinde kullanım için tasarlanmış\nolan AGD100 mikroişlemci kontrollü, SCADA sistemlerine\nbilgi aktarımı için Modbus haberleşme protokolü destekli,\ndokunmatik ekrana sahip, ilgili TEDAŞ ve üst şartnamelere\nuyumlu arıza akımı izleme sistemidir.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789978537/greenpi-product-katalog/production/npxom94bwsahlc7evxfq.webp"
-  },
-  {
-    "id": "user-1789975412744-1",
-    "brandId": "inotel",
-    "name": "M100 ENDÜSTRİYEL MODEM",
-    "description": "M100, endüstriyel SCADA uygulamaları için özellikle\ngeliştirilmiş bir hücresel router modemdir.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789975409/greenpi-product-katalog/production/naotkili6b8s9nebeoma.webp"
-  },
-  {
-    "id": "user-1789979864855-2",
-    "brandId": "inotel",
-    "name": "INOCHARGE AC ELEKTRİK ARAÇ ŞARJ CİHAZI",
-    "description": "İnotel Inocharge, elektrikli araçların güvenli ve verimli şekilde şarj edilmesi için geliştirilmiş AC şarj istasyonudur. 7 kW, 11 kW ve 22 kW güç seçenekleri sunar; Wi-Fi/Ethernet bağlantısı ve mobil uygulama üzerinden kontrol ve izleme imkânı sağlar. Tip 2 bağlantıya sahip olan cihaz, dahili enerji ölçümü, kaçak akım ve gerilim korumaları ile farklı konut, ticari ve endüstriyel uygulamalarda kullanılabilir.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789981643/greenpi-product-katalog/production/wvlfz1i6uc0hheyhadw7.png"
-  },
-  {
-    "id": "user-1789979864855-3",
-    "brandId": "inotel",
-    "name": "IMD100 İZALASYON İZLEME CİHAZI",
-    "description": "IT şebekeleri ve izole DC sistemlerde izolasyon direncini sürekli izleyerek olası yalıtım hatalarını erken tespit eden cihazdır. İzolasyon direnci belirlenen eşik değerinin altına düştüğünde alarm üretir ve entegre röle çıkışları üzerinden ilgili sistemlere uyarı veya kesici tetikleme sinyali gönderir. GES, hastane, endüstriyel tesis ve diğer kritik enerji sistemlerinde güvenli ve kesintisiz işletme için kullanılır.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789981657/greenpi-product-katalog/production/zhnbs36p0kv8rricvgxw.png"
-  },
-  {
-    "id": "user-1789979864855-4",
-    "brandId": "inotel",
-    "name": "SOMGAD KESİNTİ TESPİT ÜNİTESİ",
-    "description": "Alçak gerilim hatlarında gerilim varlığını tespit ederek kesinti durumlarını izlemek için kullanılan kablosuz izleme sistemidir. GAD gerilim algılayıcı dedektör, hat üzerindeki gerilim bilgisini LoRa üzerinden SOM sensör okuma modülüne aktarır; SOM ise bu bilgileri RS-485/Modbus üzerinden SCADA sistemine ileterek trafo merkezleri ve dağıtım şebekelerinde uzaktan kesinti takibi sağlar.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789979040/greenpi-product-katalog/production/ypgsqaczchimgheebahf.png"
-  },
-  {
-    "id": "user-1789979864855-5",
-    "brandId": "inotel",
-    "name": "LİR24 LIFEPO4 REDRESÖR",
-    "description": "LiFePO4 (Lityum Demir Fosfat) akü teknolojisini kullanan, 27 VDC çıkış gerilimi ve 3 A sürekli / 10 A kısa süreli çıkış akımı sağlayan uzun ömürlü redresör grubudur. Derin deşarj, kısa devre ve aşırı yük korumalarıyla alçak gerilim panoları, trafo merkezleri, SCADA ve otomasyon sistemlerinde kesintisiz DC güç sağlamak için kullanılır.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789979122/greenpi-product-katalog/production/uvf4ubcmbrjzcdb0jamm.png"
-  },
-  {
-    "id": "user-1789979864855-6",
-    "brandId": "inotel",
-    "name": "STR100 PV DİZİ İZLEME ÜNİTESİ",
-    "description": "Fotovoltaik güneş enerji santrallerinde DC toplama panolarında bulunan PV dizilerin gerilim ve akım değerlerini gerçek zamanlı olarak izlemek için kullanılan elektronik izleme cihazıdır. RS485/Modbus, fiber optik ve LoRa haberleşme seçenekleri sayesinde dizi performanslarının uzaktan izlenmesini ve düşük üretim veya arızalı dizilerin hızlı şekilde tespit edilmesini sağlar.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789982813/greenpi-product-katalog/production/zcwdxmqd1nlymxfmwm94.png"
-  },
-  {
-    "id": "user-1789979864855-7",
-    "brandId": "inotel",
-    "name": "EA100E ENERJİ ANALİZÖRÜ(MODBUS-TCS)",
-    "description": "Elektrik enerjisi, gerilim, akım, anlık güç ve akım-gerilim harmoniklerini hassas şekilde ölçmek için kullanılan mikroişlemci kontrollü enerji analizörüdür. RS485 Modbus ve Ethernet (TCP/IP) haberleşme özellikleri sayesinde ölçüm verilerini SCADA ve RTU sistemlerine aktararak enerji izleme ve analiz uygulamalarında kullanılabilir.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789981669/greenpi-product-katalog/production/rl0hmgptyp0v4ujjvniu.png"
-  },
-  {
-    "id": "user-1789979864855-8",
-    "brandId": "inotel",
-    "name": "EA100R ENERJİ ANALİZÖRÜ(MODBUS)",
-    "description": "Elektrik enerjisi, gerilim, akım, anlık güç ve akım-gerilim harmoniklerini hassas şekilde ölçmek için kullanılan mikroişlemci kontrollü enerji analizörüdür. RS485 Modbus haberleşme özelliği sayesinde ölçüm ve analiz verilerini SCADA veya RTU sistemlerine aktararak enerji izleme ve otomasyon uygulamalarında kullanılabilir.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789981682/greenpi-product-katalog/production/r2fcwursyguxlblories.png"
-  },
-  {
-    "id": "user-1789979864855-9",
-    "brandId": "inotel",
-    "name": "SCAP1220 SÜPER KAPASİTÖR ÜNİTESİ",
-    "description": "DC sistemlerde kısa süreli kesintisiz yardımcı besleme sağlamak için kullanılan, bakım gerektirmeyen süper kapasitör tabanlı güç ünitesidir. Şebeke kesintisi sırasında RTU, PLC, modem ve haberleşme sistemleri gibi kritik yüklerin çalışmaya devam ederek kesinti, alarm ve ölçüm bilgilerinin SCADA merkezine iletilmesi için gerekli süreyi sağlar.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789979659/greenpi-product-katalog/production/cx5zvd2yaod4cjukvcce.webp"
-  },
-  {
-    "id": "user-1789979864855-10",
-    "brandId": "inotel",
-    "name": "EA100B HABERLEŞMESİZ ENERJİ ANALİZÖRÜ",
-    "description": "Elektrik sistemlerinde gerilim, akım, güç, enerji ve güç faktörü gibi temel elektriksel parametreleri ölçmek ve izlemek için kullanılan mikroişlemci kontrollü enerji analizörüdür. Haberleşme özelliği bulunmadığından ölçülen değerler cihazın ön panelindeki ekran üzerinden takip edilir ve enerji ölçümü, pano izleme ve elektriksel parametrelerin kontrolü gibi uygulamalarda kullanılır.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789979750/greenpi-product-katalog/production/b2cno7nqgkhp5y6m4gqv.png"
-  },
-  {
-    "id": "user-1789979864855-11",
-    "brandId": "inotel",
-    "name": "RAG110 AKÜ REDRESÖR GRUBU (110V)",
-    "description": "Endüstriyel sistemlerde AC enerjiyi DC enerjiye dönüştürerek 110 VDC seviyesinde kesintisiz güç ve akü şarjı sağlayan akü redresör grubudur. 25 A çıkış kapasitesi, RS485 Modbus haberleşme ve 16 adet röle çıkışı ile trafo merkezleri, SCADA sistemleri, otomasyon sistemleri ve elektrik üretim tesislerinde kritik DC yüklerin güvenilir şekilde beslenmesi için kullanılır.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789981692/greenpi-product-katalog/production/ysus87jkjmjlapeedalb.png"
-  },
-  {
-    "id": "user-1789979864855-12",
-    "brandId": "inotel",
-    "name": "RAG24 AKÜ REDRESÖR GRUBU (24V)",
-    "description": "24 VDC endüstriyel güç ihtiyacını karşılamak üzere geliştirilmiş, içerisinde doğrultucu, akü ve filtre grubu bulunan kesintisiz DC güç kaynağıdır. 25 A maksimum çıkış akımı, 21–27,6 VDC çıkış gerilimi ve RS485 Modbus haberleşme özellikleriyle trafo merkezleri, alçak gerilim panoları, SCADA, otomasyon ve endüstriyel tesislerde kritik DC yüklerin kesintisiz beslenmesi için kullanılır.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789979861/greenpi-product-katalog/production/wra8y5zwi1bqjipa3ngb.webp"
-  },
-  {
     "id": "user-1789992268327-0",
     "brandId": "te-connectivity",
     "name": "YARDIMCI RÖLE",
@@ -154,6 +49,27 @@
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790066684/greenpi-product-katalog/production/fwsekelttzdktwotmk9p.png"
   },
   {
+    "id": "user-1790059074951-0",
+    "brandId": "te-connectivity",
+    "name": "ETİKET MAKİNASI",
+    "description": "Elektrik panolarında kablo, makaron, klemens, komponent ve ekipman etiketlerini hızlı ve yüksek kaliteli şekilde yazdırmak için kullanılan termal transfer baskı makinesidir. TE Connectivity’nin yazıcıları; ısı ile daralan makaronlar, kablo işaretleyicileri ve çeşitli etiketler üzerine kalıcı baskı yaparak pano ve kablo tanımlama uygulamalarında kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790058988/greenpi-product-katalog/production/dgpqivne78zrzlbd8sop.png"
+  },
+  {
+    "id": "user-1790059074951-1",
+    "brandId": "te-connectivity",
+    "name": "KONTAKTÖR",
+    "description": "Elektrik devrelerinde yüksek akım ve güçteki yüklerin güvenli şekilde açılıp kapatılmasını sağlayan elektromekanik anahtarlama elemanıdır. TE kontaktörler; motor kontrolü, güç dağıtımı, HVAC, elektrikli araçlar, enerji depolama ve çeşitli endüstriyel uygulamalarda yüklerin uzaktan kontrol edilmesi için kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790059041/greenpi-product-katalog/production/akar0ug8lbypzse6uwun.png"
+  },
+  {
+    "id": "user-1790067471383-0",
+    "brandId": "te-connectivity",
+    "name": "SLİM RÖLE",
+    "description": "Elektrik ve otomasyon panolarında kontrol sinyallerini anahtarlamak ve kontrol devresi ile yük devresi arasında elektriksel izolasyon sağlamak için kullanılan kompakt arayüz rölesidir. İnce yapısı sayesinde pano içerisinde yer tasarrufu sağlarken PLC, otomasyon sistemleri ve endüstriyel kontrol uygulamalarında güvenilir sinyal aktarımı ve yük kontrolü sunar.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790064359/greenpi-product-katalog/production/livvl9g5kei7vrzbieix.png"
+  },
+  {
     "id": "user-1789993128928-0",
     "brandId": "aite",
     "name": "FOTOVOLTAİK SİGORTA (1000VDC/1500VDC/2000VDC)",
@@ -166,6 +82,132 @@
     "name": "KARTUŞ SİGORTA BUŞONU VE YUVASI (400-690VAC)",
     "description": "Alçak gerilim elektrik sistemlerinde kablo, ekipman ve devreleri aşırı akım ve kısa devreye karşı korumak için kullanılan kartuş tipi sigortalardır. 690VAC'ye kadar gerilim seviyelerinde kullanılabilen bu sigortalar, yüksek kesme kapasitesi ve güvenilir arıza koruması sayesinde elektrik panoları, güç dağıtım sistemleri ve endüstriyel uygulamalarda tercih edilir.",
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790062644/greenpi-product-katalog/production/qo0m47ircwob7pyf5wsp.png"
+  },
+  {
+    "id": "user-1789975412744-0",
+    "brandId": "inotel",
+    "name": "GMR100 ŞEBEKE İZLEME RÖLESİ",
+    "description": "Şehir şebekesini sürekli izleyerek oluşabilecek herhangi bir\ngerilim yada frekans bozulmasında enerji santrali ile elektrik\nşebekesini mili saniyeler içerisinde ayırır.\n\nSistem nominal değerine döndüğünde elektrik üretim tesisinin\ntekrar devreye girmesini sağlar.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789981716/greenpi-product-katalog/production/jv9lbrqnsqz2bkhhkjev.png"
+  },
+  {
+    "id": "user-1789979864855-3",
+    "brandId": "inotel",
+    "name": "IMD100 İZALASYON İZLEME CİHAZI",
+    "description": "IT şebekeleri ve izole DC sistemlerde izolasyon direncini sürekli izleyerek olası yalıtım hatalarını erken tespit eden cihazdır. İzolasyon direnci belirlenen eşik değerinin altına düştüğünde alarm üretir ve entegre röle çıkışları üzerinden ilgili sistemlere uyarı veya kesici tetikleme sinyali gönderir. GES, hastane, endüstriyel tesis ve diğer kritik enerji sistemlerinde güvenli ve kesintisiz işletme için kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789981657/greenpi-product-katalog/production/zhnbs36p0kv8rricvgxw.png"
+  },
+  {
+    "id": "user-1789979864855-5",
+    "brandId": "inotel",
+    "name": "LİR24 LIFEPO4 REDRESÖR",
+    "description": "LiFePO4 (Lityum Demir Fosfat) akü teknolojisini kullanan, 27 VDC çıkış gerilimi ve 3 A sürekli / 10 A kısa süreli çıkış akımı sağlayan uzun ömürlü redresör grubudur. Derin deşarj, kısa devre ve aşırı yük korumalarıyla alçak gerilim panoları, trafo merkezleri, SCADA ve otomasyon sistemlerinde kesintisiz DC güç sağlamak için kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789979122/greenpi-product-katalog/production/uvf4ubcmbrjzcdb0jamm.png"
+  },
+  {
+    "id": "user-1789979864855-11",
+    "brandId": "inotel",
+    "name": "RAG110 AKÜ REDRESÖR GRUBU (110V)",
+    "description": "Endüstriyel sistemlerde AC enerjiyi DC enerjiye dönüştürerek 110 VDC seviyesinde kesintisiz güç ve akü şarjı sağlayan akü redresör grubudur. 25 A çıkış kapasitesi, RS485 Modbus haberleşme ve 16 adet röle çıkışı ile trafo merkezleri, SCADA sistemleri, otomasyon sistemleri ve elektrik üretim tesislerinde kritik DC yüklerin güvenilir şekilde beslenmesi için kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789981692/greenpi-product-katalog/production/ysus87jkjmjlapeedalb.png"
+  },
+  {
+    "id": "user-1789979864855-12",
+    "brandId": "inotel",
+    "name": "RAG24 AKÜ REDRESÖR GRUBU (24V)",
+    "description": "24 VDC endüstriyel güç ihtiyacını karşılamak üzere geliştirilmiş, içerisinde doğrultucu, akü ve filtre grubu bulunan kesintisiz DC güç kaynağıdır. 25 A maksimum çıkış akımı, 21–27,6 VDC çıkış gerilimi ve RS485 Modbus haberleşme özellikleriyle trafo merkezleri, alçak gerilim panoları, SCADA, otomasyon ve endüstriyel tesislerde kritik DC yüklerin kesintisiz beslenmesi için kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789979861/greenpi-product-katalog/production/wra8y5zwi1bqjipa3ngb.webp"
+  },
+  {
+    "id": "user-1789979864855-1",
+    "brandId": "inotel",
+    "name": "AR100 İHBAR SİNYAL BLOĞU",
+    "description": "Elektrik panolarında ve enerji sistemlerinde oluşan arıza ve alarm durumlarını görsel ve işitsel olarak bildirmek için kullanılan röle ihbar cihazıdır. 6 adet ihbar girişi ve 8 adet röle çıkışı sayesinde farklı arıza sinyallerini izleyerek alarm, açma ve korna gibi çıkışları yönetebilir.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789981624/greenpi-product-katalog/production/m7h0ddnbwugyxesusrha.png"
+  },
+  {
+    "id": "user-1789979864855-0",
+    "brandId": "inotel",
+    "name": "AGD100 ARIZA GÖSTERGE DÜZENEĞİ",
+    "description": "Orta Gerilim şebekelerinde kullanım için tasarlanmış\nolan AGD100 mikroişlemci kontrollü, SCADA sistemlerine\nbilgi aktarımı için Modbus haberleşme protokolü destekli,\ndokunmatik ekrana sahip, ilgili TEDAŞ ve üst şartnamelere\nuyumlu arıza akımı izleme sistemidir.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789978537/greenpi-product-katalog/production/npxom94bwsahlc7evxfq.webp"
+  },
+  {
+    "id": "user-1789975412744-1",
+    "brandId": "inotel",
+    "name": "M100 ENDÜSTRİYEL MODEM",
+    "description": "M100, endüstriyel SCADA uygulamaları için özellikle\ngeliştirilmiş bir hücresel router modemdir.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789975409/greenpi-product-katalog/production/naotkili6b8s9nebeoma.webp"
+  },
+  {
+    "id": "user-1789979864855-2",
+    "brandId": "inotel",
+    "name": "INOCHARGE AC ELEKTRİK ARAÇ ŞARJ CİHAZI",
+    "description": "İnotel Inocharge, elektrikli araçların güvenli ve verimli şekilde şarj edilmesi için geliştirilmiş AC şarj istasyonudur. 7 kW, 11 kW ve 22 kW güç seçenekleri sunar; Wi-Fi/Ethernet bağlantısı ve mobil uygulama üzerinden kontrol ve izleme imkânı sağlar. Tip 2 bağlantıya sahip olan cihaz, dahili enerji ölçümü, kaçak akım ve gerilim korumaları ile farklı konut, ticari ve endüstriyel uygulamalarda kullanılabilir.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789981643/greenpi-product-katalog/production/wvlfz1i6uc0hheyhadw7.png"
+  },
+  {
+    "id": "user-1789979864855-4",
+    "brandId": "inotel",
+    "name": "SOMGAD KESİNTİ TESPİT ÜNİTESİ",
+    "description": "Alçak gerilim hatlarında gerilim varlığını tespit ederek kesinti durumlarını izlemek için kullanılan kablosuz izleme sistemidir. GAD gerilim algılayıcı dedektör, hat üzerindeki gerilim bilgisini LoRa üzerinden SOM sensör okuma modülüne aktarır; SOM ise bu bilgileri RS-485/Modbus üzerinden SCADA sistemine ileterek trafo merkezleri ve dağıtım şebekelerinde uzaktan kesinti takibi sağlar.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789979040/greenpi-product-katalog/production/ypgsqaczchimgheebahf.png"
+  },
+  {
+    "id": "user-1789979864855-6",
+    "brandId": "inotel",
+    "name": "STR100 PV DİZİ İZLEME ÜNİTESİ",
+    "description": "Fotovoltaik güneş enerji santrallerinde DC toplama panolarında bulunan PV dizilerin gerilim ve akım değerlerini gerçek zamanlı olarak izlemek için kullanılan elektronik izleme cihazıdır. RS485/Modbus, fiber optik ve LoRa haberleşme seçenekleri sayesinde dizi performanslarının uzaktan izlenmesini ve düşük üretim veya arızalı dizilerin hızlı şekilde tespit edilmesini sağlar.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789982813/greenpi-product-katalog/production/zcwdxmqd1nlymxfmwm94.png"
+  },
+  {
+    "id": "user-1789979864855-7",
+    "brandId": "inotel",
+    "name": "EA100E ENERJİ ANALİZÖRÜ(MODBUS-TCS)",
+    "description": "Elektrik enerjisi, gerilim, akım, anlık güç ve akım-gerilim harmoniklerini hassas şekilde ölçmek için kullanılan mikroişlemci kontrollü enerji analizörüdür. RS485 Modbus ve Ethernet (TCP/IP) haberleşme özellikleri sayesinde ölçüm verilerini SCADA ve RTU sistemlerine aktararak enerji izleme ve analiz uygulamalarında kullanılabilir.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789981669/greenpi-product-katalog/production/rl0hmgptyp0v4ujjvniu.png"
+  },
+  {
+    "id": "user-1789979864855-8",
+    "brandId": "inotel",
+    "name": "EA100R ENERJİ ANALİZÖRÜ(MODBUS)",
+    "description": "Elektrik enerjisi, gerilim, akım, anlık güç ve akım-gerilim harmoniklerini hassas şekilde ölçmek için kullanılan mikroişlemci kontrollü enerji analizörüdür. RS485 Modbus haberleşme özelliği sayesinde ölçüm ve analiz verilerini SCADA veya RTU sistemlerine aktararak enerji izleme ve otomasyon uygulamalarında kullanılabilir.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789981682/greenpi-product-katalog/production/r2fcwursyguxlblories.png"
+  },
+  {
+    "id": "user-1789979864855-9",
+    "brandId": "inotel",
+    "name": "SCAP1220 SÜPER KAPASİTÖR ÜNİTESİ",
+    "description": "DC sistemlerde kısa süreli kesintisiz yardımcı besleme sağlamak için kullanılan, bakım gerektirmeyen süper kapasitör tabanlı güç ünitesidir. Şebeke kesintisi sırasında RTU, PLC, modem ve haberleşme sistemleri gibi kritik yüklerin çalışmaya devam ederek kesinti, alarm ve ölçüm bilgilerinin SCADA merkezine iletilmesi için gerekli süreyi sağlar.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789979659/greenpi-product-katalog/production/cx5zvd2yaod4cjukvcce.webp"
+  },
+  {
+    "id": "user-1789979864855-10",
+    "brandId": "inotel",
+    "name": "EA100B HABERLEŞMESİZ ENERJİ ANALİZÖRÜ",
+    "description": "Elektrik sistemlerinde gerilim, akım, güç, enerji ve güç faktörü gibi temel elektriksel parametreleri ölçmek ve izlemek için kullanılan mikroişlemci kontrollü enerji analizörüdür. Haberleşme özelliği bulunmadığından ölçülen değerler cihazın ön panelindeki ekran üzerinden takip edilir ve enerji ölçümü, pano izleme ve elektriksel parametrelerin kontrolü gibi uygulamalarda kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1789979750/greenpi-product-katalog/production/b2cno7nqgkhp5y6m4gqv.png"
+  },
+  {
+    "id": "user-1790060533340-0",
+    "brandId": "raycap",
+    "name": "SAFETEC",
+    "description": "Alçak gerilim elektrik sistemlerinde yıldırım darbeleri ve ani aşırı gerilimlere karşı ekipmanları korumak için kullanılan Tip 2 (Class II) parafudr (SPD) serisidir. DIN raya monte edilebilen yapısı ve akım sınırlama teknolojisi sayesinde geçici aşırı gerilimlerde güvenilir koruma sağlarken, elektrik panoları ve tali dağıtım panolarındaki hassas ekipmanların korunmasına yardımcı olur.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790059511/greenpi-product-katalog/production/ajzxytam6jelxufmbvq4.png"
+  },
+  {
+    "id": "user-1790060533340-1",
+    "brandId": "raycap",
+    "name": "PROBLOC",
+    "description": "Alçak gerilim elektrik sistemlerinde yıldırım darbeleri ve ani aşırı gerilimlere karşı koruma sağlayan Tip 1+2 parafudr (SPD) serisidir. Kompakt yapısı, yüksek darbe boşaltma kapasitesi ve farklı AC/DC sistemlere yönelik modelleri sayesinde ana dağıtım panoları, endüstriyel tesisler ve enerji sistemlerinde ekipmanların aşırı gerilimlere karşı korunması için kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790059550/greenpi-product-katalog/production/ei5abgaiwrmudkt81mxl.png"
+  },
+  {
+    "id": "user-1790060533340-2",
+    "brandId": "raycap",
+    "name": "PROTEC",
+    "description": "Alçak gerilim elektrik sistemlerinde yıldırım darbeleri ve ani aşırı gerilimlere karşı koruma sağlayan takılabilir tip parafudr (SPD) ürün ailesidir. Tip 1, Tip 2 ve Tip 1+2 seçeneklerinin yanı sıra AC, DC ve fotovoltaik sistemlere yönelik modelleri bulunur. DIN raya monte edilebilen yapısı, görsel durum göstergesi ve isteğe bağlı uzaktan sinyalizasyon özelliğiyle elektrik panoları ve enerji sistemlerinde ekipmanların aşırı gerilimlere karşı korunmasında kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790059581/greenpi-product-katalog/production/y4uzx24wobhooxzpwvdx.png"
   },
   {
     "id": "user-1789993369352-0",
@@ -203,18 +245,18 @@
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790063226/greenpi-product-katalog/production/jzg12cdpcrtkxi0gcgga.png"
   },
   {
-    "id": "user-1789993932630-0",
-    "brandId": "miltera",
-    "name": "UZAK TERMİNAL ÜNİTESİ",
-    "description": "Enerji dağıtım ve otomasyon sistemlerinde saha ekipmanlarından ölçüm, durum ve alarm bilgilerini toplamak, bu verileri haberleşme altyapısı üzerinden merkezi SCADA sistemlerine aktarmak ve uzaktan kontrol komutlarını sahaya iletmek için kullanılan RTU cihazıdır. Trafo merkezleri, dağıtım panoları ve endüstriyel tesislerde uzaktan izleme ve kontrol uygulamalarında kullanılır.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790067976/greenpi-product-katalog/production/dlrevpaubm1l7bzzmkrj.png"
-  },
-  {
     "id": "user-1789993932630-1",
     "brandId": "abb",
     "name": "DIN RAY RTU 530CID02 RTU530",
     "description": "Dağıtım şebekelerinde uzaktan izleme, kontrol, otomasyon ve haberleşme görevlerini gerçekleştirmek için kullanılan kompakt bir RTU (Remote Terminal Unit) modülüdür. 2 Ethernet portu, RS-232 ve RS-485 seri haberleşme arayüzleri, 8 dijital giriş ve 4 dijital çıkış ile saha verilerini toplayarak SCADA ve kontrol sistemlerine aktarır. DIN ray montajına uygun yapısı ve genişletilebilir I/O desteği sayesinde trafo merkezleri ve dağıtım otomasyonu uygulamalarında kullanılır.",
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790063239/greenpi-product-katalog/production/p3qxj2yly0elklwynnrf.png"
+  },
+  {
+    "id": "user-1789993932630-0",
+    "brandId": "miltera",
+    "name": "UZAK TERMİNAL ÜNİTESİ",
+    "description": "Enerji dağıtım ve otomasyon sistemlerinde saha ekipmanlarından ölçüm, durum ve alarm bilgilerini toplamak, bu verileri haberleşme altyapısı üzerinden merkezi SCADA sistemlerine aktarmak ve uzaktan kontrol komutlarını sahaya iletmek için kullanılan RTU cihazıdır. Trafo merkezleri, dağıtım panoları ve endüstriyel tesislerde uzaktan izleme ve kontrol uygulamalarında kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790067976/greenpi-product-katalog/production/dlrevpaubm1l7bzzmkrj.png"
   },
   {
     "id": "user-1789993932630-2",
@@ -252,11 +294,81 @@
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790068030/greenpi-product-katalog/production/hatnoexastzjlbtv4ha7.png"
   },
   {
+    "id": "user-1789994836034-3",
+    "brandId": "exproof",
+    "name": "ARMATÜR",
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda aydınlatma sağlamak üzere tasarlanmış, ATEX uyumlu ex-proof aydınlatma armatürleridir. Patlama riskinin bulunduğu endüstriyel tesislerde güvenli ve kesintisiz aydınlatma sağlamak amacıyla kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790060362/greenpi-product-katalog/production/f7clyyf5zsaihgjkruyr.png"
+  },
+  {
+    "id": "user-1789994836034-4",
+    "brandId": "exproof",
+    "name": "PROJEKTÖR",
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda güçlü ve güvenli aydınlatma sağlamak üzere tasarlanmış, ATEX uyumlu ex-proof projektörlerdir. Geniş alanların aydınlatılmasında kullanılan bu projektörler; endüstriyel tesisler, enerji santralleri, petrol ve gaz tesisleri gibi patlayıcı atmosfer riski bulunan alanlarda kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790061159/greenpi-product-katalog/production/ooo9qw3o5ylazyfaswlz.png"
+  },
+  {
+    "id": "user-1789994836034-12",
+    "brandId": "exproof",
+    "name": "GAZ DEDEKTÖRÜ",
+    "description": "Patlayıcı ve tehlikeli ortamlarda yanıcı veya toksik gazların varlığını ve konsantrasyonunu tespit etmek için kullanılan ATEX uyumlu gaz dedektörleridir. Gaz seviyeleri belirlenen eşik değerlerine ulaştığında alarm oluşturarak personelin uyarılmasını ve gerekli güvenlik sistemlerinin devreye alınmasını sağlar.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790060413/greenpi-product-katalog/production/pcssoammzi4dc3veuqvx.png"
+  },
+  {
+    "id": "user-1789994836034-6",
+    "brandId": "exproof",
+    "name": "KUMANDA KUTULARI",
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda buton, anahtar, sinyal lambası ve diğer kumanda elemanlarının güvenli şekilde kullanılmasını sağlayan ATEX uyumlu ex-proof kumanda kutularıdır. Endüstriyel tesislerde motor, makine ve proses ekipmanlarının güvenli şekilde kontrol edilmesi için kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790067045/greenpi-product-katalog/production/bvolv6b5tqhrktrxanpq.avif"
+  },
+  {
+    "id": "user-1789994836034-5",
+    "brandId": "exproof",
+    "name": "TERMİNAL KUTULARI,PANOLAR",
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda elektrik bağlantılarını, klemensleri ve kontrol ekipmanlarını güvenli şekilde muhafaza etmek için kullanılan ATEX uyumlu ex-proof kutu ve panolardır. Elektriksel ekipmanları dış ortam koşullarına ve patlayıcı atmosfere karşı koruyarak endüstriyel tesisler, enerji santralleri ve proses tesislerinde güvenli bağlantı ve dağıtım imkânı sağlar.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790060520/greenpi-product-katalog/production/z3zvpj829x5lgfhat7ti.png"
+  },
+  {
+    "id": "user-1789994836034-11",
+    "brandId": "exproof",
+    "name": "KOMBİNASYON KUTULARI",
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda anahtar, buton, sinyal lambası, klemens ve diğer elektriksel kumanda elemanlarını tek bir muhafaza içerisinde bir araya getirmek için kullanılan ATEX uyumlu ex-proof kutulardır. Ekipmanların güvenli şekilde kontrol edilmesini ve bağlantıların dış ortam koşullarına karşı korunmasını sağlar.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790060489/greenpi-product-katalog/production/ayamfz01a8l3amgszkiq.png"
+  },
+  {
+    "id": "user-1789994836034-8",
+    "brandId": "exproof",
+    "name": "BUAT KUTULARI",
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda elektrik kablolarının birleştirilmesi, dağıtılması ve güvenli şekilde muhafaza edilmesi için kullanılan ATEX uyumlu ex-proof buat kutularıdır. Kablo bağlantılarını dış ortam koşullarına ve patlayıcı atmosfere karşı koruyarak endüstriyel tesislerde güvenli elektrik bağlantısı sağlar.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790060449/greenpi-product-katalog/production/uoh1ggksujosunvsgqdr.png"
+  },
+  {
+    "id": "user-1789994836034-13",
+    "brandId": "exproof",
+    "name": "ELEKTRİK MOTORU",
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda çalışmak üzere tasarlanmış, ATEX uyumlu ex-proof elektrik motorudur. Tutuşturma riskini azaltan koruma yapısı sayesinde pompa, fan, kompresör ve çeşitli endüstriyel makinelerin güvenli şekilde çalıştırılmasında kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790060303/greenpi-product-katalog/production/ghyv1lzwcmxk0d5jzykm.png"
+  },
+  {
     "id": "user-1789994836034-0",
     "brandId": "exproof",
     "name": "EX-PROOF FANLAR",
     "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda güvenli hava sirkülasyonu ve havalandırma sağlamak üzere tasarlanmış, ATEX direktifine uygun patlamaya karşı korumalı fanlardır. Yanıcı atmosferlerde kıvılcım ve tutuşturma riskini azaltan yapıları sayesinde endüstriyel tesisler, kimya tesisleri, enerji santralleri ve benzeri tehlikeli alanlarda kullanılır.",
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790061118/greenpi-product-katalog/production/wjoodfmr7jowenuijfrr.png"
+  },
+  {
+    "id": "user-1789994836034-7",
+    "brandId": "exproof",
+    "name": "ACİL STOP BUTONU",
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda makine ve elektrikli ekipmanları acil durumda hızlı ve güvenli şekilde durdurmak için kullanılan ATEX uyumlu ex-proof acil stop butonudur. Tehlikeli bölgelerde güvenli duruş ve acil müdahale gerektiren endüstriyel uygulamalarda kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790060470/greenpi-product-katalog/production/sjdtsiabmtwt3quvwcwv.png"
+  },
+  {
+    "id": "user-1789994836034-9",
+    "brandId": "exproof",
+    "name": "SİREN",
+    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda sesli alarm ve uyarı sağlamak için kullanılan ATEX uyumlu ex-proof sirenlerdir. Acil durum, arıza, yangın ve proses alarmı gibi durumlarda personeli uyarmak amacıyla endüstriyel tesisler, enerji santralleri ve tehlikeli alanlarda kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790060432/greenpi-product-katalog/production/c75z9e4t4tkftystcwaj.png"
   },
   {
     "id": "user-1789994836034-1",
@@ -273,81 +385,11 @@
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790067062/greenpi-product-katalog/production/ob8povgl2nx42d4ulfat.png"
   },
   {
-    "id": "user-1789994836034-3",
-    "brandId": "exproof",
-    "name": "ARMATÜR",
-    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda aydınlatma sağlamak üzere tasarlanmış, ATEX uyumlu ex-proof aydınlatma armatürleridir. Patlama riskinin bulunduğu endüstriyel tesislerde güvenli ve kesintisiz aydınlatma sağlamak amacıyla kullanılır.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790060362/greenpi-product-katalog/production/f7clyyf5zsaihgjkruyr.png"
-  },
-  {
-    "id": "user-1789994836034-4",
-    "brandId": "exproof",
-    "name": "PROJEKTÖR",
-    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda güçlü ve güvenli aydınlatma sağlamak üzere tasarlanmış, ATEX uyumlu ex-proof projektörlerdir. Geniş alanların aydınlatılmasında kullanılan bu projektörler; endüstriyel tesisler, enerji santralleri, petrol ve gaz tesisleri gibi patlayıcı atmosfer riski bulunan alanlarda kullanılır.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790061159/greenpi-product-katalog/production/ooo9qw3o5ylazyfaswlz.png"
-  },
-  {
-    "id": "user-1789994836034-5",
-    "brandId": "exproof",
-    "name": "TERMİNAL KUTULARI,PANOLAR",
-    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda elektrik bağlantılarını, klemensleri ve kontrol ekipmanlarını güvenli şekilde muhafaza etmek için kullanılan ATEX uyumlu ex-proof kutu ve panolardır. Elektriksel ekipmanları dış ortam koşullarına ve patlayıcı atmosfere karşı koruyarak endüstriyel tesisler, enerji santralleri ve proses tesislerinde güvenli bağlantı ve dağıtım imkânı sağlar.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790060520/greenpi-product-katalog/production/z3zvpj829x5lgfhat7ti.png"
-  },
-  {
-    "id": "user-1789994836034-6",
-    "brandId": "exproof",
-    "name": "KUMANDA KUTULARI",
-    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda buton, anahtar, sinyal lambası ve diğer kumanda elemanlarının güvenli şekilde kullanılmasını sağlayan ATEX uyumlu ex-proof kumanda kutularıdır. Endüstriyel tesislerde motor, makine ve proses ekipmanlarının güvenli şekilde kontrol edilmesi için kullanılır.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790067045/greenpi-product-katalog/production/bvolv6b5tqhrktrxanpq.avif"
-  },
-  {
-    "id": "user-1789994836034-7",
-    "brandId": "exproof",
-    "name": "ACİL STOP BUTONU",
-    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda makine ve elektrikli ekipmanları acil durumda hızlı ve güvenli şekilde durdurmak için kullanılan ATEX uyumlu ex-proof acil stop butonudur. Tehlikeli bölgelerde güvenli duruş ve acil müdahale gerektiren endüstriyel uygulamalarda kullanılır.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790060470/greenpi-product-katalog/production/sjdtsiabmtwt3quvwcwv.png"
-  },
-  {
-    "id": "user-1789994836034-8",
-    "brandId": "exproof",
-    "name": "BUAT KUTULARI",
-    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda elektrik kablolarının birleştirilmesi, dağıtılması ve güvenli şekilde muhafaza edilmesi için kullanılan ATEX uyumlu ex-proof buat kutularıdır. Kablo bağlantılarını dış ortam koşullarına ve patlayıcı atmosfere karşı koruyarak endüstriyel tesislerde güvenli elektrik bağlantısı sağlar.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790060449/greenpi-product-katalog/production/uoh1ggksujosunvsgqdr.png"
-  },
-  {
-    "id": "user-1789994836034-9",
-    "brandId": "exproof",
-    "name": "SİREN",
-    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda sesli alarm ve uyarı sağlamak için kullanılan ATEX uyumlu ex-proof sirenlerdir. Acil durum, arıza, yangın ve proses alarmı gibi durumlarda personeli uyarmak amacıyla endüstriyel tesisler, enerji santralleri ve tehlikeli alanlarda kullanılır.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790060432/greenpi-product-katalog/production/c75z9e4t4tkftystcwaj.png"
-  },
-  {
     "id": "user-1789994836034-10",
     "brandId": "exproof",
     "name": "ELEKTRİK ANAHTARI",
     "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda elektrik devrelerini güvenli şekilde açıp kapatmak için kullanılan ATEX uyumlu ex-proof elektrik anahtarlarıdır. Kıvılcım ve tutuşturma riskini azaltan yapıları sayesinde endüstriyel tesisler, enerji santralleri ve diğer tehlikeli bölgelerde güvenli elektriksel kontrol sağlar.",
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790060344/greenpi-product-katalog/production/yhzfpayei6wydmbjhsph.png"
-  },
-  {
-    "id": "user-1789994836034-11",
-    "brandId": "exproof",
-    "name": "KOMBİNASYON KUTULARI",
-    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda anahtar, buton, sinyal lambası, klemens ve diğer elektriksel kumanda elemanlarını tek bir muhafaza içerisinde bir araya getirmek için kullanılan ATEX uyumlu ex-proof kutulardır. Ekipmanların güvenli şekilde kontrol edilmesini ve bağlantıların dış ortam koşullarına karşı korunmasını sağlar.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790060489/greenpi-product-katalog/production/ayamfz01a8l3amgszkiq.png"
-  },
-  {
-    "id": "user-1789994836034-12",
-    "brandId": "exproof",
-    "name": "GAZ DEDEKTÖRÜ",
-    "description": "Patlayıcı ve tehlikeli ortamlarda yanıcı veya toksik gazların varlığını ve konsantrasyonunu tespit etmek için kullanılan ATEX uyumlu gaz dedektörleridir. Gaz seviyeleri belirlenen eşik değerlerine ulaştığında alarm oluşturarak personelin uyarılmasını ve gerekli güvenlik sistemlerinin devreye alınmasını sağlar.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790060413/greenpi-product-katalog/production/pcssoammzi4dc3veuqvx.png"
-  },
-  {
-    "id": "user-1789994836034-13",
-    "brandId": "exproof",
-    "name": "ELEKTRİK MOTORU",
-    "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda çalışmak üzere tasarlanmış, ATEX uyumlu ex-proof elektrik motorudur. Tutuşturma riskini azaltan koruma yapısı sayesinde pompa, fan, kompresör ve çeşitli endüstriyel makinelerin güvenli şekilde çalıştırılmasında kullanılır.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790060303/greenpi-product-katalog/production/ghyv1lzwcmxk0d5jzykm.png"
   },
   {
     "id": "user-1789994836034-14",
@@ -390,6 +432,55 @@
     "name": "FİŞ VE PRİZ",
     "description": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda elektrikli ekipmanların güvenli şekilde enerji bağlantısını ve ayrılmasını sağlamak için kullanılan ATEX uyumlu ex-proof fiş ve prizlerdir. Kıvılcım ve tutuşturma riskini azaltan yapıları sayesinde endüstriyel tesisler, enerji santralleri, petrokimya tesisleri ve diğer tehlikeli alanlarda güvenli elektrik bağlantısı sağlar.",
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790060236/greenpi-product-katalog/production/n7gb0rnnl0f3yk9mizzu.png"
+  },
+  {
+    "id": "user-1789996771668-1",
+    "brandId": "gromtor",
+    "name": "ÇUBUK ŞERİT",
+    "description": "Yıldırımdan korunma ve topraklama sistemlerinde iletkenlerin yapıya sabitlenmesi ve topraklama bağlantılarının oluşturulması için kullanılan metal çubuk ve şerit elemanlarıdır. Farklı ölçü ve malzeme seçenekleriyle sunularak iniş iletkenleri, topraklama hatları ve eş potansiyel bağlantıların güvenli şekilde uygulanmasına yardımcı olur.",
+    "isVisible": false
+  },
+  {
+    "id": "user-1789996771668-2",
+    "brandId": "gromtor",
+    "name": "YASSI/DÜZ İLETKEN",
+    "description": "Yıldırımdan korunma ve topraklama sistemlerinde elektrik akımının güvenli şekilde iletilmesini sağlamak için kullanılan yassı kesitli metal iletkenlerdir. Bakır, alüminyum ve galvanizli çelik gibi farklı malzeme seçenekleriyle sunularak iniş iletkenleri, topraklama bağlantıları ve eşpotansiyel sistemlerde kullanılır.",
+    "isVisible": false
+  },
+  {
+    "id": "user-1789996771668-3",
+    "brandId": "gromtor",
+    "name": "YILDIRIMDAN KORUMA ÜRÜNLERİ PARATONER",
+    "description": "Yapıları ve tesisleri yıldırımın doğrudan etkilerine karşı korumak için kullanılan yıldırımdan korunma sistemleridir. Yıldırım darbesini kontrollü şekilde yakalayarak iniş iletkenleri ve topraklama sistemi üzerinden güvenli biçimde toprağa iletilmesini sağlar; endüstriyel tesisler, enerji sistemleri ve çeşitli yapıların yıldırımdan korunmasında kullanılır.",
+    "isVisible": false
+  },
+  {
+    "id": "user-1789996771668-4",
+    "brandId": "gromtor",
+    "name": "TOPRAKLAMA ANAHTARI",
+    "description": "Elektrik tesislerinde ekipman ve devrelerin güvenli şekilde topraklanmasını sağlamak için kullanılan topraklama anahtarıdır. Bakım ve onarım sırasında devrenin enerjisiz ve güvenli hale getirilmesine yardımcı olarak personel güvenliğini ve elektriksel korumayı destekler.",
+    "isVisible": false
+  },
+  {
+    "id": "user-1789996771668-5",
+    "brandId": "sertec",
+    "name": "YILDIRIM ENGELLEME SİSTEMLERİ CMCE",
+    "description": "Atmosferik elektrik alanını dengeleyerek yıldırım oluşumunu ve doğrudan yıldırım darbesi riskini azaltmayı amaçlayan pasif yıldırım engelleme sistemidir. Enerji beslemesi gerektirmeden çevredeki elektriksel yükleri dengeleyerek koruma alanı oluşturur; binalar, enerji tesisleri, telekomünikasyon yapıları, endüstriyel tesisler ve açık alan uygulamalarında kullanılır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790245645/greenpi-product-katalog/production/yx9yjwgcnnrgc88ryfh4.png"
+  },
+  {
+    "id": "user-1789996771668-6",
+    "brandId": "sertec",
+    "name": "RADIO, GSM KULE YILDIRIM ENGELLEME SİSTEMLERİ",
+    "description": "Radyo ve GSM kuleleri gibi yüksek yapılarda yıldırım riskini azaltmak ve haberleşme ekipmanlarını korumak için kullanılan yıldırımdan korunma sistemleridir. Kule, anten ve bağlı ekipmanlarda oluşabilecek yıldırım etkilerini kontrollü şekilde toprağa aktararak ekipman güvenliği ve sistem sürekliliği sağlamaya yardımcı olur.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790245677/greenpi-product-katalog/production/hennwbg69zsbyhyfhdcw.png"
+  },
+  {
+    "id": "user-1789996771668-7",
+    "brandId": "sertec",
+    "name": "DENİZ TAŞITLARI VE MARİNALAR İÇİN YILDIRIM ENGELLEME SİSTEMLERİ",
+    "description": "Deniz taşıtları, yatlar ve marina tesislerinde yıldırım riskini azaltmak ve elektrikli ekipmanları korumak için tasarlanmış yıldırımdan korunma sistemleridir. Yıldırım akımının kontrollü şekilde topraklama ve eşpotansiyel sistemlerine aktarılmasına yardımcı olarak can güvenliği, ekipman koruması ve sistem sürekliliğini destekler.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790245661/greenpi-product-katalog/production/tgwcef3yfhezwmlojf4l.png"
   },
   {
     "id": "user-1789996390154-0",
@@ -469,93 +560,6 @@
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790233050/greenpi-product-katalog/production/olpspeh8l9henempoupf.png"
   },
   {
-    "id": "user-1789996771668-1",
-    "brandId": "gromtor",
-    "name": "ÇUBUK ŞERİT",
-    "description": "Yıldırımdan korunma ve topraklama sistemlerinde iletkenlerin yapıya sabitlenmesi ve topraklama bağlantılarının oluşturulması için kullanılan metal çubuk ve şerit elemanlarıdır. Farklı ölçü ve malzeme seçenekleriyle sunularak iniş iletkenleri, topraklama hatları ve eş potansiyel bağlantıların güvenli şekilde uygulanmasına yardımcı olur."
-  },
-  {
-    "id": "user-1789996771668-2",
-    "brandId": "gromtor",
-    "name": "YASSI/DÜZ İLETKEN",
-    "description": "Yıldırımdan korunma ve topraklama sistemlerinde elektrik akımının güvenli şekilde iletilmesini sağlamak için kullanılan yassı kesitli metal iletkenlerdir. Bakır, alüminyum ve galvanizli çelik gibi farklı malzeme seçenekleriyle sunularak iniş iletkenleri, topraklama bağlantıları ve eşpotansiyel sistemlerde kullanılır."
-  },
-  {
-    "id": "user-1789996771668-3",
-    "brandId": "gromtor",
-    "name": "YILDIRIMDAN KORUMA ÜRÜNLERİ PARATONER",
-    "description": "Yapıları ve tesisleri yıldırımın doğrudan etkilerine karşı korumak için kullanılan yıldırımdan korunma sistemleridir. Yıldırım darbesini kontrollü şekilde yakalayarak iniş iletkenleri ve topraklama sistemi üzerinden güvenli biçimde toprağa iletilmesini sağlar; endüstriyel tesisler, enerji sistemleri ve çeşitli yapıların yıldırımdan korunmasında kullanılır."
-  },
-  {
-    "id": "user-1789996771668-4",
-    "brandId": "gromtor",
-    "name": "TOPRAKLAMA ANAHTARI",
-    "description": "Elektrik tesislerinde ekipman ve devrelerin güvenli şekilde topraklanmasını sağlamak için kullanılan topraklama anahtarıdır. Bakım ve onarım sırasında devrenin enerjisiz ve güvenli hale getirilmesine yardımcı olarak personel güvenliğini ve elektriksel korumayı destekler."
-  },
-  {
-    "id": "user-1789996771668-5",
-    "brandId": "sertec",
-    "name": "YILDIRIM ENGELLEME SİSTEMLERİ CMCE",
-    "description": "Atmosferik elektrik alanını dengeleyerek yıldırım oluşumunu ve doğrudan yıldırım darbesi riskini azaltmayı amaçlayan pasif yıldırım engelleme sistemidir. Enerji beslemesi gerektirmeden çevredeki elektriksel yükleri dengeleyerek koruma alanı oluşturur; binalar, enerji tesisleri, telekomünikasyon yapıları, endüstriyel tesisler ve açık alan uygulamalarında kullanılır.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790245645/greenpi-product-katalog/production/yx9yjwgcnnrgc88ryfh4.png"
-  },
-  {
-    "id": "user-1789996771668-6",
-    "brandId": "sertec",
-    "name": "RADIO, GSM KULE YILDIRIM ENGELLEME SİSTEMLERİ",
-    "description": "Radyo ve GSM kuleleri gibi yüksek yapılarda yıldırım riskini azaltmak ve haberleşme ekipmanlarını korumak için kullanılan yıldırımdan korunma sistemleridir. Kule, anten ve bağlı ekipmanlarda oluşabilecek yıldırım etkilerini kontrollü şekilde toprağa aktararak ekipman güvenliği ve sistem sürekliliği sağlamaya yardımcı olur.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790245677/greenpi-product-katalog/production/hennwbg69zsbyhyfhdcw.png"
-  },
-  {
-    "id": "user-1789996771668-7",
-    "brandId": "sertec",
-    "name": "DENİZ TAŞITLARI VE MARİNALAR İÇİN YILDIRIM ENGELLEME SİSTEMLERİ",
-    "description": "Deniz taşıtları, yatlar ve marina tesislerinde yıldırım riskini azaltmak ve elektrikli ekipmanları korumak için tasarlanmış yıldırımdan korunma sistemleridir. Yıldırım akımının kontrollü şekilde topraklama ve eşpotansiyel sistemlerine aktarılmasına yardımcı olarak can güvenliği, ekipman koruması ve sistem sürekliliğini destekler.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790245661/greenpi-product-katalog/production/tgwcef3yfhezwmlojf4l.png"
-  },
-  {
-    "id": "user-1790059074951-0",
-    "brandId": "te-connectivity",
-    "name": "ETİKET MAKİNASI",
-    "description": "Elektrik panolarında kablo, makaron, klemens, komponent ve ekipman etiketlerini hızlı ve yüksek kaliteli şekilde yazdırmak için kullanılan termal transfer baskı makinesidir. TE Connectivity’nin yazıcıları; ısı ile daralan makaronlar, kablo işaretleyicileri ve çeşitli etiketler üzerine kalıcı baskı yaparak pano ve kablo tanımlama uygulamalarında kullanılır.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790058988/greenpi-product-katalog/production/dgpqivne78zrzlbd8sop.png"
-  },
-  {
-    "id": "user-1790059074951-1",
-    "brandId": "te-connectivity",
-    "name": "KONTAKTÖR",
-    "description": "Elektrik devrelerinde yüksek akım ve güçteki yüklerin güvenli şekilde açılıp kapatılmasını sağlayan elektromekanik anahtarlama elemanıdır. TE kontaktörler; motor kontrolü, güç dağıtımı, HVAC, elektrikli araçlar, enerji depolama ve çeşitli endüstriyel uygulamalarda yüklerin uzaktan kontrol edilmesi için kullanılır.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790059041/greenpi-product-katalog/production/akar0ug8lbypzse6uwun.png"
-  },
-  {
-    "id": "user-1790060533340-0",
-    "brandId": "raycap",
-    "name": "SAFETEC",
-    "description": "Alçak gerilim elektrik sistemlerinde yıldırım darbeleri ve ani aşırı gerilimlere karşı ekipmanları korumak için kullanılan Tip 2 (Class II) parafudr (SPD) serisidir. DIN raya monte edilebilen yapısı ve akım sınırlama teknolojisi sayesinde geçici aşırı gerilimlerde güvenilir koruma sağlarken, elektrik panoları ve tali dağıtım panolarındaki hassas ekipmanların korunmasına yardımcı olur.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790059511/greenpi-product-katalog/production/ajzxytam6jelxufmbvq4.png"
-  },
-  {
-    "id": "user-1790060533340-1",
-    "brandId": "raycap",
-    "name": "PROBLOC",
-    "description": "Alçak gerilim elektrik sistemlerinde yıldırım darbeleri ve ani aşırı gerilimlere karşı koruma sağlayan Tip 1+2 parafudr (SPD) serisidir. Kompakt yapısı, yüksek darbe boşaltma kapasitesi ve farklı AC/DC sistemlere yönelik modelleri sayesinde ana dağıtım panoları, endüstriyel tesisler ve enerji sistemlerinde ekipmanların aşırı gerilimlere karşı korunması için kullanılır.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790059550/greenpi-product-katalog/production/ei5abgaiwrmudkt81mxl.png"
-  },
-  {
-    "id": "user-1790060533340-2",
-    "brandId": "raycap",
-    "name": "PROTEC",
-    "description": "Alçak gerilim elektrik sistemlerinde yıldırım darbeleri ve ani aşırı gerilimlere karşı koruma sağlayan takılabilir tip parafudr (SPD) ürün ailesidir. Tip 1, Tip 2 ve Tip 1+2 seçeneklerinin yanı sıra AC, DC ve fotovoltaik sistemlere yönelik modelleri bulunur. DIN raya monte edilebilen yapısı, görsel durum göstergesi ve isteğe bağlı uzaktan sinyalizasyon özelliğiyle elektrik panoları ve enerji sistemlerinde ekipmanların aşırı gerilimlere karşı korunmasında kullanılır.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790059581/greenpi-product-katalog/production/y4uzx24wobhooxzpwvdx.png"
-  },
-  {
-    "id": "user-1790067471383-0",
-    "brandId": "te-connectivity",
-    "name": "SLİM RÖLE",
-    "description": "Elektrik ve otomasyon panolarında kontrol sinyallerini anahtarlamak ve kontrol devresi ile yük devresi arasında elektriksel izolasyon sağlamak için kullanılan kompakt arayüz rölesidir. İnce yapısı sayesinde pano içerisinde yer tasarrufu sağlarken PLC, otomasyon sistemleri ve endüstriyel kontrol uygulamalarında güvenilir sinyal aktarımı ve yük kontrolü sunar.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790064359/greenpi-product-katalog/production/livvl9g5kei7vrzbieix.png"
-  },
-  {
     "id": "user-1790244147690-0",
     "brandId": "mobil-trafo-merkezleri",
     "name": "Boyalı Sac Köşk",
@@ -602,5 +606,26 @@
     "description": "Isı yalıtımı sağlayan sandviç panellerden üretilen, hafif ve modüler köşk çözümü. İç ve dış ortam uygulamalarına uygun olarak projelendirilebilir.",
     "category": "Orta Gerilim",
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790748781/greenpi-product-katalog/production/i1ifobvu0sslwfqyet44.png"
+  },
+  {
+    "id": "user-1791453270480-0",
+    "brandId": "vozwei",
+    "name": "VPH888-12.5 (T1+T2) Serisi Tip 1+2 AC Aşırı Gerilim Koruma Cihazı (SPD)",
+    "description": "VPH888-12.5, kapsamlı yıldırım ve dalga koruması için tasarlanmış yüksek voltajlı Tip 1+2 AC SPD'dir. 880V AC Uc ile 12,5 kA (10/350 μs) ve 80 kA (8/20 μs) Imax'i ele alır. ≤ 3.4 kV'a kadar sahip, tamamen EN / IEC 61643-11 uyumludur. Gerekli PV AC sistemleri ve yüksek voltajlı endüstriyel altyapı için ideal.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1791449603/greenpi-product-katalog/production/sx5t9tomoeia8z3n3t1g.png"
+  },
+  {
+    "id": "user-1791453270480-1",
+    "brandId": "alcak-gerilim-panolari",
+    "name": "Tedaş Tipi AG Panolar(Harici / Dahili / Dağıtım)",
+    "description": "Harici, dahili ve saha tipi dağıtım kutularında, farklı uygulama ve proje ihtiyaçlarına yönelik özelleştirilebilir çözümler sunuyoruz. Ürün özellikleri ve talep edilen adetlere göre özel fiyatlandırma ve projeye özel tekliflendirme yapılmaktadır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1791451774/greenpi-product-katalog/production/mszyzz0fnkc5tydqrn5v.png"
+  },
+  {
+    "id": "user-1791453270480-2",
+    "brandId": "alcak-gerilim-panolari",
+    "name": "Özel Tip Panolar",
+    "description": "Harici ve dahili kullanım için özel tip AG panoları, proje ve müşteri ihtiyaçlarına uygun olarak tasarlıyor ve üretiyoruz. Teknik özellikler, ölçüler, ekipman seçimi ve adet bazında talebe özel fiyatlandırma ve tekliflendirme yapılmaktadır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1791453263/greenpi-product-katalog/production/uyphlgk7xwmla7dw56yg.png"
   }
 ]
