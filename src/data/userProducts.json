@@ -72,14 +72,14 @@
   {
     "id": "user-1789993128928-0",
     "brandId": "aite",
-    "name": "FOTOVOLTAİK SİGORTA (1000VDC/1500VDC/2000VDC)",
+    "name": "KARTUŞ SİGORTA (400-690VAC / 1000VDC / 1500VDC)",
     "description": "Fotovoltaik güneş enerji sistemlerinde PV dizilerini, birleştirme kutularını ve inverterlerin DC girişlerini aşırı akım ve kısa devreye karşı korumak için kullanılan gPV sınıfı DC sigortalardır. 1000VDC, 1500VDC ve 2000VDC gerilim seviyelerine uygun farklı modelleri bulunan sigortalar, yüksek DC kesme kapasitesi ve hızlı arıza kesme özellikleriyle güneş enerjisi sistemlerinin güvenli şekilde çalışmasına katkı sağlar.",
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790062686/greenpi-product-katalog/production/eng9rol5ygwb4md5qtf3.png"
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1791457847/greenpi-product-katalog/production/zn0qs8zfz33dbtpwktax.png"
   },
   {
     "id": "user-1789993128928-1",
     "brandId": "aite",
-    "name": "KARTUŞ SİGORTA BUŞONU VE YUVASI (400-690VAC)",
+    "name": "KARTUŞ SİGORTA YUVASI (400-690VAC / 1000VDC / 1500VDC)",
     "description": "Alçak gerilim elektrik sistemlerinde kablo, ekipman ve devreleri aşırı akım ve kısa devreye karşı korumak için kullanılan kartuş tipi sigortalardır. 690VAC'ye kadar gerilim seviyelerinde kullanılabilen bu sigortalar, yüksek kesme kapasitesi ve güvenilir arıza koruması sayesinde elektrik panoları, güç dağıtım sistemleri ve endüstriyel uygulamalarda tercih edilir.",
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790062644/greenpi-product-katalog/production/qo0m47ircwob7pyf5wsp.png"
   },
@@ -627,5 +627,26 @@
     "name": "Özel Tip Panolar",
     "description": "Harici ve dahili kullanım için özel tip AG panoları, proje ve müşteri ihtiyaçlarına uygun olarak tasarlıyor ve üretiyoruz. Teknik özellikler, ölçüler, ekipman seçimi ve adet bazında talebe özel fiyatlandırma ve tekliflendirme yapılmaktadır.",
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1791453263/greenpi-product-katalog/production/uyphlgk7xwmla7dw56yg.png"
+  },
+  {
+    "id": "user-1791458036066-0",
+    "brandId": "aite",
+    "name": "NT/NH HRC Kare Bıçaklı Sigorta",
+    "description": "Bu ürün, \"standart boyut ve tam aralıklı kesme kapasitesi\" sembolüne sahip, düşük voltajlı DC tam aralıklı koruma sigortasıdır. Kablolar, güç kaynakları ve iletişim kabinleri gibi güç dağıtım veya iletişim devre sistemlerindeki ekipman ve cihazların kısa devre ve aşırı yük koruması için uygundur.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1791456525/greenpi-product-katalog/production/kwll81b80rxw7ra5n35h.png"
+  },
+  {
+    "id": "user-1791458036066-1",
+    "brandId": "aite",
+    "name": "NT/NH HRC Kare Bıçaklı Sigorta Tabanı",
+    "description": "Bu ürün, \"standart boyut ve tam aralıklı kesme kapasitesi\" sembolüne sahip, düşük voltajlı DC tam aralıklı koruma sigortasıdır. Kablolar, güç kaynakları ve iletişim kabinleri gibi güç dağıtım veya iletişim devre sistemlerindeki ekipman ve cihazların kısa devre ve aşırı yük koruması için uygundur.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1791456609/greenpi-product-katalog/production/qknwwu8cxgoi7tmradq7.png"
+  },
+  {
+    "id": "user-1791458036066-2",
+    "brandId": "aite",
+    "name": "Alçak Gerilim Parafudr (AC/DC)",
+    "description": "Bu AC/DC aşırı gerilim koruma cihazları, DC güç hat sistemini ve diğer ekipmanları aşırı gerilimden ve ani aşırı gerilim hasarından korur. Fotovoltaik birleştirme kutusu, güç invertörü, AC/DC dağıtım panosu vb. yerlerde yaygın olarak kullanılır. Yüksek deşarj akımı, hızlı tepki süresi ve düşük artık gerilim avantajlarına sahiptir.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1791456709/greenpi-product-katalog/production/gmeowicujdlq3m8xpnp9.png"
   }
 ]
