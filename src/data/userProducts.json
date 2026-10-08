@@ -641,5 +641,54 @@
     "name": "ALÇAK GERİLİM PARAFUDR (AC/DC)",
     "description": "Bu AC/DC aşırı gerilim koruma cihazları, DC güç hat sistemini ve diğer ekipmanları aşırı gerilimden ve ani aşırı gerilim hasarından korur. Fotovoltaik birleştirme kutusu, güç invertörü, AC/DC dağıtım panosu vb. yerlerde yaygın olarak kullanılır. Yüksek deşarj akımı, hızlı tepki süresi ve düşük artık gerilim avantajlarına sahiptir.",
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1791456709/greenpi-product-katalog/production/gmeowicujdlq3m8xpnp9.png"
+  },
+  {
+    "id": "user-1791459871176-0",
+    "brandId": "alcak-gerilim-panolari",
+    "name": "DAHİLİ TİP DİKİLİ PANOLAR",
+    "description": "Elektrik dağıtım ve kontrol ihtiyaçlarına yönelik dahili tip dikili panolar, projenin teknik gereksinimleri doğrultusunda farklı ölçü, ekipman ve konfigürasyon seçenekleriyle üretilmektedir. Uygulamaya ve ihtiyaçlara özel çözümler için talebe özel fiyatlandırma ve tekliflendirme yapılmaktadır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1791459112/greenpi-product-katalog/production/fhudbj6ka1rw9mwhoqtg.png"
+  },
+  {
+    "id": "user-1791459871176-1",
+    "brandId": "alcak-gerilim-panolari",
+    "name": "HARİCİ TİP DİKİLİ PANOLAR",
+    "description": "Dış ortam koşullarında kullanılmak üzere tasarlanan harici tip dikili panolar, projenin teknik gereksinimleri doğrultusunda farklı ölçü, ekipman ve konfigürasyon seçenekleriyle üretilmektedir. Uygulamaya ve ihtiyaçlara özel çözümler için talebe özel fiyatlandırma ve tekliflendirme yapılmaktadır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1791459225/greenpi-product-katalog/production/pzskgmsy4trhs6ct9k8r.png"
+  },
+  {
+    "id": "user-1791459871176-2",
+    "brandId": "alcak-gerilim-panolari",
+    "name": "PİYANO KUMANDA PANOSU",
+    "description": "Elektrik sistemlerinin kontrol ve kumanda ihtiyaçlarına yönelik piyano kumanda panoları, uygulamanın teknik gereksinimleri doğrultusunda farklı ekipman ve konfigürasyon seçenekleriyle hazırlanmaktadır. Proje ve kullanım ihtiyaçlarına uygun çözümler için talebe özel fiyatlandırma ve tekliflendirme yapılmaktadır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1791459574/greenpi-product-katalog/production/kneogtyk7pfzi9d4k2rp.png"
+  },
+  {
+    "id": "user-1791459871176-3",
+    "brandId": "alcak-gerilim-panolari",
+    "name": "PLC - MCC PANOLAR",
+    "description": "Endüstriyel otomasyon, motor kontrol ve proses uygulamalarına yönelik PLC ve MCC panoları, projenin teknik gereksinimleri doğrultusunda tasarlanmakta ve üretilmektedir. PLC, motor yol verme, koruma ve kontrol ekipmanlarının ihtiyaca uygun şekilde yapılandırıldığı çözümler için talebe özel fiyatlandırma ve tekliflendirme yapılmaktadır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1791459642/greenpi-product-katalog/production/zhlfxrzuisgacblt4wlv.png"
+  },
+  {
+    "id": "user-1791459871176-4",
+    "brandId": "alcak-gerilim-panolari",
+    "name": "SAYAÇ PANOSU",
+    "description": "Elektrik enerjisinin ölçüm ve dağıtım ihtiyaçlarına yönelik sayaç panoları, uygulamanın teknik gereksinimleri ve kullanım alanına uygun olarak farklı ölçü, ekipman ve konfigürasyon seçenekleriyle üretilmektedir. Proje ve ihtiyaçlara özel çözümler için talebe özel fiyatlandırma ve tekliflendirme yapılmaktadır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1791459694/greenpi-product-katalog/production/dhxtaaekgcrx0pc7aae8.webp"
+  },
+  {
+    "id": "user-1791459871176-5",
+    "brandId": "alcak-gerilim-panolari",
+    "name": "SIVA ALTI PANOLAR",
+    "description": "Yapı ve tesisat uygulamalarında estetik ve işlevsel çözümler sunan sıva altı panolar, farklı ölçü ve kullanım ihtiyaçlarına uygun olarak üretilmektedir. Projenin teknik gereksinimleri doğrultusunda talebe özel fiyatlandırma ve tekliflendirme yapılmaktadır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1791459792/greenpi-product-katalog/production/xoxwluq149trmw0fat1y.png"
+  },
+  {
+    "id": "user-1791459871176-6",
+    "brandId": "alcak-gerilim-panolari",
+    "name": "SIVA ÜSTÜ PANOLAR",
+    "description": "Yapı ve tesisat uygulamalarında elektrik dağıtım ve kontrol ihtiyaçlarına yönelik sıva üstü panolar, farklı ölçü, ekipman ve kullanım ihtiyaçlarına uygun olarak üretilmektedir. Projenin teknik gereksinimleri doğrultusunda talebe özel fiyatlandırma ve tekliflendirme yapılmaktadır.",
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1791459865/greenpi-product-katalog/production/x7agcesqb42hykm05oc8.png"
   }
 ]
