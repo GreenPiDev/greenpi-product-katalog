@@ -60,10 +60,3 @@ export type Brand = {
   specTables?: SpecTable[]
 }
 
-export type VoltageCategory = {
-  id: string
-  index: string
-  name: string
-  title: string
-  description: string
-}

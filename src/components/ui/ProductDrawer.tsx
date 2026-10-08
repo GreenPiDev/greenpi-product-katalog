@@ -2,6 +2,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect } from 'react'
 import { mediumVoltageGroups } from '../../data/brands'
 import { useProductDrawer } from '../../context/ProductDrawerContext'
+import { useLanguage } from '../../i18n/LanguageContext'
 import { assetUrl } from '../../utils/assetUrl'
 import { getLenis, scrollToId } from '../../lib/lenis'
 import styles from './ProductDrawer.module.css'
@@ -10,6 +11,7 @@ const mediumVoltageGroupIds = new Set(mediumVoltageGroups.map((g) => g.id))
 
 export function ProductDrawer() {
   const { state, close } = useProductDrawer()
+  const { t } = useLanguage()
   const isOpen = state !== null
 
   useEffect(() => {
@@ -71,7 +73,13 @@ export function ProductDrawer() {
             exit={{ x: '100%' }}
             transition={{ duration: 0.45, ease: [0.16, 1, 0.3, 1] }}
           >
-            <button type="button" className={styles.close} onClick={close} aria-label="Kapat" data-cursor="close">
+            <button
+              type="button"
+              className={styles.close}
+              onClick={close}
+              aria-label={t.product.drawerClose}
+              data-cursor="close"
+            >
               <span />
               <span />
             </button>
@@ -108,20 +116,22 @@ export function ProductDrawer() {
                   <dd>{state.product.code}</dd>
                 </div> */}
                 <div className={styles.specRow}>
-                  <dt>Marka</dt>
+                  <dt>{t.product.drawerBrandLabel}</dt>
                   <dd lang={state.brand.nameLang ?? 'en'}>{state.brand.name}</dd>
                 </div>
                 <div className={styles.specRow}>
-                  <dt>Kategori</dt>
+                  <dt>{t.product.drawerCategoryLabel}</dt>
                   <dd>
                     {state.product.category ??
-                      (state.brand.id && mediumVoltageGroupIds.has(state.brand.id) ? 'Orta Gerilim' : 'Alçak Gerilim')}
+                      (state.brand.id && mediumVoltageGroupIds.has(state.brand.id)
+                        ? t.product.categoryFallbackMedium
+                        : t.product.categoryFallbackLow)}
                   </dd>
                 </div>
               </dl>
 
               <button type="button" className={styles.cta} data-cursor="open" onClick={goToContact}>
-                Teklif İste <span aria-hidden="true">→</span>
+                {t.product.drawerCta} <span aria-hidden="true">→</span>
               </button>
             </div>
           </motion.aside>

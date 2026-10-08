@@ -1,16 +1,18 @@
 import { motion } from 'framer-motion'
-import { voltageCategories } from '../../data/categories'
+import { useLanguage } from '../../i18n/LanguageContext'
 import { scrollToId } from '../../lib/lenis'
 import styles from './PortfolioSection.module.css'
 
 export function PortfolioSection() {
+  const { t, textDir } = useLanguage()
+
   return (
     <section id="portfolio" className={styles.section} data-nav-theme="dark">
       <div className="container">
-        <p className={`eyebrow ${styles.eyebrow}`}>ÜRÜN PORTFÖYÜ</p>
+        <p className={`eyebrow ${styles.eyebrow}`}>{t.portfolio.title}</p>
 
         <ul className={styles.list}>
-          {voltageCategories.map((category, i) => (
+          {t.voltageCategories.map((category, i) => (
             <motion.li
               key={category.id}
               initial={{ opacity: 0, x: -24 }}
@@ -27,8 +29,12 @@ export function PortfolioSection() {
                 }}
               >
                 <span className={styles.index}>{category.index}</span>
-                <span className={styles.name}>{category.name}</span>
-                <span className={styles.desc}>{category.description}</span>
+                <span dir={textDir} className={styles.name}>
+                  {category.name}
+                </span>
+                <span dir={textDir} className={styles.desc}>
+                  {category.description}
+                </span>
                 <span className={styles.arrow} aria-hidden="true">
                   →
                 </span>

@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import type { CSSProperties } from 'react'
 import type { Brand } from '../../data/types'
+import { useLanguage } from '../../i18n/LanguageContext'
 import { assetUrl } from '../../utils/assetUrl'
 import brandStyles from './BrandSection.module.css'
 import styles from './SpecBrandSection.module.css'
@@ -12,6 +13,7 @@ type SpecBrandSectionProps = {
 }
 
 export function SpecBrandSection({ brand, position, total }: SpecBrandSectionProps) {
+  const { t } = useLanguage()
   const tables = brand.specTables ?? []
   // Tek ve kısa bir matris tablosu varsa (ör. OG şönt), sticky görselin dikey
   // ortasıyla hizalanması için tableArea de dikeyde ortalanır.
@@ -89,7 +91,7 @@ export function SpecBrandSection({ brand, position, total }: SpecBrandSectionPro
                 <path d="M100 40 L100 160 M40 100 L160 100" stroke="currentColor" strokeWidth="0.5" />
               </svg>
             )}
-            <span className={styles.visualLabel}>Teknik Görünüm</span>
+            <span className={styles.visualLabel}>{t.spec.visualLabel}</span>
           </div>
         </div>
 
@@ -102,8 +104,8 @@ export function SpecBrandSection({ brand, position, total }: SpecBrandSectionPro
                 {table.kind === 'list' ? (
                   <>
                     <div className={styles.tableHead} aria-hidden="true">
-                      <span>{table.columnLabels?.[0] ?? 'Model Kodu'}</span>
-                      <span>{table.columnLabels?.[1] ?? 'Teknik Açıklama'}</span>
+                      <span>{table.columnLabels?.[0] ?? t.spec.columnLabel0}</span>
+                      <span>{table.columnLabels?.[1] ?? t.spec.columnLabel1}</span>
                     </div>
                     <div className={styles.list}>
                       {table.rows.map((row, i) => (
@@ -142,7 +144,7 @@ export function SpecBrandSection({ brand, position, total }: SpecBrandSectionPro
               </div>
             ))
           ) : (
-            <div className={styles.empty}>Teknik veri tablosu yakında eklenecek.</div>
+            <div className={styles.empty}>{t.spec.emptyState}</div>
           )}
         </div>
       </div>

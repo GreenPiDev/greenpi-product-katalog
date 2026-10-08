@@ -1,5 +1,6 @@
 import type { Product } from '../../data/types'
 import { useProductDrawer, type DrawerBrand } from '../../context/ProductDrawerContext'
+import { useLanguage } from '../../i18n/LanguageContext'
 import { assetUrl } from '../../utils/assetUrl'
 import { truncate } from '../../utils/truncate'
 import styles from './ProductCard.module.css'
@@ -14,6 +15,7 @@ type ProductCardProps = {
 
 export function ProductCard({ product, brand, index }: ProductCardProps) {
   const { open } = useProductDrawer()
+  const { t } = useLanguage()
 
   return (
     <article className={styles.card}>
@@ -22,7 +24,7 @@ export function ProductCard({ product, brand, index }: ProductCardProps) {
         className={styles.imageBox}
         data-cursor="view"
         onClick={() => open(product, brand)}
-        aria-label={`${product.name} — İncele`}
+        aria-label={`${product.name} — ${t.product.viewLabel}`}
       >
         {product.image ? (
           <img
@@ -51,7 +53,7 @@ export function ProductCard({ product, brand, index }: ProductCardProps) {
           data-cursor="view"
           onClick={() => open(product, brand)}
         >
-          İncele <span aria-hidden="true">→</span>
+          {t.product.viewLabel} <span aria-hidden="true">→</span>
         </button>
       </div>
 

@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { companyContent } from '../../data/categories'
+import { useLanguage } from '../../i18n/LanguageContext'
 import styles from './VisionMissionSection.module.css'
 
 function StatementCard({
@@ -9,6 +9,7 @@ function StatementCard({
   body,
   className,
   delay,
+  textDir,
 }: {
   id: string
   kicker: string
@@ -16,6 +17,7 @@ function StatementCard({
   body: string
   className: string
   delay: number
+  textDir: 'ltr' | 'rtl'
 }) {
   return (
     <motion.div
@@ -33,20 +35,23 @@ function StatementCard({
         {kicker}
       </span>
 
-      <h3 className={styles.title}>
+      <h3 dir={textDir} className={styles.title}>
         {title.split('\n').map((line) => (
           <span key={line} className={styles.line}>
             {line}
           </span>
         ))}
       </h3>
-      <p className={styles.body}>{body}</p>
+      <p dir={textDir} className={styles.body}>
+        {body}
+      </p>
     </motion.div>
   )
 }
 
 export function VisionMissionSection() {
-  const { vision, mission } = companyContent
+  const { t, textDir } = useLanguage()
+  const { vision, mission } = t
 
   return (
     <section className={styles.section} data-nav-theme="dark">
@@ -55,12 +60,14 @@ export function VisionMissionSection() {
           id="vision"
           className={styles.cardVision}
           delay={0}
+          textDir={textDir}
           {...vision}
         />
         <StatementCard
           id="mission"
           className={styles.cardMission}
           delay={0.15}
+          textDir={textDir}
           {...mission}
         />
       </div>

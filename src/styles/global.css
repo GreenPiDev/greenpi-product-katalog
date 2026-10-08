@@ -39,6 +39,10 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+:lang(ar) {
+  font-family: 'Geeza Pro', 'Noto Naskh Arabic', system-ui, sans-serif;
+}
+
 #root {
   position: relative;
 }

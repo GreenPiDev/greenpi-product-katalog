@@ -1,9 +1,11 @@
 import { motion, useScroll, useTransform } from 'framer-motion'
 import { useRef } from 'react'
-import { companyContent } from '../../data/categories'
+import { companyName } from '../../data/categories'
+import { useLanguage } from '../../i18n/LanguageContext'
 import styles from './HeroSection.module.css'
 
 export function HeroSection() {
+  const { t, textDir } = useLanguage()
   const ref = useRef<HTMLElement>(null)
   const { scrollYProgress } = useScroll({ target: ref, offset: ['start start', 'end start'] })
   const y = useTransform(scrollYProgress, [0, 1], [0, 160])
@@ -15,10 +17,12 @@ export function HeroSection() {
       <motion.div className={styles.backdrop} style={{ y }} aria-hidden="true" />
 
       <motion.div className={`container ${styles.content}`} style={{ opacity }}>
-        <p className={`eyebrow ${styles.eyebrow}`}>{companyContent.name} — DİJİTAL KATALOG</p>
+        <p className={`eyebrow ${styles.eyebrow}`}>
+          {companyName} {t.hero.eyebrowSuffix}
+        </p>
 
         <h1 className={styles.title}>
-          {companyContent.heroTitle.map((line, i) => (
+          {t.hero.title.map((line, i) => (
             <span key={line} className={styles.titleLine}>
               <motion.span
                 initial={{ y: '110%' }}
@@ -33,12 +37,13 @@ export function HeroSection() {
         </h1>
 
         <motion.p
+          dir={textDir}
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.7 }}
           className={styles.subtitle}
         >
-          {companyContent.heroSubtitle}
+          {t.hero.subtitle}
         </motion.p>
       </motion.div>
 
@@ -48,7 +53,7 @@ export function HeroSection() {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8, delay: 1.2 }}
       >
-        <span>KEŞFETMEK İÇİN KAYDIR</span>
+        <span>{t.hero.scrollHint}</span>
         <span className={styles.scrollLine} />
       </motion.div>
     </section>

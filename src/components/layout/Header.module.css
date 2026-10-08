@@ -127,6 +127,24 @@
   padding-left: 1.25rem;
 }
 
+.langSwitcherDesktop {
+  display: none;
+}
+
+@media (min-width: 861px) {
+  .langSwitcherDesktop {
+    display: block;
+    position: absolute;
+    right: clamp(2.5rem, 5vw, 4.5rem);
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.langSwitcherMobile {
+  margin-top: 0.5rem;
+}
+
 .burger {
   position: absolute;
   right: 0;

@@ -1,9 +1,10 @@
 import { motion } from 'framer-motion'
-import { companyContent } from '../../data/categories'
+import { useLanguage } from '../../i18n/LanguageContext'
 import styles from './CompanySection.module.css'
 
 export function CompanySection() {
-  const { about } = companyContent
+  const { t, textDir } = useLanguage()
+  const { about } = t
 
   return (
     <section id="company" className={styles.section} data-nav-theme="dark">
@@ -19,6 +20,7 @@ export function CompanySection() {
         </motion.p>
 
         <motion.h2
+          dir={textDir}
           initial={{ opacity: 0, y: 32 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.5 }}
@@ -29,6 +31,7 @@ export function CompanySection() {
         </motion.h2>
 
         <motion.p
+          dir={textDir}
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.5 }}

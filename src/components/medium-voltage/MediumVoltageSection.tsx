@@ -1,11 +1,12 @@
-import { voltageCategories } from '../../data/categories'
 import { mediumVoltageGroupsWithUserProducts } from '../../data/mergedBrands'
+import { useLanguage } from '../../i18n/LanguageContext'
 import { CategoryIntro } from '../products/CategoryIntro'
 import { BrandSection } from '../products/BrandSection'
 import { SpecBrandSection } from '../products/SpecBrandSection'
 
 export function MediumVoltageSection() {
-  const category = voltageCategories[1]
+  const { t } = useLanguage()
+  const category = t.voltageCategories[1]
 
   return (
     <>

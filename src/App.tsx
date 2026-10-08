@@ -1,4 +1,5 @@
 import { useSmoothScroll } from './hooks/useSmoothScroll'
+import { LanguageProvider } from './i18n/LanguageContext'
 import { ProductDrawerProvider } from './context/ProductDrawerContext'
 import { CustomCursor } from './components/ui/CustomCursor'
 import { CustomScrollbar } from './components/ui/CustomScrollbar'
@@ -18,25 +19,27 @@ export default function App() {
   useSmoothScroll()
 
   return (
-    <ProductDrawerProvider>
-      <div className="noise" aria-hidden="true" />
-      <CustomCursor />
-      <CustomScrollbar />
-      <Header />
-      <SideNavigation />
-      <ProductDrawer />
+    <LanguageProvider>
+      <ProductDrawerProvider>
+        <div className="noise" aria-hidden="true" />
+        <CustomCursor />
+        <CustomScrollbar />
+        <Header />
+        <SideNavigation />
+        <ProductDrawer />
 
-      <main>
-        <HeroSection />
-        <CompanySection />
-        <VisionMissionSection />
-        <PortfolioSection />
-        <LowVoltageSection />
-        <MediumVoltageSection />
-        <ContactSection />
-      </main>
+        <main>
+          <HeroSection />
+          <CompanySection />
+          <VisionMissionSection />
+          <PortfolioSection />
+          <LowVoltageSection />
+          <MediumVoltageSection />
+          <ContactSection />
+        </main>
 
-      <Footer />
-    </ProductDrawerProvider>
+        <Footer />
+      </ProductDrawerProvider>
+    </LanguageProvider>
   )
 }

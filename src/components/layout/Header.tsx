@@ -1,20 +1,13 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect, useRef, useState } from 'react'
 import { brandsWithUserProducts, mediumVoltageGroupsWithUserProducts } from '../../data/mergedBrands'
+import { useLanguage } from '../../i18n/LanguageContext'
 import { scrollToId } from '../../lib/lenis'
+import { LanguageSwitcher } from '../ui/LanguageSwitcher'
 import styles from './Header.module.css'
 
-const PRODUCT_CATEGORIES = [
-  { id: 'low-voltage', name: 'ALÇAK GERİLİM', brands: brandsWithUserProducts },
-  { id: 'medium-voltage', name: 'ORTA GERİLİM', brands: mediumVoltageGroupsWithUserProducts },
-]
-
-const NAV_LINKS = [
-  { id: 'hero', label: 'ANA SAYFA' },
-  { id: 'company', label: 'ŞİRKET' },
-]
-
 export function Header() {
+  const { t } = useLanguage()
   const [menuOpen, setMenuOpen] = useState(false)
   const [activeCategory, setActiveCategory] = useState<string | null>(null)
   const [mobileOpen, setMobileOpen] = useState(false)
@@ -52,6 +45,16 @@ export function Header() {
     scrollToId(id, { duration: 0.85 })
   }
 
+  const PRODUCT_CATEGORIES = [
+    { id: 'low-voltage', name: t.voltageCategories[0].name, brands: brandsWithUserProducts },
+    { id: 'medium-voltage', name: t.voltageCategories[1].name, brands: mediumVoltageGroupsWithUserProducts },
+  ]
+
+  const NAV_LINKS = [
+    { id: 'hero', label: t.nav.home },
+    { id: 'company', label: t.nav.company },
+  ]
+
   const activeBrands = PRODUCT_CATEGORIES.find((c) => c.id === activeCategory)?.brands ?? []
 
   return (
@@ -72,7 +75,7 @@ export function Header() {
                 onClick={() => go('portfolio')}
                 aria-expanded={menuOpen}
               >
-                ÜRÜNLER
+                {t.nav.products}
               </button>
 
               <div className={styles.megaMenuPosition}>
@@ -135,15 +138,17 @@ export function Header() {
             </div>
 
             <button type="button" className={styles.navItem} onClick={() => go('contact')}>
-              İLETİŞİM
+              {t.nav.contact}
             </button>
           </nav>
+
+          <LanguageSwitcher className={styles.langSwitcherDesktop} />
 
           <button
             type="button"
             className={styles.burger}
             onClick={() => setMobileOpen((v) => !v)}
-            aria-label="Menü"
+            aria-label={t.menuAria.burger}
             aria-expanded={mobileOpen}
           >
             <span className={`${styles.burgerLine} ${mobileOpen ? styles.burgerLineOpenTop : ''}`} />
@@ -165,7 +170,7 @@ export function Header() {
             className={styles.mobileItem}
             onClick={() => setMobileProducts((v) => !v)}
           >
-            ÜRÜNLER
+            {t.nav.products}
           </button>
 
           {mobileProducts && (
@@ -184,7 +189,7 @@ export function Header() {
                       <button
                         type="button"
                         className={styles.mobileExpand}
-                        aria-label="Markaları göster"
+                        aria-label={t.menuAria.showBrands}
                         onClick={() =>
                           setMobileCategory((c) => (c === category.id ? null : category.id))
                         }
@@ -213,8 +218,10 @@ export function Header() {
           )}
 
           <button type="button" className={styles.mobileItem} onClick={() => go('contact')}>
-            İLETİŞİM
+            {t.nav.contact}
           </button>
+
+          <LanguageSwitcher className={styles.langSwitcherMobile} variant="mobile" />
         </div>
       </div>
     </>
