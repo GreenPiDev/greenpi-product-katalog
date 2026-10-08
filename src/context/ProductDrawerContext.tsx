@@ -8,7 +8,6 @@ export type DrawerBrand = {
   nameLang?: 'tr' | 'en'
   accentColor: string
   backgroundColor: string
-  textColor: string
 }
 
 type DrawerState = {

@@ -15,24 +15,24 @@ export type UserProduct = Product & { brandId: string }
 
 export type SpecRow = {
   code: string
-  description: string
+  description: LocalizedText
 }
 
 /** Kod/açıklama şeklinde dikey liste tablosu (ör. hücre model kodları, güç-açıklama eşleşmeleri). */
 export type SpecListTable = {
   kind: 'list'
   /** PDF'teki tablonun kendi başlığı, ör. "KURU TİP TRANSFORMATÖR — IEC 60076-11". */
-  title?: string
+  title?: LocalizedText
   /** Varsayılan ['Model Kodu', 'Teknik Açıklama'] yerine geçer (ör. ['Güç', 'Teknik Açıklama']). */
-  columnLabels?: [string, string]
+  columnLabels?: [LocalizedText, LocalizedText]
   rows: SpecRow[]
 }
 
 /** Satır × sütun matris tablosu (ör. kademe no / güç aralığı gibi gerçek çapraz tablolar). */
 export type SpecGridTable = {
   kind: 'grid'
-  title?: string
-  rowHeaderLabel: string
+  title?: LocalizedText
+  rowHeaderLabel: LocalizedText
   columnHeaders: string[]
   rows: {
     label: string
@@ -50,7 +50,6 @@ export type Brand = {
   description: LocalizedText
   accentColor: string
   backgroundColor: string
-  textColor: string
   logos?: string[]
   products: Product[]
   /** 'spec' = tek görsel (sticky) + aşağı doğru uzayan teknik veri tablo(lar)ı. */

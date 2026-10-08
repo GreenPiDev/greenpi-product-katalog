@@ -5,6 +5,7 @@ import { useHorizontalGallery } from '../../hooks/useHorizontalGallery'
 import { useLanguage } from '../../i18n/LanguageContext'
 import { pickLocalizedText } from '../../i18n/localize'
 import { assetUrl } from '../../utils/assetUrl'
+import { getContrastText } from '../../utils/contrastColor'
 import { ProductCard } from './ProductCard'
 import styles from './BrandSection.module.css'
 
@@ -21,7 +22,7 @@ export function BrandSection({ brand, position, total }: BrandSectionProps) {
   const brandStyle = {
     '--brand-bg': brand.backgroundColor,
     '--brand-accent': brand.accentColor,
-    '--brand-text': brand.textColor,
+    '--brand-text': getContrastText(brand.backgroundColor),
   } as CSSProperties
 
   return (

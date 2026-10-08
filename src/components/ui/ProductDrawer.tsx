@@ -5,6 +5,7 @@ import { useProductDrawer } from '../../context/ProductDrawerContext'
 import { useLanguage } from '../../i18n/LanguageContext'
 import { pickLocalizedText } from '../../i18n/localize'
 import { assetUrl } from '../../utils/assetUrl'
+import { getContrastText } from '../../utils/contrastColor'
 import { getLenis, scrollToId } from '../../lib/lenis'
 import styles from './ProductDrawer.module.css'
 
@@ -69,7 +70,7 @@ export function ProductDrawer() {
               {
                 '--brand-accent': state.brand.accentColor,
                 '--brand-bg': state.brand.backgroundColor,
-                '--brand-text': state.brand.textColor,
+                '--brand-text': getContrastText(state.brand.backgroundColor),
               } as React.CSSProperties
             }
             initial={{ x: '100%' }}

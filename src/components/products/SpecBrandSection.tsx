@@ -4,6 +4,7 @@ import type { Brand } from '../../data/types'
 import { useLanguage } from '../../i18n/LanguageContext'
 import { pickLocalizedText } from '../../i18n/localize'
 import { assetUrl } from '../../utils/assetUrl'
+import { getContrastText } from '../../utils/contrastColor'
 import brandStyles from './BrandSection.module.css'
 import styles from './SpecBrandSection.module.css'
 
@@ -23,7 +24,7 @@ export function SpecBrandSection({ brand, position, total }: SpecBrandSectionPro
   const brandStyle = {
     '--brand-bg': brand.backgroundColor,
     '--brand-accent': brand.accentColor,
-    '--brand-text': brand.textColor,
+    '--brand-text': getContrastText(brand.backgroundColor),
   } as CSSProperties
 
   return (
@@ -100,20 +101,20 @@ export function SpecBrandSection({ brand, position, total }: SpecBrandSectionPro
           {tables.length > 0 ? (
             tables.map((table, ti) => (
               <div key={ti} className={styles.tableBlock}>
-                {table.title && <h4 className={styles.tableTitle}>{table.title}</h4>}
+                {table.title && <h4 className={styles.tableTitle}>{pickLocalizedText(table.title, lang)}</h4>}
 
                 {table.kind === 'list' ? (
                   <>
                     <div className={styles.tableHead} aria-hidden="true">
-                      <span>{table.columnLabels?.[0] ?? t.spec.columnLabel0}</span>
-                      <span>{table.columnLabels?.[1] ?? t.spec.columnLabel1}</span>
+                      <span>{table.columnLabels?.[0] ? pickLocalizedText(table.columnLabels[0], lang) : t.spec.columnLabel0}</span>
+                      <span>{table.columnLabels?.[1] ? pickLocalizedText(table.columnLabels[1], lang) : t.spec.columnLabel1}</span>
                     </div>
                     <div className={styles.list}>
                       {table.rows.map((row, i) => (
                         <div key={`${row.code}-${i}`} className={styles.row}>
                           <span className={styles.rowIndex}>{String(i + 1).padStart(2, '0')}</span>
                           <span className={styles.code}>{row.code}</span>
-                          <span className={styles.desc}>{row.description}</span>
+                          <span className={styles.desc}>{pickLocalizedText(row.description, lang)}</span>
                         </div>
                       ))}
                     </div>
@@ -123,7 +124,7 @@ export function SpecBrandSection({ brand, position, total }: SpecBrandSectionPro
                     <table className={styles.grid}>
                       <thead>
                         <tr>
-                          <th>{table.rowHeaderLabel}</th>
+                          <th>{pickLocalizedText(table.rowHeaderLabel, lang)}</th>
                           {table.columnHeaders.map((head) => (
                             <th key={head}>{head}</th>
                           ))}
