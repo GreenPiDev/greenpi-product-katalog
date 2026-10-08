@@ -46,8 +46,8 @@ export type Brand = {
   id: string
   name: string
   nameLang?: 'tr' | 'en'
-  tagline: string
-  description: string
+  tagline: LocalizedText
+  description: LocalizedText
   accentColor: string
   backgroundColor: string
   textColor: string

@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import type { CSSProperties } from 'react'
 import type { Brand } from '../../data/types'
 import { useLanguage } from '../../i18n/LanguageContext'
+import { pickLocalizedText } from '../../i18n/localize'
 import { assetUrl } from '../../utils/assetUrl'
 import brandStyles from './BrandSection.module.css'
 import styles from './SpecBrandSection.module.css'
@@ -13,7 +14,7 @@ type SpecBrandSectionProps = {
 }
 
 export function SpecBrandSection({ brand, position, total }: SpecBrandSectionProps) {
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
   const tables = brand.specTables ?? []
   // Tek ve kısa bir matris tablosu varsa (ör. OG şönt), sticky görselin dikey
   // ortasıyla hizalanması için tableArea de dikeyde ortalanır.
@@ -57,7 +58,7 @@ export function SpecBrandSection({ brand, position, total }: SpecBrandSectionPro
             transition={{ duration: 0.6, delay: 0.1 }}
             className={brandStyles.tagline}
           >
-            {brand.tagline}
+            {pickLocalizedText(brand.tagline, lang)}
           </motion.p>
 
           <motion.p
@@ -67,7 +68,7 @@ export function SpecBrandSection({ brand, position, total }: SpecBrandSectionPro
             transition={{ duration: 0.6, delay: 0.15 }}
             className={brandStyles.description}
           >
-            {brand.description}
+            {pickLocalizedText(brand.description, lang)}
           </motion.p>
         </div>
       </div>

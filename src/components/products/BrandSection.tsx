@@ -2,6 +2,8 @@ import { motion } from 'framer-motion'
 import type { CSSProperties } from 'react'
 import type { Brand } from '../../data/types'
 import { useHorizontalGallery } from '../../hooks/useHorizontalGallery'
+import { useLanguage } from '../../i18n/LanguageContext'
+import { pickLocalizedText } from '../../i18n/localize'
 import { assetUrl } from '../../utils/assetUrl'
 import { ProductCard } from './ProductCard'
 import styles from './BrandSection.module.css'
@@ -14,6 +16,7 @@ type BrandSectionProps = {
 
 export function BrandSection({ brand, position, total }: BrandSectionProps) {
   const { wrapperRef, trackRef } = useHorizontalGallery([brand.id])
+  const { lang } = useLanguage()
 
   const brandStyle = {
     '--brand-bg': brand.backgroundColor,
@@ -68,7 +71,7 @@ export function BrandSection({ brand, position, total }: BrandSectionProps) {
             transition={{ duration: 0.6, delay: 0.1 }}
             className={styles.tagline}
           >
-            {brand.tagline}
+            {pickLocalizedText(brand.tagline, lang)}
           </motion.p>
 
           <motion.p
@@ -78,7 +81,7 @@ export function BrandSection({ brand, position, total }: BrandSectionProps) {
             transition={{ duration: 0.6, delay: 0.15 }}
             className={styles.description}
           >
-            {brand.description}
+            {pickLocalizedText(brand.description, lang)}
           </motion.p>
         </div>
       </div>
