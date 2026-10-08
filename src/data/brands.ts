@@ -135,6 +135,30 @@ export const lowVoltageBrands: Brand[] = [
     logos: ['/logos/pannect.png'],
     products: [],
   },
+  {
+    id: 'vozwei',
+    name: 'VOZWEI',
+    tagline: 'Alçak Gerilim Şalt ve Kumanda Ekipmanları',
+    description: 'Dağıtım ve kumanda panoları için şalt, koruma ve otomasyon bileşenleri.',
+    accentColor: '#9BA9CF',
+    backgroundColor: '#1C2E66',
+    textColor: '#F2F4FA',
+    logos: ['/logos/vozwei.png'],
+    products: [],
+  },
+  {
+    id: 'alcak-gerilim-panolari',
+    name: 'Alçak Gerilim Panoları',
+    nameLang: 'tr',
+    tagline: 'Marka Bağımsız Pano Çözümleri',
+    description:
+      'Saha ve proje ihtiyacına göre uygun teknik spesifikasyonlarla tedarik edilen alçak gerilim dağıtım ve kumanda panoları.',
+    accentColor: '#1C1C1C',
+    backgroundColor: '#4A4A4A',
+    textColor: '#F2F2F0',
+    logos: [],
+    products: [],
+  },
 ]
 
 export const mediumVoltageGroups: Brand[] = [
