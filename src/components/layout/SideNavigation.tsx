@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useActiveSection } from '../../hooks/useActiveSection'
 import { useLanguage } from '../../i18n/LanguageContext'
+import { pickLocalizedText } from '../../i18n/localize'
 import { scrollToId } from '../../lib/lenis'
 import { brandsWithUserProducts, mediumVoltageGroupsWithUserProducts } from '../../data/mergedBrands'
 import styles from './SideNavigation.module.css'
@@ -58,7 +59,7 @@ function SubNavList({ expanded, items, activeId, onSelect }: SubNavListProps) {
 }
 
 export function SideNavigation() {
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
 
   const NAV_ITEMS: NavItem[] = [
     { id: 'hero', index: '01', label: t.nav.home },
@@ -70,7 +71,7 @@ export function SideNavigation() {
       label: t.voltageCategories[0].name,
       children: brandsWithUserProducts.map((brand) => ({
         id: `brand-${brand.id}`,
-        label: brand.name,
+        label: pickLocalizedText(brand.name, lang),
         lang: brand.nameLang ?? 'en',
       })),
     },
@@ -80,7 +81,7 @@ export function SideNavigation() {
       label: t.voltageCategories[1].name,
       children: mediumVoltageGroupsWithUserProducts.map((group) => ({
         id: `brand-${group.id}`,
-        label: group.name,
+        label: pickLocalizedText(group.name, lang),
         lang: group.nameLang ?? 'en',
       })),
     },

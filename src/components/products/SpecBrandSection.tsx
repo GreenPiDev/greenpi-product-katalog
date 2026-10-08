@@ -48,7 +48,7 @@ export function SpecBrandSection({ brand, position, total }: SpecBrandSectionPro
             transition={{ duration: 0.6, delay: 0.05 }}
             className={brandStyles.name}
           >
-            {brand.name}
+            {pickLocalizedText(brand.name, lang)}
           </motion.h3>
 
           <motion.p
@@ -80,7 +80,7 @@ export function SpecBrandSection({ brand, position, total }: SpecBrandSectionPro
               <img
                 className={styles.image}
                 src={assetUrl(brand.specImage)}
-                alt={brand.name}
+                alt={pickLocalizedText(brand.name, lang)}
                 loading="lazy"
                 decoding="async"
                 style={brand.specImageScale ? { transform: `scale(${brand.specImageScale})` } : undefined}

@@ -61,7 +61,7 @@ export function BrandSection({ brand, position, total }: BrandSectionProps) {
             transition={{ duration: 0.6, delay: 0.05 }}
             className={styles.name}
           >
-            {brand.name}
+            {pickLocalizedText(brand.name, lang)}
           </motion.h3>
 
           <motion.p

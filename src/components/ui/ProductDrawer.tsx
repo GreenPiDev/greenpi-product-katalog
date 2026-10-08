@@ -16,6 +16,7 @@ export function ProductDrawer() {
   const isOpen = state !== null
   const name = state ? pickLocalizedText(state.product.name, lang) : ''
   const description = state ? pickLocalizedText(state.product.description, lang) : ''
+  const brandName = state ? pickLocalizedText(state.brand.name, lang) : ''
 
   useEffect(() => {
     const lenis = getLenis()
@@ -108,7 +109,7 @@ export function ProductDrawer() {
 
             <div className={styles.body}>
               <span className={styles.brand} lang={state.brand.nameLang ?? 'en'}>
-                {state.brand.name}
+                {brandName}
               </span>
               <h2 className={styles.name}>{name}</h2>
               <p className={styles.desc}>{description}</p>
@@ -120,7 +121,7 @@ export function ProductDrawer() {
                 </div> */}
                 <div className={styles.specRow}>
                   <dt>{t.product.drawerBrandLabel}</dt>
-                  <dd lang={state.brand.nameLang ?? 'en'}>{state.brand.name}</dd>
+                  <dd lang={state.brand.nameLang ?? 'en'}>{brandName}</dd>
                 </div>
                 <div className={styles.specRow}>
                   <dt>{t.product.drawerCategoryLabel}</dt>

@@ -3,7 +3,7 @@ import type { Brand } from './types'
 export const lowVoltageBrands: Brand[] = [
   {
     id: 'te-connectivity',
-    name: 'TE Connectivity',
+    name: { tr: 'TE Connectivity', en: 'TE Connectivity', ru: 'TE Connectivity', ar: 'TE Connectivity' },
     tagline: {
       tr: 'Bağlantı ve Terminasyon Teknolojileri',
       en: 'Connection and Termination Technologies',
@@ -24,7 +24,7 @@ export const lowVoltageBrands: Brand[] = [
   },
   {
     id: 'aite',
-    name: 'Aite Fuse',
+    name: { tr: 'Aite Fuse', en: 'Aite Fuse', ru: 'Aite Fuse', ar: 'Aite Fuse' },
     tagline: {
       tr: 'Sigorta ve Koruma Elemanları',
       en: 'Fuses and Protection Components',
@@ -45,7 +45,7 @@ export const lowVoltageBrands: Brand[] = [
   },
   {
     id: 'inotel',
-    name: 'İnotel',
+    name: { tr: 'İnotel', en: 'İnotel', ru: 'İnotel', ar: 'İnotel' },
     tagline: {
       tr: 'Kablo Kanalı ve Aksesuarları',
       en: 'Cable Trunking and Accessories',
@@ -66,7 +66,7 @@ export const lowVoltageBrands: Brand[] = [
   },
   {
     id: 'raycap',
-    name: 'Raycap',
+    name: { tr: 'Raycap', en: 'Raycap', ru: 'Raycap', ar: 'Raycap' },
     tagline: {
       tr: 'Aşırı Gerilim Koruma Sistemleri',
       en: 'Overvoltage Protection Systems',
@@ -87,7 +87,7 @@ export const lowVoltageBrands: Brand[] = [
   },
   {
     id: 'siemens',
-    name: 'Siemens',
+    name: { tr: 'Siemens', en: 'Siemens', ru: 'Siemens', ar: 'Siemens' },
     tagline: {
       tr: 'Güç Dağıtımı ve Otomasyon',
       en: 'Power Distribution and Automation',
@@ -108,7 +108,7 @@ export const lowVoltageBrands: Brand[] = [
   },
   {
     id: 'schneider-electric',
-    name: 'Schneider Electric',
+    name: { tr: 'Schneider Electric', en: 'Schneider Electric', ru: 'Schneider Electric', ar: 'Schneider Electric' },
     tagline: {
       tr: 'Enerji Yönetimi Çözümleri',
       en: 'Energy Management Solutions',
@@ -129,7 +129,7 @@ export const lowVoltageBrands: Brand[] = [
   },
   {
     id: 'abb',
-    name: 'ABB',
+    name: { tr: 'ABB', en: 'ABB', ru: 'ABB', ar: 'ABB' },
     tagline: {
       tr: 'Güç ve Otomasyon Teknolojileri',
       en: 'Power and Automation Technologies',
@@ -150,7 +150,7 @@ export const lowVoltageBrands: Brand[] = [
   },
   {
     id: 'miltera',
-    name: 'Miltera',
+    name: { tr: 'Miltera', en: 'Miltera', ru: 'Miltera', ar: 'Miltera' },
     tagline: {
       tr: 'Ölçü ve Kumanda Ekipmanları',
       en: 'Measurement and Control Equipment',
@@ -171,7 +171,7 @@ export const lowVoltageBrands: Brand[] = [
   },
   {
     id: 'exproof',
-    name: 'Exproof (ATEX)',
+    name: { tr: 'Exproof (ATEX)', en: 'Exproof (ATEX)', ru: 'Exproof (ATEX)', ar: 'Exproof (ATEX)' },
     tagline: {
       tr: 'Patlayıcı Ortam Ekipmanları',
       en: 'Explosive Atmosphere Equipment',
@@ -192,7 +192,7 @@ export const lowVoltageBrands: Brand[] = [
   },
   {
     id: 'gromtor',
-    name: 'Gromtor',
+    name: { tr: 'Gromtor', en: 'Gromtor', ru: 'Gromtor', ar: 'Gromtor' },
     tagline: {
       tr: 'Topraklama ve İletken Aksesuarları',
       en: 'Earthing and Conductor Accessories',
@@ -213,7 +213,7 @@ export const lowVoltageBrands: Brand[] = [
   },
   {
     id: 'sertec',
-    name: 'Sertec S.R.L',
+    name: { tr: 'Sertec S.R.L', en: 'Sertec S.R.L', ru: 'Sertec S.R.L', ar: 'Sertec S.R.L' },
     tagline: {
       tr: 'Yıldırımdan Koruma Sistemleri (CMCE)',
       en: 'Lightning Protection Systems (CMCE)',
@@ -234,7 +234,7 @@ export const lowVoltageBrands: Brand[] = [
   },
   {
     id: 'pannect',
-    name: 'Pannect',
+    name: { tr: 'Pannect', en: 'Pannect', ru: 'Pannect', ar: 'Pannect' },
     tagline: {
       tr: 'Pano ve Bağlantı Sistemleri',
       en: 'Panel and Connection Systems',
@@ -255,7 +255,7 @@ export const lowVoltageBrands: Brand[] = [
   },
   {
     id: 'vozwei',
-    name: 'VOZWEI',
+    name: { tr: 'VOZWEI', en: 'VOZWEI', ru: 'VOZWEI', ar: 'VOZWEI' },
     tagline: {
       tr: 'Alçak Gerilim Şalt ve Kumanda Ekipmanları',
       en: 'Low Voltage Switching and Control Equipment',
@@ -276,7 +276,12 @@ export const lowVoltageBrands: Brand[] = [
   },
   {
     id: 'alcak-gerilim-panolari',
-    name: 'Alçak Gerilim Panoları',
+    name: {
+      tr: 'Alçak Gerilim Panoları',
+      en: 'Low Voltage Panels',
+      ru: 'Панели низкого напряжения',
+      ar: 'لوحات الجهد المنخفض',
+    },
     nameLang: 'tr',
     tagline: {
       tr: 'Marka Bağımsız Pano Çözümleri',
@@ -301,7 +306,12 @@ export const lowVoltageBrands: Brand[] = [
 export const mediumVoltageGroups: Brand[] = [
   {
     id: 'mobil-trafo-merkezleri',
-    name: 'Köşk Tipi Trafo Merkezleri',
+    name: {
+      tr: 'Köşk Tipi Trafo Merkezleri',
+      en: 'Kiosk-Type Substations',
+      ru: 'Киосковые подстанции',
+      ar: 'محطات محولات من نوع الكشك',
+    },
     nameLang: 'tr',
     tagline: {
       tr: 'Prefabrik ve Nakliyeye Hazır Trafo Merkezleri',
@@ -322,7 +332,12 @@ export const mediumVoltageGroups: Brand[] = [
   },
   {
     id: 'metal-mahfazali-hucreler',
-    name: 'Metal Mahfazalı Hücreler',
+    name: {
+      tr: 'Metal Mahfazalı Hücreler',
+      en: 'Metal-Enclosed Cells',
+      ru: 'Ячейки в металлическом корпусе',
+      ar: 'خلايا ذات غلاف معدني',
+    },
     nameLang: 'tr',
     tagline: {
       tr: 'Orta Gerilim Dağıtım ve Kumanda Hücreleri',
@@ -412,7 +427,12 @@ export const mediumVoltageGroups: Brand[] = [
   },
   {
     id: 'gaz-yalitimli-hucreler',
-    name: 'Gaz Yalıtımlı Hücreler',
+    name: {
+      tr: 'Gaz Yalıtımlı Hücreler',
+      en: 'Gas-Insulated Cells',
+      ru: 'Элегазовые ячейки',
+      ar: 'خلايا معزولة بالغاز',
+    },
     nameLang: 'tr',
     tagline: {
       tr: 'SF6 Yalıtımlı Kompakt Şalt Sistemleri',
@@ -463,7 +483,12 @@ export const mediumVoltageGroups: Brand[] = [
   },
   {
     id: 'kuru-tip-transformatorler',
-    name: 'Kuru Tip Dağıtım Transformatörleri',
+    name: {
+      tr: 'Kuru Tip Dağıtım Transformatörleri',
+      en: 'Dry-Type Distribution Transformers',
+      ru: 'Сухие распределительные трансформаторы',
+      ar: 'محولات توزيع جافة',
+    },
     nameLang: 'tr',
     tagline: {
       tr: 'Reçine Yalıtımlı Kuru Tip Transformatörler',
@@ -528,7 +553,12 @@ export const mediumVoltageGroups: Brand[] = [
   },
   {
     id: 'yagli-tip-transformatorler',
-    name: 'Yağlı Tip Dağıtım Transformatörleri',
+    name: {
+      tr: 'Yağlı Tip Dağıtım Transformatörleri',
+      en: 'Oil-Type Distribution Transformers',
+      ru: 'Масляные распределительные трансформаторы',
+      ar: 'محولات توزيع زيتية',
+    },
     nameLang: 'tr',
     tagline: {
       tr: 'Sıvı Yalıtımlı Dağıtım Transformatörleri',
@@ -591,7 +621,12 @@ export const mediumVoltageGroups: Brand[] = [
   },
   {
     id: 'og-sont-reaktorler',
-    name: 'OG Şönt & Manyetik Kontrollü Şönt Reaktörler',
+    name: {
+      tr: 'OG Şönt & Manyetik Kontrollü Şönt Reaktörler',
+      en: 'MV Shunt & Magnetically Controlled Shunt Reactors',
+      ru: 'Шунтирующие реакторы СН и реакторы с магнитным управлением',
+      ar: 'مفاعلات تفرعية للجهد المتوسط ومفاعلات تفرعية ذات تحكم مغناطيسي',
+    },
     nameLang: 'tr',
     tagline: {
       tr: 'Reaktif Güç Kompanzasyon Ekipmanları',

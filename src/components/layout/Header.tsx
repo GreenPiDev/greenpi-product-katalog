@@ -2,12 +2,13 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect, useRef, useState } from 'react'
 import { brandsWithUserProducts, mediumVoltageGroupsWithUserProducts } from '../../data/mergedBrands'
 import { useLanguage } from '../../i18n/LanguageContext'
+import { pickLocalizedText } from '../../i18n/localize'
 import { scrollToId } from '../../lib/lenis'
 import { LanguageSwitcher } from '../ui/LanguageSwitcher'
 import styles from './Header.module.css'
 
 export function Header() {
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
   const [menuOpen, setMenuOpen] = useState(false)
   const [activeCategory, setActiveCategory] = useState<string | null>(null)
   const [mobileOpen, setMobileOpen] = useState(false)
@@ -125,7 +126,7 @@ export function Header() {
                                 className={styles.brandItem}
                                 onClick={() => go(`brand-${brand.id}`)}
                               >
-                                {brand.name}
+                                {pickLocalizedText(brand.name, lang)}
                               </button>
                             ))}
                           </motion.div>
@@ -207,7 +208,7 @@ export function Header() {
                           className={styles.mobileBrandItem}
                           onClick={() => go(`brand-${brand.id}`)}
                         >
-                          {brand.name}
+                          {pickLocalizedText(brand.name, lang)}
                         </button>
                       ))}
                     </div>

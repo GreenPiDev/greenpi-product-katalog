@@ -118,8 +118,8 @@ type EditPatch = {
 }
 
 const brandOptions = [
-  ...lowVoltageBrands.map((b) => ({ id: b.id, name: b.name })),
-  ...mediumVoltageGroups.map((g) => ({ id: g.id, name: `Orta Gerilim — ${g.name}` })),
+  ...lowVoltageBrands.map((b) => ({ id: b.id, name: b.name.tr })),
+  ...mediumVoltageGroups.map((g) => ({ id: g.id, name: `Orta Gerilim — ${g.name.tr}` })),
 ]
 
 function brandName(brandId: string) {

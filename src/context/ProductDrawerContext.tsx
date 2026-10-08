@@ -1,9 +1,10 @@
 import { createContext, useContext, useMemo, useState, type ReactNode } from 'react'
 import type { Product } from '../data/types'
+import type { LocalizedText } from '../i18n/types'
 
 export type DrawerBrand = {
   id?: string
-  name: string
+  name: LocalizedText
   nameLang?: 'tr' | 'en'
   accentColor: string
   backgroundColor: string

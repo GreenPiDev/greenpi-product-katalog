@@ -44,7 +44,7 @@ export type SpecTable = SpecListTable | SpecGridTable
 
 export type Brand = {
   id: string
-  name: string
+  name: LocalizedText
   nameLang?: 'tr' | 'en'
   tagline: LocalizedText
   description: LocalizedText
