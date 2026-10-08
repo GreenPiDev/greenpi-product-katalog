@@ -562,7 +562,7 @@
   {
     "id": "user-1790244147690-0",
     "brandId": "mobil-trafo-merkezleri",
-    "name": "Boyalı Sac Köşk",
+    "name": "BOYALI SAC KÖŞK",
     "description": "Endüstriyel boya sistemiyle korunan, projeye özel RAL renklerinde üretilebilen dayanıklı köşk tipi.",
     "category": "Orta Gerilim",
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790748676/greenpi-product-katalog/production/kqtkkzsfi9x4evvdhpml.png"
@@ -570,7 +570,7 @@
   {
     "id": "user-1790244147690-1",
     "brandId": "mobil-trafo-merkezleri",
-    "name": "Mobil Sac Köşk",
+    "name": "MOBİL SAC KÖŞK",
     "description": "Römork, şasi veya kızak üzerine monte edilebilen; hızlı taşınabilen ve kısa sürede devreye alınabilen mobil enerji dağıtım çözümü.",
     "category": "Orta Gerilim",
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790748691/greenpi-product-katalog/production/cmq7i7zfasinezsficie.png"
@@ -578,7 +578,7 @@
   {
     "id": "user-1790244147690-2",
     "brandId": "mobil-trafo-merkezleri",
-    "name": "Kule Tipi Sac Köşk",
+    "name": "KULE TİPİ SAC KÖŞK",
     "description": "Dikey yerleşim avantajı sunan ve sınırlı saha alanlarının verimli kullanılmasını sağlayan kompakt trafo merkezi çözümü.",
     "category": "Orta Gerilim",
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790748706/greenpi-product-katalog/production/vhfcklwpmqxk4tafiuz1.png"
@@ -586,7 +586,7 @@
   {
     "id": "user-1790244147690-3",
     "brandId": "mobil-trafo-merkezleri",
-    "name": "Galvanizli Sac Köşk",
+    "name": "GALVANİZLİ SAC KÖŞK",
     "description": "Korozyon dayanımı artırılmış galvanizli çelik konstrüksiyonu sayesinde zorlu çevre ve dış ortam koşullarında uzun ömürlü kullanım sunar.",
     "category": "Orta Gerilim",
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790748881/greenpi-product-katalog/production/uwvp3whaxsq0tlcyvdv6.png"
@@ -594,7 +594,7 @@
   {
     "id": "user-1790244147690-4",
     "brandId": "mobil-trafo-merkezleri",
-    "name": "Tek Göz Sac Köşk",
+    "name": "TEK GÖZ SAC KÖŞK",
     "description": "Elektrik ekipmanlarının tek bir bölüm içerisinde konumlandırıldığı, küçük ve orta ölçekli uygulamalara yönelik ekonomik ve kompakt köşk tipi.",
     "category": "Orta Gerilim",
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790748765/greenpi-product-katalog/production/fj5m2mkpbbeyq8vk5m3n.png"
@@ -602,7 +602,7 @@
   {
     "id": "user-1790244147690-5",
     "brandId": "mobil-trafo-merkezleri",
-    "name": "Sandviç Panel Köşk",
+    "name": "SANDVİÇ PANEL KÖŞK",
     "description": "Isı yalıtımı sağlayan sandviç panellerden üretilen, hafif ve modüler köşk çözümü. İç ve dış ortam uygulamalarına uygun olarak projelendirilebilir.",
     "category": "Orta Gerilim",
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1790748781/greenpi-product-katalog/production/i1ifobvu0sslwfqyet44.png"
@@ -610,42 +610,42 @@
   {
     "id": "user-1791453270480-0",
     "brandId": "vozwei",
-    "name": "VPH888-12.5 (T1+T2) Serisi Tip 1+2 AC Aşırı Gerilim Koruma Cihazı (SPD)",
+    "name": "PARAFUDR",
     "description": "VPH888-12.5, kapsamlı yıldırım ve dalga koruması için tasarlanmış yüksek voltajlı Tip 1+2 AC SPD'dir. 880V AC Uc ile 12,5 kA (10/350 μs) ve 80 kA (8/20 μs) Imax'i ele alır. ≤ 3.4 kV'a kadar sahip, tamamen EN / IEC 61643-11 uyumludur. Gerekli PV AC sistemleri ve yüksek voltajlı endüstriyel altyapı için ideal.",
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1791449603/greenpi-product-katalog/production/sx5t9tomoeia8z3n3t1g.png"
   },
   {
     "id": "user-1791453270480-1",
     "brandId": "alcak-gerilim-panolari",
-    "name": "Tedaş Tipi AG Panolar(Harici / Dahili / Dağıtım)",
+    "name": "TEDAŞ TİPİ AG PANOLAR(HARİCİ / DAHİLİ / DAĞITIM)",
     "description": "Harici, dahili ve saha tipi dağıtım kutularında, farklı uygulama ve proje ihtiyaçlarına yönelik özelleştirilebilir çözümler sunuyoruz. Ürün özellikleri ve talep edilen adetlere göre özel fiyatlandırma ve projeye özel tekliflendirme yapılmaktadır.",
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1791451774/greenpi-product-katalog/production/mszyzz0fnkc5tydqrn5v.png"
   },
   {
     "id": "user-1791453270480-2",
     "brandId": "alcak-gerilim-panolari",
-    "name": "Özel Tip Panolar",
+    "name": "ÖZEL TİP PANOLAR",
     "description": "Harici ve dahili kullanım için özel tip AG panoları, proje ve müşteri ihtiyaçlarına uygun olarak tasarlıyor ve üretiyoruz. Teknik özellikler, ölçüler, ekipman seçimi ve adet bazında talebe özel fiyatlandırma ve tekliflendirme yapılmaktadır.",
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1791453263/greenpi-product-katalog/production/uyphlgk7xwmla7dw56yg.png"
   },
   {
     "id": "user-1791458036066-0",
     "brandId": "aite",
-    "name": "NT/NH HRC Kare Bıçaklı Sigorta",
+    "name": "NT/NH HRC KARE BIÇAKLI SİGORTA",
     "description": "Bu ürün, \"standart boyut ve tam aralıklı kesme kapasitesi\" sembolüne sahip, düşük voltajlı DC tam aralıklı koruma sigortasıdır. Kablolar, güç kaynakları ve iletişim kabinleri gibi güç dağıtım veya iletişim devre sistemlerindeki ekipman ve cihazların kısa devre ve aşırı yük koruması için uygundur.",
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1791456525/greenpi-product-katalog/production/kwll81b80rxw7ra5n35h.png"
   },
   {
     "id": "user-1791458036066-1",
     "brandId": "aite",
-    "name": "NT/NH HRC Kare Bıçaklı Sigorta Tabanı",
+    "name": "NT/NH HRC KARE BIÇAKLI SİGORTA TABANI",
     "description": "Bu ürün, \"standart boyut ve tam aralıklı kesme kapasitesi\" sembolüne sahip, düşük voltajlı DC tam aralıklı koruma sigortasıdır. Kablolar, güç kaynakları ve iletişim kabinleri gibi güç dağıtım veya iletişim devre sistemlerindeki ekipman ve cihazların kısa devre ve aşırı yük koruması için uygundur.",
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1791456609/greenpi-product-katalog/production/qknwwu8cxgoi7tmradq7.png"
   },
   {
     "id": "user-1791458036066-2",
     "brandId": "aite",
-    "name": "Alçak Gerilim Parafudr (AC/DC)",
+    "name": "ALÇAK GERİLİM PARAFUDR (AC/DC)",
     "description": "Bu AC/DC aşırı gerilim koruma cihazları, DC güç hat sistemini ve diğer ekipmanları aşırı gerilimden ve ani aşırı gerilim hasarından korur. Fotovoltaik birleştirme kutusu, güç invertörü, AC/DC dağıtım panosu vb. yerlerde yaygın olarak kullanılır. Yüksek deşarj akımı, hızlı tepki süresi ve düşük artık gerilim avantajlarına sahiptir.",
     "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1791456709/greenpi-product-katalog/production/gmeowicujdlq3m8xpnp9.png"
   }
