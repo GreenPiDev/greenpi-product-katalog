@@ -9,9 +9,12 @@ const EDITS_KEY = 'gp_admin_edits'
 const DELETES_KEY = 'gp_admin_deletes'
 const ORDER_KEY = 'gp_admin_order'
 const VISIBILITY_KEY = 'gp_admin_visibility'
+const BRAND_VISIBILITY_KEY = 'gp_admin_brand_visibility'
 
 const RAW_PRODUCTS_URL =
   'https://raw.githubusercontent.com/GreenPiDev/greenpi-product-katalog/main/src/data/userProducts.json'
+const RAW_BRAND_VISIBILITY_URL =
+  'https://raw.githubusercontent.com/GreenPiDev/greenpi-product-katalog/main/src/data/brandVisibility.json'
 
 type DraftProduct = {
   draftId: string
@@ -111,6 +114,13 @@ export default function AdminApp() {
   const [originalOrder, setOriginalOrder] = useState<BrandOrder>({})
   const [visibility, setVisibility] = useState<Record<string, boolean>>(() => loadJson(VISIBILITY_KEY, {}))
 
+  // Marka görünürlüğü
+  const [brandVisibilityRemote, setBrandVisibilityRemote] = useState<Record<string, boolean>>({})
+  const [brandVisibilityOverrides, setBrandVisibilityOverrides] = useState<Record<string, boolean>>(() =>
+    loadJson(BRAND_VISIBILITY_KEY, {}),
+  )
+  const [loadingBrandVisibility, setLoadingBrandVisibility] = useState(false)
+
   const [editingId, setEditingId] = useState<string | null>(null)
   const [editForm, setEditForm] = useState<EditPatch | null>(null)
   const [editImageFile, setEditImageFile] = useState<File | null>(null)
@@ -143,6 +153,10 @@ export default function AdminApp() {
   }, [visibility])
 
   useEffect(() => {
+    localStorage.setItem(BRAND_VISIBILITY_KEY, JSON.stringify(brandVisibilityOverrides))
+  }, [brandVisibilityOverrides])
+
+  useEffect(() => {
     if (!imageFile) {
       setImagePreview('')
       return
@@ -163,7 +177,10 @@ export default function AdminApp() {
   }, [editImageFile])
 
   useEffect(() => {
-    if (token) loadExistingProducts()
+    if (token) {
+      loadExistingProducts()
+      loadBrandVisibility()
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [token])
 
@@ -183,6 +200,20 @@ export default function AdminApp() {
       setExistingError('Mevcut ürünler yüklenemedi')
     } finally {
       setLoadingExisting(false)
+    }
+  }
+
+  async function loadBrandVisibility() {
+    setLoadingBrandVisibility(true)
+    try {
+      const res = await fetch(`${RAW_BRAND_VISIBILITY_URL}?t=${Date.now()}`, { cache: 'no-store' })
+      if (!res.ok) throw new Error('Marka görünürlüğü yüklenemedi')
+      const data = (await res.json()) as Record<string, boolean>
+      setBrandVisibilityRemote(data)
+    } catch {
+      setBrandVisibilityRemote({})
+    } finally {
+      setLoadingBrandVisibility(false)
     }
   }
 
@@ -342,6 +373,23 @@ export default function AdminApp() {
     })
   }
 
+  function effectiveBrandVisible(id: string) {
+    return brandVisibilityOverrides[id] ?? brandVisibilityRemote[id] ?? true
+  }
+
+  function toggleBrandVisibility(id: string) {
+    const next = !effectiveBrandVisible(id)
+    setBrandVisibilityOverrides((prev) => {
+      const copy = { ...prev }
+      if (next === (brandVisibilityRemote[id] ?? true)) {
+        delete copy[id]
+      } else {
+        copy[id] = next
+      }
+      return copy
+    })
+  }
+
   function moveProduct(brandId: string, id: string, direction: 'up' | 'down') {
     setOrder((prev) => {
       const list = prev[brandId] ?? []
@@ -360,7 +408,12 @@ export default function AdminApp() {
   )
 
   const pendingCount =
-    draft.length + Object.keys(edits).length + deletedIds.length + Object.keys(visibility).length + (orderChanged ? 1 : 0)
+    draft.length +
+    Object.keys(edits).length +
+    deletedIds.length +
+    Object.keys(visibility).length +
+    Object.keys(brandVisibilityOverrides).length +
+    (orderChanged ? 1 : 0)
 
   async function handlePublish() {
     if (!token || pendingCount === 0) return
@@ -396,6 +449,7 @@ export default function AdminApp() {
           reorder: orderChanged
             ? brandOptions.flatMap((b) => (order[b.id] ?? []).filter((id) => !deletedIds.includes(id)))
             : [],
+          brandVisibility: brandVisibilityOverrides,
         }),
       })
       const data = await res.json()
@@ -414,10 +468,12 @@ export default function AdminApp() {
       setEdits({})
       setDeletedIds([])
       setVisibility({})
+      setBrandVisibilityOverrides({})
       setPublishMessage(
         `${data.created} eklendi, ${data.updated} düzenlendi, ${data.deleted} silindi. Site birkaç dakika içinde güncellenecek.`,
       )
       loadExistingProducts()
+      loadBrandVisibility()
     } catch {
       setPublishError('Sunucuya ulaşılamadı')
     } finally {
@@ -458,6 +514,40 @@ export default function AdminApp() {
             Çıkış yap
           </button>
         </header>
+
+        <section>
+          <h2 className={styles.subtitle}>Marka Görünürlüğü</h2>
+
+          {loadingBrandVisibility && <p className={styles.empty}>Yükleniyor...</p>}
+
+          <ul className={styles.existingList}>
+            {brandOptions.map((brand) => {
+              const visible = effectiveBrandVisible(brand.id)
+              const pending = Object.prototype.hasOwnProperty.call(brandVisibilityOverrides, brand.id)
+
+              return (
+                <li
+                  key={brand.id}
+                  className={`${styles.existingItem} ${!visible ? styles.existingItemDeleted : ''}`}
+                >
+                  <div className={styles.existingRow}>
+                    <div className={styles.draftMeta}>
+                      <span className={styles.draftName}>{brand.name}</span>
+                      {!visible && (
+                        <span className={styles.pendingBadge}>{pending ? 'Gizlenecek' : 'Gizli'}</span>
+                      )}
+                    </div>
+                    <div className={styles.existingActions}>
+                      <button type="button" className={styles.linkButton} onClick={() => toggleBrandVisibility(brand.id)}>
+                        {visible ? 'Gizle' : 'Göster'}
+                      </button>
+                    </div>
+                  </div>
+                </li>
+              )
+            })}
+          </ul>
+        </section>
 
         <section>
           <h2 className={styles.subtitle}>Yeni Ürün Ekle</h2>

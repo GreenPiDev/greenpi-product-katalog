@@ -4,6 +4,7 @@ const GITHUB_OWNER = 'GreenPiDev'
 const GITHUB_REPO = 'greenpi-product-katalog'
 const GITHUB_BRANCH = 'main'
 const DATA_PATH = 'src/data/userProducts.json'
+const BRAND_VISIBILITY_PATH = 'src/data/brandVisibility.json'
 
 function verifyToken(token, secret) {
   if (typeof token !== 'string') return false
@@ -48,19 +49,44 @@ export default async function handler(req, res) {
     return
   }
 
-  const { token, create = [], update = [], delete: deleteIds = [], reorder = [] } = req.body ?? {}
+  const {
+    token,
+    create = [],
+    update = [],
+    delete: deleteIds = [],
+    reorder = [],
+    brandVisibility = {},
+  } = req.body ?? {}
 
   if (!verifyToken(token, adminSecret)) {
     res.status(401).json({ error: 'yetkisiz veya süresi dolmuş oturum' })
     return
   }
 
-  if (!Array.isArray(create) || !Array.isArray(update) || !Array.isArray(deleteIds) || !Array.isArray(reorder)) {
+  if (
+    !Array.isArray(create) ||
+    !Array.isArray(update) ||
+    !Array.isArray(deleteIds) ||
+    !Array.isArray(reorder) ||
+    typeof brandVisibility !== 'object' ||
+    brandVisibility === null ||
+    Array.isArray(brandVisibility)
+  ) {
     res.status(400).json({ error: 'geçersiz istek biçimi' })
     return
   }
 
-  if (create.length === 0 && update.length === 0 && deleteIds.length === 0 && reorder.length === 0) {
+  const brandVisibilityEntries = Object.entries(brandVisibility).filter(
+    ([, v]) => typeof v === 'boolean',
+  )
+
+  if (
+    create.length === 0 &&
+    update.length === 0 &&
+    deleteIds.length === 0 &&
+    reorder.length === 0 &&
+    brandVisibilityEntries.length === 0
+  ) {
     res.status(400).json({ error: 'yayınlanacak değişiklik yok' })
     return
   }
@@ -87,88 +113,137 @@ export default async function handler(req, res) {
   }
 
   try {
-    const getRes = await fetch(
-      `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${DATA_PATH}?ref=${GITHUB_BRANCH}`,
-      { headers: ghHeaders },
-    )
+    let newProducts = []
 
-    if (!getRes.ok) {
-      const detail = await getRes.text()
-      res.status(502).json({ error: 'github okuma hatası', detail })
-      return
-    }
+    const hasProductChanges =
+      create.length > 0 || update.length > 0 || deleteIds.length > 0 || reorder.length > 0
 
-    const fileData = await getRes.json()
-    let products = JSON.parse(Buffer.from(fileData.content, 'base64').toString('utf-8'))
+    if (hasProductChanges) {
+      const getRes = await fetch(
+        `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${DATA_PATH}?ref=${GITHUB_BRANCH}`,
+        { headers: ghHeaders },
+      )
 
-    if (deleteIds.length > 0) {
-      const deleteSet = new Set(deleteIds)
-      products = products.filter((p) => !deleteSet.has(p.id))
-    }
+      if (!getRes.ok) {
+        const detail = await getRes.text()
+        res.status(502).json({ error: 'github okuma hatası', detail })
+        return
+      }
 
-    if (update.length > 0) {
-      const updateMap = new Map(update.map((p) => [p.id, p]))
-      products = products.map((p) => {
-        const patch = updateMap.get(p.id)
-        return patch ? applyUpdate(p, patch) : p
-      })
-    }
+      const fileData = await getRes.json()
+      let products = JSON.parse(Buffer.from(fileData.content, 'base64').toString('utf-8'))
 
-    if (reorder.length > 0) {
-      const productMap = new Map(products.map((p) => [p.id, p]))
-      const reordered = []
-      for (const id of reorder) {
-        const p = productMap.get(id)
-        if (p) {
-          reordered.push(p)
-          productMap.delete(id)
+      if (deleteIds.length > 0) {
+        const deleteSet = new Set(deleteIds)
+        products = products.filter((p) => !deleteSet.has(p.id))
+      }
+
+      if (update.length > 0) {
+        const updateMap = new Map(update.map((p) => [p.id, p]))
+        products = products.map((p) => {
+          const patch = updateMap.get(p.id)
+          return patch ? applyUpdate(p, patch) : p
+        })
+      }
+
+      if (reorder.length > 0) {
+        const productMap = new Map(products.map((p) => [p.id, p]))
+        const reordered = []
+        for (const id of reorder) {
+          const p = productMap.get(id)
+          if (p) {
+            reordered.push(p)
+            productMap.delete(id)
+          }
         }
+        for (const p of products) {
+          if (productMap.has(p.id)) reordered.push(p)
+        }
+        products = reordered
       }
-      for (const p of products) {
-        if (productMap.has(p.id)) reordered.push(p)
+
+      const timestamp = Date.now()
+      newProducts = create.map((p, i) => ({
+        id: `user-${timestamp}-${i}`,
+        brandId: p.brandId,
+        name: p.name,
+        description: p.description,
+        ...(p.code ? { code: p.code } : {}),
+        ...(p.image ? { image: p.image } : {}),
+        ...(p.isVisible === false ? { isVisible: false } : {}),
+      }))
+
+      products = [...products, ...newProducts]
+
+      const newContent = Buffer.from(JSON.stringify(products, null, 2) + '\n').toString('base64')
+
+      const messageParts = []
+      if (newProducts.length) messageParts.push(`${newProducts.length} eklendi`)
+      if (update.length) messageParts.push(`${update.length} düzenlendi`)
+      if (deleteIds.length) messageParts.push(`${deleteIds.length} silindi`)
+      if (reorder.length) messageParts.push('sıralama güncellendi')
+
+      const putRes = await fetch(
+        `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${DATA_PATH}`,
+        {
+          method: 'PUT',
+          headers: ghHeaders,
+          body: JSON.stringify({
+            message: `Katalog: ${messageParts.join(', ')}`,
+            content: newContent,
+            sha: fileData.sha,
+            branch: GITHUB_BRANCH,
+          }),
+        },
+      )
+
+      if (!putRes.ok) {
+        const detail = await putRes.text()
+        res.status(502).json({ error: 'github yazma hatası', detail })
+        return
       }
-      products = reordered
     }
 
-    const timestamp = Date.now()
-    const newProducts = create.map((p, i) => ({
-      id: `user-${timestamp}-${i}`,
-      brandId: p.brandId,
-      name: p.name,
-      description: p.description,
-      ...(p.code ? { code: p.code } : {}),
-      ...(p.image ? { image: p.image } : {}),
-      ...(p.isVisible === false ? { isVisible: false } : {}),
-    }))
+    if (brandVisibilityEntries.length > 0) {
+      const getRes = await fetch(
+        `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${BRAND_VISIBILITY_PATH}?ref=${GITHUB_BRANCH}`,
+        { headers: ghHeaders },
+      )
 
-    products = [...products, ...newProducts]
+      if (!getRes.ok) {
+        const detail = await getRes.text()
+        res.status(502).json({ error: 'github okuma hatası (marka görünürlüğü)', detail })
+        return
+      }
 
-    const newContent = Buffer.from(JSON.stringify(products, null, 2) + '\n').toString('base64')
+      const fileData = await getRes.json()
+      const current = JSON.parse(Buffer.from(fileData.content, 'base64').toString('utf-8'))
+      const merged = { ...current }
+      for (const [id, visible] of brandVisibilityEntries) {
+        merged[id] = visible
+      }
 
-    const messageParts = []
-    if (newProducts.length) messageParts.push(`${newProducts.length} eklendi`)
-    if (update.length) messageParts.push(`${update.length} düzenlendi`)
-    if (deleteIds.length) messageParts.push(`${deleteIds.length} silindi`)
-    if (reorder.length) messageParts.push('sıralama güncellendi')
+      const newContent = Buffer.from(JSON.stringify(merged, null, 2) + '\n').toString('base64')
 
-    const putRes = await fetch(
-      `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${DATA_PATH}`,
-      {
-        method: 'PUT',
-        headers: ghHeaders,
-        body: JSON.stringify({
-          message: `Katalog: ${messageParts.join(', ')}`,
-          content: newContent,
-          sha: fileData.sha,
-          branch: GITHUB_BRANCH,
-        }),
-      },
-    )
+      const putRes = await fetch(
+        `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${BRAND_VISIBILITY_PATH}`,
+        {
+          method: 'PUT',
+          headers: ghHeaders,
+          body: JSON.stringify({
+            message: `Katalog: marka görünürlüğü güncellendi (${brandVisibilityEntries.length})`,
+            content: newContent,
+            sha: fileData.sha,
+            branch: GITHUB_BRANCH,
+          }),
+        },
+      )
 
-    if (!putRes.ok) {
-      const detail = await putRes.text()
-      res.status(502).json({ error: 'github yazma hatası', detail })
-      return
+      if (!putRes.ok) {
+        const detail = await putRes.text()
+        res.status(502).json({ error: 'github yazma hatası (marka görünürlüğü)', detail })
+        return
+      }
     }
 
     res.status(200).json({
@@ -176,6 +251,7 @@ export default async function handler(req, res) {
       created: newProducts.length,
       updated: update.length,
       deleted: deleteIds.length,
+      brandVisibilityUpdated: brandVisibilityEntries.length,
     })
   } catch (err) {
     res.status(500).json({ error: 'beklenmeyen hata', detail: String(err) })

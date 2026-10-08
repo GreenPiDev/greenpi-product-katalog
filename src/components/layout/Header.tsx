@@ -1,12 +1,12 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect, useRef, useState } from 'react'
-import { lowVoltageBrands, mediumVoltageGroups } from '../../data/brands'
+import { brandsWithUserProducts, mediumVoltageGroupsWithUserProducts } from '../../data/mergedBrands'
 import { scrollToId } from '../../lib/lenis'
 import styles from './Header.module.css'
 
 const PRODUCT_CATEGORIES = [
-  { id: 'low-voltage', name: 'ALÇAK GERİLİM', brands: lowVoltageBrands },
-  { id: 'medium-voltage', name: 'ORTA GERİLİM', brands: mediumVoltageGroups },
+  { id: 'low-voltage', name: 'ALÇAK GERİLİM', brands: brandsWithUserProducts },
+  { id: 'medium-voltage', name: 'ORTA GERİLİM', brands: mediumVoltageGroupsWithUserProducts },
 ]
 
 const NAV_LINKS = [
