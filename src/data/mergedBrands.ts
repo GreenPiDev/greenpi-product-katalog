@@ -4,12 +4,14 @@ import userProductsRaw from './userProducts.json'
 
 const userProducts = userProductsRaw as UserProduct[]
 
+const isVisible = (p: UserProduct) => p.isVisible !== false
+
 export const brandsWithUserProducts: Brand[] = lowVoltageBrands.map((brand) => ({
   ...brand,
-  products: [...brand.products, ...userProducts.filter((p) => p.brandId === brand.id)],
+  products: [...brand.products, ...userProducts.filter((p) => p.brandId === brand.id && isVisible(p))],
 }))
 
 export const mediumVoltageGroupsWithUserProducts: Brand[] = mediumVoltageGroups.map((group) => ({
   ...group,
-  products: [...group.products, ...userProducts.filter((p) => p.brandId === group.id)],
+  products: [...group.products, ...userProducts.filter((p) => p.brandId === group.id && isVisible(p))],
 }))

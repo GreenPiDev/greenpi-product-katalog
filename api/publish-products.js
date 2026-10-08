@@ -30,6 +30,7 @@ function applyUpdate(product, patch) {
     else delete next.code
   }
   if (typeof patch.image === 'string' && patch.image.trim()) next.image = patch.image.trim()
+  if (typeof patch.isVisible === 'boolean') next.isVisible = patch.isVisible
   return next
 }
 
@@ -137,6 +138,7 @@ export default async function handler(req, res) {
       description: p.description,
       ...(p.code ? { code: p.code } : {}),
       ...(p.image ? { image: p.image } : {}),
+      ...(p.isVisible === false ? { isVisible: false } : {}),
     }))
 
     products = [...products, ...newProducts]

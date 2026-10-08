@@ -8,6 +8,7 @@ const DRAFT_KEY = 'gp_admin_draft'
 const EDITS_KEY = 'gp_admin_edits'
 const DELETES_KEY = 'gp_admin_deletes'
 const ORDER_KEY = 'gp_admin_order'
+const VISIBILITY_KEY = 'gp_admin_visibility'
 
 const RAW_PRODUCTS_URL =
   'https://raw.githubusercontent.com/GreenPiDev/greenpi-product-katalog/main/src/data/userProducts.json'
@@ -20,6 +21,7 @@ type DraftProduct = {
   description: string
   code: string
   image: string
+  isVisible: boolean
 }
 
 type ExistingProduct = {
@@ -29,6 +31,7 @@ type ExistingProduct = {
   description: string
   code?: string
   image?: string
+  isVisible?: boolean
 }
 
 type EditPatch = {
@@ -92,6 +95,7 @@ export default function AdminApp() {
   const [name, setName] = useState('')
   const [description, setDescription] = useState('')
   const [code, setCode] = useState('')
+  const [visibleOnCreate, setVisibleOnCreate] = useState(true)
   const [imageFile, setImageFile] = useState<File | null>(null)
   const [imagePreview, setImagePreview] = useState<string>('')
   const [formError, setFormError] = useState('')
@@ -105,6 +109,7 @@ export default function AdminApp() {
   const [deletedIds, setDeletedIds] = useState<string[]>(() => loadJson(DELETES_KEY, []))
   const [order, setOrder] = useState<BrandOrder>(() => loadJson(ORDER_KEY, {}))
   const [originalOrder, setOriginalOrder] = useState<BrandOrder>({})
+  const [visibility, setVisibility] = useState<Record<string, boolean>>(() => loadJson(VISIBILITY_KEY, {}))
 
   const [editingId, setEditingId] = useState<string | null>(null)
   const [editForm, setEditForm] = useState<EditPatch | null>(null)
@@ -132,6 +137,10 @@ export default function AdminApp() {
   useEffect(() => {
     localStorage.setItem(ORDER_KEY, JSON.stringify(order))
   }, [order])
+
+  useEffect(() => {
+    localStorage.setItem(VISIBILITY_KEY, JSON.stringify(visibility))
+  }, [visibility])
 
   useEffect(() => {
     if (!imageFile) {
@@ -231,6 +240,7 @@ export default function AdminApp() {
         description: description.trim(),
         code: code.trim(),
         image: imageUrl,
+        isVisible: visibleOnCreate,
       }
 
       setDraft((prev) => [...prev, item])
@@ -238,6 +248,7 @@ export default function AdminApp() {
       setDescription('')
       setCode('')
       setImageFile(null)
+      setVisibleOnCreate(true)
     } catch (err) {
       setFormError(err instanceof Error ? err.message : 'Görsel yüklenemedi')
     } finally {
@@ -314,6 +325,23 @@ export default function AdminApp() {
     setDeletedIds((prev) => (prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]))
   }
 
+  function effectiveVisible(product: ExistingProduct) {
+    return visibility[product.id] ?? product.isVisible ?? true
+  }
+
+  function toggleVisibility(product: ExistingProduct) {
+    const next = !effectiveVisible(product)
+    setVisibility((prev) => {
+      const copy = { ...prev }
+      if (next === (product.isVisible ?? true)) {
+        delete copy[product.id]
+      } else {
+        copy[product.id] = next
+      }
+      return copy
+    })
+  }
+
   function moveProduct(brandId: string, id: string, direction: 'up' | 'down') {
     setOrder((prev) => {
       const list = prev[brandId] ?? []
@@ -331,7 +359,8 @@ export default function AdminApp() {
     [order, originalOrder],
   )
 
-  const pendingCount = draft.length + Object.keys(edits).length + deletedIds.length + (orderChanged ? 1 : 0)
+  const pendingCount =
+    draft.length + Object.keys(edits).length + deletedIds.length + Object.keys(visibility).length + (orderChanged ? 1 : 0)
 
   async function handlePublish() {
     if (!token || pendingCount === 0) return
@@ -340,19 +369,29 @@ export default function AdminApp() {
     setPublishMessage('')
 
     try {
+      const updateMap = new Map<string, Record<string, unknown>>()
+      for (const [id, patch] of Object.entries(edits)) {
+        updateMap.set(id, { id, ...patch })
+      }
+      for (const [id, visible] of Object.entries(visibility)) {
+        if (deletedIds.includes(id)) continue
+        updateMap.set(id, { ...(updateMap.get(id) ?? { id }), isVisible: visible })
+      }
+
       const res = await fetch('/api/publish-products', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           token,
-          create: draft.map(({ brandId, name, description, code, image }) => ({
+          create: draft.map(({ brandId, name, description, code, image, isVisible }) => ({
             brandId,
             name,
             description,
             code: code || undefined,
             image: image || undefined,
+            isVisible,
           })),
-          update: Object.entries(edits).map(([id, patch]) => ({ id, ...patch })),
+          update: Array.from(updateMap.values()),
           delete: deletedIds,
           reorder: orderChanged
             ? brandOptions.flatMap((b) => (order[b.id] ?? []).filter((id) => !deletedIds.includes(id)))
@@ -374,6 +413,7 @@ export default function AdminApp() {
       setDraft([])
       setEdits({})
       setDeletedIds([])
+      setVisibility({})
       setPublishMessage(
         `${data.created} eklendi, ${data.updated} düzenlendi, ${data.deleted} silindi. Site birkaç dakika içinde güncellenecek.`,
       )
@@ -465,6 +505,15 @@ export default function AdminApp() {
 
             {imagePreview && <img src={imagePreview} alt="" className={styles.preview} />}
 
+            <label className={styles.label} style={{ flexDirection: 'row', alignItems: 'center', gap: '0.5rem' }}>
+              <input
+                type="checkbox"
+                checked={visibleOnCreate}
+                onChange={(e) => setVisibleOnCreate(e.target.checked)}
+              />
+              Katalogda görünür olsun
+            </label>
+
             {formError && <p className={styles.error}>{formError}</p>}
 
             <button type="submit" className={styles.primaryButton} disabled={uploading}>
@@ -485,6 +534,7 @@ export default function AdminApp() {
                     <div className={styles.draftMeta}>
                       <span className={styles.draftBrand}>{p.brandName}</span>
                       <span className={styles.draftName}>{p.name}</span>
+                      {!p.isVisible && <span className={styles.pendingBadge}>Gizli</span>}
                     </div>
                     <button
                       type="button"
@@ -527,11 +577,13 @@ export default function AdminApp() {
                       const display = patch ? { ...product, ...patch } : product
                       const isDeleted = deletedIds.includes(product.id)
                       const isEditing = editingId === product.id
+                      const visible = effectiveVisible(product)
+                      const visibilityPending = Object.prototype.hasOwnProperty.call(visibility, product.id)
 
                       return (
                         <li
                           key={product.id}
-                          className={`${styles.existingItem} ${isDeleted ? styles.existingItemDeleted : ''}`}
+                          className={`${styles.existingItem} ${isDeleted || !visible ? styles.existingItemDeleted : ''}`}
                         >
                           <div className={styles.existingRow}>
                             <div className={styles.orderControls}>
@@ -560,9 +612,23 @@ export default function AdminApp() {
                               {patch && !isEditing && (
                                 <span className={styles.pendingBadge}>Düzenleme bekliyor</span>
                               )}
+                              {!visible && (
+                                <span className={styles.pendingBadge}>
+                                  {visibilityPending ? 'Gizlenecek' : 'Gizli'}
+                                </span>
+                              )}
                               {isDeleted && <span className={styles.pendingBadge}>Silinecek</span>}
                             </div>
                             <div className={styles.existingActions}>
+                              {!isDeleted && (
+                                <button
+                                  type="button"
+                                  className={styles.linkButton}
+                                  onClick={() => toggleVisibility(product)}
+                                >
+                                  {visible ? 'Gizle' : 'Göster'}
+                                </button>
+                              )}
                               {!isDeleted && (
                                 <button
                                   type="button"

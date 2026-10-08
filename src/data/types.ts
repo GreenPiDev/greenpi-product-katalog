@@ -5,6 +5,8 @@ export type Product = {
   category?: string
   code?: string
   image?: string
+  /** false ise katalog sayfasında gösterilmez. Tanımsızsa görünür kabul edilir. */
+  isVisible?: boolean
 }
 
 export type UserProduct = Product & { brandId: string }
