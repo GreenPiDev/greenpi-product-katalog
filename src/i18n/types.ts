@@ -7,6 +7,9 @@ export const LANGS: { code: Lang; label: string }[] = [
   { code: 'ar', label: 'AR' },
 ]
 
+/** Her dil için ayrı metin; `tr` her zaman dolu olmalı, diğerleri boş string olabilir (henüz çevrilmemiş). */
+export type LocalizedText = Record<Lang, string>
+
 export type VoltageCategoryText = {
   id: string
   index: string

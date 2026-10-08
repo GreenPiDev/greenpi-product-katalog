@@ -1,7 +1,9 @@
+import type { LocalizedText } from '../i18n/types'
+
 export type Product = {
   id: string
-  name: string
-  description: string
+  name: LocalizedText
+  description: LocalizedText
   category?: string
   code?: string
   image?: string

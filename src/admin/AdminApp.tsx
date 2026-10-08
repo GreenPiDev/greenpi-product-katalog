@@ -1,7 +1,79 @@
 import { useEffect, useMemo, useState, type FormEvent } from 'react'
 import { lowVoltageBrands, mediumVoltageGroups } from '../data/brands'
+import type { Lang, LocalizedText } from '../i18n/types'
 import { uploadImage } from './uploadToCloudinary'
 import styles from './AdminApp.module.css'
+
+const PRODUCT_LANG_TABS: { code: Lang; label: string; required?: boolean }[] = [
+  { code: 'tr', label: 'Türkçe', required: true },
+  { code: 'en', label: 'İngilizce' },
+  { code: 'ru', label: 'Rusça' },
+  { code: 'ar', label: 'Arapça' },
+]
+
+function emptyLocalized(): LocalizedText {
+  return { tr: '', en: '', ru: '', ar: '' }
+}
+
+function trimLocalized(text: LocalizedText): LocalizedText {
+  return { tr: text.tr.trim(), en: text.en.trim(), ru: text.ru.trim(), ar: text.ar.trim() }
+}
+
+function LocalizedProductFields({
+  name,
+  description,
+  onNameChange,
+  onDescriptionChange,
+}: {
+  name: LocalizedText
+  description: LocalizedText
+  onNameChange: (lang: Lang, value: string) => void
+  onDescriptionChange: (lang: Lang, value: string) => void
+}) {
+  const [activeLang, setActiveLang] = useState<Lang>('tr')
+  const activeTab = PRODUCT_LANG_TABS.find((tab) => tab.code === activeLang)!
+
+  return (
+    <div className={styles.localizedFields}>
+      <div className={styles.langTabs}>
+        {PRODUCT_LANG_TABS.map((tab) => {
+          const filled = Boolean(name[tab.code]?.trim())
+          return (
+            <button
+              key={tab.code}
+              type="button"
+              className={`${styles.langTab} ${activeLang === tab.code ? styles.langTabActive : ''}`}
+              onClick={() => setActiveLang(tab.code)}
+            >
+              {tab.label}
+              {tab.required ? ' *' : filled ? '' : ' ○'}
+            </button>
+          )
+        })}
+      </div>
+
+      <label className={styles.label}>
+        {`Ürün Adı (${activeTab.label})`}
+        <input
+          className={styles.input}
+          required={activeTab.required}
+          value={name[activeLang]}
+          onChange={(e) => onNameChange(activeLang, e.target.value)}
+        />
+      </label>
+
+      <label className={styles.label}>
+        {`Açıklama (${activeTab.label})`}
+        <textarea
+          className={styles.textarea}
+          rows={3}
+          value={description[activeLang]}
+          onChange={(e) => onDescriptionChange(activeLang, e.target.value)}
+        />
+      </label>
+    </div>
+  )
+}
 
 const TOKEN_KEY = 'gp_admin_token'
 const DRAFT_KEY = 'gp_admin_draft'
@@ -20,8 +92,8 @@ type DraftProduct = {
   draftId: string
   brandId: string
   brandName: string
-  name: string
-  description: string
+  name: LocalizedText
+  description: LocalizedText
   code: string
   image: string
   isVisible: boolean
@@ -30,8 +102,8 @@ type DraftProduct = {
 type ExistingProduct = {
   id: string
   brandId: string
-  name: string
-  description: string
+  name: LocalizedText
+  description: LocalizedText
   code?: string
   image?: string
   isVisible?: boolean
@@ -39,8 +111,8 @@ type ExistingProduct = {
 
 type EditPatch = {
   brandId: string
-  name: string
-  description: string
+  name: LocalizedText
+  description: LocalizedText
   code: string
   image: string
 }
@@ -95,8 +167,8 @@ export default function AdminApp() {
   // Yeni ürün taslağı
   const [draft, setDraft] = useState<DraftProduct[]>(() => loadJson(DRAFT_KEY, []))
   const [brandId, setBrandId] = useState(brandOptions[0].id)
-  const [name, setName] = useState('')
-  const [description, setDescription] = useState('')
+  const [name, setName] = useState<LocalizedText>(emptyLocalized())
+  const [description, setDescription] = useState<LocalizedText>(emptyLocalized())
   const [code, setCode] = useState('')
   const [visibleOnCreate, setVisibleOnCreate] = useState(true)
   const [imageFile, setImageFile] = useState<File | null>(null)
@@ -251,8 +323,8 @@ export default function AdminApp() {
     e.preventDefault()
     setFormError('')
 
-    if (!name.trim() || !description.trim()) {
-      setFormError('Ürün adı ve açıklama zorunlu')
+    if (!name.tr.trim() || !description.tr.trim()) {
+      setFormError('Türkçe ürün adı ve açıklama zorunlu')
       return
     }
 
@@ -267,16 +339,16 @@ export default function AdminApp() {
         draftId: crypto.randomUUID(),
         brandId,
         brandName: selectedBrandName,
-        name: name.trim(),
-        description: description.trim(),
+        name: trimLocalized(name),
+        description: trimLocalized(description),
         code: code.trim(),
         image: imageUrl,
         isVisible: visibleOnCreate,
       }
 
       setDraft((prev) => [...prev, item])
-      setName('')
-      setDescription('')
+      setName(emptyLocalized())
+      setDescription(emptyLocalized())
       setCode('')
       setImageFile(null)
       setVisibleOnCreate(true)
@@ -313,8 +385,8 @@ export default function AdminApp() {
 
   async function saveEdit() {
     if (!editingId || !editForm) return
-    if (!editForm.name.trim() || !editForm.description.trim()) {
-      setEditError('Ürün adı ve açıklama zorunlu')
+    if (!editForm.name.tr.trim() || !editForm.description.tr.trim()) {
+      setEditError('Türkçe ürün adı ve açıklama zorunlu')
       return
     }
 
@@ -330,8 +402,8 @@ export default function AdminApp() {
         ...prev,
         [editingId]: {
           brandId: editForm.brandId,
-          name: editForm.name.trim(),
-          description: editForm.description.trim(),
+          name: trimLocalized(editForm.name),
+          description: trimLocalized(editForm.description),
           code: editForm.code.trim(),
           image,
         },
@@ -563,20 +635,12 @@ export default function AdminApp() {
               </select>
             </label>
 
-            <label className={styles.label}>
-              Ürün Adı
-              <input className={styles.input} value={name} onChange={(e) => setName(e.target.value)} />
-            </label>
-
-            <label className={styles.label}>
-              Açıklama
-              <textarea
-                className={styles.textarea}
-                value={description}
-                onChange={(e) => setDescription(e.target.value)}
-                rows={3}
-              />
-            </label>
+            <LocalizedProductFields
+              name={name}
+              description={description}
+              onNameChange={(lang, value) => setName((prev) => ({ ...prev, [lang]: value }))}
+              onDescriptionChange={(lang, value) => setDescription((prev) => ({ ...prev, [lang]: value }))}
+            />
 
             <label className={styles.label}>
               Ürün Kodu (opsiyonel)
@@ -623,7 +687,7 @@ export default function AdminApp() {
                     {p.image && <img src={p.image} alt="" className={styles.draftThumb} />}
                     <div className={styles.draftMeta}>
                       <span className={styles.draftBrand}>{p.brandName}</span>
-                      <span className={styles.draftName}>{p.name}</span>
+                      <span className={styles.draftName}>{p.name.tr}</span>
                       {!p.isVisible && <span className={styles.pendingBadge}>Gizli</span>}
                     </div>
                     <button
@@ -698,7 +762,7 @@ export default function AdminApp() {
                             </div>
                             {display.image && <img src={display.image} alt="" className={styles.draftThumb} />}
                             <div className={styles.draftMeta}>
-                              <span className={styles.draftName}>{display.name}</span>
+                              <span className={styles.draftName}>{display.name.tr}</span>
                               {patch && !isEditing && (
                                 <span className={styles.pendingBadge}>Düzenleme bekliyor</span>
                               )}
@@ -764,24 +828,16 @@ export default function AdminApp() {
                         </select>
                       </label>
 
-                      <label className={styles.label}>
-                        Ürün Adı
-                        <input
-                          className={styles.input}
-                          value={editForm.name}
-                          onChange={(e) => setEditForm({ ...editForm, name: e.target.value })}
-                        />
-                      </label>
-
-                      <label className={styles.label}>
-                        Açıklama
-                        <textarea
-                          className={styles.textarea}
-                          rows={3}
-                          value={editForm.description}
-                          onChange={(e) => setEditForm({ ...editForm, description: e.target.value })}
-                        />
-                      </label>
+                      <LocalizedProductFields
+                        name={editForm.name}
+                        description={editForm.description}
+                        onNameChange={(lang, value) =>
+                          setEditForm({ ...editForm, name: { ...editForm.name, [lang]: value } })
+                        }
+                        onDescriptionChange={(lang, value) =>
+                          setEditForm({ ...editForm, description: { ...editForm.description, [lang]: value } })
+                        }
+                      />
 
                       <label className={styles.label}>
                         Ürün Kodu (opsiyonel)

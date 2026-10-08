@@ -1,6 +1,7 @@
 import type { Product } from '../../data/types'
 import { useProductDrawer, type DrawerBrand } from '../../context/ProductDrawerContext'
 import { useLanguage } from '../../i18n/LanguageContext'
+import { pickLocalizedText } from '../../i18n/localize'
 import { assetUrl } from '../../utils/assetUrl'
 import { truncate } from '../../utils/truncate'
 import styles from './ProductCard.module.css'
@@ -15,7 +16,9 @@ type ProductCardProps = {
 
 export function ProductCard({ product, brand, index }: ProductCardProps) {
   const { open } = useProductDrawer()
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
+  const name = pickLocalizedText(product.name, lang)
+  const description = pickLocalizedText(product.description, lang)
 
   return (
     <article className={styles.card}>
@@ -24,13 +27,13 @@ export function ProductCard({ product, brand, index }: ProductCardProps) {
         className={styles.imageBox}
         data-cursor="view"
         onClick={() => open(product, brand)}
-        aria-label={`${product.name} — ${t.product.viewLabel}`}
+        aria-label={`${name} — ${t.product.viewLabel}`}
       >
         {product.image ? (
           <img
             className={styles.image}
             src={assetUrl(product.image)}
-            alt={product.name}
+            alt={name}
             loading="lazy"
             decoding="async"
           />
@@ -45,8 +48,8 @@ export function ProductCard({ product, brand, index }: ProductCardProps) {
       </button>
 
       <div className={styles.meta}>
-        <h3 className={styles.name}>{product.name}</h3>
-        <p className={styles.desc}>{truncate(product.description, CARD_DESCRIPTION_LIMIT)}</p>
+        <h3 className={styles.name}>{name}</h3>
+        <p className={styles.desc}>{truncate(description, CARD_DESCRIPTION_LIMIT)}</p>
         <button
           type="button"
           className={styles.link}

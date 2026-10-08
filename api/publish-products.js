@@ -19,13 +19,21 @@ function verifyToken(token, secret) {
   return Number(payload) > Date.now()
 }
 
+function isValidLocalized(value) {
+  return (
+    value &&
+    typeof value === 'object' &&
+    !Array.isArray(value) &&
+    typeof value.tr === 'string' &&
+    value.tr.trim()
+  )
+}
+
 function applyUpdate(product, patch) {
   const next = { ...product }
   if (typeof patch.brandId === 'string' && patch.brandId) next.brandId = patch.brandId
-  if (typeof patch.name === 'string' && patch.name.trim()) next.name = patch.name.trim()
-  if (typeof patch.description === 'string' && patch.description.trim()) {
-    next.description = patch.description.trim()
-  }
+  if (isValidLocalized(patch.name)) next.name = patch.name
+  if (isValidLocalized(patch.description)) next.description = patch.description
   if (typeof patch.code === 'string') {
     if (patch.code.trim()) next.code = patch.code.trim()
     else delete next.code
@@ -92,7 +100,7 @@ export default async function handler(req, res) {
   }
 
   for (const p of create) {
-    if (!p || typeof p.brandId !== 'string' || typeof p.name !== 'string' || typeof p.description !== 'string') {
+    if (!p || typeof p.brandId !== 'string' || !isValidLocalized(p.name) || !isValidLocalized(p.description)) {
       res.status(400).json({ error: 'geçersiz yeni ürün verisi' })
       return
     }

@@ -3,6 +3,7 @@ import { useEffect } from 'react'
 import { mediumVoltageGroups } from '../../data/brands'
 import { useProductDrawer } from '../../context/ProductDrawerContext'
 import { useLanguage } from '../../i18n/LanguageContext'
+import { pickLocalizedText } from '../../i18n/localize'
 import { assetUrl } from '../../utils/assetUrl'
 import { getLenis, scrollToId } from '../../lib/lenis'
 import styles from './ProductDrawer.module.css'
@@ -11,8 +12,10 @@ const mediumVoltageGroupIds = new Set(mediumVoltageGroups.map((g) => g.id))
 
 export function ProductDrawer() {
   const { state, close } = useProductDrawer()
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
   const isOpen = state !== null
+  const name = state ? pickLocalizedText(state.product.name, lang) : ''
+  const description = state ? pickLocalizedText(state.product.description, lang) : ''
 
   useEffect(() => {
     const lenis = getLenis()
@@ -59,7 +62,7 @@ export function ProductDrawer() {
             className={styles.panel}
             role="dialog"
             aria-modal="true"
-            aria-label={state.product.name}
+            aria-label={name}
             data-lenis-prevent
             style={
               {
@@ -89,7 +92,7 @@ export function ProductDrawer() {
                 <img
                   className={styles.image}
                   src={assetUrl(state.product.image)}
-                  alt={state.product.name}
+                  alt={name}
                   loading="lazy"
                   decoding="async"
                 />
@@ -107,8 +110,8 @@ export function ProductDrawer() {
               <span className={styles.brand} lang={state.brand.nameLang ?? 'en'}>
                 {state.brand.name}
               </span>
-              <h2 className={styles.name}>{state.product.name}</h2>
-              <p className={styles.desc}>{state.product.description}</p>
+              <h2 className={styles.name}>{name}</h2>
+              <p className={styles.desc}>{description}</p>
 
               <dl className={styles.specs}>
                 {/* <div className={styles.specRow}>
