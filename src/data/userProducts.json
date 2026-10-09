@@ -2,7 +2,12 @@
   {
     "id": "user-1789992268327-0",
     "brandId": "te-connectivity",
-    "name": { "tr": "YARDIMCI RÖLE", "en": "AUXILIARY RELAY", "ru": "ВСПОМОГАТЕЛЬНОЕ РЕЛЕ", "ar": "مرحل مساعد" },
+    "name": {
+      "tr": "YARDIMCI RÖLE",
+      "en": "AUXILIARY RELAY",
+      "ru": "ВСПОМОГАТЕЛЬНОЕ РЕЛЕ",
+      "ar": "مرحل مساعد"
+    },
     "description": {
       "tr": "Elektrik panolarında ve otomasyon sistemlerinde klemens veya DIN rayı üzerindeki devrelerin kontrol ve anahtarlama işlemlerini gerçekleştirmek için kullanılan kompakt röle çözümüdür. Kontrol sinyalleri ile yük devreleri arasında elektriksel izolasyon sağlayarak PLC, otomasyon ve endüstriyel kontrol uygulamalarında güvenilir sinyal aktarımına olanak tanır.",
       "en": "A compact relay solution used in electrical panels and automation systems to control and switch circuits on terminal blocks or DIN rails. It provides electrical isolation between control signals and load circuits, enabling reliable signal transfer in PLC, automation and industrial control applications.",
@@ -14,7 +19,12 @@
   {
     "id": "user-1789992268327-1",
     "brandId": "te-connectivity",
-    "name": { "tr": "KLEMENS", "en": "TERMINAL BLOCK", "ru": "КЛЕММА", "ar": "صفيحة طرفية" },
+    "name": {
+      "tr": "KLEMENS",
+      "en": "TERMINAL BLOCK",
+      "ru": "КЛЕММА",
+      "ar": "صفيحة طرفية"
+    },
     "description": {
       "tr": "Elektrik panolarında iki veya daha fazla iletkenin güvenli şekilde birbirine bağlanması, dağıtılması ve gerektiğinde devreden ayrılmasını sağlayan yalıtımlı bağlantı elemanıdır. TE Connectivity klemensleri; DIN rayı, panel, güç dağıtımı ve kontrol devreleri gibi farklı uygulamalara yönelik çeşitli bağlantı teknolojileri ve kesit seçenekleriyle sunulmaktadır.",
       "en": "An insulated connection component that safely joins, distributes and, when required, disconnects two or more conductors in electrical panels. TE Connectivity terminal blocks are offered with various connection technologies and cross-section options for DIN rail, panel, power distribution and control circuit applications.",
@@ -26,7 +36,12 @@
   {
     "id": "user-1789992268327-2",
     "brandId": "te-connectivity",
-    "name": { "tr": "DAĞITIM BLOĞU", "en": "DISTRIBUTION BLOCK", "ru": "РАСПРЕДЕЛИТЕЛЬНЫЙ БЛОК", "ar": "كتلة توزيع" },
+    "name": {
+      "tr": "DAĞITIM BLOĞU",
+      "en": "DISTRIBUTION BLOCK",
+      "ru": "РАСПРЕДЕЛИТЕЛЬНЫЙ БЛОК",
+      "ar": "كتلة توزيع"
+    },
     "description": {
       "tr": "Elektrik panolarında tek bir güç girişini birden fazla çıkış devresine dağıtmak için kullanılan kompakt ve modüler bağlantı elemanıdır. Tek veya çok kutuplu dağıtım seçenekleriyle güç devrelerinin düzenli ve güvenli şekilde dağıtılmasını sağlar; DIN rayı veya pano montajına uygun modelleriyle endüstriyel panolar, makineler, HVAC sistemleri ve güç dağıtım uygulamalarında kullanılır.",
       "en": "A compact, modular connection component used to distribute a single power input to multiple output circuits in electrical panels. With single- or multi-pole distribution options it ensures organized and safe distribution of power circuits; available in DIN rail or panel-mount models for industrial panels, machinery, HVAC systems and power distribution applications.",
@@ -38,7 +53,12 @@
   {
     "id": "user-1789992268327-3",
     "brandId": "te-connectivity",
-    "name": { "tr": "KONNEKTÖRLER", "en": "CONNECTORS", "ru": "КОННЕКТОРЫ", "ar": "موصلات" },
+    "name": {
+      "tr": "KONNEKTÖRLER",
+      "en": "CONNECTORS",
+      "ru": "КОННЕКТОРЫ",
+      "ar": "موصلات"
+    },
     "description": {
       "tr": "Elektrik ve elektronik sistemlerde kablo, devre ve ekipmanlar arasında güvenilir elektriksel ve mekanik bağlantı sağlamak için kullanılan bağlantı elemanlarıdır. Güç, sinyal ve veri aktarımı için farklı kontak, bağlantı tipi ve kutup seçenekleri sunarak endüstriyel otomasyon, enerji, otomotiv ve elektronik uygulamalarında kullanılır.",
       "en": "Connection components that provide reliable electrical and mechanical connections between cables, circuits and equipment in electrical and electronic systems. Offering different contact, connection type and pole options for power, signal and data transfer, they are used in industrial automation, energy, automotive and electronics applications.",
@@ -50,7 +70,12 @@
   {
     "id": "user-1789992268327-4",
     "brandId": "te-connectivity",
-    "name": { "tr": "DURDURUCU", "en": "END STOP", "ru": "УПОРНЫЙ ОГРАНИЧИТЕЛЬ", "ar": "موقف نهاية" },
+    "name": {
+      "tr": "DURDURUCU",
+      "en": "END STOP",
+      "ru": "УПОРНЫЙ ОГРАНИЧИТЕЛЬ",
+      "ar": "موقف نهاية"
+    },
     "description": {
       "tr": "Elektrik panolarında DIN ray üzerine monte edilen klemenslerin sabitlenmesi ve ray üzerinde hareket etmesinin önlenmesi için kullanılan mekanik sabitleme elemanıdır. Klemens grubunun düzenli ve güvenli şekilde konumlandırılmasını sağlayarak pano içi bağlantıların stabilitesini artırır.",
       "en": "A mechanical fixing component used to secure terminal blocks mounted on a DIN rail in electrical panels and prevent them from shifting along the rail. It keeps the terminal block group positioned in an orderly, secure way, improving the stability of in-panel connections.",
@@ -62,7 +87,12 @@
   {
     "id": "user-1789992268327-6",
     "brandId": "te-connectivity",
-    "name": { "tr": "SENSÖRLER", "en": "SENSORS", "ru": "ДАТЧИКИ", "ar": "مستشعرات" },
+    "name": {
+      "tr": "SENSÖRLER",
+      "en": "SENSORS",
+      "ru": "ДАТЧИКИ",
+      "ar": "مستشعرات"
+    },
     "description": {
       "tr": "Fiziksel büyüklükleri algılayarak ölçüm sonuçlarını elektriksel sinyallere dönüştüren sensörlerdir. Sıcaklık, basınç, konum, titreşim, nem, kuvvet, hız ve akış gibi farklı parametrelerin ölçümünde kullanılan TE sensörleri; endüstriyel otomasyon, enerji, otomotiv ve makine uygulamalarında izleme, kontrol ve durum takibi amacıyla kullanılır.",
       "en": "Sensors that detect physical quantities and convert the measurement results into electrical signals. Used to measure parameters such as temperature, pressure, position, vibration, humidity, force, speed and flow, TE sensors are used for monitoring, control and condition tracking in industrial automation, energy, automotive and machinery applications.",
@@ -74,7 +104,12 @@
   {
     "id": "user-1789992268327-7",
     "brandId": "te-connectivity",
-    "name": { "tr": "PANO VE KLEMENS ETİKETLERİ", "en": "PANEL AND TERMINAL BLOCK LABELS", "ru": "ЭТИКЕТКИ ДЛЯ ЩИТОВ И КЛЕММ", "ar": "ملصقات اللوحات والصفائح الطرفية" },
+    "name": {
+      "tr": "PANO VE KLEMENS ETİKETLERİ",
+      "en": "PANEL AND TERMINAL BLOCK LABELS",
+      "ru": "ЭТИКЕТКИ ДЛЯ ЩИТОВ И КЛЕММ",
+      "ar": "ملصقات اللوحات والصفائح الطرفية"
+    },
     "description": {
       "tr": "Elektrik panolarında klemens, kablo ve diğer komponentlerin tanımlanması, numaralandırılması ve düzenli şekilde işaretlenmesi için kullanılan etiketleme ürünleridir. Farklı pano ve klemens tiplerine uygun seçenekleri sayesinde montaj, bakım ve servis işlemlerinde devrelerin kolayca ayırt edilmesini sağlar.",
       "en": "Labeling products used to identify, number and systematically mark terminal blocks, cables and other components in electrical panels. With options suited to different panel and terminal block types, they make it easy to distinguish circuits during installation, maintenance and service.",
@@ -86,7 +121,12 @@
   {
     "id": "user-1790059074951-0",
     "brandId": "te-connectivity",
-    "name": { "tr": "ETİKET MAKİNASI", "en": "LABEL PRINTER", "ru": "ЭТИКЕТОЧНЫЙ ПРИНТЕР", "ar": "طابعة ملصقات" },
+    "name": {
+      "tr": "ETİKET MAKİNASI",
+      "en": "LABEL PRINTER",
+      "ru": "ЭТИКЕТОЧНЫЙ ПРИНТЕР",
+      "ar": "طابعة ملصقات"
+    },
     "description": {
       "tr": "Elektrik panolarında kablo, makaron, klemens, komponent ve ekipman etiketlerini hızlı ve yüksek kaliteli şekilde yazdırmak için kullanılan termal transfer baskı makinesidir. TE Connectivity'nin yazıcıları; ısı ile daralan makaronlar, kablo işaretleyicileri ve çeşitli etiketler üzerine kalıcı baskı yaparak pano ve kablo tanımlama uygulamalarında kullanılır.",
       "en": "A thermal transfer printing machine used to quickly print high-quality labels for cables, heat-shrink sleeves, terminal blocks, components and equipment in electrical panels. TE Connectivity printers make permanent prints on heat-shrink sleeves, cable markers and various labels, and are used in panel and cable identification applications.",
@@ -98,7 +138,12 @@
   {
     "id": "user-1790059074951-1",
     "brandId": "te-connectivity",
-    "name": { "tr": "KONTAKTÖR", "en": "CONTACTOR", "ru": "КОНТАКТОР", "ar": "قاطع تلامسي" },
+    "name": {
+      "tr": "KONTAKTÖR",
+      "en": "CONTACTOR",
+      "ru": "КОНТАКТОР",
+      "ar": "قاطع تلامسي"
+    },
     "description": {
       "tr": "Elektrik devrelerinde yüksek akım ve güçteki yüklerin güvenli şekilde açılıp kapatılmasını sağlayan elektromekanik anahtarlama elemanıdır. TE kontaktörler; motor kontrolü, güç dağıtımı, HVAC, elektrikli araçlar, enerji depolama ve çeşitli endüstriyel uygulamalarda yüklerin uzaktan kontrol edilmesi için kullanılır.",
       "en": "An electromechanical switching component that safely opens and closes high-current, high-power loads in electrical circuits. TE contactors are used for remote control of loads in motor control, power distribution, HVAC, electric vehicles, energy storage and various industrial applications.",
@@ -110,7 +155,12 @@
   {
     "id": "user-1790067471383-0",
     "brandId": "te-connectivity",
-    "name": { "tr": "SLİM RÖLE", "en": "SLIM RELAY", "ru": "ТОНКОЕ РЕЛЕ", "ar": "مرحل نحيف" },
+    "name": {
+      "tr": "SLİM RÖLE",
+      "en": "SLIM RELAY",
+      "ru": "ТОНКОЕ РЕЛЕ",
+      "ar": "مرحل نحيف"
+    },
     "description": {
       "tr": "Elektrik ve otomasyon panolarında kontrol sinyallerini anahtarlamak ve kontrol devresi ile yük devresi arasında elektriksel izolasyon sağlamak için kullanılan kompakt arayüz rölesidir. İnce yapısı sayesinde pano içerisinde yer tasarrufu sağlarken PLC, otomasyon sistemleri ve endüstriyel kontrol uygulamalarında güvenilir sinyal aktarımı ve yük kontrolü sunar.",
       "en": "A compact interface relay used to switch control signals and provide electrical isolation between the control circuit and the load circuit in electrical and automation panels. Its slim design saves space inside the panel while offering reliable signal transfer and load control in PLC, automation systems and industrial control applications.",
@@ -122,7 +172,12 @@
   {
     "id": "user-1789993128928-0",
     "brandId": "aite",
-    "name": { "tr": "KARTUŞ SİGORTA (400-690VAC / 1000VDC / 1500VDC)", "en": "CARTRIDGE FUSE (400-690VAC / 1000VDC / 1500VDC)", "ru": "ПАТРОННЫЙ ПРЕДОХРАНИТЕЛЬ (400-690VAC / 1000VDC / 1500VDC)", "ar": "مصهر خرطوشة (400-690VAC / 1000VDC / 1500VDC)" },
+    "name": {
+      "tr": "KARTUŞ SİGORTA (400-690VAC / 1000VDC / 1500VDC)",
+      "en": "CARTRIDGE FUSE (400-690VAC / 1000VDC / 1500VDC)",
+      "ru": "ПАТРОННЫЙ ПРЕДОХРАНИТЕЛЬ (400-690VAC / 1000VDC / 1500VDC)",
+      "ar": "مصهر خرطوشة (400-690VAC / 1000VDC / 1500VDC)"
+    },
     "description": {
       "tr": "Fotovoltaik güneş enerji sistemlerinde PV dizilerini, birleştirme kutularını ve inverterlerin DC girişlerini aşırı akım ve kısa devreye karşı korumak için kullanılan gPV sınıfı DC sigortalardır. 1000VDC, 1500VDC ve 2000VDC gerilim seviyelerine uygun farklı modelleri bulunan sigortalar, yüksek DC kesme kapasitesi ve hızlı arıza kesme özellikleriyle güneş enerjisi sistemlerinin güvenli şekilde çalışmasına katkı sağlar.",
       "en": "gPV class DC fuses used to protect PV strings, combiner boxes and inverter DC inputs against overcurrent and short circuits in photovoltaic solar power systems. Available in models for 1000VDC, 1500VDC and 2000VDC voltage levels, these fuses contribute to the safe operation of solar power systems with high DC breaking capacity and fast fault clearing.",
@@ -134,7 +189,12 @@
   {
     "id": "user-1789993128928-1",
     "brandId": "aite",
-    "name": { "tr": "KARTUŞ SİGORTA YUVASI (400-690VAC / 1000VDC / 1500VDC)", "en": "CARTRIDGE FUSE HOLDER (400-690VAC / 1000VDC / 1500VDC)", "ru": "ДЕРЖАТЕЛЬ ПАТРОННОГО ПРЕДОХРАНИТЕЛЯ (400-690VAC / 1000VDC / 1500VDC)", "ar": "قاعدة مصهر الخرطوشة (400-690VAC / 1000VDC / 1500VDC)" },
+    "name": {
+      "tr": "KARTUŞ SİGORTA YUVASI (400-690VAC / 1000VDC / 1500VDC)",
+      "en": "CARTRIDGE FUSE HOLDER (400-690VAC / 1000VDC / 1500VDC)",
+      "ru": "ДЕРЖАТЕЛЬ ПАТРОННОГО ПРЕДОХРАНИТЕЛЯ (400-690VAC / 1000VDC / 1500VDC)",
+      "ar": "قاعدة مصهر الخرطوشة (400-690VAC / 1000VDC / 1500VDC)"
+    },
     "description": {
       "tr": "Alçak gerilim elektrik sistemlerinde kablo, ekipman ve devreleri aşırı akım ve kısa devreye karşı korumak için kullanılan kartuş tipi sigortalardır. 690VAC'ye kadar gerilim seviyelerinde kullanılabilen bu sigortalar, yüksek kesme kapasitesi ve güvenilir arıza koruması sayesinde elektrik panoları, güç dağıtım sistemleri ve endüstriyel uygulamalarda tercih edilir.",
       "en": "Cartridge-type fuse holders used to protect cables, equipment and circuits against overcurrent and short circuits in low voltage electrical systems. Usable at voltage levels up to 690VAC, they are preferred in electrical panels, power distribution systems and industrial applications thanks to their high breaking capacity and reliable fault protection.",
@@ -146,7 +206,12 @@
   {
     "id": "user-1791458036066-0",
     "brandId": "aite",
-    "name": { "tr": "NT/NH HRC KARE BIÇAKLI SİGORTA", "en": "NT/NH HRC SQUARE BLADE FUSE", "ru": "ПРЕДОХРАНИТЕЛЬ NT/NH HRC С КВАДРАТНЫМИ НОЖАМИ", "ar": "مصهر NT/NH HRC ذو سكين مربعة" },
+    "name": {
+      "tr": "NT/NH HRC KARE BIÇAKLI SİGORTA",
+      "en": "NT/NH HRC SQUARE BLADE FUSE",
+      "ru": "ПРЕДОХРАНИТЕЛЬ NT/NH HRC С КВАДРАТНЫМИ НОЖАМИ",
+      "ar": "مصهر NT/NH HRC ذو سكين مربعة"
+    },
     "description": {
       "tr": "Bu ürün, \"standart boyut ve tam aralıklı kesme kapasitesi\" sembolüne sahip, düşük voltajlı DC tam aralıklı koruma sigortasıdır. Kablolar, güç kaynakları ve iletişim kabinleri gibi güç dağıtım veya iletişim devre sistemlerindeki ekipman ve cihazların kısa devre ve aşırı yük koruması için uygundur.",
       "en": "This product is a low-voltage DC full-range protection fuse carrying the \"standard size and full-range breaking capacity\" symbol. It is suitable for short-circuit and overload protection of equipment and devices in power distribution or communication circuit systems such as cables, power supplies and communication cabinets.",
@@ -158,7 +223,12 @@
   {
     "id": "user-1791458036066-1",
     "brandId": "aite",
-    "name": { "tr": "NT/NH HRC KARE BIÇAKLI SİGORTA TABANI", "en": "NT/NH HRC SQUARE BLADE FUSE BASE", "ru": "ОСНОВАНИЕ ПРЕДОХРАНИТЕЛЯ NT/NH HRC С КВАДРАТНЫМИ НОЖАМИ", "ar": "قاعدة مصهر NT/NH HRC ذو سكين مربعة" },
+    "name": {
+      "tr": "NT/NH HRC KARE BIÇAKLI SİGORTA TABANI",
+      "en": "NT/NH HRC SQUARE BLADE FUSE BASE",
+      "ru": "ОСНОВАНИЕ ПРЕДОХРАНИТЕЛЯ NT/NH HRC С КВАДРАТНЫМИ НОЖАМИ",
+      "ar": "قاعدة مصهر NT/NH HRC ذو سكين مربعة"
+    },
     "description": {
       "tr": "Bu ürün, \"standart boyut ve tam aralıklı kesme kapasitesi\" sembolüne sahip, düşük voltajlı DC tam aralıklı koruma sigortasıdır. Kablolar, güç kaynakları ve iletişim kabinleri gibi güç dağıtım veya iletişim devre sistemlerindeki ekipman ve cihazların kısa devre ve aşırı yük koruması için uygundur.",
       "en": "This product is a low-voltage DC full-range protection fuse carrying the \"standard size and full-range breaking capacity\" symbol. It is suitable for short-circuit and overload protection of equipment and devices in power distribution or communication circuit systems such as cables, power supplies and communication cabinets.",
@@ -170,7 +240,12 @@
   {
     "id": "user-1791458036066-2",
     "brandId": "aite",
-    "name": { "tr": "ALÇAK GERİLİM PARAFUDR (AC/DC)", "en": "LOW VOLTAGE SURGE ARRESTER (AC/DC)", "ru": "НИЗКОВОЛЬТНЫЙ ОГРАНИЧИТЕЛЬ ПЕРЕНАПРЯЖЕНИЯ (AC/DC)", "ar": "مانع صواعق جهد منخفض (AC/DC)" },
+    "name": {
+      "tr": "ALÇAK GERİLİM PARAFUDR (AC/DC)",
+      "en": "LOW VOLTAGE SURGE ARRESTER (AC/DC)",
+      "ru": "НИЗКОВОЛЬТНЫЙ ОГРАНИЧИТЕЛЬ ПЕРЕНАПРЯЖЕНИЯ (AC/DC)",
+      "ar": "مانع صواعق جهد منخفض (AC/DC)"
+    },
     "description": {
       "tr": "Bu AC/DC aşırı gerilim koruma cihazları, DC güç hat sistemini ve diğer ekipmanları aşırı gerilimden ve ani aşırı gerilim hasarından korur. Fotovoltaik birleştirme kutusu, güç invertörü, AC/DC dağıtım panosu vb. yerlerde yaygın olarak kullanılır. Yüksek deşarj akımı, hızlı tepki süresi ve düşük artık gerilim avantajlarına sahiptir.",
       "en": "These AC/DC surge protection devices protect the DC power line system and other equipment from overvoltage and surge damage. They are widely used in photovoltaic combiner boxes, power inverters, AC/DC distribution panels and similar locations, offering high discharge current, fast response time and low residual voltage.",
@@ -182,7 +257,12 @@
   {
     "id": "user-1789975412744-0",
     "brandId": "inotel",
-    "name": { "tr": "GMR100 ŞEBEKE İZLEME RÖLESİ", "en": "GMR100 GRID MONITORING RELAY", "ru": "РЕЛЕ КОНТРОЛЯ СЕТИ GMR100", "ar": "مرحل مراقبة الشبكة GMR100" },
+    "name": {
+      "tr": "GMR100 ŞEBEKE İZLEME RÖLESİ",
+      "en": "GMR100 GRID MONITORING RELAY",
+      "ru": "РЕЛЕ КОНТРОЛЯ СЕТИ GMR100",
+      "ar": "مرحل مراقبة الشبكة GMR100"
+    },
     "description": {
       "tr": "Şehir şebekesini sürekli izleyerek oluşabilecek herhangi bir gerilim yada frekans bozulmasında enerji santrali ile elektrik şebekesini mili saniyeler içerisinde ayırır. Sistem nominal değerine döndüğünde elektrik üretim tesisinin tekrar devreye girmesini sağlar.",
       "en": "Continuously monitors the utility grid and disconnects the power plant from the grid within milliseconds in the event of any voltage or frequency disturbance. When the system returns to its nominal values, it allows the power generation facility to reconnect automatically.",
@@ -194,7 +274,12 @@
   {
     "id": "user-1789979864855-3",
     "brandId": "inotel",
-    "name": { "tr": "IMD100 İZALASYON İZLEME CİHAZI", "en": "IMD100 INSULATION MONITORING DEVICE", "ru": "УСТРОЙСТВО КОНТРОЛЯ ИЗОЛЯЦИИ IMD100", "ar": "جهاز مراقبة العزل IMD100" },
+    "name": {
+      "tr": "IMD100 İZALASYON İZLEME CİHAZI",
+      "en": "IMD100 INSULATION MONITORING DEVICE",
+      "ru": "УСТРОЙСТВО КОНТРОЛЯ ИЗОЛЯЦИИ IMD100",
+      "ar": "جهاز مراقبة العزل IMD100"
+    },
     "description": {
       "tr": "IT şebekeleri ve izole DC sistemlerde izolasyon direncini sürekli izleyerek olası yalıtım hatalarını erken tespit eden cihazdır. İzolasyon direnci belirlenen eşik değerinin altına düştüğünde alarm üretir ve entegre röle çıkışları üzerinden ilgili sistemlere uyarı veya kesici tetikleme sinyali gönderir. GES, hastane, endüstriyel tesis ve diğer kritik enerji sistemlerinde güvenli ve kesintisiz işletme için kullanılır.",
       "en": "A device that continuously monitors insulation resistance in IT networks and isolated DC systems to detect potential insulation faults early. It generates an alarm when insulation resistance falls below the set threshold and sends a warning or breaker-trip signal to related systems via integrated relay outputs. Used for safe, uninterrupted operation in solar power plants, hospitals, industrial facilities and other critical energy systems.",
@@ -206,7 +291,12 @@
   {
     "id": "user-1789979864855-5",
     "brandId": "inotel",
-    "name": { "tr": "LİR24 LIFEPO4 REDRESÖR", "en": "LIR24 LIFEPO4 RECTIFIER", "ru": "ВЫПРЯМИТЕЛЬ LIR24 LIFEPO4", "ar": "مقوّم LIR24 LIFEPO4" },
+    "name": {
+      "tr": "LİR24 LIFEPO4 REDRESÖR",
+      "en": "LIR24 LIFEPO4 RECTIFIER",
+      "ru": "ВЫПРЯМИТЕЛЬ LIR24 LIFEPO4",
+      "ar": "مقوّم LIR24 LIFEPO4"
+    },
     "description": {
       "tr": "LiFePO4 (Lityum Demir Fosfat) akü teknolojisini kullanan, 27 VDC çıkış gerilimi ve 3 A sürekli / 10 A kısa süreli çıkış akımı sağlayan uzun ömürlü redresör grubudur. Derin deşarj, kısa devre ve aşırı yük korumalarıyla alçak gerilim panoları, trafo merkezleri, SCADA ve otomasyon sistemlerinde kesintisiz DC güç sağlamak için kullanılır.",
       "en": "A long-life rectifier unit using LiFePO4 (Lithium Iron Phosphate) battery technology, providing 27 VDC output voltage with 3 A continuous / 10 A short-term output current. With deep discharge, short-circuit and overload protections, it is used to provide uninterrupted DC power in low voltage panels, substations, SCADA and automation systems.",
@@ -218,7 +308,12 @@
   {
     "id": "user-1789979864855-11",
     "brandId": "inotel",
-    "name": { "tr": "RAG110 AKÜ REDRESÖR GRUBU (110V)", "en": "RAG110 BATTERY RECTIFIER UNIT (110V)", "ru": "АККУМУЛЯТОРНО-ВЫПРЯМИТЕЛЬНЫЙ БЛОК RAG110 (110В)", "ar": "وحدة تقويم البطارية RAG110 (110 فولت)" },
+    "name": {
+      "tr": "RAG110 AKÜ REDRESÖR GRUBU (110V)",
+      "en": "RAG110 BATTERY RECTIFIER UNIT (110V)",
+      "ru": "АККУМУЛЯТОРНО-ВЫПРЯМИТЕЛЬНЫЙ БЛОК RAG110 (110В)",
+      "ar": "وحدة تقويم البطارية RAG110 (110 فولت)"
+    },
     "description": {
       "tr": "Endüstriyel sistemlerde AC enerjiyi DC enerjiye dönüştürerek 110 VDC seviyesinde kesintisiz güç ve akü şarjı sağlayan akü redresör grubudur. 25 A çıkış kapasitesi, RS485 Modbus haberleşme ve 16 adet röle çıkışı ile trafo merkezleri, SCADA sistemleri, otomasyon sistemleri ve elektrik üretim tesislerinde kritik DC yüklerin güvenilir şekilde beslenmesi için kullanılır.",
       "en": "A battery rectifier unit that converts AC power to DC power in industrial systems, providing uninterrupted power and battery charging at 110 VDC level. With 25 A output capacity, RS485 Modbus communication and 16 relay outputs, it is used to reliably supply critical DC loads in substations, SCADA systems, automation systems and power generation facilities.",
@@ -230,7 +325,12 @@
   {
     "id": "user-1789979864855-12",
     "brandId": "inotel",
-    "name": { "tr": "RAG24 AKÜ REDRESÖR GRUBU (24V)", "en": "RAG24 BATTERY RECTIFIER UNIT (24V)", "ru": "АККУМУЛЯТОРНО-ВЫПРЯМИТЕЛЬНЫЙ БЛОК RAG24 (24В)", "ar": "وحدة تقويم البطارية RAG24 (24 فولت)" },
+    "name": {
+      "tr": "RAG24 AKÜ REDRESÖR GRUBU (24V)",
+      "en": "RAG24 BATTERY RECTIFIER UNIT (24V)",
+      "ru": "АККУМУЛЯТОРНО-ВЫПРЯМИТЕЛЬНЫЙ БЛОК RAG24 (24В)",
+      "ar": "وحدة تقويم البطارية RAG24 (24 فولت)"
+    },
     "description": {
       "tr": "24 VDC endüstriyel güç ihtiyacını karşılamak üzere geliştirilmiş, içerisinde doğrultucu, akü ve filtre grubu bulunan kesintisiz DC güç kaynağıdır. 25 A maksimum çıkış akımı, 21–27,6 VDC çıkış gerilimi ve RS485 Modbus haberleşme özellikleriyle trafo merkezleri, alçak gerilim panoları, SCADA, otomasyon ve endüstriyel tesislerde kritik DC yüklerin kesintisiz beslenmesi için kullanılır.",
       "en": "An uninterruptible DC power supply developed to meet 24 VDC industrial power needs, containing a rectifier, battery and filter unit. With 25 A maximum output current, 21–27.6 VDC output voltage and RS485 Modbus communication, it is used for uninterrupted supply of critical DC loads in substations, low voltage panels, SCADA, automation and industrial facilities.",
@@ -242,7 +342,12 @@
   {
     "id": "user-1789979864855-1",
     "brandId": "inotel",
-    "name": { "tr": "AR100 İHBAR SİNYAL BLOĞU", "en": "AR100 ALARM SIGNAL UNIT", "ru": "БЛОК АВАРИЙНОЙ СИГНАЛИЗАЦИИ AR100", "ar": "وحدة إشارة الإنذار AR100" },
+    "name": {
+      "tr": "AR100 İHBAR SİNYAL BLOĞU",
+      "en": "AR100 ALARM SIGNAL UNIT",
+      "ru": "БЛОК АВАРИЙНОЙ СИГНАЛИЗАЦИИ AR100",
+      "ar": "وحدة إشارة الإنذار AR100"
+    },
     "description": {
       "tr": "Elektrik panolarında ve enerji sistemlerinde oluşan arıza ve alarm durumlarını görsel ve işitsel olarak bildirmek için kullanılan röle ihbar cihazıdır. 6 adet ihbar girişi ve 8 adet röle çıkışı sayesinde farklı arıza sinyallerini izleyerek alarm, açma ve korna gibi çıkışları yönetebilir.",
       "en": "A relay-based alarm annunciator device used to visually and audibly report fault and alarm conditions occurring in electrical panels and power systems. With 6 alarm inputs and 8 relay outputs, it monitors different fault signals and can manage outputs such as alarm, trip and horn.",
@@ -254,7 +359,12 @@
   {
     "id": "user-1789979864855-0",
     "brandId": "inotel",
-    "name": { "tr": "AGD100 ARIZA GÖSTERGE DÜZENEĞİ", "en": "AGD100 FAULT INDICATOR UNIT", "ru": "УКАЗАТЕЛЬ ПОВРЕЖДЕНИЯ AGD100", "ar": "وحدة مؤشر الأعطال AGD100" },
+    "name": {
+      "tr": "AGD100 ARIZA GÖSTERGE DÜZENEĞİ",
+      "en": "AGD100 FAULT INDICATOR UNIT",
+      "ru": "УКАЗАТЕЛЬ ПОВРЕЖДЕНИЯ AGD100",
+      "ar": "وحدة مؤشر الأعطال AGD100"
+    },
     "description": {
       "tr": "Orta Gerilim şebekelerinde kullanım için tasarlanmış olan AGD100 mikroişlemci kontrollü, SCADA sistemlerine bilgi aktarımı için Modbus haberleşme protokolü destekli, dokunmatik ekrana sahip, ilgili TEDAŞ ve üst şartnamelere uyumlu arıza akımı izleme sistemidir.",
       "en": "AGD100, designed for use in Medium Voltage networks, is a microprocessor-controlled fault current monitoring system with a touchscreen, Modbus communication protocol support for data transfer to SCADA systems, and compliance with relevant TEDAŞ and higher specifications.",
@@ -266,7 +376,12 @@
   {
     "id": "user-1789975412744-1",
     "brandId": "inotel",
-    "name": { "tr": "M100 ENDÜSTRİYEL MODEM", "en": "M100 INDUSTRIAL MODEM", "ru": "ПРОМЫШЛЕННЫЙ МОДЕМ M100", "ar": "مودم صناعي M100" },
+    "name": {
+      "tr": "M100 ENDÜSTRİYEL MODEM",
+      "en": "M100 INDUSTRIAL MODEM",
+      "ru": "ПРОМЫШЛЕННЫЙ МОДЕМ M100",
+      "ar": "مودم صناعي M100"
+    },
     "description": {
       "tr": "M100, endüstriyel SCADA uygulamaları için özellikle geliştirilmiş bir hücresel router modemdir.",
       "en": "M100 is a cellular router modem specifically developed for industrial SCADA applications.",
@@ -278,7 +393,12 @@
   {
     "id": "user-1789979864855-2",
     "brandId": "inotel",
-    "name": { "tr": "INOCHARGE AC ELEKTRİK ARAÇ ŞARJ CİHAZI", "en": "INOCHARGE AC ELECTRIC VEHICLE CHARGER", "ru": "ЗАРЯДНОЕ УСТРОЙСТВО ДЛЯ ЭЛЕКТРОМОБИЛЕЙ INOCHARGE AC", "ar": "شاحن مركبات كهربائية INOCHARGE AC" },
+    "name": {
+      "tr": "INOCHARGE AC ELEKTRİK ARAÇ ŞARJ CİHAZI",
+      "en": "INOCHARGE AC ELECTRIC VEHICLE CHARGER",
+      "ru": "ЗАРЯДНОЕ УСТРОЙСТВО ДЛЯ ЭЛЕКТРОМОБИЛЕЙ INOCHARGE AC",
+      "ar": "شاحن مركبات كهربائية INOCHARGE AC"
+    },
     "description": {
       "tr": "İnotel Inocharge, elektrikli araçların güvenli ve verimli şekilde şarj edilmesi için geliştirilmiş AC şarj istasyonudur. 7 kW, 11 kW ve 22 kW güç seçenekleri sunar; Wi-Fi/Ethernet bağlantısı ve mobil uygulama üzerinden kontrol ve izleme imkânı sağlar. Tip 2 bağlantıya sahip olan cihaz, dahili enerji ölçümü, kaçak akım ve gerilim korumaları ile farklı konut, ticari ve endüstriyel uygulamalarda kullanılabilir.",
       "en": "İnotel Inocharge is an AC charging station developed for safe and efficient charging of electric vehicles. It offers 7 kW, 11 kW and 22 kW power options, with Wi-Fi/Ethernet connectivity and control and monitoring via a mobile app. Featuring a Type 2 connector, built-in energy metering, and residual current and voltage protections, it can be used in various residential, commercial and industrial applications.",
@@ -290,7 +410,12 @@
   {
     "id": "user-1789979864855-4",
     "brandId": "inotel",
-    "name": { "tr": "SOMGAD KESİNTİ TESPİT ÜNİTESİ", "en": "SOMGAD OUTAGE DETECTION UNIT", "ru": "БЛОК ОБНАРУЖЕНИЯ ОТКЛЮЧЕНИЙ SOMGAD", "ar": "وحدة كشف الانقطاع SOMGAD" },
+    "name": {
+      "tr": "SOMGAD KESİNTİ TESPİT ÜNİTESİ",
+      "en": "SOMGAD OUTAGE DETECTION UNIT",
+      "ru": "БЛОК ОБНАРУЖЕНИЯ ОТКЛЮЧЕНИЙ SOMGAD",
+      "ar": "وحدة كشف الانقطاع SOMGAD"
+    },
     "description": {
       "tr": "Alçak gerilim hatlarında gerilim varlığını tespit ederek kesinti durumlarını izlemek için kullanılan kablosuz izleme sistemidir. GAD gerilim algılayıcı dedektör, hat üzerindeki gerilim bilgisini LoRa üzerinden SOM sensör okuma modülüne aktarır; SOM ise bu bilgileri RS-485/Modbus üzerinden SCADA sistemine ileterek trafo merkezleri ve dağıtım şebekelerinde uzaktan kesinti takibi sağlar.",
       "en": "A wireless monitoring system used to detect voltage presence on low voltage lines and track outage conditions. The GAD voltage detector transmits line voltage information to the SOM sensor reading module via LoRa; SOM then forwards this information to the SCADA system via RS-485/Modbus, enabling remote outage tracking at substations and distribution networks.",
@@ -302,7 +427,12 @@
   {
     "id": "user-1789979864855-6",
     "brandId": "inotel",
-    "name": { "tr": "STR100 PV DİZİ İZLEME ÜNİTESİ", "en": "STR100 PV STRING MONITORING UNIT", "ru": "БЛОК МОНИТОРИНГА PV-СТРОК STR100", "ar": "وحدة مراقبة سلاسل الألواح الشمسية STR100" },
+    "name": {
+      "tr": "STR100 PV DİZİ İZLEME ÜNİTESİ",
+      "en": "STR100 PV STRING MONITORING UNIT",
+      "ru": "БЛОК МОНИТОРИНГА PV-СТРОК STR100",
+      "ar": "وحدة مراقبة سلاسل الألواح الشمسية STR100"
+    },
     "description": {
       "tr": "Fotovoltaik güneş enerji santrallerinde DC toplama panolarında bulunan PV dizilerin gerilim ve akım değerlerini gerçek zamanlı olarak izlemek için kullanılan elektronik izleme cihazıdır. RS485/Modbus, fiber optik ve LoRa haberleşme seçenekleri sayesinde dizi performanslarının uzaktan izlenmesini ve düşük üretim veya arızalı dizilerin hızlı şekilde tespit edilmesini sağlar.",
       "en": "An electronic monitoring device used to track the voltage and current values of PV strings in DC combiner panels at photovoltaic solar power plants in real time. With RS485/Modbus, fiber optic and LoRa communication options, it enables remote monitoring of string performance and rapid detection of underperforming or faulty strings.",
@@ -314,7 +444,12 @@
   {
     "id": "user-1789979864855-7",
     "brandId": "inotel",
-    "name": { "tr": "EA100E ENERJİ ANALİZÖRÜ(MODBUS-TCS)", "en": "EA100E ENERGY ANALYZER (MODBUS-TCP)", "ru": "АНАЛИЗАТОР ЭНЕРГИИ EA100E (MODBUS-TCP)", "ar": "محلل طاقة EA100E (MODBUS-TCP)" },
+    "name": {
+      "tr": "EA100E ENERJİ ANALİZÖRÜ(MODBUS-TCS)",
+      "en": "EA100E ENERGY ANALYZER (MODBUS-TCP)",
+      "ru": "АНАЛИЗАТОР ЭНЕРГИИ EA100E (MODBUS-TCP)",
+      "ar": "محلل طاقة EA100E (MODBUS-TCP)"
+    },
     "description": {
       "tr": "Elektrik enerjisi, gerilim, akım, anlık güç ve akım-gerilim harmoniklerini hassas şekilde ölçmek için kullanılan mikroişlemci kontrollü enerji analizörüdür. RS485 Modbus ve Ethernet (TCP/IP) haberleşme özellikleri sayesinde ölçüm verilerini SCADA ve RTU sistemlerine aktararak enerji izleme ve analiz uygulamalarında kullanılabilir.",
       "en": "A microprocessor-controlled energy analyzer used to precisely measure electrical energy, voltage, current, instantaneous power and current-voltage harmonics. With RS485 Modbus and Ethernet (TCP/IP) communication features, it transfers measurement data to SCADA and RTU systems and can be used in energy monitoring and analysis applications.",
@@ -326,7 +461,12 @@
   {
     "id": "user-1789979864855-8",
     "brandId": "inotel",
-    "name": { "tr": "EA100R ENERJİ ANALİZÖRÜ(MODBUS)", "en": "EA100R ENERGY ANALYZER (MODBUS)", "ru": "АНАЛИЗАТОР ЭНЕРГИИ EA100R (MODBUS)", "ar": "محلل طاقة EA100R (MODBUS)" },
+    "name": {
+      "tr": "EA100R ENERJİ ANALİZÖRÜ(MODBUS)",
+      "en": "EA100R ENERGY ANALYZER (MODBUS)",
+      "ru": "АНАЛИЗАТОР ЭНЕРГИИ EA100R (MODBUS)",
+      "ar": "محلل طاقة EA100R (MODBUS)"
+    },
     "description": {
       "tr": "Elektrik enerjisi, gerilim, akım, anlık güç ve akım-gerilim harmoniklerini hassas şekilde ölçmek için kullanılan mikroişlemci kontrollü enerji analizörüdür. RS485 Modbus haberleşme özelliği sayesinde ölçüm ve analiz verilerini SCADA veya RTU sistemlerine aktararak enerji izleme ve otomasyon uygulamalarında kullanılabilir.",
       "en": "A microprocessor-controlled energy analyzer used to precisely measure electrical energy, voltage, current, instantaneous power and current-voltage harmonics. With RS485 Modbus communication, it transfers measurement and analysis data to SCADA or RTU systems and can be used in energy monitoring and automation applications.",
@@ -338,7 +478,12 @@
   {
     "id": "user-1789979864855-9",
     "brandId": "inotel",
-    "name": { "tr": "SCAP1220 SÜPER KAPASİTÖR ÜNİTESİ", "en": "SCAP1220 SUPERCAPACITOR UNIT", "ru": "БЛОК СУПЕРКОНДЕНСАТОРОВ SCAP1220", "ar": "وحدة المكثف الفائق SCAP1220" },
+    "name": {
+      "tr": "SCAP1220 SÜPER KAPASİTÖR ÜNİTESİ",
+      "en": "SCAP1220 SUPERCAPACITOR UNIT",
+      "ru": "БЛОК СУПЕРКОНДЕНСАТОРОВ SCAP1220",
+      "ar": "وحدة المكثف الفائق SCAP1220"
+    },
     "description": {
       "tr": "DC sistemlerde kısa süreli kesintisiz yardımcı besleme sağlamak için kullanılan, bakım gerektirmeyen süper kapasitör tabanlı güç ünitesidir. Şebeke kesintisi sırasında RTU, PLC, modem ve haberleşme sistemleri gibi kritik yüklerin çalışmaya devam ederek kesinti, alarm ve ölçüm bilgilerinin SCADA merkezine iletilmesi için gerekli süreyi sağlar.",
       "en": "A maintenance-free supercapacitor-based power unit used to provide short-term uninterrupted auxiliary power in DC systems. During a grid outage it keeps critical loads such as RTUs, PLCs, modems and communication systems running, providing the time needed to relay outage, alarm and measurement information to the SCADA center.",
@@ -350,7 +495,12 @@
   {
     "id": "user-1789979864855-10",
     "brandId": "inotel",
-    "name": { "tr": "EA100B HABERLEŞMESİZ ENERJİ ANALİZÖRÜ", "en": "EA100B STANDALONE ENERGY ANALYZER", "ru": "АВТОНОМНЫЙ АНАЛИЗАТОР ЭНЕРГИИ EA100B", "ar": "محلل طاقة مستقل EA100B" },
+    "name": {
+      "tr": "EA100B HABERLEŞMESİZ ENERJİ ANALİZÖRÜ",
+      "en": "EA100B STANDALONE ENERGY ANALYZER",
+      "ru": "АВТОНОМНЫЙ АНАЛИЗАТОР ЭНЕРГИИ EA100B",
+      "ar": "محلل طاقة مستقل EA100B"
+    },
     "description": {
       "tr": "Elektrik sistemlerinde gerilim, akım, güç, enerji ve güç faktörü gibi temel elektriksel parametreleri ölçmek ve izlemek için kullanılan mikroişlemci kontrollü enerji analizörüdür. Haberleşme özelliği bulunmadığından ölçülen değerler cihazın ön panelindeki ekran üzerinden takip edilir ve enerji ölçümü, pano izleme ve elektriksel parametrelerin kontrolü gibi uygulamalarda kullanılır.",
       "en": "A microprocessor-controlled energy analyzer used to measure and monitor basic electrical parameters such as voltage, current, power, energy and power factor in electrical systems. As it has no communication feature, measured values are tracked via the display on the device's front panel, and it is used in applications such as energy metering, panel monitoring and electrical parameter control.",
@@ -362,7 +512,12 @@
   {
     "id": "user-1790060533340-0",
     "brandId": "raycap",
-    "name": { "tr": "SAFETEC", "en": "SAFETEC", "ru": "SAFETEC", "ar": "SAFETEC" },
+    "name": {
+      "tr": "SAFETEC",
+      "en": "SAFETEC",
+      "ru": "SAFETEC",
+      "ar": "SAFETEC"
+    },
     "description": {
       "tr": "Alçak gerilim elektrik sistemlerinde yıldırım darbeleri ve ani aşırı gerilimlere karşı ekipmanları korumak için kullanılan Tip 2 (Class II) parafudr (SPD) serisidir. DIN raya monte edilebilen yapısı ve akım sınırlama teknolojisi sayesinde geçici aşırı gerilimlerde güvenilir koruma sağlarken, elektrik panoları ve tali dağıtım panolarındaki hassas ekipmanların korunmasına yardımcı olur.",
       "en": "A Type 2 (Class II) surge protective device (SPD) series used to protect equipment against lightning impulses and sudden overvoltages in low voltage electrical systems. Its DIN rail-mountable design and current-limiting technology provide reliable protection against transient overvoltages, helping safeguard sensitive equipment in electrical panels and sub-distribution boards.",
@@ -374,7 +529,12 @@
   {
     "id": "user-1790060533340-1",
     "brandId": "raycap",
-    "name": { "tr": "PROBLOC", "en": "PROBLOC", "ru": "PROBLOC", "ar": "PROBLOC" },
+    "name": {
+      "tr": "PROBLOC",
+      "en": "PROBLOC",
+      "ru": "PROBLOC",
+      "ar": "PROBLOC"
+    },
     "description": {
       "tr": "Alçak gerilim elektrik sistemlerinde yıldırım darbeleri ve ani aşırı gerilimlere karşı koruma sağlayan Tip 1+2 parafudr (SPD) serisidir. Kompakt yapısı, yüksek darbe boşaltma kapasitesi ve farklı AC/DC sistemlere yönelik modelleri sayesinde ana dağıtım panoları, endüstriyel tesisler ve enerji sistemlerinde ekipmanların aşırı gerilimlere karşı korunması için kullanılır.",
       "en": "A Type 1+2 surge protective device (SPD) series that protects against lightning impulses and sudden overvoltages in low voltage electrical systems. With its compact design, high impulse discharge capacity and models for various AC/DC systems, it is used to protect equipment against overvoltages in main distribution panels, industrial facilities and power systems.",
@@ -386,7 +546,12 @@
   {
     "id": "user-1790060533340-2",
     "brandId": "raycap",
-    "name": { "tr": "PROTEC", "en": "PROTEC", "ru": "PROTEC", "ar": "PROTEC" },
+    "name": {
+      "tr": "PROTEC",
+      "en": "PROTEC",
+      "ru": "PROTEC",
+      "ar": "PROTEC"
+    },
     "description": {
       "tr": "Alçak gerilim elektrik sistemlerinde yıldırım darbeleri ve ani aşırı gerilimlere karşı koruma sağlayan takılabilir tip parafudr (SPD) ürün ailesidir. Tip 1, Tip 2 ve Tip 1+2 seçeneklerinin yanı sıra AC, DC ve fotovoltaik sistemlere yönelik modelleri bulunur. DIN raya monte edilebilen yapısı, görsel durum göstergesi ve isteğe bağlı uzaktan sinyalizasyon özelliğiyle elektrik panoları ve enerji sistemlerinde ekipmanların aşırı gerilimlere karşı korunmasında kullanılır.",
       "en": "A plug-in surge protective device (SPD) family that protects against lightning impulses and sudden overvoltages in low voltage electrical systems. It includes Type 1, Type 2 and Type 1+2 options as well as models for AC, DC and photovoltaic systems. With a DIN rail-mountable design, visual status indicator and optional remote signaling, it is used to protect equipment against overvoltages in electrical panels and power systems.",
@@ -398,19 +563,29 @@
   {
     "id": "user-1789993369352-0",
     "brandId": "siemens",
-    "name": { "tr": "SICAM A8000 CP-8031", "en": "SICAM A8000 CP-8031", "ru": "SICAM A8000 CP-8031", "ar": "SICAM A8000 CP-8031" },
+    "name": {
+      "tr": "SICAM A8000 CP-8031",
+      "en": "SICAM A8000 CP-8031",
+      "ru": "SICAM A8000 CP-8031",
+      "ar": "SICAM A8000 CP-8031"
+    },
     "description": {
       "tr": "Dağıtım şebekeleri ve endüstriyel tesislerde izleme, kontrol, otomasyon ve haberleşme görevlerini gerçekleştirmek için kullanılan kompakt ve ölçeklenebilir bir RTU'dur. Saha cihazlarından gelen sinyalleri işleyerek üst seviye sistemlerle iletişim kurar; ağ geçidi, IoT ağ geçidi ve bölme (bay) denetleyicisi olarak kullanılabilir. Modüler I/O yapısı ve Ethernet, RS-485 ve RS-232 haberleşme arayüzleri sayesinde SCADA ve güç otomasyon sistemlerine entegre edilebilir.",
       "en": "A compact and scalable RTU used to perform monitoring, control, automation and communication tasks in distribution networks and industrial facilities. It processes signals from field devices and communicates with higher-level systems; it can be used as a gateway, IoT gateway or bay controller. With a modular I/O structure and Ethernet, RS-485 and RS-232 communication interfaces, it can be integrated into SCADA and power automation systems.",
       "ru": "Компактный и масштабируемый RTU для мониторинга, управления, автоматизации и связи в распределительных сетях и на промышленных объектах. Обрабатывает сигналы от полевых устройств и обменивается данными с системами верхнего уровня; может использоваться как шлюз, IoT-шлюз или контроллер присоединения. Благодаря модульной структуре ввода-вывода и интерфейсам Ethernet, RS-485 и RS-232 интегрируется в системы SCADA и автоматизации энергосистем.",
       "ar": "وحدة طرفية بعيدة (RTU) مدمجة وقابلة للتوسع تُستخدم لأداء مهام المراقبة والتحكم والأتمتة والاتصال في شبكات التوزيع والمنشآت الصناعية. تعالج الإشارات القادمة من أجهزة الميدان وتتواصل مع الأنظمة ذات المستوى الأعلى؛ يمكن استخدامها كبوابة أو بوابة إنترنت الأشياء أو وحدة تحكم خانة. بفضل بنية الإدخال/الإخراج المعيارية وواجهات اتصال Ethernet وRS-485 وRS-232، يمكن دمجها في أنظمة SCADA وأتمتة الطاقة."
     },
-    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1791456195/greenpi-product-katalog/production/a7gdcdcjqfow7qlqkg6q.png"
+    "image": "https://res.cloudinary.com/j2kzfrih/image/upload/v1791538477/greenpi-product-katalog/production/y8mr6duis712oa4a2z73.png"
   },
   {
     "id": "user-1789993369352-1",
     "brandId": "siemens",
-    "name": { "tr": "SICAM Q100", "en": "SICAM Q100", "ru": "SICAM Q100", "ar": "SICAM Q100" },
+    "name": {
+      "tr": "SICAM Q100",
+      "en": "SICAM Q100",
+      "ru": "SICAM Q100",
+      "ar": "SICAM Q100"
+    },
     "description": {
       "tr": "Elektrik şebekelerinde akım, gerilim, frekans, güç, enerji ve harmonikler gibi elektriksel parametreleri ölçmek, kaydetmek ve analiz etmek için kullanılan çok fonksiyonlu güç kalitesi ölçüm cihazıdır. IEC 61000-4-30 Class A standardına uygun güç kalitesi ölçümü sunarak gerilim olayları ve şebeke bozulmalarının izlenmesini sağlar. Ethernet ve RS485 haberleşme arayüzleri üzerinden IEC 61850, Modbus TCP ve Modbus RTU gibi protokollerle SCADA ve enerji yönetim sistemlerine entegre edilebilir.",
       "en": "A multifunctional power quality measurement device used to measure, record and analyze electrical parameters such as current, voltage, frequency, power, energy and harmonics in electrical networks. It offers power quality measurement compliant with IEC 61000-4-30 Class A, enabling monitoring of voltage events and grid disturbances. Via Ethernet and RS485 communication interfaces, it can be integrated into SCADA and energy management systems using protocols such as IEC 61850, Modbus TCP and Modbus RTU.",
@@ -422,7 +597,12 @@
   {
     "id": "user-1789993600832-0",
     "brandId": "schneider-electric",
-    "name": { "tr": "POWERLOGIC ION7400", "en": "POWERLOGIC ION7400", "ru": "POWERLOGIC ION7400", "ar": "POWERLOGIC ION7400" },
+    "name": {
+      "tr": "POWERLOGIC ION7400",
+      "en": "POWERLOGIC ION7400",
+      "ru": "POWERLOGIC ION7400",
+      "ar": "POWERLOGIC ION7400"
+    },
     "description": {
       "tr": "Elektrik şebekelerinde akım, gerilim, güç, enerji, güç faktörü ve harmonik gibi elektriksel parametreleri ölçmek ve güç kalitesini izlemek için kullanılan gelişmiş enerji ve güç kalitesi ölçeridir. Veri kaydı, alarm ve olay izleme özelliklerinin yanı sıra RS485 ve Ethernet haberleşme arayüzleri üzerinden Modbus, ION, DNP3 ve IEC 61850 gibi protokollerle SCADA ve enerji yönetim sistemlerine entegre edilebilir.",
       "en": "An advanced energy and power quality meter used to measure electrical parameters such as current, voltage, power, energy, power factor and harmonics, and monitor power quality in electrical networks. In addition to data logging, alarm and event monitoring features, it can be integrated into SCADA and energy management systems via RS485 and Ethernet communication interfaces using protocols such as Modbus, ION, DNP3 and IEC 61850.",
@@ -434,7 +614,12 @@
   {
     "id": "user-1789993600832-1",
     "brandId": "schneider-electric",
-    "name": { "tr": "POWERLOGIC PM 8000", "en": "POWERLOGIC PM 8000", "ru": "POWERLOGIC PM 8000", "ar": "POWERLOGIC PM 8000" },
+    "name": {
+      "tr": "POWERLOGIC PM 8000",
+      "en": "POWERLOGIC PM 8000",
+      "ru": "POWERLOGIC PM 8000",
+      "ar": "POWERLOGIC PM 8000"
+    },
     "description": {
       "tr": "Alçak, orta ve yüksek gerilim sistemlerinde akım, gerilim, güç, enerji, güç faktörü ve harmonik gibi elektriksel parametreleri ölçmek ve güç kalitesini izlemek için kullanılan gelişmiş güç ve enerji ölçüm cihazıdır. Gerilim düşmesi/yükselmesi ve dalga şekli kayıtları gibi güç kalitesi izleme özelliklerinin yanı sıra Ethernet ve RS485 haberleşme arayüzleri üzerinden Modbus, ION, DNP3 ve IEC 61850 protokolleriyle SCADA ve enerji yönetim sistemlerine entegre edilebilir.",
       "en": "An advanced power and energy measurement device used to measure electrical parameters such as current, voltage, power, energy, power factor and harmonics, and monitor power quality in low, medium and high voltage systems. In addition to power quality monitoring features such as voltage sag/swell and waveform recording, it can be integrated into SCADA and energy management systems via Ethernet and RS485 communication interfaces using Modbus, ION, DNP3 and IEC 61850 protocols.",
@@ -446,7 +631,12 @@
   {
     "id": "user-1789993600832-2",
     "brandId": "schneider-electric",
-    "name": { "tr": "POWERLOGIC ION9000", "en": "POWERLOGIC ION9000", "ru": "POWERLOGIC ION9000", "ar": "POWERLOGIC ION9000" },
+    "name": {
+      "tr": "POWERLOGIC ION9000",
+      "en": "POWERLOGIC ION9000",
+      "ru": "POWERLOGIC ION9000",
+      "ar": "POWERLOGIC ION9000"
+    },
     "description": {
       "tr": "Elektrik şebekelerinde akım, gerilim, güç, enerji, güç faktörü ve harmonikler gibi elektriksel parametreleri ölçmek ve güç kalitesini ayrıntılı şekilde analiz etmek için kullanılan gelişmiş enerji ve güç kalitesi analizörüdür. IEC 61000-4-30 Class A uyumlu güç kalitesi izleme, dalga şekli kaydı, gerilim düşmesi/yükselmesi ve geçici olay tespiti gibi özellikler sunar. Ethernet ve seri haberleşme altyapısı sayesinde Modbus, DNP3 ve IEC 61850 gibi protokollerle SCADA ve enerji yönetim sistemlerine entegre edilebilir.",
       "en": "An advanced energy and power quality analyzer used to measure electrical parameters such as current, voltage, power, energy, power factor and harmonics, and perform detailed power quality analysis in electrical networks. It offers features such as IEC 61000-4-30 Class A compliant power quality monitoring, waveform recording, voltage sag/swell and transient event detection. Via Ethernet and serial communication infrastructure, it can be integrated into SCADA and energy management systems using protocols such as Modbus, DNP3 and IEC 61850.",
@@ -458,7 +648,12 @@
   {
     "id": "user-1789993932630-1",
     "brandId": "abb",
-    "name": { "tr": "DIN RAY RTU 530CID02 RTU530", "en": "DIN RAIL RTU 530CID02 RTU530", "ru": "RTU НА DIN-РЕЙКУ 530CID02 RTU530", "ar": "وحدة طرفية بعيدة لقضيب DIN 530CID02 RTU530" },
+    "name": {
+      "tr": "DIN RAY RTU 530CID02 RTU530",
+      "en": "DIN RAIL RTU 530CID02 RTU530",
+      "ru": "RTU НА DIN-РЕЙКУ 530CID02 RTU530",
+      "ar": "وحدة طرفية بعيدة لقضيب DIN 530CID02 RTU530"
+    },
     "description": {
       "tr": "Dağıtım şebekelerinde uzaktan izleme, kontrol, otomasyon ve haberleşme görevlerini gerçekleştirmek için kullanılan kompakt bir RTU (Remote Terminal Unit) modülüdür. 2 Ethernet portu, RS-232 ve RS-485 seri haberleşme arayüzleri, 8 dijital giriş ve 4 dijital çıkış ile saha verilerini toplayarak SCADA ve kontrol sistemlerine aktarır. DIN ray montajına uygun yapısı ve genişletilebilir I/O desteği sayesinde trafo merkezleri ve dağıtım otomasyonu uygulamalarında kullanılır.",
       "en": "A compact RTU (Remote Terminal Unit) module used to perform remote monitoring, control, automation and communication tasks in distribution networks. With 2 Ethernet ports, RS-232 and RS-485 serial communication interfaces, 8 digital inputs and 4 digital outputs, it collects field data and transfers it to SCADA and control systems. With a DIN rail-mountable design and expandable I/O support, it is used in substation and distribution automation applications.",
@@ -470,7 +665,12 @@
   {
     "id": "user-1789993932630-0",
     "brandId": "miltera",
-    "name": { "tr": "UZAK TERMİNAL ÜNİTESİ", "en": "REMOTE TERMINAL UNIT", "ru": "УДАЛЁННЫЙ ТЕРМИНАЛЬНЫЙ БЛОК", "ar": "وحدة طرفية بعيدة" },
+    "name": {
+      "tr": "UZAK TERMİNAL ÜNİTESİ",
+      "en": "REMOTE TERMINAL UNIT",
+      "ru": "УДАЛЁННЫЙ ТЕРМИНАЛЬНЫЙ БЛОК",
+      "ar": "وحدة طرفية بعيدة"
+    },
     "description": {
       "tr": "Enerji dağıtım ve otomasyon sistemlerinde saha ekipmanlarından ölçüm, durum ve alarm bilgilerini toplamak, bu verileri haberleşme altyapısı üzerinden merkezi SCADA sistemlerine aktarmak ve uzaktan kontrol komutlarını sahaya iletmek için kullanılan RTU cihazıdır. Trafo merkezleri, dağıtım panoları ve endüstriyel tesislerde uzaktan izleme ve kontrol uygulamalarında kullanılır.",
       "en": "An RTU device used in power distribution and automation systems to collect measurement, status and alarm information from field equipment, transfer this data to central SCADA systems via the communication infrastructure, and relay remote control commands to the field. Used in remote monitoring and control applications in substations, distribution panels and industrial facilities.",
@@ -482,7 +682,12 @@
   {
     "id": "user-1789993932630-2",
     "brandId": "miltera",
-    "name": { "tr": "ETHERNET ANAHTARI", "en": "ETHERNET SWITCH", "ru": "КОММУТАТОР ETHERNET", "ar": "مفتاح إيثرنت" },
+    "name": {
+      "tr": "ETHERNET ANAHTARI",
+      "en": "ETHERNET SWITCH",
+      "ru": "КОММУТАТОР ETHERNET",
+      "ar": "مفتاح إيثرنت"
+    },
     "description": {
       "tr": "Endüstriyel otomasyon ve enerji sistemlerinde RTU, SCADA, PLC ve diğer saha cihazları arasındaki Ethernet bağlantılarını yönetmek için kullanılan ağ anahtarıdır. Birden fazla Ethernet cihazını aynı ağ üzerinde birbirine bağlayarak veri iletişimi, ağ yönetimi ve güvenilir haberleşme sağlar.",
       "en": "A network switch used to manage Ethernet connections between RTUs, SCADA, PLCs and other field devices in industrial automation and power systems. It connects multiple Ethernet devices on the same network, providing data communication, network management and reliable connectivity.",
@@ -494,7 +699,12 @@
   {
     "id": "user-1789993932630-3",
     "brandId": "miltera",
-    "name": { "tr": "UZAK -IO", "en": "REMOTE I/O", "ru": "УДАЛЁННЫЙ МОДУЛЬ ВВОДА-ВЫВОДА", "ar": "وحدة إدخال/إخراج بعيدة" },
+    "name": {
+      "tr": "UZAK -IO",
+      "en": "REMOTE I/O",
+      "ru": "УДАЛЁННЫЙ МОДУЛЬ ВВОДА-ВЫВОДА",
+      "ar": "وحدة إدخال/إخراج بعيدة"
+    },
     "description": {
       "tr": "Endüstriyel otomasyon ve enerji sistemlerinde saha cihazlarından gelen dijital ve analog sinyalleri toplamak ve kontrol komutlarını sahaya iletmek için kullanılan uzak I/O modülüdür. Merkezi kontrol sistemine Ethernet veya diğer haberleşme altyapıları üzerinden bağlanarak PLC, RTU ve SCADA sistemleriyle entegre çalışır.",
       "en": "A remote I/O module used in industrial automation and power systems to collect digital and analog signals from field devices and relay control commands to the field. Connecting to the central control system via Ethernet or other communication infrastructures, it works integrated with PLC, RTU and SCADA systems.",
@@ -506,7 +716,12 @@
   {
     "id": "user-1789993932630-4",
     "brandId": "miltera",
-    "name": { "tr": "PROTOCOL ÇEVİRİCİLER", "en": "PROTOCOL CONVERTERS", "ru": "ПРЕОБРАЗОВАТЕЛИ ПРОТОКОЛОВ", "ar": "محولات بروتوكول" },
+    "name": {
+      "tr": "PROTOCOL ÇEVİRİCİLER",
+      "en": "PROTOCOL CONVERTERS",
+      "ru": "ПРЕОБРАЗОВАТЕЛИ ПРОТОКОЛОВ",
+      "ar": "محولات بروتوكول"
+    },
     "description": {
       "tr": "Farklı haberleşme protokolleriyle çalışan cihazlar ve sistemler arasında veri iletişimini sağlamak için kullanılan protokol dönüştürücülerdir. Modbus, IEC 61850, IEC 60870-5-101/104, DNP3 gibi protokoller arasında veri dönüşümü sağlayarak RTU, PLC, SCADA ve diğer enerji otomasyon sistemlerinin birlikte çalışmasına olanak tanır.",
       "en": "Protocol converters used to enable data communication between devices and systems operating with different communication protocols. By converting data between protocols such as Modbus, IEC 61850, IEC 60870-5-101/104 and DNP3, they allow RTUs, PLCs, SCADA and other power automation systems to interoperate.",
@@ -518,7 +733,12 @@
   {
     "id": "user-1789993932630-5",
     "brandId": "miltera",
-    "name": { "tr": "UZAK İZLEME", "en": "REMOTE MONITORING", "ru": "ДИСТАНЦИОННЫЙ МОНИТОРИНГ", "ar": "مراقبة عن بُعد" },
+    "name": {
+      "tr": "UZAK İZLEME",
+      "en": "REMOTE MONITORING",
+      "ru": "ДИСТАНЦИОННЫЙ МОНИТОРИНГ",
+      "ar": "مراقبة عن بُعد"
+    },
     "description": {
       "tr": "Enerji ve endüstriyel sistemlerde saha ekipmanlarından alınan ölçüm, durum ve alarm verilerinin uzaktan izlenmesini sağlayan izleme çözümüdür. RTU ve haberleşme altyapısı üzerinden toplanan verileri merkezi sistemlere aktararak ekipmanların durumunun takip edilmesine, arızaların tespit edilmesine ve operasyonel süreçlerin uzaktan yönetilmesine olanak tanır.",
       "en": "A monitoring solution that enables remote tracking of measurement, status and alarm data received from field equipment in power and industrial systems. By transferring data collected via RTU and the communication infrastructure to central systems, it enables tracking equipment status, detecting faults and remotely managing operational processes.",
@@ -530,7 +750,12 @@
   {
     "id": "user-1789993932630-6",
     "brandId": "miltera",
-    "name": { "tr": "ENERJİ İZLEME", "en": "ENERGY MONITORING", "ru": "МОНИТОРИНГ ЭНЕРГИИ", "ar": "مراقبة الطاقة" },
+    "name": {
+      "tr": "ENERJİ İZLEME",
+      "en": "ENERGY MONITORING",
+      "ru": "МОНИТОРИНГ ЭНЕРГИИ",
+      "ar": "مراقبة الطاقة"
+    },
     "description": {
       "tr": "Enerji sistemlerinde elektriksel ölçümlerin, tüketim değerlerinin ve güç kalitesi parametrelerinin merkezi olarak izlenmesini sağlayan enerji izleme çözümüdür. Saha cihazlarından toplanan verileri haberleşme altyapısı üzerinden merkezi sisteme aktararak enerji tüketiminin takip edilmesine, analiz edilmesine ve sistem performansının izlenmesine olanak tanır.",
       "en": "An energy monitoring solution that enables central tracking of electrical measurements, consumption values and power quality parameters in power systems. By transferring data collected from field devices via the communication infrastructure to the central system, it enables tracking and analyzing energy consumption and monitoring system performance.",
@@ -542,7 +767,12 @@
   {
     "id": "user-1789994836034-3",
     "brandId": "exproof",
-    "name": { "tr": "ARMATÜR", "en": "LUMINAIRE", "ru": "СВЕТИЛЬНИК", "ar": "جهاز إضاءة" },
+    "name": {
+      "tr": "ARMATÜR",
+      "en": "LUMINAIRE",
+      "ru": "СВЕТИЛЬНИК",
+      "ar": "جهاز إضاءة"
+    },
     "description": {
       "tr": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda aydınlatma sağlamak üzere tasarlanmış, ATEX uyumlu ex-proof aydınlatma armatürleridir. Patlama riskinin bulunduğu endüstriyel tesislerde güvenli ve kesintisiz aydınlatma sağlamak amacıyla kullanılır.",
       "en": "ATEX-compliant explosion-proof lighting luminaires designed to provide illumination in hazardous areas with explosive gas, vapor or dust atmospheres. Used to provide safe and uninterrupted lighting in industrial facilities with explosion risk.",
@@ -554,7 +784,12 @@
   {
     "id": "user-1789994836034-4",
     "brandId": "exproof",
-    "name": { "tr": "PROJEKTÖR", "en": "FLOODLIGHT", "ru": "ПРОЖЕКТОР", "ar": "كشاف ضوئي" },
+    "name": {
+      "tr": "PROJEKTÖR",
+      "en": "FLOODLIGHT",
+      "ru": "ПРОЖЕКТОР",
+      "ar": "كشاف ضوئي"
+    },
     "description": {
       "tr": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda güçlü ve güvenli aydınlatma sağlamak üzere tasarlanmış, ATEX uyumlu ex-proof projektörlerdir. Geniş alanların aydınlatılmasında kullanılan bu projektörler; endüstriyel tesisler, enerji santralleri, petrol ve gaz tesisleri gibi patlayıcı atmosfer riski bulunan alanlarda kullanılır.",
       "en": "ATEX-compliant explosion-proof floodlights designed to provide powerful and safe lighting in hazardous areas with explosive gas, vapor or dust atmospheres. Used to illuminate large areas, these floodlights are used in industrial facilities, power plants, oil and gas facilities and other areas with explosive atmosphere risk.",
@@ -566,7 +801,12 @@
   {
     "id": "user-1789994836034-12",
     "brandId": "exproof",
-    "name": { "tr": "GAZ DEDEKTÖRÜ", "en": "GAS DETECTOR", "ru": "ГАЗОВЫЙ ДЕТЕКТОР", "ar": "كاشف غاز" },
+    "name": {
+      "tr": "GAZ DEDEKTÖRÜ",
+      "en": "GAS DETECTOR",
+      "ru": "ГАЗОВЫЙ ДЕТЕКТОР",
+      "ar": "كاشف غاز"
+    },
     "description": {
       "tr": "Patlayıcı ve tehlikeli ortamlarda yanıcı veya toksik gazların varlığını ve konsantrasyonunu tespit etmek için kullanılan ATEX uyumlu gaz dedektörleridir. Gaz seviyeleri belirlenen eşik değerlerine ulaştığında alarm oluşturarak personelin uyarılmasını ve gerekli güvenlik sistemlerinin devreye alınmasını sağlar.",
       "en": "ATEX-compliant gas detectors used to detect the presence and concentration of flammable or toxic gases in explosive and hazardous environments. They generate an alarm when gas levels reach set threshold values, warning personnel and activating the necessary safety systems.",
@@ -578,7 +818,12 @@
   {
     "id": "user-1789994836034-6",
     "brandId": "exproof",
-    "name": { "tr": "KUMANDA KUTULARI", "en": "CONTROL STATIONS", "ru": "ПОСТЫ УПРАВЛЕНИЯ", "ar": "صناديق تحكم" },
+    "name": {
+      "tr": "KUMANDA KUTULARI",
+      "en": "CONTROL STATIONS",
+      "ru": "ПОСТЫ УПРАВЛЕНИЯ",
+      "ar": "صناديق تحكم"
+    },
     "description": {
       "tr": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda buton, anahtar, sinyal lambası ve diğer kumanda elemanlarının güvenli şekilde kullanılmasını sağlayan ATEX uyumlu ex-proof kumanda kutularıdır. Endüstriyel tesislerde motor, makine ve proses ekipmanlarının güvenli şekilde kontrol edilmesi için kullanılır.",
       "en": "ATEX-compliant explosion-proof control stations that enable the safe use of buttons, switches, signal lamps and other control elements in hazardous areas with explosive gas, vapor or dust atmospheres. Used for the safe control of motors, machinery and process equipment in industrial facilities.",
@@ -590,7 +835,12 @@
   {
     "id": "user-1789994836034-5",
     "brandId": "exproof",
-    "name": { "tr": "TERMİNAL KUTULARI,PANOLAR", "en": "TERMINAL BOXES, PANELS", "ru": "КЛЕММНЫЕ КОРОБКИ, ЩИТЫ", "ar": "صناديق ولوحات طرفية" },
+    "name": {
+      "tr": "TERMİNAL KUTULARI,PANOLAR",
+      "en": "TERMINAL BOXES, PANELS",
+      "ru": "КЛЕММНЫЕ КОРОБКИ, ЩИТЫ",
+      "ar": "صناديق ولوحات طرفية"
+    },
     "description": {
       "tr": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda elektrik bağlantılarını, klemensleri ve kontrol ekipmanlarını güvenli şekilde muhafaza etmek için kullanılan ATEX uyumlu ex-proof kutu ve panolardır. Elektriksel ekipmanları dış ortam koşullarına ve patlayıcı atmosfere karşı koruyarak endüstriyel tesisler, enerji santralleri ve proses tesislerinde güvenli bağlantı ve dağıtım imkânı sağlar.",
       "en": "ATEX-compliant explosion-proof boxes and panels used to safely enclose electrical connections, terminal blocks and control equipment in hazardous areas with explosive gas, vapor or dust atmospheres. By protecting electrical equipment against outdoor conditions and explosive atmospheres, they enable safe connection and distribution in industrial facilities, power plants and process plants.",
@@ -602,7 +852,12 @@
   {
     "id": "user-1789994836034-11",
     "brandId": "exproof",
-    "name": { "tr": "KOMBİNASYON KUTULARI", "en": "COMBINATION BOXES", "ru": "КОМБИНИРОВАННЫЕ КОРОБКИ", "ar": "صناديق مجمّعة" },
+    "name": {
+      "tr": "KOMBİNASYON KUTULARI",
+      "en": "COMBINATION BOXES",
+      "ru": "КОМБИНИРОВАННЫЕ КОРОБКИ",
+      "ar": "صناديق مجمّعة"
+    },
     "description": {
       "tr": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda anahtar, buton, sinyal lambası, klemens ve diğer elektriksel kumanda elemanlarını tek bir muhafaza içerisinde bir araya getirmek için kullanılan ATEX uyumlu ex-proof kutulardır. Ekipmanların güvenli şekilde kontrol edilmesini ve bağlantıların dış ortam koşullarına karşı korunmasını sağlar.",
       "en": "ATEX-compliant explosion-proof boxes used to combine switches, buttons, signal lamps, terminal blocks and other electrical control elements within a single enclosure in hazardous areas with explosive gas, vapor or dust atmospheres. They enable safe control of equipment and protect connections against outdoor conditions.",
@@ -614,7 +869,12 @@
   {
     "id": "user-1789994836034-8",
     "brandId": "exproof",
-    "name": { "tr": "BUAT KUTULARI", "en": "JUNCTION BOXES", "ru": "РАСПРЕДЕЛИТЕЛЬНЫЕ КОРОБКИ", "ar": "صناديق توصيل" },
+    "name": {
+      "tr": "BUAT KUTULARI",
+      "en": "JUNCTION BOXES",
+      "ru": "РАСПРЕДЕЛИТЕЛЬНЫЕ КОРОБКИ",
+      "ar": "صناديق توصيل"
+    },
     "description": {
       "tr": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda elektrik kablolarının birleştirilmesi, dağıtılması ve güvenli şekilde muhafaza edilmesi için kullanılan ATEX uyumlu ex-proof buat kutularıdır. Kablo bağlantılarını dış ortam koşullarına ve patlayıcı atmosfere karşı koruyarak endüstriyel tesislerde güvenli elektrik bağlantısı sağlar.",
       "en": "ATEX-compliant explosion-proof junction boxes used for joining, distributing and safely enclosing electrical cables in hazardous areas with explosive gas, vapor or dust atmospheres. By protecting cable connections against outdoor conditions and explosive atmospheres, they provide safe electrical connection in industrial facilities.",
@@ -626,7 +886,12 @@
   {
     "id": "user-1789994836034-13",
     "brandId": "exproof",
-    "name": { "tr": "ELEKTRİK MOTORU", "en": "ELECTRIC MOTOR", "ru": "ЭЛЕКТРОДВИГАТЕЛЬ", "ar": "محرك كهربائي" },
+    "name": {
+      "tr": "ELEKTRİK MOTORU",
+      "en": "ELECTRIC MOTOR",
+      "ru": "ЭЛЕКТРОДВИГАТЕЛЬ",
+      "ar": "محرك كهربائي"
+    },
     "description": {
       "tr": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda çalışmak üzere tasarlanmış, ATEX uyumlu ex-proof elektrik motorudur. Tutuşturma riskini azaltan koruma yapısı sayesinde pompa, fan, kompresör ve çeşitli endüstriyel makinelerin güvenli şekilde çalıştırılmasında kullanılır.",
       "en": "An ATEX-compliant explosion-proof electric motor designed to operate in hazardous areas with explosive gas, vapor or dust atmospheres. With a protective design that reduces ignition risk, it is used for the safe operation of pumps, fans, compressors and various industrial machines.",
@@ -638,7 +903,12 @@
   {
     "id": "user-1789994836034-0",
     "brandId": "exproof",
-    "name": { "tr": "EX-PROOF FANLAR", "en": "EXPLOSION-PROOF FANS", "ru": "ВЗРЫВОЗАЩИЩЁННЫЕ ВЕНТИЛЯТОРЫ", "ar": "مراوح مقاومة للانفجار" },
+    "name": {
+      "tr": "EX-PROOF FANLAR",
+      "en": "EXPLOSION-PROOF FANS",
+      "ru": "ВЗРЫВОЗАЩИЩЁННЫЕ ВЕНТИЛЯТОРЫ",
+      "ar": "مراوح مقاومة للانفجار"
+    },
     "description": {
       "tr": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda güvenli hava sirkülasyonu ve havalandırma sağlamak üzere tasarlanmış, ATEX direktifine uygun patlamaya karşı korumalı fanlardır. Yanıcı atmosferlerde kıvılcım ve tutuşturma riskini azaltan yapıları sayesinde endüstriyel tesisler, kimya tesisleri, enerji santralleri ve benzeri tehlikeli alanlarda kullanılır.",
       "en": "Explosion-protected fans compliant with the ATEX directive, designed to provide safe air circulation and ventilation in hazardous areas with explosive gas, vapor or dust atmospheres. With a design that reduces the risk of sparking and ignition in flammable atmospheres, they are used in industrial facilities, chemical plants, power plants and similar hazardous areas.",
@@ -650,7 +920,12 @@
   {
     "id": "user-1789994836034-7",
     "brandId": "exproof",
-    "name": { "tr": "ACİL STOP BUTONU", "en": "EMERGENCY STOP BUTTON", "ru": "КНОПКА АВАРИЙНОЙ ОСТАНОВКИ", "ar": "زر إيقاف طوارئ" },
+    "name": {
+      "tr": "ACİL STOP BUTONU",
+      "en": "EMERGENCY STOP BUTTON",
+      "ru": "КНОПКА АВАРИЙНОЙ ОСТАНОВКИ",
+      "ar": "زر إيقاف طوارئ"
+    },
     "description": {
       "tr": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda makine ve elektrikli ekipmanları acil durumda hızlı ve güvenli şekilde durdurmak için kullanılan ATEX uyumlu ex-proof acil stop butonudur. Tehlikeli bölgelerde güvenli duruş ve acil müdahale gerektiren endüstriyel uygulamalarda kullanılır.",
       "en": "An ATEX-compliant explosion-proof emergency stop button used to quickly and safely stop machinery and electrical equipment in an emergency in hazardous areas with explosive gas, vapor or dust atmospheres. Used in industrial applications requiring safe shutdown and emergency response in hazardous zones.",
@@ -662,7 +937,12 @@
   {
     "id": "user-1789994836034-9",
     "brandId": "exproof",
-    "name": { "tr": "SİREN", "en": "SIREN", "ru": "СИРЕНА", "ar": "صفارة إنذار" },
+    "name": {
+      "tr": "SİREN",
+      "en": "SIREN",
+      "ru": "СИРЕНА",
+      "ar": "صفارة إنذار"
+    },
     "description": {
       "tr": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda sesli alarm ve uyarı sağlamak için kullanılan ATEX uyumlu ex-proof sirenlerdir. Acil durum, arıza, yangın ve proses alarmı gibi durumlarda personeli uyarmak amacıyla endüstriyel tesisler, enerji santralleri ve tehlikeli alanlarda kullanılır.",
       "en": "ATEX-compliant explosion-proof sirens used to provide audible alarm and warning in hazardous areas with explosive gas, vapor or dust atmospheres. Used in industrial facilities, power plants and hazardous areas to warn personnel in situations such as emergency, fault, fire and process alarms.",
@@ -674,7 +954,12 @@
   {
     "id": "user-1789994836034-1",
     "brandId": "exproof",
-    "name": { "tr": "KABLO RAKORLARI", "en": "CABLE GLANDS", "ru": "КАБЕЛЬНЫЕ ВВОДЫ", "ar": "وصلات كابلات" },
+    "name": {
+      "tr": "KABLO RAKORLARI",
+      "en": "CABLE GLANDS",
+      "ru": "КАБЕЛЬНЫЕ ВВОДЫ",
+      "ar": "وصلات كابلات"
+    },
     "description": {
       "tr": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda kabloların elektrik ekipmanlarına güvenli ve sızdırmaz şekilde girişini sağlamak için kullanılan ATEX uyumlu kablo rakorlarıdır. Kabloyu mekanik olarak sabitlemenin yanı sıra toz ve neme karşı koruma sağlayarak Ex-proof pano, motor, buat ve diğer ekipmanlarda güvenli kablo bağlantısı oluşturur.",
       "en": "ATEX-compliant cable glands used to ensure the safe and sealed entry of cables into electrical equipment in hazardous areas with explosive gas, vapor or dust atmospheres. In addition to mechanically fixing the cable, they provide protection against dust and moisture, creating a safe cable connection in Ex-proof panels, motors, junction boxes and other equipment.",
@@ -686,7 +971,12 @@
   {
     "id": "user-1789994836034-2",
     "brandId": "exproof",
-    "name": { "tr": "KÖRTAPA", "en": "BLANKING PLUG", "ru": "ЗАГЛУШКА", "ar": "سدادة عمياء" },
+    "name": {
+      "tr": "KÖRTAPA",
+      "en": "BLANKING PLUG",
+      "ru": "ЗАГЛУШКА",
+      "ar": "سدادة عمياء"
+    },
     "description": {
       "tr": "Patlayıcı ortamların bulunduğu tehlikeli alanlarda kullanılmak üzere tasarlanmış, kullanılmayan kablo ve ekipman girişlerini güvenli ve sızdırmaz şekilde kapatmak için kullanılan ATEX uyumlu kör tapadır. Ex-proof pano, buat ve elektrik ekipmanlarında toz, nem ve patlayıcı atmosferin içeri girmesini önleyerek ekipmanın koruma sınıfının muhafaza edilmesine yardımcı olur.",
       "en": "An ATEX-compliant blanking plug designed for use in hazardous areas with explosive atmospheres, used to safely and tightly close unused cable and equipment entries. It helps maintain the protection rating of Ex-proof panels, junction boxes and electrical equipment by preventing the ingress of dust, moisture and explosive atmosphere.",
@@ -698,7 +988,12 @@
   {
     "id": "user-1789994836034-10",
     "brandId": "exproof",
-    "name": { "tr": "ELEKTRİK ANAHTARI", "en": "ELECTRICAL SWITCH", "ru": "ЭЛЕКТРИЧЕСКИЙ ВЫКЛЮЧАТЕЛЬ", "ar": "مفتاح كهربائي" },
+    "name": {
+      "tr": "ELEKTRİK ANAHTARI",
+      "en": "ELECTRICAL SWITCH",
+      "ru": "ЭЛЕКТРИЧЕСКИЙ ВЫКЛЮЧАТЕЛЬ",
+      "ar": "مفتاح كهربائي"
+    },
     "description": {
       "tr": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda elektrik devrelerini güvenli şekilde açıp kapatmak için kullanılan ATEX uyumlu ex-proof elektrik anahtarlarıdır. Kıvılcım ve tutuşturma riskini azaltan yapıları sayesinde endüstriyel tesisler, enerji santralleri ve diğer tehlikeli bölgelerde güvenli elektriksel kontrol sağlar.",
       "en": "ATEX-compliant explosion-proof electrical switches used to safely open and close electrical circuits in hazardous areas with explosive gas, vapor or dust atmospheres. With a design that reduces the risk of sparking and ignition, they provide safe electrical control in industrial facilities, power plants and other hazardous zones.",
@@ -710,7 +1005,12 @@
   {
     "id": "user-1789994836034-14",
     "brandId": "exproof",
-    "name": { "tr": "BORULAR", "en": "CONDUIT PIPES", "ru": "ТРУБЫ", "ar": "أنابيب" },
+    "name": {
+      "tr": "BORULAR",
+      "en": "CONDUIT PIPES",
+      "ru": "ТРУБЫ",
+      "ar": "أنابيب"
+    },
     "description": {
       "tr": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda elektrik kablolarını ve iletkenleri mekanik darbelere, dış etkenlere ve çevresel koşullara karşı korumak için kullanılan ATEX uyumlu koruma borularıdır. Ex-proof elektrik tesisatlarında kablo güzergâhlarının güvenli şekilde oluşturulması ve ekipmanlar arasındaki bağlantıların korunması amacıyla kullanılır.",
       "en": "ATEX-compliant protective conduit pipes used to protect electrical cables and conductors against mechanical impact, external effects and environmental conditions in hazardous areas with explosive gas, vapor or dust atmospheres. Used to safely route cables and protect connections between equipment in Ex-proof electrical installations.",
@@ -722,7 +1022,12 @@
   {
     "id": "user-1789994836034-15",
     "brandId": "exproof",
-    "name": { "tr": "KLİPS , KROŞE", "en": "CLIPS, CLAMPS", "ru": "КЛИПСЫ, ХОМУТЫ", "ar": "مشابك وحوامل" },
+    "name": {
+      "tr": "KLİPS , KROŞE",
+      "en": "CLIPS, CLAMPS",
+      "ru": "КЛИПСЫ, ХОМУТЫ",
+      "ar": "مشابك وحوامل"
+    },
     "description": {
       "tr": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda kablo, boru ve elektrik tesisatlarının güvenli şekilde sabitlenmesi ve düzenlenmesi için kullanılan montaj elemanlarıdır. ATEX uyumlu tesisatlarda kablo ve boru güzergâhlarının mekanik olarak desteklenmesini ve düzenli şekilde monte edilmesini sağlar.",
       "en": "Mounting components used to safely fix and organize cables, conduits and electrical installations in hazardous areas with explosive gas, vapor or dust atmospheres. They mechanically support and allow orderly mounting of cable and conduit routes in ATEX-compliant installations.",
@@ -734,7 +1039,12 @@
   {
     "id": "user-1789994836034-16",
     "brandId": "exproof",
-    "name": { "tr": "YANGIN BUTONU", "en": "FIRE ALARM BUTTON", "ru": "КНОПКА ПОЖАРНОЙ СИГНАЛИЗАЦИИ", "ar": "زر إنذار حريق" },
+    "name": {
+      "tr": "YANGIN BUTONU",
+      "en": "FIRE ALARM BUTTON",
+      "ru": "КНОПКА ПОЖАРНОЙ СИГНАЛИЗАЦИИ",
+      "ar": "زر إنذار حريق"
+    },
     "description": {
       "tr": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda yangın veya acil durum alarmını manuel olarak başlatmak için kullanılan ATEX uyumlu ex-proof yangın butonudur. Yangın algılama ve alarm sistemlerine entegre edilerek acil durumlarda hızlı ve güvenli şekilde alarm sinyali oluşturulmasını sağlar.",
       "en": "An ATEX-compliant explosion-proof fire alarm button used to manually initiate a fire or emergency alarm in hazardous areas with explosive gas, vapor or dust atmospheres. Integrated with fire detection and alarm systems, it enables fast and safe alarm signaling in emergencies.",
@@ -746,7 +1056,12 @@
   {
     "id": "user-1789994836034-17",
     "brandId": "exproof",
-    "name": { "tr": "GEMİ MALZEMELERİ", "en": "MARINE EQUIPMENT", "ru": "СУДОВОЕ ОБОРУДОВАНИЕ", "ar": "معدات بحرية" },
+    "name": {
+      "tr": "GEMİ MALZEMELERİ",
+      "en": "MARINE EQUIPMENT",
+      "ru": "СУДОВОЕ ОБОРУДОВАНИЕ",
+      "ar": "معدات بحرية"
+    },
     "description": {
       "tr": "Gemilerde ve denizcilik uygulamalarında, özellikle patlayıcı gaz, buhar veya toz riski bulunan tehlikeli alanlarda kullanılmak üzere tasarlanmış ATEX uyumlu elektrik ve mekanik ekipmanlardır. Aydınlatma, kablo tesisatı, bağlantı, kumanda ve güvenlik uygulamalarında kullanılarak zorlu deniz koşullarında güvenli ve dayanıklı çalışma sağlar.",
       "en": "ATEX-compliant electrical and mechanical equipment designed for use on ships and in marine applications, particularly in hazardous areas with explosive gas, vapor or dust risk. Used in lighting, cable installation, connection, control and safety applications, they provide safe and durable operation in harsh marine conditions.",
@@ -758,7 +1073,12 @@
   {
     "id": "user-1789994836034-18",
     "brandId": "exproof",
-    "name": { "tr": "HAREKETLİ KABLO KANALLARI", "en": "CABLE DRAG CHAINS", "ru": "КАБЕЛЬНЫЕ ЦЕПИ", "ar": "قنوات كابلات متحركة" },
+    "name": {
+      "tr": "HAREKETLİ KABLO KANALLARI",
+      "en": "CABLE DRAG CHAINS",
+      "ru": "КАБЕЛЬНЫЕ ЦЕПИ",
+      "ar": "قنوات كابلات متحركة"
+    },
     "description": {
       "tr": "Hareketli makine ve ekipmanlarda kabloları mekanik aşınma, darbe, bükülme ve çevresel etkilere karşı korumak için kullanılan kablo kanallarıdır. Kabloların kontrollü şekilde yönlendirilmesini ve hareket sırasında güvenli biçimde taşınmasını sağlayarak endüstriyel ve tehlikeli alan uygulamalarında güvenilir kablo yönetimi sunar.",
       "en": "Cable channels used to protect cables against mechanical wear, impact, bending and environmental effects in moving machinery and equipment. By enabling controlled routing of cables and safe carriage during movement, they provide reliable cable management in industrial and hazardous area applications.",
@@ -770,7 +1090,12 @@
   {
     "id": "user-1789994836034-19",
     "brandId": "exproof",
-    "name": { "tr": "FİŞ VE PRİZ", "en": "PLUGS AND SOCKETS", "ru": "ВИЛКИ И РОЗЕТКИ", "ar": "قوابس ومآخذ" },
+    "name": {
+      "tr": "FİŞ VE PRİZ",
+      "en": "PLUGS AND SOCKETS",
+      "ru": "ВИЛКИ И РОЗЕТКИ",
+      "ar": "قوابس ومآخذ"
+    },
     "description": {
       "tr": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda elektrikli ekipmanların güvenli şekilde enerji bağlantısını ve ayrılmasını sağlamak için kullanılan ATEX uyumlu ex-proof fiş ve prizlerdir. Kıvılcım ve tutuşturma riskini azaltan yapıları sayesinde endüstriyel tesisler, enerji santralleri, petrokimya tesisleri ve diğer tehlikeli alanlarda güvenli elektrik bağlantısı sağlar.",
       "en": "ATEX-compliant explosion-proof plugs and sockets used to safely connect and disconnect power to electrical equipment in hazardous areas with explosive gas, vapor or dust atmospheres. With a design that reduces the risk of sparking and ignition, they provide safe electrical connection in industrial facilities, power plants, petrochemical plants and other hazardous areas.",
@@ -782,7 +1107,12 @@
   {
     "id": "user-1789996771668-1",
     "brandId": "gromtor",
-    "name": { "tr": "ÇUBUK ŞERİT", "en": "ROD AND STRIP", "ru": "СТЕРЖЕНЬ И ЛЕНТА", "ar": "قضيب وشريط" },
+    "name": {
+      "tr": "ÇUBUK ŞERİT",
+      "en": "ROD AND STRIP",
+      "ru": "СТЕРЖЕНЬ И ЛЕНТА",
+      "ar": "قضيب وشريط"
+    },
     "description": {
       "tr": "Yıldırımdan korunma ve topraklama sistemlerinde iletkenlerin yapıya sabitlenmesi ve topraklama bağlantılarının oluşturulması için kullanılan metal çubuk ve şerit elemanlarıdır. Farklı ölçü ve malzeme seçenekleriyle sunularak iniş iletkenleri, topraklama hatları ve eş potansiyel bağlantıların güvenli şekilde uygulanmasına yardımcı olur.",
       "en": "Metal rod and strip elements used to fix conductors to the structure and form earthing connections in lightning protection and earthing systems. Offered in different sizes and material options, they help safely implement down conductors, earthing lines and equipotential bonding connections.",
@@ -794,7 +1124,12 @@
   {
     "id": "user-1789996771668-2",
     "brandId": "gromtor",
-    "name": { "tr": "YASSI/DÜZ İLETKEN", "en": "FLAT CONDUCTOR", "ru": "ПЛОСКИЙ ПРОВОДНИК", "ar": "موصل مسطح" },
+    "name": {
+      "tr": "YASSI/DÜZ İLETKEN",
+      "en": "FLAT CONDUCTOR",
+      "ru": "ПЛОСКИЙ ПРОВОДНИК",
+      "ar": "موصل مسطح"
+    },
     "description": {
       "tr": "Yıldırımdan korunma ve topraklama sistemlerinde elektrik akımının güvenli şekilde iletilmesini sağlamak için kullanılan yassı kesitli metal iletkenlerdir. Bakır, alüminyum ve galvanizli çelik gibi farklı malzeme seçenekleriyle sunularak iniş iletkenleri, topraklama bağlantıları ve eşpotansiyel sistemlerde kullanılır.",
       "en": "Flat cross-section metal conductors used to safely carry electrical current in lightning protection and earthing systems. Offered in different material options such as copper, aluminum and galvanized steel, they are used in down conductors, earthing connections and equipotential bonding systems.",
@@ -806,7 +1141,12 @@
   {
     "id": "user-1789996771668-3",
     "brandId": "gromtor",
-    "name": { "tr": "YILDIRIMDAN KORUMA ÜRÜNLERİ PARATONER", "en": "LIGHTNING PROTECTION PRODUCTS - LIGHTNING ROD", "ru": "ИЗДЕЛИЯ ДЛЯ МОЛНИЕЗАЩИТЫ — МОЛНИЕОТВОД", "ar": "منتجات الحماية من الصواعق - مانعة صواعق" },
+    "name": {
+      "tr": "YILDIRIMDAN KORUMA ÜRÜNLERİ PARATONER",
+      "en": "LIGHTNING PROTECTION PRODUCTS - LIGHTNING ROD",
+      "ru": "ИЗДЕЛИЯ ДЛЯ МОЛНИЕЗАЩИТЫ — МОЛНИЕОТВОД",
+      "ar": "منتجات الحماية من الصواعق - مانعة صواعق"
+    },
     "description": {
       "tr": "Yapıları ve tesisleri yıldırımın doğrudan etkilerine karşı korumak için kullanılan yıldırımdan korunma sistemleridir. Yıldırım darbesini kontrollü şekilde yakalayarak iniş iletkenleri ve topraklama sistemi üzerinden güvenli biçimde toprağa iletilmesini sağlar; endüstriyel tesisler, enerji sistemleri ve çeşitli yapıların yıldırımdan korunmasında kullanılır.",
       "en": "Lightning protection systems used to protect structures and facilities against the direct effects of lightning. They capture the lightning strike in a controlled manner and safely conduct it to ground via down conductors and the earthing system; used for lightning protection of industrial facilities, power systems and various structures.",
@@ -818,7 +1158,12 @@
   {
     "id": "user-1789996771668-4",
     "brandId": "gromtor",
-    "name": { "tr": "TOPRAKLAMA ANAHTARI", "en": "EARTHING SWITCH", "ru": "ЗАЗЕМЛЯЮЩИЙ РАЗЪЕДИНИТЕЛЬ", "ar": "مفتاح تأريض" },
+    "name": {
+      "tr": "TOPRAKLAMA ANAHTARI",
+      "en": "EARTHING SWITCH",
+      "ru": "ЗАЗЕМЛЯЮЩИЙ РАЗЪЕДИНИТЕЛЬ",
+      "ar": "مفتاح تأريض"
+    },
     "description": {
       "tr": "Elektrik tesislerinde ekipman ve devrelerin güvenli şekilde topraklanmasını sağlamak için kullanılan topraklama anahtarıdır. Bakım ve onarım sırasında devrenin enerjisiz ve güvenli hale getirilmesine yardımcı olarak personel güvenliğini ve elektriksel korumayı destekler.",
       "en": "An earthing switch used to safely ground equipment and circuits in electrical installations. It helps de-energize and secure the circuit during maintenance and repair, supporting personnel safety and electrical protection.",
@@ -830,7 +1175,12 @@
   {
     "id": "user-1789996771668-5",
     "brandId": "sertec",
-    "name": { "tr": "YILDIRIM ENGELLEME SİSTEMLERİ CMCE", "en": "CMCE LIGHTNING PREVENTION SYSTEMS", "ru": "СИСТЕМЫ ПРЕДОТВРАЩЕНИЯ МОЛНИЙ CMCE", "ar": "أنظمة منع الصواعق CMCE" },
+    "name": {
+      "tr": "YILDIRIM ENGELLEME SİSTEMLERİ CMCE",
+      "en": "CMCE LIGHTNING PREVENTION SYSTEMS",
+      "ru": "СИСТЕМЫ ПРЕДОТВРАЩЕНИЯ МОЛНИЙ CMCE",
+      "ar": "أنظمة منع الصواعق CMCE"
+    },
     "description": {
       "tr": "Atmosferik elektrik alanını dengeleyerek yıldırım oluşumunu ve doğrudan yıldırım darbesi riskini azaltmayı amaçlayan pasif yıldırım engelleme sistemidir. Enerji beslemesi gerektirmeden çevredeki elektriksel yükleri dengeleyerek koruma alanı oluşturur; binalar, enerji tesisleri, telekomünikasyon yapıları, endüstriyel tesisler ve açık alan uygulamalarında kullanılır.",
       "en": "A passive lightning prevention system that aims to reduce the risk of lightning formation and direct lightning strikes by balancing the atmospheric electric field. Without requiring a power supply, it creates a protection zone by balancing surrounding electrical charges; used in buildings, power facilities, telecommunication structures, industrial facilities and open area applications.",
@@ -842,7 +1192,12 @@
   {
     "id": "user-1789996771668-6",
     "brandId": "sertec",
-    "name": { "tr": "RADIO, GSM KULE YILDIRIM ENGELLEME SİSTEMLERİ", "en": "RADIO, GSM TOWER LIGHTNING PREVENTION SYSTEMS", "ru": "СИСТЕМЫ ПРЕДОТВРАЩЕНИЯ МОЛНИЙ ДЛЯ РАДИО- И GSM-БАШЕН", "ar": "أنظمة منع الصواعق لأبراج الراديو وGSM" },
+    "name": {
+      "tr": "RADIO, GSM KULE YILDIRIM ENGELLEME SİSTEMLERİ",
+      "en": "RADIO, GSM TOWER LIGHTNING PREVENTION SYSTEMS",
+      "ru": "СИСТЕМЫ ПРЕДОТВРАЩЕНИЯ МОЛНИЙ ДЛЯ РАДИО- И GSM-БАШЕН",
+      "ar": "أنظمة منع الصواعق لأبراج الراديو وGSM"
+    },
     "description": {
       "tr": "Radyo ve GSM kuleleri gibi yüksek yapılarda yıldırım riskini azaltmak ve haberleşme ekipmanlarını korumak için kullanılan yıldırımdan korunma sistemleridir. Kule, anten ve bağlı ekipmanlarda oluşabilecek yıldırım etkilerini kontrollü şekilde toprağa aktararak ekipman güvenliği ve sistem sürekliliği sağlamaya yardımcı olur.",
       "en": "Lightning protection systems used to reduce lightning risk and protect communication equipment on tall structures such as radio and GSM towers. By controllably conducting lightning effects that may occur on the tower, antenna and connected equipment to ground, they help ensure equipment safety and system continuity.",
@@ -854,7 +1209,12 @@
   {
     "id": "user-1789996771668-7",
     "brandId": "sertec",
-    "name": { "tr": "DENİZ TAŞITLARI VE MARİNALAR İÇİN YILDIRIM ENGELLEME SİSTEMLERİ", "en": "LIGHTNING PREVENTION SYSTEMS FOR MARINE VESSELS AND MARINAS", "ru": "СИСТЕМЫ ПРЕДОТВРАЩЕНИЯ МОЛНИЙ ДЛЯ СУДОВ И МАРИН", "ar": "أنظمة منع الصواعق للسفن والمرافئ البحرية" },
+    "name": {
+      "tr": "DENİZ TAŞITLARI VE MARİNALAR İÇİN YILDIRIM ENGELLEME SİSTEMLERİ",
+      "en": "LIGHTNING PREVENTION SYSTEMS FOR MARINE VESSELS AND MARINAS",
+      "ru": "СИСТЕМЫ ПРЕДОТВРАЩЕНИЯ МОЛНИЙ ДЛЯ СУДОВ И МАРИН",
+      "ar": "أنظمة منع الصواعق للسفن والمرافئ البحرية"
+    },
     "description": {
       "tr": "Deniz taşıtları, yatlar ve marina tesislerinde yıldırım riskini azaltmak ve elektrikli ekipmanları korumak için tasarlanmış yıldırımdan korunma sistemleridir. Yıldırım akımının kontrollü şekilde topraklama ve eşpotansiyel sistemlerine aktarılmasına yardımcı olarak can güvenliği, ekipman koruması ve sistem sürekliliğini destekler.",
       "en": "Lightning protection systems designed to reduce lightning risk and protect electrical equipment on marine vessels, yachts and marina facilities. By helping conduct lightning current in a controlled manner to earthing and equipotential bonding systems, they support life safety, equipment protection and system continuity.",
@@ -866,7 +1226,12 @@
   {
     "id": "user-1789996390154-0",
     "brandId": "pannect",
-    "name": { "tr": "DAĞITIM ÜNİTELERİ", "en": "DISTRIBUTION UNITS", "ru": "РАСПРЕДЕЛИТЕЛЬНЫЕ УСТРОЙСТВА", "ar": "وحدات توزيع" },
+    "name": {
+      "tr": "DAĞITIM ÜNİTELERİ",
+      "en": "DISTRIBUTION UNITS",
+      "ru": "РАСПРЕДЕЛИТЕЛЬНЫЕ УСТРОЙСТВА",
+      "ar": "وحدات توزيع"
+    },
     "description": {
       "tr": "Elektrik panolarında enerjinin tek bir girişten birden fazla devreye güvenli ve düzenli şekilde dağıtılmasını sağlayan bağlantı ve dağıtım elemanlarıdır. Farklı kutup ve bağlantı seçenekleriyle pano içi güç dağıtımının düzenli, güvenli ve kolay uygulanabilir şekilde gerçekleştirilmesine olanak tanır.",
       "en": "Connection and distribution components that enable energy to be safely and systematically distributed from a single input to multiple circuits in electrical panels. With different pole and connection options, they enable organized, safe and easily applicable in-panel power distribution.",
@@ -878,7 +1243,12 @@
   {
     "id": "user-1789996390154-1",
     "brandId": "pannect",
-    "name": { "tr": "TERMOSTAT-HİGROSTAT", "en": "THERMOSTAT-HYGROSTAT", "ru": "ТЕРМОСТАТ-ГИГРОСТАТ", "ar": "منظم حرارة ورطوبة" },
+    "name": {
+      "tr": "TERMOSTAT-HİGROSTAT",
+      "en": "THERMOSTAT-HYGROSTAT",
+      "ru": "ТЕРМОСТАТ-ГИГРОСТАТ",
+      "ar": "منظم حرارة ورطوبة"
+    },
     "description": {
       "tr": "Elektrik panoları ve kontrol kabinlerinde sıcaklık ve nem seviyelerini izleyerek ısıtıcı, fan veya nem alma ekipmanlarının otomatik olarak devreye girip çıkmasını sağlayan kontrol cihazlarıdır. Pano içerisindeki yoğuşma ve aşırı sıcaklık riskini azaltarak elektrik ve elektronik ekipmanların güvenli çalışma koşullarının korunmasına yardımcı olur.",
       "en": "Control devices that monitor temperature and humidity levels in electrical panels and control cabinets, automatically switching heater, fan or dehumidifier equipment on and off. By reducing the risk of condensation and overheating inside the panel, they help maintain safe operating conditions for electrical and electronic equipment.",
@@ -890,7 +1260,12 @@
   {
     "id": "user-1789996390154-2",
     "brandId": "pannect",
-    "name": { "tr": "KABLO TOPLAMA ÇORAPLARI", "en": "CABLE GATHERING SLEEVES", "ru": "РУКАВА ДЛЯ СБОРА КАБЕЛЕЙ", "ar": "أكمام تجميع الكابلات" },
+    "name": {
+      "tr": "KABLO TOPLAMA ÇORAPLARI",
+      "en": "CABLE GATHERING SLEEVES",
+      "ru": "РУКАВА ДЛЯ СБОРА КАБЕЛЕЙ",
+      "ar": "أكمام تجميع الكابلات"
+    },
     "description": {
       "tr": "Elektrik panoları, makine ve endüstriyel sistemlerde birden fazla kabloyu bir arada toplamak, düzenlemek ve korumak için kullanılan esnek kablo yönetim ürünleridir. Kabloların dağınıklığını azaltarak düzenli bir kablo tesisatı oluşturulmasına ve bakım işlemlerinin kolaylaştırılmasına yardımcı olur.",
       "en": "Flexible cable management products used to gather, organize and protect multiple cables together in electrical panels, machinery and industrial systems. They reduce cable clutter, helping create an organized cable installation and facilitating maintenance work.",
@@ -902,7 +1277,12 @@
   {
     "id": "user-1789996390154-3",
     "brandId": "pannect",
-    "name": { "tr": "EX-PROOF BUTONLAR", "en": "EXPLOSION-PROOF BUTTONS", "ru": "ВЗРЫВОЗАЩИЩЁННЫЕ КНОПКИ", "ar": "أزرار مقاومة للانفجار" },
+    "name": {
+      "tr": "EX-PROOF BUTONLAR",
+      "en": "EXPLOSION-PROOF BUTTONS",
+      "ru": "ВЗРЫВОЗАЩИЩЁННЫЕ КНОПКИ",
+      "ar": "أزرار مقاومة للانفجار"
+    },
     "description": {
       "tr": "Patlayıcı gaz, buhar veya toz ortamlarının bulunduğu tehlikeli alanlarda elektriksel kumanda işlemlerini güvenli şekilde gerçekleştirmek için kullanılan ex-proof butonlardır. Patlama riskine karşı korumalı yapıları sayesinde endüstriyel tesislerde makine, motor ve proses ekipmanlarının kontrolünde kullanılır.",
       "en": "Explosion-proof buttons used to safely perform electrical control operations in hazardous areas with explosive gas, vapor or dust atmospheres. With a design protected against explosion risk, they are used to control machinery, motors and process equipment in industrial facilities.",
@@ -914,7 +1294,12 @@
   {
     "id": "user-1789996390154-4",
     "brandId": "pannect",
-    "name": { "tr": "PLC SLİM RÖLE", "en": "PLC SLIM RELAY", "ru": "ТОНКОЕ РЕЛЕ ДЛЯ ПЛК", "ar": "مرحل نحيف لـ PLC" },
+    "name": {
+      "tr": "PLC SLİM RÖLE",
+      "en": "PLC SLIM RELAY",
+      "ru": "ТОНКОЕ РЕЛЕ ДЛЯ ПЛК",
+      "ar": "مرحل نحيف لـ PLC"
+    },
     "description": {
       "tr": "PLC ve otomasyon sistemlerinde kontrol sinyallerini anahtarlamak ve PLC çıkışlarını saha ekipmanlarından elektriksel olarak izole etmek için kullanılan ince yapılı arayüz rölesidir. Kompakt tasarımı sayesinde pano içerisinde yer tasarrufu sağlarken röle kontakları üzerinden farklı gerilim ve yüklerin kontrol edilmesine olanak tanır.",
       "en": "A slim-profile interface relay used to switch control signals and electrically isolate PLC outputs from field equipment in PLC and automation systems. Its compact design saves space in the panel while allowing different voltages and loads to be controlled via the relay contacts.",
@@ -926,7 +1311,12 @@
   {
     "id": "user-1789996390154-5",
     "brandId": "pannect",
-    "name": { "tr": "KABLO BAĞLARI", "en": "CABLE TIES", "ru": "КАБЕЛЬНЫЕ СТЯЖКИ", "ar": "روابط كابلات" },
+    "name": {
+      "tr": "KABLO BAĞLARI",
+      "en": "CABLE TIES",
+      "ru": "КАБЕЛЬНЫЕ СТЯЖКИ",
+      "ar": "روابط كابلات"
+    },
     "description": {
       "tr": "Elektrik panoları ve endüstriyel tesisatlarda kabloları birbirine veya bağlantı noktalarına güvenli şekilde sabitlemek ve düzenlemek için kullanılan kablo bağlantı elemanlarıdır. Kablo demetlerinin düzenli tutulmasını, montajın kolaylaştırılmasını ve tesisatın mekanik olarak güvenli şekilde sabitlenmesini sağlar.",
       "en": "Cable fastening components used to securely fix and organize cables to each other or to mounting points in electrical panels and industrial installations. They keep cable bundles organized, facilitate installation and ensure the mechanical fixing of the installation is secure.",
@@ -938,7 +1328,12 @@
   {
     "id": "user-1789996390154-6",
     "brandId": "pannect",
-    "name": { "tr": "KABLO YÜKSÜKLERİ", "en": "CABLE MARKER SLEEVES", "ru": "КАБЕЛЬНЫЕ МАРКИРОВОЧНЫЕ КОЛЬЦА", "ar": "أكمام علامات الكابلات" },
+    "name": {
+      "tr": "KABLO YÜKSÜKLERİ",
+      "en": "CABLE MARKER SLEEVES",
+      "ru": "КАБЕЛЬНЫЕ МАРКИРОВОЧНЫЕ КОЛЬЦА",
+      "ar": "أكمام علامات الكابلات"
+    },
     "description": {
       "tr": "Elektrik panolarında kabloların tanımlanması, numaralandırılması ve düzenli şekilde işaretlenmesi için kablo üzerine takılan halka tipi etiketleme elemanlarıdır. Farklı kablo kesitlerine uygun seçenekleri sayesinde pano içi kablolamanın düzenli olmasını ve bakım sırasında kabloların kolayca ayırt edilmesini sağlar.",
       "en": "Ring-type labeling elements fitted onto cables for identification, numbering and systematic marking in electrical panels. With options suited to different cable cross-sections, they keep in-panel wiring organized and make it easy to distinguish cables during maintenance.",
@@ -950,7 +1345,12 @@
   {
     "id": "user-1789996390154-7",
     "brandId": "pannect",
-    "name": { "tr": "BUTON GRUBU", "en": "PUSHBUTTON UNIT", "ru": "БЛОК КНОПОК", "ar": "مجموعة أزرار" },
+    "name": {
+      "tr": "BUTON GRUBU",
+      "en": "PUSHBUTTON UNIT",
+      "ru": "БЛОК КНОПОК",
+      "ar": "مجموعة أزرار"
+    },
     "description": {
       "tr": "Elektrik panoları ve endüstriyel kontrol sistemlerinde makine ve ekipmanların manuel olarak kumanda edilmesini sağlayan buton gruplarıdır. Start, stop, reset ve benzeri kontrol fonksiyonları için farklı kontak ve renk seçenekleriyle sunularak pano ve otomasyon uygulamalarında kullanılır.",
       "en": "Pushbutton units used to manually control machinery and equipment in electrical panels and industrial control systems. Offered with different contact and color options for start, stop, reset and similar control functions, they are used in panel and automation applications.",
@@ -962,7 +1362,12 @@
   {
     "id": "user-1789996390154-8",
     "brandId": "pannect",
-    "name": { "tr": "SİNYAL LAMBASI", "en": "SIGNAL LAMP", "ru": "СИГНАЛЬНАЯ ЛАМПА", "ar": "مصباح إشارة" },
+    "name": {
+      "tr": "SİNYAL LAMBASI",
+      "en": "SIGNAL LAMP",
+      "ru": "СИГНАЛЬНАЯ ЛАМПА",
+      "ar": "مصباح إشارة"
+    },
     "description": {
       "tr": "Elektrik panoları ve endüstriyel kontrol sistemlerinde enerji, çalışma, arıza ve alarm gibi durumları görsel olarak göstermek için kullanılan sinyal lambalarıdır. Farklı renk ve gerilim seçenekleriyle sunularak operatörlerin sistem durumunu hızlı ve kolay şekilde takip etmesini sağlar.",
       "en": "Signal lamps used to visually indicate conditions such as power, operation, fault and alarm in electrical panels and industrial control systems. Offered in different color and voltage options, they allow operators to quickly and easily track system status.",
@@ -974,7 +1379,12 @@
   {
     "id": "user-1789996390154-9",
     "brandId": "pannect",
-    "name": { "tr": "MAKARON YAZICI", "en": "SLEEVE PRINTER", "ru": "ПРИНТЕР ДЛЯ ТРУБОК", "ar": "طابعة أكمام" },
+    "name": {
+      "tr": "MAKARON YAZICI",
+      "en": "SLEEVE PRINTER",
+      "ru": "ПРИНТЕР ДЛЯ ТРУБОК",
+      "ar": "طابعة أكمام"
+    },
     "description": {
       "tr": "Elektrik panolarında ve endüstriyel tesisatlarda kablo, makaron, klemens ve cihaz etiketlerini hızlı ve düzenli şekilde yazdırmak için kullanılan termal transfer baskı cihazıdır. PVC tüp, ısıyla daralan makaron ve farklı genişliklerde etiketler üzerine kalıcı işaretleme yaparak kablo tanımlama ve pano etiketleme işlemlerini kolaylaştırır.",
       "en": "A thermal transfer printing device used to quickly and systematically print cable, sleeve, terminal block and device labels in electrical panels and industrial installations. It makes permanent markings on PVC tubing, heat-shrink sleeves and labels of different widths, facilitating cable identification and panel labeling.",
@@ -986,7 +1396,12 @@
   {
     "id": "user-1789996390154-10",
     "brandId": "pannect",
-    "name": { "tr": "MAKARON", "en": "HEAT-SHRINK SLEEVE", "ru": "ТЕРМОУСАДОЧНАЯ ТРУБКА", "ar": "كم حراري" },
+    "name": {
+      "tr": "MAKARON",
+      "en": "HEAT-SHRINK SLEEVE",
+      "ru": "ТЕРМОУСАДОЧНАЯ ТРУБКА",
+      "ar": "كم حراري"
+    },
     "description": {
       "tr": "Elektrik kablolarının izolasyonu, korunması ve tanımlanması amacıyla kullanılan ısıyla daralan makaronlardır. Kablo ve bağlantı noktalarına uygulandığında ısıyla daralarak yüzeye sıkıca oturur; mekanik koruma, yalıtım ve düzenli kablo işaretleme sağlar.",
       "en": "Heat-shrink sleeves used for the insulation, protection and identification of electrical cables. When applied to cables and connection points, they shrink with heat to fit tightly over the surface, providing mechanical protection, insulation and organized cable marking.",
@@ -998,7 +1413,12 @@
   {
     "id": "user-1790244147690-0",
     "brandId": "mobil-trafo-merkezleri",
-    "name": { "tr": "BOYALI SAC KÖŞK", "en": "PAINTED SHEET METAL KIOSK", "ru": "ОКРАШЕННЫЙ КИОСК ИЗ ЛИСТОВОГО МЕТАЛЛА", "ar": "كشك معدني مطلي" },
+    "name": {
+      "tr": "BOYALI SAC KÖŞK",
+      "en": "PAINTED SHEET METAL KIOSK",
+      "ru": "ОКРАШЕННЫЙ КИОСК ИЗ ЛИСТОВОГО МЕТАЛЛА",
+      "ar": "كشك معدني مطلي"
+    },
     "description": {
       "tr": "Endüstriyel boya sistemiyle korunan, projeye özel RAL renklerinde üretilebilen dayanıklı köşk tipi.",
       "en": "A durable kiosk type protected with an industrial paint system, which can be produced in project-specific RAL colors.",
@@ -1011,7 +1431,12 @@
   {
     "id": "user-1790244147690-1",
     "brandId": "mobil-trafo-merkezleri",
-    "name": { "tr": "MOBİL SAC KÖŞK", "en": "MOBILE SHEET METAL KIOSK", "ru": "МОБИЛЬНЫЙ КИОСК ИЗ ЛИСТОВОГО МЕТАЛЛА", "ar": "كشك معدني متنقل" },
+    "name": {
+      "tr": "MOBİL SAC KÖŞK",
+      "en": "MOBILE SHEET METAL KIOSK",
+      "ru": "МОБИЛЬНЫЙ КИОСК ИЗ ЛИСТОВОГО МЕТАЛЛА",
+      "ar": "كشك معدني متنقل"
+    },
     "description": {
       "tr": "Römork, şasi veya kızak üzerine monte edilebilen; hızlı taşınabilen ve kısa sürede devreye alınabilen mobil enerji dağıtım çözümü.",
       "en": "A mobile power distribution solution that can be mounted on a trailer, chassis or skid; quickly transportable and able to be commissioned in a short time.",
@@ -1024,7 +1449,12 @@
   {
     "id": "user-1790244147690-2",
     "brandId": "mobil-trafo-merkezleri",
-    "name": { "tr": "KULE TİPİ SAC KÖŞK", "en": "TOWER TYPE SHEET METAL KIOSK", "ru": "КИОСК БАШЕННОГО ТИПА ИЗ ЛИСТОВОГО МЕТАЛЛА", "ar": "كشك معدني من النوع البرجي" },
+    "name": {
+      "tr": "KULE TİPİ SAC KÖŞK",
+      "en": "TOWER TYPE SHEET METAL KIOSK",
+      "ru": "КИОСК БАШЕННОГО ТИПА ИЗ ЛИСТОВОГО МЕТАЛЛА",
+      "ar": "كشك معدني من النوع البرجي"
+    },
     "description": {
       "tr": "Dikey yerleşim avantajı sunan ve sınırlı saha alanlarının verimli kullanılmasını sağlayan kompakt trafo merkezi çözümü.",
       "en": "A compact substation solution that offers a vertical layout advantage and enables efficient use of limited site area.",
@@ -1037,7 +1467,12 @@
   {
     "id": "user-1790244147690-3",
     "brandId": "mobil-trafo-merkezleri",
-    "name": { "tr": "GALVANİZLİ SAC KÖŞK", "en": "GALVANIZED SHEET METAL KIOSK", "ru": "ОЦИНКОВАННЫЙ КИОСК ИЗ ЛИСТОВОГО МЕТАЛЛА", "ar": "كشك معدني مجلفن" },
+    "name": {
+      "tr": "GALVANİZLİ SAC KÖŞK",
+      "en": "GALVANIZED SHEET METAL KIOSK",
+      "ru": "ОЦИНКОВАННЫЙ КИОСК ИЗ ЛИСТОВОГО МЕТАЛЛА",
+      "ar": "كشك معدني مجلفن"
+    },
     "description": {
       "tr": "Korozyon dayanımı artırılmış galvanizli çelik konstrüksiyonu sayesinde zorlu çevre ve dış ortam koşullarında uzun ömürlü kullanım sunar.",
       "en": "Thanks to its galvanized steel construction with enhanced corrosion resistance, it offers long service life under harsh environmental and outdoor conditions.",
@@ -1050,7 +1485,12 @@
   {
     "id": "user-1790244147690-4",
     "brandId": "mobil-trafo-merkezleri",
-    "name": { "tr": "TEK GÖZ SAC KÖŞK", "en": "SINGLE-BAY SHEET METAL KIOSK", "ru": "ОДНООТСЕКОВЫЙ КИОСК ИЗ ЛИСТОВОГО МЕТАЛЛА", "ar": "كشك معدني أحادي الحجرة" },
+    "name": {
+      "tr": "TEK GÖZ SAC KÖŞK",
+      "en": "SINGLE-BAY SHEET METAL KIOSK",
+      "ru": "ОДНООТСЕКОВЫЙ КИОСК ИЗ ЛИСТОВОГО МЕТАЛЛА",
+      "ar": "كشك معدني أحادي الحجرة"
+    },
     "description": {
       "tr": "Elektrik ekipmanlarının tek bir bölüm içerisinde konumlandırıldığı, küçük ve orta ölçekli uygulamalara yönelik ekonomik ve kompakt köşk tipi.",
       "en": "An economical and compact kiosk type in which electrical equipment is positioned within a single compartment, intended for small- and medium-scale applications.",
@@ -1063,7 +1503,12 @@
   {
     "id": "user-1790244147690-5",
     "brandId": "mobil-trafo-merkezleri",
-    "name": { "tr": "SANDVİÇ PANEL KÖŞK", "en": "SANDWICH PANEL KIOSK", "ru": "КИОСК ИЗ СЭНДВИЧ-ПАНЕЛЕЙ", "ar": "كشك ألواح ساندويتش" },
+    "name": {
+      "tr": "SANDVİÇ PANEL KÖŞK",
+      "en": "SANDWICH PANEL KIOSK",
+      "ru": "КИОСК ИЗ СЭНДВИЧ-ПАНЕЛЕЙ",
+      "ar": "كشك ألواح ساندويتش"
+    },
     "description": {
       "tr": "Isı yalıtımı sağlayan sandviç panellerden üretilen, hafif ve modüler köşk çözümü. İç ve dış ortam uygulamalarına uygun olarak projelendirilebilir.",
       "en": "A lightweight, modular kiosk solution manufactured from thermally insulating sandwich panels. It can be designed for both indoor and outdoor applications.",
@@ -1076,7 +1521,12 @@
   {
     "id": "user-1791453270480-0",
     "brandId": "vozwei",
-    "name": { "tr": "PARAFUDR", "en": "SURGE ARRESTER", "ru": "ОГРАНИЧИТЕЛЬ ПЕРЕНАПРЯЖЕНИЯ", "ar": "مانع صواعق" },
+    "name": {
+      "tr": "PARAFUDR",
+      "en": "SURGE ARRESTER",
+      "ru": "ОГРАНИЧИТЕЛЬ ПЕРЕНАПРЯЖЕНИЯ",
+      "ar": "مانع صواعق"
+    },
     "description": {
       "tr": "VPH888-12.5, kapsamlı yıldırım ve dalga koruması için tasarlanmış yüksek voltajlı Tip 1+2 AC SPD'dir. 880V AC Uc ile 12,5 kA (10/350 μs) ve 80 kA (8/20 μs) Imax'i ele alır. ≤ 3.4 kV'a kadar sahip, tamamen EN / IEC 61643-11 uyumludur. Gerekli PV AC sistemleri ve yüksek voltajlı endüstriyel altyapı için ideal.",
       "en": "The VPH888-12.5 is a high-voltage Type 1+2 AC SPD designed for comprehensive lightning and surge protection. With an 880V AC Uc, it handles 12.5 kA (10/350 μs) and 80 kA (8/20 μs) Imax. With Up ≤ 3.4 kV, it is fully compliant with EN / IEC 61643-11. Ideal for PV AC systems and high-voltage industrial infrastructure.",
@@ -1088,7 +1538,12 @@
   {
     "id": "user-1791453270480-1",
     "brandId": "alcak-gerilim-panolari",
-    "name": { "tr": "TEDAŞ TİPİ AG PANOLAR(HARİCİ / DAHİLİ / DAĞITIM)", "en": "TEDAŞ TYPE LV PANELS (OUTDOOR / INDOOR / DISTRIBUTION)", "ru": "ЩИТЫ НН ТИПА TEDAŞ (НАРУЖНЫЕ / ВНУТРЕННИЕ / РАСПРЕДЕЛИТЕЛЬНЫЕ)", "ar": "لوحات جهد منخفض من نوع TEDAŞ (خارجية / داخلية / توزيع)" },
+    "name": {
+      "tr": "TEDAŞ TİPİ AG PANOLAR(HARİCİ / DAHİLİ / DAĞITIM)",
+      "en": "TEDAŞ TYPE LV PANELS (OUTDOOR / INDOOR / DISTRIBUTION)",
+      "ru": "ЩИТЫ НН ТИПА TEDAŞ (НАРУЖНЫЕ / ВНУТРЕННИЕ / РАСПРЕДЕЛИТЕЛЬНЫЕ)",
+      "ar": "لوحات جهد منخفض من نوع TEDAŞ (خارجية / داخلية / توزيع)"
+    },
     "description": {
       "tr": "Harici, dahili ve saha tipi dağıtım kutularında, farklı uygulama ve proje ihtiyaçlarına yönelik özelleştirilebilir çözümler sunuyoruz. Ürün özellikleri ve talep edilen adetlere göre özel fiyatlandırma ve projeye özel tekliflendirme yapılmaktadır.",
       "en": "We offer customizable solutions in outdoor, indoor and field-type distribution boxes for different application and project needs. Special pricing and project-specific quotations are provided based on product specifications and requested quantities.",
@@ -1100,7 +1555,12 @@
   {
     "id": "user-1791459871176-0",
     "brandId": "alcak-gerilim-panolari",
-    "name": { "tr": "DAHİLİ TİP DİKİLİ PANOLAR", "en": "INDOOR TYPE FREE-STANDING PANELS", "ru": "ВНУТРЕННИЕ ОТДЕЛЬНО СТОЯЩИЕ ЩИТЫ", "ar": "لوحات داخلية قائمة بذاتها" },
+    "name": {
+      "tr": "DAHİLİ TİP DİKİLİ PANOLAR",
+      "en": "INDOOR TYPE FREE-STANDING PANELS",
+      "ru": "ВНУТРЕННИЕ ОТДЕЛЬНО СТОЯЩИЕ ЩИТЫ",
+      "ar": "لوحات داخلية قائمة بذاتها"
+    },
     "description": {
       "tr": "Elektrik dağıtım ve kontrol ihtiyaçlarına yönelik dahili tip dikili panolar, projenin teknik gereksinimleri doğrultusunda farklı ölçü, ekipman ve konfigürasyon seçenekleriyle üretilmektedir. Uygulamaya ve ihtiyaçlara özel çözümler için talebe özel fiyatlandırma ve tekliflendirme yapılmaktadır.",
       "en": "Indoor type free-standing panels for electrical distribution and control needs are manufactured with different size, equipment and configuration options according to the project's technical requirements. Special pricing and quotations are provided on request for application- and need-specific solutions.",
@@ -1112,7 +1572,12 @@
   {
     "id": "user-1791459871176-1",
     "brandId": "alcak-gerilim-panolari",
-    "name": { "tr": "HARİCİ TİP DİKİLİ PANOLAR", "en": "OUTDOOR TYPE FREE-STANDING PANELS", "ru": "НАРУЖНЫЕ ОТДЕЛЬНО СТОЯЩИЕ ЩИТЫ", "ar": "لوحات خارجية قائمة بذاتها" },
+    "name": {
+      "tr": "HARİCİ TİP DİKİLİ PANOLAR",
+      "en": "OUTDOOR TYPE FREE-STANDING PANELS",
+      "ru": "НАРУЖНЫЕ ОТДЕЛЬНО СТОЯЩИЕ ЩИТЫ",
+      "ar": "لوحات خارجية قائمة بذاتها"
+    },
     "description": {
       "tr": "Dış ortam koşullarında kullanılmak üzere tasarlanan harici tip dikili panolar, projenin teknik gereksinimleri doğrultusunda farklı ölçü, ekipman ve konfigürasyon seçenekleriyle üretilmektedir. Uygulamaya ve ihtiyaçlara özel çözümler için talebe özel fiyatlandırma ve tekliflendirme yapılmaktadır.",
       "en": "Outdoor type free-standing panels designed for use in outdoor conditions are manufactured with different size, equipment and configuration options according to the project's technical requirements. Special pricing and quotations are provided on request for application- and need-specific solutions.",
@@ -1124,7 +1589,12 @@
   {
     "id": "user-1791459871176-2",
     "brandId": "alcak-gerilim-panolari",
-    "name": { "tr": "PİYANO KUMANDA PANOSU", "en": "PIANO CONTROL PANEL", "ru": "ЩИТ УПРАВЛЕНИЯ «ПИАНИНО»", "ar": "لوحة تحكم بيانو" },
+    "name": {
+      "tr": "PİYANO KUMANDA PANOSU",
+      "en": "PIANO CONTROL PANEL",
+      "ru": "ЩИТ УПРАВЛЕНИЯ «ПИАНИНО»",
+      "ar": "لوحة تحكم بيانو"
+    },
     "description": {
       "tr": "Elektrik sistemlerinin kontrol ve kumanda ihtiyaçlarına yönelik piyano kumanda panoları, uygulamanın teknik gereksinimleri doğrultusunda farklı ekipman ve konfigürasyon seçenekleriyle hazırlanmaktadır. Proje ve kullanım ihtiyaçlarına uygun çözümler için talebe özel fiyatlandırma ve tekliflendirme yapılmaktadır.",
       "en": "Piano control panels for the control and command needs of electrical systems are prepared with different equipment and configuration options according to the application's technical requirements. Special pricing and quotations are provided on request for solutions suited to project and usage needs.",
@@ -1136,7 +1606,12 @@
   {
     "id": "user-1791459871176-3",
     "brandId": "alcak-gerilim-panolari",
-    "name": { "tr": "PLC - MCC PANOLAR", "en": "PLC - MCC PANELS", "ru": "ЩИТЫ PLC - MCC", "ar": "لوحات PLC - MCC" },
+    "name": {
+      "tr": "PLC - MCC PANOLAR",
+      "en": "PLC - MCC PANELS",
+      "ru": "ЩИТЫ PLC - MCC",
+      "ar": "لوحات PLC - MCC"
+    },
     "description": {
       "tr": "Endüstriyel otomasyon, motor kontrol ve proses uygulamalarına yönelik PLC ve MCC panoları, projenin teknik gereksinimleri doğrultusunda tasarlanmakta ve üretilmektedir. PLC, motor yol verme, koruma ve kontrol ekipmanlarının ihtiyaca uygun şekilde yapılandırıldığı çözümler için talebe özel fiyatlandırma ve tekliflendirme yapılmaktadır.",
       "en": "PLC and MCC panels for industrial automation, motor control and process applications are designed and manufactured according to the project's technical requirements. Special pricing and quotations are provided on request for solutions in which PLC, motor starting, protection and control equipment are configured to suit the need.",
@@ -1148,7 +1623,12 @@
   {
     "id": "user-1791459871176-4",
     "brandId": "alcak-gerilim-panolari",
-    "name": { "tr": "SAYAÇ PANOSU", "en": "METER PANEL", "ru": "ЩИТ УЧЁТА", "ar": "لوحة عداد" },
+    "name": {
+      "tr": "SAYAÇ PANOSU",
+      "en": "METER PANEL",
+      "ru": "ЩИТ УЧЁТА",
+      "ar": "لوحة عداد"
+    },
     "description": {
       "tr": "Elektrik enerjisinin ölçüm ve dağıtım ihtiyaçlarına yönelik sayaç panoları, uygulamanın teknik gereksinimleri ve kullanım alanına uygun olarak farklı ölçü, ekipman ve konfigürasyon seçenekleriyle üretilmektedir. Proje ve ihtiyaçlara özel çözümler için talebe özel fiyatlandırma ve tekliflendirme yapılmaktadır.",
       "en": "Meter panels for electrical energy metering and distribution needs are manufactured with different size, equipment and configuration options suited to the application's technical requirements and area of use. Special pricing and quotations are provided on request for project- and need-specific solutions.",
@@ -1160,7 +1640,12 @@
   {
     "id": "user-1791459871176-5",
     "brandId": "alcak-gerilim-panolari",
-    "name": { "tr": "SIVA ALTI PANOLAR", "en": "FLUSH-MOUNTED PANELS", "ru": "ЩИТЫ СКРЫТОЙ УСТАНОВКИ", "ar": "لوحات تركيب غاطس" },
+    "name": {
+      "tr": "SIVA ALTI PANOLAR",
+      "en": "FLUSH-MOUNTED PANELS",
+      "ru": "ЩИТЫ СКРЫТОЙ УСТАНОВКИ",
+      "ar": "لوحات تركيب غاطس"
+    },
     "description": {
       "tr": "Yapı ve tesisat uygulamalarında estetik ve işlevsel çözümler sunan sıva altı panolar, farklı ölçü ve kullanım ihtiyaçlarına uygun olarak üretilmektedir. Projenin teknik gereksinimleri doğrultusunda talebe özel fiyatlandırma ve tekliflendirme yapılmaktadır.",
       "en": "Flush-mounted panels, offering aesthetic and functional solutions in building and installation applications, are manufactured in different sizes suited to usage needs. Special pricing and quotations are provided on request according to the project's technical requirements.",
@@ -1172,7 +1657,12 @@
   {
     "id": "user-1791459871176-6",
     "brandId": "alcak-gerilim-panolari",
-    "name": { "tr": "SIVA ÜSTÜ PANOLAR", "en": "SURFACE-MOUNTED PANELS", "ru": "ЩИТЫ НАКЛАДНОЙ УСТАНОВКИ", "ar": "لوحات تركيب بارز" },
+    "name": {
+      "tr": "SIVA ÜSTÜ PANOLAR",
+      "en": "SURFACE-MOUNTED PANELS",
+      "ru": "ЩИТЫ НАКЛАДНОЙ УСТАНОВКИ",
+      "ar": "لوحات تركيب بارز"
+    },
     "description": {
       "tr": "Yapı ve tesisat uygulamalarında elektrik dağıtım ve kontrol ihtiyaçlarına yönelik sıva üstü panolar, farklı ölçü, ekipman ve kullanım ihtiyaçlarına uygun olarak üretilmektedir. Projenin teknik gereksinimleri doğrultusunda talebe özel fiyatlandırma ve tekliflendirme yapılmaktadır.",
       "en": "Surface-mounted panels for electrical distribution and control needs in building and installation applications are manufactured in different sizes, equipment and usage options. Special pricing and quotations are provided on request according to the project's technical requirements.",
