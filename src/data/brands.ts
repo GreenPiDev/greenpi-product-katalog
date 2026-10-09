@@ -287,6 +287,26 @@ export const lowVoltageBrands: Brand[] = [
     logos: [],
     products: [],
   },
+  {
+    id: 'eae',
+    name: { tr: 'EAE', en: 'EAE', ru: 'EAE', ar: 'EAE' },
+    tagline: {
+      tr: 'Baralama ve Kablo Kanalı Sistemleri',
+      en: 'Busbar and Cable Tray Systems',
+      ru: 'Шинопроводы и кабельные лотки',
+      ar: 'أنظمة قضبان التوزيع ومجاري الكابلات',
+    },
+    description: {
+      tr: 'Dağıtım panoları için busbar sistemleri ve kablo tesisatı için kablo tavası çözümleri.',
+      en: 'Busbar systems for distribution panels and cable tray solutions for cable installations.',
+      ru: 'Системы шинопроводов для распределительных щитов и кабельные лотки для прокладки кабелей.',
+      ar: 'أنظمة قضبان توزيع للوحات التوزيع وحلول مجاري الكابلات لتمديدات الكابلات.',
+    },
+    accentColor: '#2B0C0C',
+    backgroundColor: '#B5121B',
+    logos: ['/logos/eae.png'],
+    products: [],
+  },
 ]
 
 export const mediumVoltageGroups: Brand[] = [
