@@ -1,10 +1,12 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect, useRef, useState } from 'react'
+import { companyName } from '../../data/categories'
 import { brandsWithUserProducts, mediumVoltageGroupsWithUserProducts } from '../../data/mergedBrands'
 import { useHideOnScroll } from '../../hooks/useHideOnScroll'
 import { useLanguage } from '../../i18n/LanguageContext'
 import { pickLocalizedText } from '../../i18n/localize'
 import { scrollToId } from '../../lib/lenis'
+import { assetUrl } from '../../utils/assetUrl'
 import { LanguageSwitcher } from '../ui/LanguageSwitcher'
 import styles from './Header.module.css'
 
@@ -39,10 +41,6 @@ export function Header() {
   }
 
   function go(id: string) {
-    if (id === 'hero') {
-      window.location.href = 'https://greenpi.com.tr'
-      return
-    }
     setMenuOpen(false)
     setMobileOpen(false)
     setActiveCategory(null)
@@ -65,6 +63,17 @@ export function Header() {
     <>
       <header className={`${styles.header} ${hidden ? styles.headerHidden : ''}`}>
         <div className={`container ${styles.inner}`}>
+          <button
+            type="button"
+            className={styles.logoButton}
+            onClick={() => {
+              window.location.href = 'https://greenpi.com.tr'
+            }}
+            aria-label={companyName}
+          >
+            <img src={assetUrl('/logos/sirket-logosu.png')} alt={companyName} className={styles.logo} />
+          </button>
+
           <nav className={styles.nav} onMouseLeave={scheduleClose}>
             {NAV_LINKS.map((link) => (
               <button key={link.id} type="button" className={styles.navItem} onClick={() => go(link.id)}>
