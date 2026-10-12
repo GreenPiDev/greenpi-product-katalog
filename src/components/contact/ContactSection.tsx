@@ -50,6 +50,20 @@ export function ContactSection() {
             >
               {contactInfo.phone2}
             </a>
+            <a
+              href={`tel:${contactInfo.phone3.replace(/\s+/g, '')}`}
+              className={styles.detailValue}
+              data-cursor="open"
+            >
+              {contactInfo.phone3}
+            </a>
+            <a
+              href={`tel:${contactInfo.phone4.replace(/\s+/g, '')}`}
+              className={styles.detailValue}
+              data-cursor="open"
+            >
+              {contactInfo.phone4}
+            </a>
           </div>
           <a
             href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(contactInfo.address)}`}
