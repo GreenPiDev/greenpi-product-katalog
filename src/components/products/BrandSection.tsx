@@ -55,7 +55,7 @@ export function BrandSection({ brand, position, total }: BrandSectionProps) {
           </motion.span>
 
           <motion.h3
-            lang={brand.nameLang ?? 'en'}
+            lang={brand.nameLang && lang === 'tr' ? brand.nameLang : lang}
             initial={{ opacity: 0, y: 24 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.5 }}

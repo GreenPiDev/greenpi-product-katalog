@@ -109,7 +109,7 @@ export function ProductDrawer() {
             </div>
 
             <div className={styles.body}>
-              <span className={styles.brand} lang={state.brand.nameLang ?? 'en'}>
+              <span className={styles.brand} lang={state.brand.nameLang && lang === 'tr' ? state.brand.nameLang : lang}>
                 {brandName}
               </span>
               <h2 className={styles.name}>{name}</h2>
@@ -122,7 +122,7 @@ export function ProductDrawer() {
                 </div> */}
                 <div className={styles.specRow}>
                   <dt>{t.product.drawerBrandLabel}</dt>
-                  <dd lang={state.brand.nameLang ?? 'en'}>{brandName}</dd>
+                  <dd lang={state.brand.nameLang && lang === 'tr' ? state.brand.nameLang : lang}>{brandName}</dd>
                 </div>
                 <div className={styles.specRow}>
                   <dt>{t.product.drawerCategoryLabel}</dt>
