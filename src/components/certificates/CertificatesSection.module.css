@@ -184,7 +184,6 @@
   color: #ffffff;
 }
 
-/* Üstündeki çizgi: kısa parlak bölüm + ince devamı. */
 .desc {
   width: 0;
   min-width: 100%;
@@ -192,7 +191,7 @@
   min-height: calc(1.1rem + 6em);
   margin: 1.1rem 0 0;
   padding-top: 1.1rem;
-  background: linear-gradient(90deg, #ffffff 2.25rem, rgba(255, 255, 255, 0.2) 2.25rem) top / 100% 1px no-repeat;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
   font-size: 1rem;
   line-height: 1.5;
   color: #ffffff;
@@ -205,10 +204,6 @@
 .card[dir='rtl'] .iso,
 .card[dir='rtl'] .code {
   text-align: right;
-}
-
-.card[dir='rtl'] .desc {
-  background-image: linear-gradient(270deg, #ffffff 2.25rem, rgba(255, 255, 255, 0.2) 2.25rem);
 }
 
 /* Alçak masaüstü ekranlar: başlık + kartlar + ipucu tek ekrana sığsın. */
