@@ -29,6 +29,18 @@ body {
   margin: 0;
   padding: 0;
   overscroll-behavior-y: none;
+  /* Yatay taşma sayfayı genişletip fixed öğeleri (hamburger, yan
+     navigasyon) ekran dışında bırakmasın. clip, pin/sticky'yi bozmaz. */
+  overflow-x: clip;
+}
+
+/* Dokunmatik cihazlarda sayfa en üstteyken aşağı çekince yenileme
+   (pull-to-refresh) çalışsın. */
+@media (pointer: coarse) {
+  html,
+  body {
+    overscroll-behavior-y: auto;
+  }
 }
 
 body {

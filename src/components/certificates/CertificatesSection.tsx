@@ -21,35 +21,37 @@ export function CertificatesSection() {
           decoding="async"
         />
 
-        <div className={styles.intro} dir={textDir}>
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.6 }}
-            transition={{ duration: 0.6 }}
-            className={styles.title}
-          >
-            {certificates.title}
-          </motion.h2>
-          <p className={styles.description}>{certificates.description}</p>
-        </div>
+        <div className={styles.content}>
+          <div className={styles.intro} dir={textDir}>
+            <motion.h2
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.6 }}
+              transition={{ duration: 0.6 }}
+              className={styles.title}
+            >
+              {certificates.title}
+            </motion.h2>
+            <p className={styles.description}>{certificates.description}</p>
+          </div>
 
-        <div ref={trackRef} className={styles.track}>
-          <ul className={styles.list} aria-label={certificates.listAria}>
-            {certificateStandards.map((code, i) => (
-              <li key={code} className={styles.card} dir={textDir}>
-                <span className={styles.iso} dir="ltr">ISO</span>
-                <span className={styles.code} dir="ltr">{code}</span>
-                <span className={styles.name}>
-                  {certificates.standardNames[i]}
-                </span>
-                <p className={styles.desc}>
-                  {certificates.standardDescriptions[i]}
-                </p>
-              </li>
-            ))}
-          </ul>
-          <div className={styles.spacer} aria-hidden="true" />
+          <div ref={trackRef} className={styles.track}>
+            <ul className={styles.list} aria-label={certificates.listAria}>
+              {certificateStandards.map((code, i) => (
+                <li key={code} className={styles.card} dir={textDir}>
+                  <span className={styles.iso} dir="ltr">ISO</span>
+                  <span className={styles.code} dir="ltr">{code}</span>
+                  <span className={styles.name}>
+                    {certificates.standardNames[i]}
+                  </span>
+                  <p className={styles.desc}>
+                    {certificates.standardDescriptions[i]}
+                  </p>
+                </li>
+              ))}
+            </ul>
+            <div className={styles.spacer} aria-hidden="true" />
+          </div>
         </div>
 
         <span className={styles.hint} aria-hidden="true">

@@ -37,6 +37,10 @@
 }
 
 @media (max-width: 860px) {
+  /* Mobilde header biraz daha aşağıda dursun. */
+  .inner {
+    margin-top: 1.25rem;
+  }
   .logoButton {
     left: 50%;
     transform: translateX(-50%);
@@ -230,7 +234,7 @@
   pointer-events: none;
   transition: opacity 0.35s ease;
   overflow-y: auto;
-  padding-top: clamp(5rem, 14vw, 7rem);
+  padding-top: clamp(6rem, 18vw, 8rem);
   padding-inline: var(--container-pad);
   padding-bottom: 2rem;
 }

@@ -2,17 +2,27 @@
   position: relative;
   background: #153892;
   color: #f4f6fb;
+  /* Mobilde döndürülmüş logo sağa taşıp sayfayı genişletmesin. */
+  overflow-x: clip;
 }
 
 .wrapper {
   position: relative;
   height: 100svh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: clamp(1.5rem, 4vh, 3rem);
+  /* Üst boşluk | içerik | alt boşluk: "kaydır" ipucu, kartın alt kenarı
+     ile bölümün bitişi (iletişim bölümü) arasındaki alanın tam ortasına oturur. */
+  display: grid;
+  grid-template-rows: 1fr auto 1fr;
   overflow: hidden;
   direction: ltr;
+}
+
+.content {
+  grid-row: 2;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1.5rem, 4vh, 3rem);
 }
 
 .logo {
@@ -60,9 +70,10 @@
 }
 
 .hint {
-  position: absolute;
-  right: var(--container-pad);
-  bottom: clamp(1rem, 4vh, 2.5rem);
+  grid-row: 3;
+  align-self: center;
+  justify-self: end;
+  margin-right: var(--container-pad);
   font-family: var(--font-mono);
   font-size: 1rem;
   letter-spacing: 0.14em;
@@ -208,8 +219,7 @@
 
 /* Alçak masaüstü ekranlar: başlık + kartlar + ipucu tek ekrana sığsın. */
 @media (min-width: 861px) and (max-height: 800px) {
-  .wrapper {
-    padding-bottom: 2.25rem;
+  .content {
     gap: clamp(0.75rem, 2.5vh, 1.25rem);
   }
   .title {
@@ -219,9 +229,6 @@
     margin-top: 0.5rem;
     font-size: 1rem;
     line-height: 1.45;
-  }
-  .hint {
-    bottom: 0.75rem;
   }
 }
 
@@ -234,7 +241,10 @@
     height: auto;
     display: block;
     overflow: visible;
-    padding-block: 1.25rem 3rem;
+    padding-block: 1.25rem 1.75rem;
+  }
+  .content {
+    display: block;
   }
   .logo {
     position: relative;
@@ -255,9 +265,9 @@
     -webkit-overflow-scrolling: touch;
   }
   .hint {
-    position: static;
     display: block;
-    margin-top: 1rem;
+    margin-top: 1.75rem;
+    margin-right: 0;
     padding-right: var(--container-pad);
     text-align: right;
   }
