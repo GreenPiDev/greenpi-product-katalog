@@ -142,6 +142,17 @@
   border: 1px solid color-mix(in srgb, var(--brand-text) 18%, transparent);
 }
 
+/* Dokunmatik cihazlarda yatay scrollbar gizli. */
+@media (pointer: coarse) {
+  .gridWrapper {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .gridWrapper::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 .grid {
   width: 100%;
   min-width: 540px;

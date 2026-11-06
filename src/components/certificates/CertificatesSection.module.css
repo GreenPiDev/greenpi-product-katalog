@@ -263,6 +263,11 @@
     scroll-padding-inline: var(--container-pad);
     scroll-snap-type: x proximity;
     -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .track::-webkit-scrollbar {
+    display: none;
   }
   .hint {
     display: block;
