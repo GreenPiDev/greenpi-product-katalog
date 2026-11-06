@@ -85,7 +85,8 @@ export function SideNavigation() {
         lang: group.nameLang ?? 'en',
       })),
     },
-    { id: 'contact', index: '06', label: t.nav.contact },
+    { id: 'certificates', index: '06', label: t.nav.certificates },
+    { id: 'contact', index: '07', label: t.nav.contact },
   ]
 
   const ALL_IDS = NAV_ITEMS.flatMap((item) => [item.id, ...(item.children?.map((child) => child.id) ?? [])])

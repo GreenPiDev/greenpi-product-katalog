@@ -150,6 +150,10 @@ export function Header() {
               </div>
             </div>
 
+            <button type="button" className={styles.navItem} onClick={() => go('certificates')}>
+              {t.nav.certificates}
+            </button>
+
             <button type="button" className={styles.navItem} onClick={() => go('contact')}>
               {t.nav.contact}
             </button>
@@ -229,6 +233,10 @@ export function Header() {
               ))}
             </div>
           )}
+
+          <button type="button" className={styles.mobileItem} onClick={() => go('certificates')}>
+            {t.nav.certificates}
+          </button>
 
           <button type="button" className={styles.mobileItem} onClick={() => go('contact')}>
             {t.nav.contact}

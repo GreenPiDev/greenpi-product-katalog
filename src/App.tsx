@@ -13,6 +13,7 @@ import { VisionMissionSection } from './components/company/VisionMissionSection'
 import { PortfolioSection } from './components/products/PortfolioSection'
 import { LowVoltageSection } from './components/products/LowVoltageSection'
 import { MediumVoltageSection } from './components/medium-voltage/MediumVoltageSection'
+import { CertificatesSection } from './components/certificates/CertificatesSection'
 import { ContactSection } from './components/contact/ContactSection'
 
 export default function App() {
@@ -35,6 +36,7 @@ export default function App() {
           <PortfolioSection />
           <LowVoltageSection />
           <MediumVoltageSection />
+          <CertificatesSection />
           <ContactSection />
         </main>
 

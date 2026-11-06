@@ -22,6 +22,7 @@ export type Dictionary = {
     home: string
     company: string
     products: string
+    certificates: string
     contact: string
   }
   voltageCategories: VoltageCategoryText[]
@@ -56,6 +57,16 @@ export type Dictionary = {
     emailLabel: string
     phoneLabel: string
     addressLabel: string
+  }
+  certificates: {
+    title: string
+    description: string
+    listAria: string
+    scrollHint: string
+    /** `certificates` data dizisiyle aynı sırada. */
+    standardNames: string[]
+    /** `standardNames` ile aynı sırada kısa açıklamalar. */
+    standardDescriptions: string[]
   }
   portfolio: {
     title: string

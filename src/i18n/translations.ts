@@ -7,6 +7,7 @@ export const translations: Record<Lang, Dictionary> = {
       company: 'ŞİRKET',
       products: 'ÜRÜNLER',
       contact: 'İLETİŞİM',
+      certificates: 'SERTİFİKALARIMIZ',
     },
     voltageCategories: [
       {
@@ -59,6 +60,30 @@ export const translations: Record<Lang, Dictionary> = {
       phoneLabel: 'TELEFON',
       addressLabel: 'ADRES',
     },
+    certificates: {
+      title: 'SERTİFİKALARIMIZ',
+      description: 'Uluslararası standartlara uygun yönetim sistemlerimizle kalite, güvenlik ve sürdürülebilirliği belgeliyoruz.',
+      listAria: 'Sertifika listesi',
+      scrollHint: 'KAYDIR',
+      standardNames: [
+        'Kalite Yönetim Sistemi',
+        'İş Sağlığı ve Güvenliği Yönetim Sistemi',
+        'Çevre Yönetim Sistemi',
+        'Bilgi Güvenliği Yönetim Sistemi',
+        'Enerji Yönetim Sistemi',
+        'İş Sürekliliği Yönetim Sistemi',
+        'BT Hizmet Yönetim Sistemi',
+      ],
+      standardDescriptions: [
+        'Müşteri memnuniyetini ve sürekli iyileştirmeyi esas alan kalite süreçlerimizi belgeler.',
+        'Çalışanlarımız için güvenli ve sağlıklı bir çalışma ortamı sağladığımızı gösterir.',
+        'Faaliyetlerimizin çevresel etkilerini yönettiğimizi ve azalttığımızı belgeler.',
+        'Bilgi varlıklarımızın gizliliğini, bütünlüğünü ve erişilebilirliğini güvence altına alır.',
+        'Enerji performansımızı ölçülebilir biçimde izleyip sürekli iyileştirdiğimizi gösterir.',
+        'Olası kesintilerde faaliyetlerimizi sürdürebilme yeteneğimizi belgeler.',
+        'BT hizmetlerimizin planlı, kontrollü ve kaliteli sunulduğunu güvence altına alır.',
+      ],
+    },
     portfolio: {
       title: 'ÜRÜN PORTFÖYÜ',
     },
@@ -92,6 +117,7 @@ export const translations: Record<Lang, Dictionary> = {
       company: 'COMPANY',
       products: 'PRODUCTS',
       contact: 'CONTACT',
+      certificates: 'CERTIFICATES',
     },
     voltageCategories: [
       {
@@ -144,6 +170,30 @@ export const translations: Record<Lang, Dictionary> = {
       phoneLabel: 'PHONE',
       addressLabel: 'ADDRESS',
     },
+    certificates: {
+      title: 'OUR CERTIFICATES',
+      description: 'Our management systems, aligned with international standards, certify our commitment to quality, safety and sustainability.',
+      listAria: 'Certificate list',
+      scrollHint: 'SCROLL',
+      standardNames: [
+        'Quality Management System',
+        'Occupational Health & Safety Management System',
+        'Environmental Management System',
+        'Information Security Management System',
+        'Energy Management System',
+        'Business Continuity Management System',
+        'IT Service Management System',
+      ],
+      standardDescriptions: [
+        'Certifies our quality processes, built on customer satisfaction and continual improvement.',
+        'Shows that we provide a safe and healthy working environment for our people.',
+        'Documents that we manage and reduce the environmental impact of our operations.',
+        'Safeguards the confidentiality, integrity and availability of our information assets.',
+        'Shows that we monitor and continually improve our energy performance.',
+        'Documents our ability to keep operating through potential disruptions.',
+        'Assures that our IT services are delivered in a planned, controlled and reliable way.',
+      ],
+    },
     portfolio: {
       title: 'PRODUCT PORTFOLIO',
     },
@@ -177,6 +227,7 @@ export const translations: Record<Lang, Dictionary> = {
       company: 'КОМПАНИЯ',
       products: 'ПРОДУКЦИЯ',
       contact: 'КОНТАКТЫ',
+      certificates: 'СЕРТИФИКАТЫ',
     },
     voltageCategories: [
       {
@@ -229,6 +280,30 @@ export const translations: Record<Lang, Dictionary> = {
       phoneLabel: 'ТЕЛЕФОН',
       addressLabel: 'АДРЕС',
     },
+    certificates: {
+      title: 'НАШИ СЕРТИФИКАТЫ',
+      description: 'Наши системы менеджмента, соответствующие международным стандартам, подтверждают приверженность качеству, безопасности и устойчивому развитию.',
+      listAria: 'Список сертификатов',
+      scrollHint: 'ЛИСТАЙТЕ',
+      standardNames: [
+        'Система менеджмента качества',
+        'Система менеджмента охраны здоровья и безопасности труда',
+        'Система экологического менеджмента',
+        'Система менеджмента информационной безопасности',
+        'Система энергетического менеджмента',
+        'Система менеджмента непрерывности бизнеса',
+        'Система менеджмента ИТ-услуг',
+      ],
+      standardDescriptions: [
+        'Подтверждает наши процессы качества, основанные на удовлетворённости клиентов и постоянном улучшении.',
+        'Показывает, что мы обеспечиваем безопасные и здоровые условия труда для сотрудников.',
+        'Подтверждает, что мы управляем экологическим воздействием своей деятельности и снижаем его.',
+        'Гарантирует конфиденциальность, целостность и доступность наших информационных активов.',
+        'Показывает, что мы отслеживаем и постоянно улучшаем энергоэффективность.',
+        'Подтверждает нашу способность продолжать работу при возможных сбоях.',
+        'Гарантирует, что наши ИТ-услуги предоставляются планово, управляемо и надёжно.',
+      ],
+    },
     portfolio: {
       title: 'ПОРТФЕЛЬ ПРОДУКЦИИ',
     },
@@ -262,6 +337,7 @@ export const translations: Record<Lang, Dictionary> = {
       company: 'الشركة',
       products: 'المنتجات',
       contact: 'اتصل بنا',
+      certificates: 'شهاداتنا',
     },
     voltageCategories: [
       {
@@ -313,6 +389,30 @@ export const translations: Record<Lang, Dictionary> = {
       emailLabel: 'البريد الإلكتروني',
       phoneLabel: 'الهاتف',
       addressLabel: 'العنوان',
+    },
+    certificates: {
+      title: 'شهاداتنا',
+      description: 'تؤكد أنظمة الإدارة لدينا، المتوافقة مع المعايير الدولية، التزامنا بالجودة والسلامة والاستدامة.',
+      listAria: 'قائمة الشهادات',
+      scrollHint: 'مرّر',
+      standardNames: [
+        'نظام إدارة الجودة',
+        'نظام إدارة الصحة والسلامة المهنية',
+        'نظام الإدارة البيئية',
+        'نظام إدارة أمن المعلومات',
+        'نظام إدارة الطاقة',
+        'نظام إدارة استمرارية الأعمال',
+        'نظام إدارة خدمات تقنية المعلومات',
+      ],
+      standardDescriptions: [
+        'تثبت عمليات الجودة لدينا القائمة على رضا العملاء والتحسين المستمر.',
+        'تؤكد توفير بيئة عمل آمنة وصحية لموظفينا.',
+        'تثبت إدارتنا للأثر البيئي لأنشطتنا والحد منه.',
+        'تضمن سرية أصول معلوماتنا وسلامتها وتوافرها.',
+        'تؤكد متابعتنا لأداء الطاقة وتحسينه باستمرار.',
+        'تثبت قدرتنا على مواصلة العمل عند حدوث أي انقطاع محتمل.',
+        'تضمن تقديم خدمات تقنية المعلومات لدينا بشكل منظم ومنضبط وموثوق.',
+      ],
     },
     portfolio: {
       title: 'محفظة المنتجات',
