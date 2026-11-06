@@ -37,16 +37,13 @@ export function CertificatesSection() {
         <div ref={trackRef} className={styles.track}>
           <ul className={styles.list} aria-label={certificates.listAria}>
             {certificateStandards.map((code, i) => (
-              <li key={code} className={styles.card}>
-                <span className={styles.index}>
-                  {String(i + 1).padStart(2, '0')} / {String(certificateStandards.length).padStart(2, '0')}
-                </span>
+              <li key={code} className={styles.card} dir={textDir}>
                 <span className={styles.iso} dir="ltr">ISO</span>
                 <span className={styles.code} dir="ltr">{code}</span>
-                <span className={styles.name} dir={textDir}>
+                <span className={styles.name}>
                   {certificates.standardNames[i]}
                 </span>
-                <p className={styles.desc} dir={textDir}>
+                <p className={styles.desc}>
                   {certificates.standardDescriptions[i]}
                 </p>
               </li>

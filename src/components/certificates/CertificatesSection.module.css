@@ -100,65 +100,134 @@
 
 .card {
   position: relative;
+  isolation: isolate;
   flex: 0 0 auto;
   /* Genişlik büyük sayıya göre dinamik; en az --card-w. Yükseklik sabit oranda. */
   --card-w: min(72vw, 300px);
+  --tick: 14px;
+  --tick-color: rgba(255, 255, 255, 0.85);
+  --seal-x: 100%;
   min-width: var(--card-w);
   width: max-content;
   height: calc(var(--card-w) * 1.4);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1.5rem;
-  border: 1px solid rgba(244, 246, 251, 0.28);
+  padding: 1.75rem;
+  background: linear-gradient(165deg, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.012) 62%);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.11);
   scroll-snap-align: start;
 }
 
-.index {
+/* Sertifika mührü: köşeden yayılan ince güvenlik halkaları. */
+.card::before {
+  content: '';
   position: absolute;
-  top: 1.1rem;
-  left: 1.25rem;
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
-  letter-spacing: 0.12em;
-  color: rgba(244, 246, 251, 0.6);
+  inset: 0;
+  z-index: -1;
+  background: repeating-radial-gradient(
+    circle at var(--seal-x) 0,
+    rgba(255, 255, 255, 0.17) 0 1px,
+    transparent 1px 9px
+  );
+  mask-image: radial-gradient(circle at var(--seal-x) 0, #000 0, transparent 58%);
+  -webkit-mask-image: radial-gradient(circle at var(--seal-x) 0, #000 0, transparent 58%);
+  pointer-events: none;
+}
+
+/* Teknik çizim köşe işaretleri. */
+.card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    linear-gradient(var(--tick-color), var(--tick-color)) 0 0 / var(--tick) 1px,
+    linear-gradient(var(--tick-color), var(--tick-color)) 0 0 / 1px var(--tick),
+    linear-gradient(var(--tick-color), var(--tick-color)) 100% 0 / var(--tick) 1px,
+    linear-gradient(var(--tick-color), var(--tick-color)) 100% 0 / 1px var(--tick),
+    linear-gradient(var(--tick-color), var(--tick-color)) 0 100% / var(--tick) 1px,
+    linear-gradient(var(--tick-color), var(--tick-color)) 0 100% / 1px var(--tick),
+    linear-gradient(var(--tick-color), var(--tick-color)) 100% 100% / var(--tick) 1px,
+    linear-gradient(var(--tick-color), var(--tick-color)) 100% 100% / 1px var(--tick);
+  background-repeat: no-repeat;
+  pointer-events: none;
 }
 
 .iso {
   font-family: var(--font-mono);
-  font-size: 0.85rem;
-  letter-spacing: 0.3em;
-  color: rgba(244, 246, 251, 0.7);
+  font-size: 0.78rem;
+  letter-spacing: 0.42em;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .code {
+  margin-top: 0.35rem;
   white-space: nowrap;
-  font-size: clamp(2.8rem, 5vw, 4.2rem);
+  font-size: clamp(3rem, 5vw, 4.4rem);
   font-weight: 800;
-  letter-spacing: -0.03em;
-  line-height: 1.05;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  color: #ffffff;
 }
 
 .name {
   width: 0;
   min-width: 100%;
-  margin-top: 0.6rem;
+  /* Tüm kartlarda sayı ve çizgi aynı hizada kalsın diye sabit yuva. */
+  min-height: 2.7em;
+  margin-top: 0.85rem;
   font-size: 0.95rem;
   font-weight: 600;
   line-height: 1.35;
-  color: rgba(244, 246, 251, 0.9);
+  color: #ffffff;
 }
 
+/* Üstündeki çizgi: kısa parlak bölüm + ince devamı. */
 .desc {
   width: 0;
   min-width: 100%;
   box-sizing: border-box;
-  margin: 1rem 0 0;
-  padding-top: 1rem;
-  border-top: 1px solid rgba(244, 246, 251, 0.25);
+  min-height: calc(1.1rem + 6em);
+  margin: 1.1rem 0 0;
+  padding-top: 1.1rem;
+  background: linear-gradient(90deg, #ffffff 2.25rem, rgba(255, 255, 255, 0.2) 2.25rem) top / 100% 1px no-repeat;
   font-size: 1rem;
   line-height: 1.5;
   color: #ffffff;
+}
+
+.card[dir='rtl'] {
+  --seal-x: 0%;
+}
+
+.card[dir='rtl'] .iso,
+.card[dir='rtl'] .code {
+  text-align: right;
+}
+
+.card[dir='rtl'] .desc {
+  background-image: linear-gradient(270deg, #ffffff 2.25rem, rgba(255, 255, 255, 0.2) 2.25rem);
+}
+
+/* Alçak masaüstü ekranlar: başlık + kartlar + ipucu tek ekrana sığsın. */
+@media (min-width: 861px) and (max-height: 800px) {
+  .wrapper {
+    padding-bottom: 2.25rem;
+    gap: clamp(0.75rem, 2.5vh, 1.25rem);
+  }
+  .title {
+    font-size: clamp(2.2rem, 4.4vw, 3.6rem);
+  }
+  .description {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.45;
+  }
+  .hint {
+    bottom: 0.75rem;
+  }
 }
 
 .spacer {
@@ -186,6 +255,7 @@
     overflow-x: auto;
     align-items: flex-start;
     padding-top: 2rem;
+    scroll-padding-inline: var(--container-pad);
     scroll-snap-type: x proximity;
     -webkit-overflow-scrolling: touch;
   }
@@ -195,6 +265,9 @@
     margin-top: 1rem;
     padding-right: var(--container-pad);
     text-align: right;
+  }
+  .title {
+    font-size: clamp(1.9rem, 8.6vw, 3rem);
   }
   .intro {
     width: auto;
