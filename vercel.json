@@ -4,6 +4,7 @@
     { "source": "/product-catalog/logos/:path*", "destination": "/logos/:path*" },
     { "source": "/product-catalog/logo.png", "destination": "/logo.png" },
     { "source": "/product-catalog/products/:path*", "destination": "/products/:path*" },
+    { "source": "/product-catalog/certificates/:path*", "destination": "/certificates/:path*" },
     { "source": "/((?!api/).*)", "destination": "/index.html" }
   ]
 }
