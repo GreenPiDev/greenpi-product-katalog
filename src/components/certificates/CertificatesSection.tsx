@@ -1,14 +1,18 @@
 import { motion } from 'framer-motion'
-import { certificateLogo, certificateStandards } from '../../data/certificates'
+import { useCallback, useState } from 'react'
+import { certificateLogo, certificateStandards, certificateThumb } from '../../data/certificates'
 import { useHorizontalGallery } from '../../hooks/useHorizontalGallery'
 import { useLanguage } from '../../i18n/LanguageContext'
 import { assetUrl } from '../../utils/assetUrl'
+import { CertificateDrawer, type CertificateDrawerItem } from './CertificateDrawer'
 import styles from './CertificatesSection.module.css'
 
 export function CertificatesSection() {
   const { t, textDir } = useLanguage()
   const { certificates } = t
   const { wrapperRef, trackRef } = useHorizontalGallery()
+  const [active, setActive] = useState<CertificateDrawerItem | null>(null)
+  const closeDrawer = useCallback(() => setActive(null), [])
 
   return (
     <section id="certificates" className={styles.section} data-nav-theme="brand">
@@ -38,15 +42,35 @@ export function CertificatesSection() {
           <div ref={trackRef} className={styles.track}>
             <ul className={styles.list} aria-label={certificates.listAria}>
               {certificateStandards.map((code, i) => (
-                <li key={code} className={styles.card} dir={textDir}>
-                  <span className={styles.iso} dir="ltr">ISO</span>
-                  <span className={styles.code} dir="ltr">{code}</span>
-                  <span className={styles.name}>
-                    {certificates.standardNames[i]}
+                <li key={code} className={styles.item}>
+                  <button
+                    type="button"
+                    className={styles.card}
+                    data-cursor="view"
+                    aria-haspopup="dialog"
+                    aria-label={`ISO ${code} — ${certificates.standardNames[i]}`}
+                    onClick={() =>
+                      setActive({
+                        code,
+                        name: certificates.standardNames[i],
+                        description: certificates.standardDescriptions[i],
+                      })
+                    }
+                  >
+                    <img
+                      className={styles.thumb}
+                      src={assetUrl(certificateThumb(code))}
+                      alt=""
+                      width={640}
+                      height={905}
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </button>
+                  <span className={styles.caption} dir="ltr" aria-hidden="true">
+                    <span className={styles.iso}>ISO</span>
+                    <span className={styles.code}>{code}</span>
                   </span>
-                  <p className={styles.desc}>
-                    {certificates.standardDescriptions[i]}
-                  </p>
                 </li>
               ))}
             </ul>
@@ -58,6 +82,8 @@ export function CertificatesSection() {
           {certificates.scrollHint} <span className={styles.arrow}>→</span>
         </span>
       </div>
+
+      <CertificateDrawer item={active} onClose={closeDrawer} />
     </section>
   )
 }

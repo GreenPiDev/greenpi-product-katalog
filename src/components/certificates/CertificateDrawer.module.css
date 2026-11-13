@@ -1,0 +1,102 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(4, 8, 22, 0.72);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* Panel ekran yüksekliğini doldurur: üstte A4 görsel, altta bilgiler — kaydırma gerekmez. */
+.panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 201;
+  display: flex;
+  flex-direction: column;
+  /* Bilgi alanı (~13rem) düşüldükten sonra kalan yükseklik A4 oranında genişliğe çevrilir. */
+  width: min(100vw, max(360px, calc((100dvh - 13rem) / 1.4142)));
+  background: #ffffff;
+  box-shadow: -32px 0 64px rgba(0, 0, 0, 0.5);
+}
+
+.image {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: block;
+  width: 100%;
+  object-fit: contain;
+  background: #ffffff;
+}
+
+.close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(10, 18, 42, 0.82);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: background 0.25s ease;
+}
+
+.close:hover {
+  background: #153892;
+}
+
+.close:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
+.close span {
+  position: absolute;
+  width: 18px;
+  height: 1px;
+  background: #ffffff;
+}
+
+.close span:first-child {
+  transform: rotate(45deg);
+}
+
+.close span:last-child {
+  transform: rotate(-45deg);
+}
+
+.body {
+  flex: 0 0 auto;
+  padding: 1.5rem 1.75rem 1.75rem;
+  background: #153892;
+  color: #f4f6fb;
+}
+
+.code {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.32em;
+  color: rgba(244, 246, 251, 0.7);
+}
+
+.name {
+  margin-top: 0.75rem;
+  font-size: clamp(1.3rem, 2vw, 1.6rem);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.desc {
+  margin-top: 0.9rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: rgba(244, 246, 251, 0.85);
+}
