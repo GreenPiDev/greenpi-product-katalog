@@ -18,7 +18,7 @@ export const lowVoltageBrands: Brand[] = [
     },
     accentColor: '#211307',
     backgroundColor: '#E98300',
-    logos: ['/logos/te.png'],
+    logos: ['/logos/te.webp'],
     products: [],
   },
   {
@@ -58,7 +58,7 @@ export const lowVoltageBrands: Brand[] = [
     },
     accentColor: '#9393A8',
     backgroundColor: '#130D3A',
-    logos: ['/logos/inotel.png'],
+    logos: ['/logos/inotel.webp'],
     products: [],
   },
   {
@@ -218,7 +218,7 @@ export const lowVoltageBrands: Brand[] = [
     },
     accentColor: '#2B0C0C',
     backgroundColor: '#8C1F1A',
-    logos: ['/logos/sertech.png'],
+    logos: ['/logos/sertech.webp'],
     products: [],
   },
   {
@@ -258,7 +258,7 @@ export const lowVoltageBrands: Brand[] = [
     },
     accentColor: '#9BA9CF',
     backgroundColor: '#1C2E66',
-    logos: ['/logos/vozwei.png'],
+    logos: ['/logos/vozwei.webp'],
     products: [],
   },
   {
@@ -304,7 +304,7 @@ export const lowVoltageBrands: Brand[] = [
     },
     accentColor: '#2B0C0C',
     backgroundColor: '#B5121B',
-    logos: ['/logos/eae.png'],
+    logos: ['/logos/eae.webp'],
     products: [],
   },
 ]
@@ -360,7 +360,7 @@ export const mediumVoltageGroups: Brand[] = [
     backgroundColor: '#8B5A2B',
     products: [],
     displayMode: 'spec',
-    specImage: '/products/medium-voltage/metal-mahfazali-hucreler.png',
+    specImage: '/products/medium-voltage/metal-mahfazali-hucreler.webp',
     specTables: [
       {
         kind: 'list',
@@ -655,7 +655,7 @@ export const mediumVoltageGroups: Brand[] = [
     backgroundColor: '#1F3B3E',
     products: [],
     displayMode: 'spec',
-    specImage: '/products/medium-voltage/rmu-8.png',
+    specImage: '/products/medium-voltage/rmu-8.webp',
     specImageScale: 1.6,
     specTables: [
       {
@@ -786,7 +786,7 @@ export const mediumVoltageGroups: Brand[] = [
     backgroundColor: '#234D35',
     products: [],
     displayMode: 'spec',
-    specImage: '/products/medium-voltage/kuru-tip-transformatorler.png',
+    specImage: '/products/medium-voltage/kuru-tip-transformatorler.webp',
     specTables: [
       {
         kind: 'list',
@@ -903,7 +903,7 @@ export const mediumVoltageGroups: Brand[] = [
     backgroundColor: '#4A2318',
     products: [],
     displayMode: 'spec',
-    specImage: '/products/medium-voltage/yagli-tip-transformatorler.png',
+    specImage: '/products/medium-voltage/yagli-tip-transformatorler.webp',
     specTables: [
       {
         kind: 'list',
@@ -986,7 +986,7 @@ export const mediumVoltageGroups: Brand[] = [
     backgroundColor: '#3B2354',
     products: [],
     displayMode: 'spec',
-    specImage: '/products/medium-voltage/og-sont-reaktorler.png',
+    specImage: '/products/medium-voltage/og-sont-reaktorler.webp',
     specTables: [
       {
         kind: 'grid',

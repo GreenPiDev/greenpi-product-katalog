@@ -3,7 +3,7 @@ export const certificateStandards = ['9001', '45001', '14001', '27001', '50001',
 
 export type CertificateStandard = (typeof certificateStandards)[number]
 
-export const certificateLogo = '/logos/iso-logo.png'
+export const certificateLogo = '/logos/iso-logo.webp'
 
 /** Drawer'da gösterilen tam çözünürlüklü sertifika görseli. */
 export function certificateImage(code: CertificateStandard): string {
